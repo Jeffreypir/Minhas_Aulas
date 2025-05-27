@@ -1,0 +1,21 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {section}{\numberline {1}O que é Ordem de Grandeza?}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Definição}{2}{}%
+\contentsline {section}{\numberline {2}Critérios de Arredondamento}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Média Aritmética vs. Média Geométrica}{2}{}%
+\contentsline {section}{\numberline {3}Como descobrir a ordem de grandeza de um número?}{2}{}%
+\contentsline {section}{\numberline {4}Exemplos de Critérios de Arredondamento}{3}{}%
+\contentsline {subsection}{\numberline {4.1}Aplicação dos Critérios}{3}{}%
+\contentsline {section}{\numberline {5}Qual Critério Utilizar?}{3}{}%
+\contentsline {subsection}{\numberline {5.1}Decisão entre Média Aritmética e Geométrica}{3}{}%
+\contentsline {section}{\numberline {6}Exemplo 2: Ordem de Grandeza de um Disperso}{3}{}%
+\contentsline {subsection}{\numberline {6.1}Resolução}{3}{}%
+\contentsline {section}{\numberline {7}Tabela de Prefixos e Ordens de Grandeza}{3}{}%
+\contentsline {subsection}{\numberline {7.1}Prefixos Comuns}{3}{}%
+\contentsline {section}{\numberline {8}Escalas de Ordem de Grandeza}{3}{}%
+\contentsline {subsection}{\numberline {8.1}Comprimento}{3}{}%
+\contentsline {section}{\numberline {9}Conclusão}{3}{}%
+\contentsline {section}{\numberline {10}Atividade: Ordem de Grandeza}{4}{}%
+\contentsline {subsection}{\numberline {10.1}Exercícios}{4}{}%
+\contentsline {section}{\numberline {11}Referências}{4}{}%
+\contentsline {subsection}{\numberline {11.1}Livros e Materiais Utilizados}{4}{}%

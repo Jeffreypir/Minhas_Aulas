@@ -1,0 +1,257 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, calc}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configurações visuais
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+\definecolor{titleblue}{RGB}{0,80,150}
+\definecolor{sectionred}{RGB}{180,0,0}
+\definecolor{darkgreen}{RGB}{0,100,0}
+
+\titleformat{\section}{\normalfont\Large\bfseries\color{titleblue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{sectionred}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{darkgreen}}{\thesubsubsection}{1em}{}
+
+\title{\textcolor{titleblue}{Matemática e Etnomatemática: Estrelas Além do Tempo}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{1. A Matemática da Desigualdade}
+
+\subsection*{1.1 Caminho Injusto}
+\begin{itemize}
+    \item Katherine Johnson andava 800 metros até o banheiro.
+    \item Isso fazia ela perder 36 minutos por dia.
+    \item \textbf{Pergunta:} Quantas horas ela perdia por ano? (Considere 260 dias úteis)
+\end{itemize}
+
+\[ T = \frac{36 \times 260}{60} \quad \text{(tempo em horas)}\]
+
+\subsection*{1.2 Diferença Salarial}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Cargo} & \textbf{Salário anual (1961)} \\
+\hline
+Mulher branca & \$5.000 \\
+Mulher negra & \$2.000 \\
+\hline
+\end{tabular}
+\end{center}
+
+\textbf{Pergunta:} Dorothy Vaughan era chefe de 30 mulheres negras. Quanto a NASA economizava ao pagar menos?
+
+\section*{2. Resistência com Matemática}
+
+\subsection*{2.1 Algoritmo Discriminatório}
+Dorothy aprendeu programação para poder usar o computador da NASA:
+
+\begin{verbatim}
+IF (cor_da_pele = negra) THEN
+   acesso = negado
+ELSE
+   acesso = permitido
+END IF
+\end{verbatim}
+
+\textbf{Reflexão:} O que esse código mostra sobre o racismo na época?
+
+\subsection*{2.2 Outros Jeitos de Contar}
+\begin{itemize}
+    \item Os povos Yorubá usavam base 20: 45 = (2×20) + 5
+    \item \textbf{Atividade:} Converta 89 para base 20.
+    \item \textbf{Pergunta:} Por que esses saberes não eram usados na NASA?
+\end{itemize}
+
+\section*{3. Análises Críticas}
+
+\subsection*{3.1 O que o Gráfico Mostra?}
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+    \draw[->] (0,0) -- (5,0) node[below] {Ano};
+    \draw[->] (0,0) -- (0,4) node[left] {Nº de mulheres negras};
+    \draw (1,0.5) -- (1,1) node[above] {5};
+    \draw (2,0.5) -- (2,1.2) node[above] {8};
+    \draw (3,0.5) -- (3,1.5) node[above] {12};
+    \draw (4,0.5) -- (4,0.8) node[above] {4};
+    \node at (1,0) [below] {1958};
+    \node at (4,0) [below] {1965};
+\end{tikzpicture}
+\end{center}
+
+\textbf{Pergunta:} O que aconteceu com as funcionárias negras depois da Lei dos Direitos Civis (1964)?
+
+\subsection*{3.2 Carta para a NASA}
+Escreva um parágrafo explicando:
+\begin{itemize}
+    \item Como os cálculos de Katherine mostraram sua inteligência
+    \item Use números do filme como prova
+\end{itemize}
+
+\section*{4. E Hoje em Dia?}
+
+\subsection*{4.1 Quem faz doutorado?}
+\begin{itemize}
+    \item Em 2023, só 3\% dos PhD em matemática nos EUA eram negros.
+    \item \textbf{Conta:} Se há 1.200 doutorandos, quantos são negros?
+\end{itemize}
+
+\subsection*{4.2 Tecnologia com Preconceito}
+\begin{quote}
+"Programas de reconhecimento facial erram 35\% das vezes para rostos negros." (MIT, 2022)
+\end{quote}
+
+\textbf{Discussão:} Como isso lembra os erros do computador IBM no filme?
+
+\end{multicols}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

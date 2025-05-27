@@ -1,0 +1,137 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath} % Para fórmulas matemáticas
+\usepackage{xcolor} % Para usar cores
+\usepackage{geometry} % Para ajustar margens
+\usepackage{enumitem} % Para listas personalizadas
+\usepackage{graphicx} % Para incluir tabelas e imagens
+\usepackage{titlesec} % Para formatar títulos de seções
+\usepackage{multicol} % Para usar múltiplas colunas
+
+\geometry{a4paper, left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm}
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}} % Formato do título
+  {\thesection} % Número da seção
+  {1em} % Espaço entre número e título
+  {} % Código antes do título
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+\title{\textcolor{blue}{Ordem de Grandeza}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\setlength{\columnsep}{20pt} % Espaço entre as colunas
+\setlength{\columnseprule}{0.4pt} % Espessura da linha de separação
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+
+\begin{multicols}{2} % Início das 2 colunas
+% Seção 1: O que é Ordem de Grandeza?
+\section{O que é Ordem de Grandeza?}
+\subsection{Definição}
+\begin{itemize}
+    \item A ordem de grandeza de um número é a potência de dez mais próxima desse valor.
+    \item Para facilitar, comumente colocamos o número em notação científica.
+    \item Exemplo: O número 27.000 em notação científica é \(2,7 \times 10^4\), e sua ordem de grandeza é \(10^4\).
+\end{itemize}
+
+    % Seção 2: Critérios de Arredondamento
+    \section{Tipos de ordem de Grandeza}
+    \subsection{Média Aritmética vs. Média Geométrica}
+    \begin{itemize}
+        \item \textbf{Média Aritmética}:
+            \begin{itemize}
+                \item Média entre 1 e 10: \(\frac{1 + 10}{2} = 5,5\).
+                \item Se \(m < 5,5\), a ordem de grandeza é \(10^n\).
+                \item Se \(m \geq 5,5\), a ordem de grandeza é \(10^{n+1}\).
+            \end{itemize}
+        \item \textbf{Média Geométrica}:
+            \begin{itemize}
+                \item Média entre 1 e 10: \(\sqrt{1 \times 10} \approx 3,16\).
+                \item Se \(m < 3,16\), a ordem de grandeza é \(10^n\).
+                \item Se \(m \geq 3,16\), a ordem de grandeza é \(10^{n+1}\).
+            \end{itemize}
+    \end{itemize}
+    
+    % Seção 3: Como descobrir a ordem de grandeza de um número?
+    \section{Como descobrir a ordem de grandeza de um número?}
+    Para se obter a ordem de grandeza de determinado valor, é necessário seguir as etapas abaixo:
+    \begin{enumerate}
+        \item Convertê-lo em notação científica.
+        \item Analisar o valor que multiplica a potência:
+        \begin{itemize}
+            \item Pelo princípio da média aritmética, se o valor for menor que 5,5, a grandeza será \( 10^n \); se for igual ou maior, será \( 10^{n+1} \).
+            \item Pelo princípio da média geométrica, se o valor for menor que 3,16, a grandeza será \( 10^n \); se for igual ou maior, será \( 10^{n+1} \).
+        \end{itemize}
+    \end{enumerate}
+
+    % Seção 4: Exemplos de Critérios de Arredondamento
+    \section{Exemplos de Critérios de Arredondamento}
+    \subsection{Aplicação dos Critérios}
+    \begin{itemize}
+        \item Número: 4,0 = \(4,0 \times 10^0\).
+        \begin{itemize}
+            \item Média Aritmética: \(4,0 < 5,5\) → Ordem de grandeza: \(10^0\).
+            \item Média Geométrica: \(4,0 > 3,16\) → Ordem de grandeza: \(10^1\).
+        \end{itemize}
+        \item Número: 7,0 = \(7,0 \times 10^0\).
+        \begin{itemize}
+            \item Média Aritmética: \(7,0 > 5,5\) → Ordem de grandeza: \(10^1\).
+            \item Média Geométrica: \(7,0 > 3,16\) → Ordem de grandeza: \(10^1\).
+        \end{itemize}
+    \end{itemize}
+    
+    % Seção 5: Qual Critério Utilizar?
+    \section{Qual Critério Utilizar?}
+    \subsection{Decisão entre Média Aritmética e Geométrica}
+    \begin{itemize}
+        \item Valores abaixo de 3,16: Ambos os critérios concordam (\(10^n\)).
+        \item Valores acima de 5,5: Ambos os critérios concordam (\(10^{n+1}\)).
+        \item Valores entre 3,16 e 5,5: Depende do critério escolhido.
+        \item Em vestibulares, evita-se números nessa faixa para evitar confusão.
+    \end{itemize}
+    
+    % Seção 6: Exemplo 2: Ordem de Grandeza de um Disperso
+    \section{Exemplo 2: Ordem de Grandeza de um Disperso}
+    Um coloide é um tipo de mistura heterogênea composta por disperso (menor quantidade) e dispersante (meio onde o disperso é colocado). Os dispersos devem ter tamanhos entre \(0,000000001 \, \text{m}\) e \(0,000001 \, \text{m}\).  Se um determinado disperso sólido possui \(0,00000087 \, \text{m}\), qual a sua ordem de grandeza?
+
+    \subsection{Resolução}
+    O disperso sólido: \(0,00000087 \, \text{m}\).
+    
+    \vspace{2cm} % Espaço para resolução
+
+
+% Seção 8: Escalas de Ordem de Grandeza
+\section{Escalas de Ordem de Grandeza}
+\subsection{Comprimento}
+\begin{itemize}
+    \item \textbf{Subatômico}: \(0 \leq x < 10^{-15}\) (quarks, elétrons).
+    \item \textbf{Atômico para Celular}: \(10^{-15} < x < 10^{-6}\) (prótons, vírus).
+    \item \textbf{Escala Humana}: \(10^{-6} < x < 10^{6}\) (cabelo humano, Monte Everest).
+    \item \textbf{Astronômico}: \(10^{6} < x < \infty\) (Sol, galáxias).
+\end{itemize}
+
+% Seção 10: Atividade
+\section{Atividade: Ordem de Grandeza}
+\subsection{Exercícios}
+Nos exercícios abaixo encontre a ordem de grandeza utilize o método aritmético e geométrico.
+\begin{enumerate}
+    \item \textbf{Problema 1:} Converta o número \(4500\) g para quilogramas e determine a ordem de grandeza do valor obtido.
+    \item \textbf{Problema 2:} Converta o tempo de \(2,5\) horas para segundos e determine a ordem de grandeza do valor obtido.
+    \item \textbf{Problema 3:} Explique como você faria para converter \(1,2\) m para centímetros e determine a ordem de grandeza do valor obtido.
+\end{enumerate}
+
+    \end{multicols} % Fim das 2 colunas
+\end{document}
+

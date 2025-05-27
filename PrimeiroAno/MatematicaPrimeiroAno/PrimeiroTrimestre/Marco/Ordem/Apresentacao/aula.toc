@@ -1,0 +1,12 @@
+\babel@toc {brazil}{}\relax 
+\beamer@sectionintoc {1}{O que é Ordem de Grandeza?}{3}{0}{1}
+\beamer@sectionintoc {2}{Tipos de Ordem de Grandeza}{4}{0}{2}
+\beamer@sectionintoc {3}{Como descobrir a ordem de grandeza de um número?}{5}{0}{3}
+\beamer@sectionintoc {4}{Exemplo 2: Ordem de Grandeza de um Disperso}{8}{0}{4}
+\beamer@sectionintoc {5}{Exemplo 2: Ordem de Grandeza de um Disperso}{9}{0}{5}
+\beamer@sectionintoc {6}{Tabela de Prefixos e Ordens de Grandeza}{10}{0}{6}
+\beamer@sectionintoc {7}{Escalas de Ordem de Grandeza}{11}{0}{7}
+\beamer@sectionintoc {8}{Atividade: Ordem de Grandeza}{12}{0}{8}
+\beamer@subsectionintoc {8}{1}{Exercícios}{12}{0}{8}
+\beamer@sectionintoc {9}{Conclusão}{13}{0}{9}
+\beamer@sectionintoc {10}{Referências}{14}{0}{10}

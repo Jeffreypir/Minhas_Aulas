@@ -1,0 +1,291 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+% Configurações de layout
+\geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
+\setlength{\columnseprule}{0.4pt}
+
+% Cores personalizadas
+\definecolor{titleblue}{RGB}{0,80,150}
+\definecolor{sectionred}{RGB}{180,0,0}
+\definecolor{darkgreen}{RGB}{0,100,0}
+\definecolor{examplebg}{RGB}{240,248,255}
+
+% Formatação de títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{titleblue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{sectionred}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{darkgreen}}{\thesubsubsection}{1em}{}
+
+\title{\textcolor{titleblue}{Apostila de Matemática - Revisão}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Introdução}
+Esta apostila contém uma revisão completa de matemática básica através de 10 questões resolvidas detalhadamente, abordando os seguintes tópicos:
+
+\begin{itemize}
+\item Notação científica e potências de 10
+\item Razões, proporções e escalas
+\item Equações do 1º grau e problemas algébricos
+\item Regra de três simples e composta
+\item Geometria básica e cálculos de perímetro
+\item Relações de proporcionalidade
+\end{itemize}
+
+\section{Notação Científica}
+
+\subsection{Conceito Teórico}
+A notação científica é uma forma de escrever números muito grandes ou muito pequenos utilizando potências de 10. Um número está em notação científica quando é escrito na forma $a \times 10^n$, onde $1 \leq a < 10$ e $n$ é um número inteiro.
+
+\subsection{Questão 1}
+\subsubsection*{Enunciado}
+A distância média da Terra ao Sol é de aproximadamente 149.600.000 km. Represente este valor em notação científica.
+
+\subsubsection*{Resolução Passo a Passo}
+\begin{enumerate}
+\item Valor original: 149.600.000 km
+\item Movemos a vírgula para depois do primeiro dígito: 1,496
+\item Contamos quantas casas decimais movemos: 8 casas
+\item Portanto: $1,496 \times 10^8$ km
+\end{enumerate}
+
+\subsubsection*{Resposta}
+$\boxed{1,496 \times 10^8\ \text{km}}$
+
+\subsection{Questão 2}
+\subsubsection*{Enunciado}
+O diâmetro de um átomo de hidrogênio é aproximadamente $1,06 \times 10^{-10}$ metros, enquanto o diâmetro de uma bola de futebol é aproximadamente $2,2 \times 10^{-1}$ metros. Quantas vezes a bola de futebol é maior que o átomo?
+
+\subsubsection*{Resolução}
+\[
+\frac{2,2 \times 10^{-1}}{1,06 \times 10^{-10}} = \frac{2,2}{1,06} \times 10^{-1-(-10)} \approx 2,075 \times 10^9
+\]
+
+\subsubsection*{Resposta}
+$\boxed{2,075 \times 10^9}$ vezes (aproximadamente 2 bilhões de vezes maior)
+
+\section{Geometria Básica - Perímetro}
+
+\subsection{Conceito Teórico}
+O perímetro é a medida do contorno de uma figura geométrica. Para um retângulo, o perímetro é calculado por $P = 2 \times (comprimento + largura)$. Conhecer o perímetro é essencial em situações como calcular a quantidade de material necessário para cercar um terreno.
+
+\subsection{Questão 3}
+\subsubsection*{Enunciado}
+Um terreno retangular tem perímetro de 80 metros. Sabendo que a largura é 3/5 do comprimento, determine as medidas deste terreno.
+
+\subsubsection*{Resolução}
+\begin{enumerate}
+\item Seja $x$ = comprimento
+\item Então largura = $\frac{3}{5}x$
+\item Perímetro: $2(x + \frac{3}{5}x) = 80$
+\item $2(\frac{8}{5}x) = 80$
+\item $\frac{16}{5}x = 80$
+\item $x = \frac{80 \times 5}{16} = 25$ m
+\item Largura: $\frac{3}{5} \times 25 = 15$ m
+\end{enumerate}
+
+\subsubsection*{Resposta}
+$\boxed{\text{Comprimento} = 25\ \text{m}, \text{Largura} = 15\ \text{m}}$
+
+\section{Equações do 1º Grau}
+
+\subsection{Conceito Teórico}
+Uma equação do primeiro grau é uma igualdade algébrica que pode ser reduzida à forma $ax + b = 0$, onde $a$ e $b$ são constantes e $x$ é a incógnita. Para resolver:
+\begin{enumerate}
+\item Elimine parênteses (usando a distributiva)
+\item Isole os termos com $x$ de um lado da equação
+\item Simplifique e encontre o valor de $x$
+\end{enumerate}
+
+\subsection{Questão 4}
+\subsubsection*{Enunciado}
+Resolva a equação: $4(2x - 3) + 5 = 3(x + 1) - 2$
+
+\subsubsection*{Passo a Passo}
+\begin{align*}
+4(2x - 3) + 5 &= 3(x + 1) - 2 \\
+8x - 12 + 5 &= 3x + 3 - 2 \\
+8x - 7 &= 3x + 1 \\
+8x - 3x &= 1 + 7 \\
+5x &= 8 \\
+x &= \frac{8}{5} \\
+x &= 1,6
+\end{align*}
+
+\subsubsection*{Resposta}
+$\boxed{1,6}$
+
+\subsection{Questão 5}
+\subsubsection*{Enunciado}
+A soma de quatro números pares consecutivos é 76. Determine esses números.
+
+\subsubsection*{Resolução}
+\begin{enumerate}
+\item Seja $x$ o primeiro número par
+\item Então: $x + (x+2) + (x+4) + (x+6) = 76$
+\item $4x + 12 = 76$
+\item $4x = 64$
+\item $x = 16$
+\item Números: 16, 18, 20 e 22
+\end{enumerate}
+
+\subsubsection*{Resposta}
+$\boxed{16,\ 18,\ 20\ \text{e}\ 22}$
+
+\section{Problemas Algébricos}
+
+\subsection{Conceito Teórico}
+Problemas algébricos envolvem traduzir situações do cotidiano para a linguagem matemática usando equações. A estratégia geral é:
+\begin{itemize}
+\item Definir a incógnita
+\item Estabelecer a relação entre as quantidades
+\item Montar a equação
+\item Resolver
+\item Verificar se a solução faz sentido no contexto
+\end{itemize}
+
+\subsection{Questão 6}
+\subsubsection*{Enunciado}
+Ana tem o triplo da idade de Beatriz. Daqui a 12 anos, Ana terá o dobro da idade de Beatriz. Qual a idade atual de Beatriz?
+
+\subsubsection*{Resolução}
+\begin{enumerate}
+\item Hoje:
+\begin{itemize}
+\item Beatriz = $x$ anos
+\item Ana = $3x$ anos
+\end{itemize}
+\item Daqui a 12 anos:
+\begin{itemize}
+\item Beatriz = $x + 12$
+\item Ana = $3x + 12$
+\end{itemize}
+\item Equação: $3x + 12 = 2(x + 12)$
+\item Resolvendo:
+\begin{align*}
+3x + 12 &= 2x + 24 \\
+3x - 2x &= 24 - 12 \\
+x &= 12
+\end{align*}
+\end{enumerate}
+
+\subsubsection*{Resposta}
+$\boxed{12\ \text{anos}}$
+
+\section{Regra de Três}
+
+\subsection{Conceito Teórico}
+A regra de três resolve problemas de proporcionalidade:
+\begin{itemize}
+\item \textbf{Direta}: Quando as grandezas aumentam ou diminuem juntas
+\item \textbf{Inversa}: Quando uma grandeza aumenta enquanto a outra diminui
+\end{itemize}
+
+\subsection{Questão 7}
+\subsubsection*{Enunciado}
+Uma torneira enche um tanque em 6 horas. Se fossem utilizadas 4 torneiras iguais, quanto tempo levaria para encher o mesmo tanque?
+
+\subsubsection*{Resolução}
+\begin{enumerate}
+\item Relação inversamente proporcional
+\item $1 \times 6 = 4 \times x$
+\item $6 = 4x$
+\item $x = \frac{6}{4} = 1,5$ horas (1 hora e 30 minutos)
+\end{enumerate}
+
+\subsubsection*{Resposta}
+$\boxed{1\ \text{hora e}\ 30\ \text{minutos}}$
+
+\subsection{Questão 8}
+\subsubsection*{Enunciado}
+Em uma fábrica, 8 máquinas produzem 1.200 peças em 5 dias. Quantas peças seriam produzidas por 12 máquinas em 7 dias?
+
+\subsubsection*{Resolução}
+\begin{enumerate}
+\item Relação direta com máquinas e dias
+\item $\frac{8}{12} \times \frac{5}{7} = \frac{1200}{y}$
+\item Simplificando: $\frac{40}{84} = \frac{1200}{y}$
+\item $40y = 100800$
+\item $y = 2520$ peças
+\end{enumerate}
+
+\subsubsection*{Resposta}
+$\boxed{2.520\ \text{peças}}$
+
+\section{Proporcionalidade}
+
+\subsection{Conceito Teórico}
+Grandezas são diretamente proporcionais quando a razão entre elas é constante. Em mapas e escalas:
+\[ \text{Escala} = \frac{\text{Medida no desenho}}{\text{Medida real}} \]
+
+\subsection{Questão 9}
+\subsubsection*{Enunciado}
+Um mapa foi desenhado na escala 1:25.000. Se no mapa a distância entre duas cidades é de 8 cm, qual a distância real em quilômetros?
+
+\subsubsection*{Resolução}
+\begin{enumerate}
+\item Escala 1:25.000 significa que 1 cm no mapa = 25.000 cm reais
+\item $8 \times 25.000 = 200.000$ cm
+\item Convertendo para km: $\frac{200.000}{100.000} = 2$ km
+\end{enumerate}
+
+\subsubsection*{Resposta}
+$\boxed{2\ \text{km}}$
+
+\section{Geometria Espacial}
+
+\subsection{Conceito Teórico}
+O volume de um paralelepípedo retângulo é calculado por:
+\[ V = \text{comprimento} \times \text{largura} \times \text{altura} \]
+No caso do cubo temos: 
+\[V = a^{3} \]
+
+\begin{itemize}
+    \item a é a aresta do cubo.
+    \item  Lembre-se que 1 m³ $ = 1.000$  litros.
+\end{itemize}
+
+
+\subsection{Questão 10}
+\subsubsection*{Enunciado}
+Uma piscina tem formato de paralelepípedo com dimensões 8m × 4m × 2m. Qual o volume de água necessário para enchê-la completamente? (em litros)
+
+\subsubsection*{Resolução}
+\begin{enumerate}
+\item Volume = comprimento × largura × profundidade
+\item $V = 8 \times 4 \times 2 = 64$ m³
+\item Conversão: 1 m³ = 1.000 L
+\item $64 \times 1.000 = 64.000$ L
+\end{enumerate}
+
+\subsubsection*{Resposta}
+$\boxed{64.000\ \text{litros}}$
+
+\section{Conclusão}
+Esta apostila apresentou uma revisão completa de conceitos fundamentais de matemática através de problemas resolvidos detalhadamente. Para consolidar o aprendizado.
+
+Um Boa Sorte para todos!!!
+
+\begin{itemize}
+\item Resolva novamente os problemas sem consultar as soluções
+\item Crie variações dos problemas apresentados
+\item Pratique com exercícios adicionais
+\end{itemize}
+
+\end{document}

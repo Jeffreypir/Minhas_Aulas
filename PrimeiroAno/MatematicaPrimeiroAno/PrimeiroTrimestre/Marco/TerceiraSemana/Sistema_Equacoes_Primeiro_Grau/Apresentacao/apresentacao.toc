@@ -1,0 +1,6 @@
+\babel@toc {brazil}{}\relax 
+\beamer@sectionintoc {1}{O que é um Sistema de Equações?}{4}{0}{1}
+\beamer@sectionintoc {2}{Método da Substituição}{5}{0}{2}
+\beamer@sectionintoc {3}{Método da Adição}{6}{0}{3}
+\beamer@sectionintoc {4}{Atividades de Fixação}{7}{0}{4}
+\beamer@sectionintoc {5}{Questões Contextualizadas}{8}{0}{5}

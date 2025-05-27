@@ -1,0 +1,8 @@
+\babel@toc {brazil}{}\relax 
+\beamer@sectionintoc {1}{Grandezas na Informática}{3}{0}{1}
+\beamer@sectionintoc {2}{Notação Científica na Informática}{4}{0}{2}
+\beamer@sectionintoc {3}{Exemplos Práticos}{5}{0}{3}
+\beamer@sectionintoc {4}{Atividades}{6}{0}{4}
+\beamer@sectionintoc {5}{Resolução das Atividades}{7}{0}{5}
+\beamer@sectionintoc {6}{Conclusão}{8}{0}{6}
+\beamer@sectionintoc {7}{Referências}{9}{0}{7}

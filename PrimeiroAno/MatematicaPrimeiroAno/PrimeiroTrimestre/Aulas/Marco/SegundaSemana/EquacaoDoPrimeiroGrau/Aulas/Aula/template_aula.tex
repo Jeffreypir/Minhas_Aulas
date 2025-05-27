@@ -1,0 +1,309 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath} % Fonte Times New Melhor renderiza
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem} % Para listas personalizadas
+\usepackage{xcolor} % Para usar cores
+\usepackage{titlesec} % Para personalizar títulos
+
+% Ajusta o espaçamento antes e depois das seções
+\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{8pt}{8pt}{8pt}
+
+\titleformat{\subsection}[block]{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{6pt}{6pt}{6pt}
+
+\titleformat{\subsubsection}[block]{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{6pt}{6pt}{6pt}
+
+
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+
+\setlength{\columnseprule}{0.4pt}  % Linha dividindo as colunas 
+\setlength{\baselineskip}{1.0\baselineskip} % Espaçamento simples
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}} % Formato do título
+  {\thesection} % Número da seção
+  {1em} % Espaço entre número e título
+  {} % Código antes do título
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+\title{\textcolor{blue}{Equação do 1º Grau - Entendendo e Aplicando}}
+\author{Professor: Jefferson}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}  % Ajuste o valor conforme necessário
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{O que é uma Equação do 1º Grau?}
+
+Uma equação do 1º grau é uma equação algébrica que tem como característica principal a variável \( x \) com expoente 1. Ou seja, o máximo que a variável pode ser elevada é 1, como em \( ax + b = 0 \). Aqui, \( a \) e \( b \) são números conhecidos (chamados de coeficientes), e nosso objetivo é encontrar o valor de \( x \) que torna a equação verdadeira.
+
+A forma geral de uma equação do 1º grau é:
+
+\[
+ax + b = 0
+\]
+
+Exemplo 1: Resolvendo uma equação simples
+
+Considere a equação:
+
+\[
+3x + 6 = 0
+\]
+
+Para resolver, seguimos os seguintes passos:
+
+1. \textbf{Isolando o termo com \(x\)}: Subtraímos 6 dos dois lados para começar a isolar a variável \(x\):
+
+\[
+3x = -6
+\]
+
+2. \textbf{Dividindo pelo coeficiente de \(x\)}: Agora, dividimos ambos os lados por 3, o coeficiente que acompanha \(x\):
+
+\[
+x = \frac{-6}{3} = -2
+\]
+
+Portanto, a solução da equação é \(x = -2\).
+
+Exemplo 2: Equação com frações
+
+Agora, vamos resolver uma equação que contém frações:
+
+\[
+\frac{x}{4} - 3 = 0
+\]
+
+1. \textbf{Isolando o termo com \(x\)}: Primeiro, somamos 3 nos dois lados para eliminar o -3:
+
+\[
+\frac{x}{4} = 3
+\]
+
+2. \textbf{Multiplicando para eliminar o denominador}: Agora, multiplicamos ambos os lados da equação por 4, para eliminar a fração:
+
+\[
+x = 12
+\]
+
+Portanto, a solução é \(x = 12\).
+
+\section*{Resolução de Equações do 1º Grau}
+
+Vamos aprender agora como resolver equações que envolvem diferentes operações, como multiplicação, frações e parênteses.
+
+\subsection*{Tópico 1: Equações Simples}
+Primeiro, vamos focar nas equações simples, como as que vimos acima. Essas equações têm apenas um termo com \(x\) e podem ser resolvidas com operações básicas.
+
+\textbf{Atividade 1:} Resolva a equação:
+\[
+5x - 7 = 18
+\]
+
+\textbf{Solução:}
+
+1. Somamos 7 aos dois lados para isolar o termo com \(x\):
+
+\[
+5x = 18 + 7 = 25
+\]
+
+2. Dividimos ambos os lados por 5:
+
+\[
+x = \frac{25}{5} = 5
+\]
+
+Logo, a solução da equação é \(x = 5\).
+
+\subsection*{Tópico 2: Equações com Parênteses}
+Agora, vamos aprender como resolver equações que envolvem parênteses. Para resolver, devemos primeiro aplicar a distributiva.
+
+Exemplo:
+\[
+2(x - 3) = 8
+\]
+
+1. Aplicamos a distributiva:
+\[
+2x - 6 = 8
+\]
+
+2. Somamos 6 aos dois lados:
+\[
+2x = 8 + 6 = 14
+\]
+
+3. Dividimos ambos os lados por 2:
+\[
+x = \frac{14}{2} = 7
+\]
+
+Portanto, a solução é \(x = 7\).
+
+\subsection*{Tópico 3: Equações com Frações}
+Quando temos equações com frações, a estratégia é eliminar os denominadores multiplicando ambos os lados da equação pelo menor denominador comum.
+
+Exemplo:
+\[
+\frac{x}{3} + 2 = 4
+\]
+
+1. Subtraímos 2 de ambos os lados para isolar o termo com \(x\):
+\[
+\frac{x}{3} = 4 - 2 = 2
+\]
+
+2. Multiplicamos ambos os lados por 3 para eliminar a fração:
+\[
+x = 2 . 3 = 6
+\]
+
+Logo, a solução é \(x = 6\).
+
+\subsection*{Tópico 4: Equações com Coeficientes Negativos}
+Agora vamos resolver equações em que o coeficiente de \(x\) é negativo. Essas equações exigem atenção ao sinal negativo, mas a resolução é semelhante às anteriores.
+
+Exemplo:
+\[
+-4x + 8 = -12
+\]
+
+1. Subtraímos 8 de ambos os lados:
+\[
+-4x = -12 - 8 = -20
+\]
+
+2. Dividimos ambos os lados por -4:
+\[
+x = \frac{-20}{-4} = 5
+\]
+
+Portanto, a solução é \(x = 5\).
+
+\section*{1. Atividade de Fixação: Expressões}
+
+Agora que já vimos diversos tipos de equações do 1º grau, vamos praticar com algumas questões. Lembre-se de seguir os passos para isolar o \(x\) e encontrar a solução.
+
+\subsection*{Questão 1. Resolva a equação:}
+\[
+3(x - 5) = 12
+\]
+
+\subsection*{Questão 2. Resolva a equação:}
+\[
+\frac{x + 1}{2} = 3
+\]
+
+\subsection*{Questão 3:Resolva a equação}
+\[
+-2x + 4 = 10
+\]
+
+\subsection*{Questão 4. Resolva a equação:}
+\[
+\frac{3x}{5} - 4 = 6
+\]
+
+\section*{2. Atividade de Fixação: Contexto}
+
+Resolva as questões abaixo montando e resolvendo equações do 1º grau adequadas a cada situação.
+
+% -----------------------------------------
+\subsection*{Questão 1. (Análise de Planos)}
+Uma empresa de transporte oferece dois planos para entregas rápidas:  
+\begin{itemize}
+    \item \textbf{Plano A:} Taxa fixa de R\$ 15,00 + R\$ 2,50 por quilômetro rodado
+    \item \textbf{Plano B:} Taxa fixa de R\$ 30,00 + R\$ 1,80 por quilômetro rodado
+\end{itemize}
+Para qual distância (em km) os dois planos terão o mesmo custo?
+\textbf{Dica:} Iguale os custos totais: \(15 + 2.50x = 30 + 1.80x\).
+
+
+% -----------------------------------------
+\subsection*{Questão 2. (Comparação de Descontos)}
+Uma camisa custa R\$ 120,00 com duas opções:
+
+\begin{itemize}[noitemsep]
+    \item \textbf{Opção 1:} 20\% de desconto no total
+    \item \textbf{Opção 2:} Desconto fixo de R\$ 30,00
+\end{itemize}
+A partir de quantas camisas compradas a \textbf{Opção 1} se torna mais vantajosa que a \textbf{Opção 2}?
+\textbf{Dica:} Para \(n\) camisas: \(0.80 \times 120n = 120n - 30\).
+
+% -----------------------------------------
+\subsection*{Questão 3. (Proporcionalidade Ambiental)}
+Um estudo mostra que, para cada 5 kg de papel reciclado, evita-se o corte de uma árvore. Se uma escola recolheu 120 kg de papel em um mês, quantas árvores foram preservadas?
+\textbf{Dica:} Relacione a quantidade de papel coletado com a proporção dada.
+
+% -----------------------------------------
+\subsection*{Questão 5. (Geometria Aplicada)}
+Um terreno triangular tem sua base medindo o triplo do seu lado. Sabendo que o perímetro do terreno é 50 metros e os dois lados do triângulo são iguais, qual é a medida do base e dos lados desse triâgulo? \textbf{Dica:} O perímetro é a soma dos lados.
+
+% -----------------------------------------
+\subsection*{Questão 6. (Economia Doméstica)}
+Uma família reduzirá seu consumo de água para atingir a meta de gastar no máximo R\$ 150,00 por mês. Atualmente, eles pagam R\$ 0,50 por m³ de água e consomem 400 m³ mensais. Quantos m³ precisam reduzir para atingir a meta?
+
+\textbf{Dica:} Equação: \(0.50(400 - x) = 150\).
+
+
+% -----------------------------------------
+\subsection*{Questão 7. (Escolha de Pacotes)}
+\begin{itemize}[noitemsep]
+    \item \textbf{Básico:} 100 MB por R\$ 80/mês
+    \item \textbf{Premium:} 200 MB por R\$ 140/mês
+\end{itemize}
+Quantos meses são necessários para que o Pacote Premium seja mais econômico por MB que o Básico? \textbf{Dica:} Calcule o custo por MB de cada pacote.
+
+
+% -----------------------------------------
+\subsection*{Questão 8. (Movimento Uniforme)}
+Dois trens partem de cidades distantes 600 km uma da outra. O Trem A viaja a 80 km/h, e o Trem B a 70 km/h. Em quanto tempo após a partida eles se encontrarão?
+
+\textbf{Dica:} A distância total é a soma das distâncias percorridas por cada
+trem: \(80t + 70t = 600\).
+
+
+
+% -----------------------------------------
+\subsection*{Questão 9. (Sustentabilidade)}
+Uma lâmpada LED consome 10 W/h e dura 25.000 horas. Uma lâmpada incandescente
+consome 60 W/h e dura 1.000 horas. Considerando que 1 kWh custa R\$ 0,80, após
+quantas horas de uso o custo total (compra + energia) da LED se torna menor que
+o da incandescente, sabendo que a LED custa R\$ 40,00 e a incandescente R\$ 5,00?
+\textbf{Dica:} Modele o custo total de cada lâmpada em função do tempo $t$.
+
+\subsection*{Questão 10. (Grandezas)}
+Uma máquina produz 120 peças em 5 horas. Quantas peças ela produzirá em 8 horas, mantendo a mesma taxa de produção?
+
+\textbf{Dica:} A quantidade de peças produzidas é diretamente proporcional ao tempo de produção.
+
+\subsection*{Questão 11. (Grandezas)}
+Um carro percorre uma distância fixa a uma velocidade média de 60 km/h em 4 horas. Quanto tempo levará para percorrer a mesma distância se a velocidade média aumentar para 80 km/h?
+
+\textbf{Dica:} O tempo de viagem é inversamente proporcional à velocidade.
+
+\end{multicols}
+
+\end{document}
+

@@ -1,0 +1,164 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem} % Para listas personalizadas
+\usepackage{xcolor} % Para usar cores
+\usepackage{titlesec} % Para personalizar títulos
+
+\geometry{a4paper, left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm}
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}} % Formato do título
+  {\thesection} % Número da seção
+  {1em} % Espaço entre número e título
+  {} % Código antes do título
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+\title{\textcolor{blue}{Notação Científica e Grandezas Aplicadas à Informática}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}
+\end{center}
+
+\setlength{\columnsep}{20pt} % Espaço entre as colunas
+\setlength{\columnseprule}{0.4pt} % Espessura da linha de separação
+
+\begin{multicols}{2}
+
+\section*{1. Grandezas na Informática}
+
+\subsection*{Unidades de Medida}
+\begin{itemize}
+    \item \textbf{Bit (b)}: Menor unidade de informação (0 ou 1).
+    \item \textbf{Byte (B)}: 8 bits.
+    \item \textbf{Quilobyte (KB)}: \(1.024\) bytes.
+    \item \textbf{Megabyte (MB)}: \(1.024\) KB.
+    \item \textbf{Gigabyte (GB)}: \(1.024\) MB.
+    \item \textbf{Terabyte (TB)}: \(1.024\) GB.
+    \item \textbf{Petabyte (PB)}: \(1.024\) TB.
+\end{itemize}
+
+\subsection*{Exemplo 1:}
+\textbf{Problema:} Converta 5 GB para bytes.
+
+\textbf{Resolução:}
+\[
+5 \, \text{GB} = 5 \times 1.024 \times 1.024 \times 1.024 \, \text{bytes} \approx 5 \times 10^9 \, \text{bytes}.
+\]
+
+\subsection*{Exemplo 2:}
+\textbf{Problema:} Um arquivo de 2 MB é igual a quantos KB?
+
+\textbf{Resolução:}
+\[
+2 \, \text{MB} = 2 \times 1.024 \, \text{KB} \approx  2.048 \, \text{KB}.
+\]
+
+\subsection*{Atividades}
+1. Converta 3 TB para bytes. \\
+2. Um pendrive tem capacidade de 64 GB. Quantos bytes ele pode armazenar? \\
+3. Um filme em alta definição tem 4,7 GB. Quantos MB ele ocupa? \\
+4. Explique a diferença entre bit e byte.
+
+\section*{2. Notação Científica na Informática}
+
+\subsection*{Aplicações Práticas}
+\begin{itemize}
+    \item \textbf{Tamanho de Arquivos}:
+    \begin{itemize}
+        \item 1 TB = \(1 \times 10^{12}\) bytes.
+        \item 1 GB = \(1 \times 10^9\) bytes.
+    \end{itemize}
+    \item \textbf{Velocidade de Transmissão}:
+    \begin{itemize}
+        \item 1 Gbps (Gigabit por segundo) = \(1 \times 10^9\) bits por segundo.
+    \end{itemize}
+    \item \textbf{Capacidade de Armazenamento}:
+    \begin{itemize}
+        \item Um HD de 2 TB = \(2 \times 10^{12}\) bytes.
+    \end{itemize}
+\end{itemize}
+
+\subsection*{Exemplo 1:}
+\textbf{Problema:} Converta 0,000000001 segundos para notação científica.
+
+\textbf{Resolução:}
+\[
+0,000000001 \, \text{s} = 1 \times 10^{-9} \, \text{s}.
+\]
+
+\subsection*{Exemplo 2:}
+\textbf{Problema:} Qual é a velocidade em bits por segundo de uma conexão de 10 Mbps?
+
+\textbf{Resolução:}
+\[
+10 \, \text{Mbps} = 10 \times 10^6 \, \text{bits por segundo}.
+\]
+
+\subsection*{Atividades}
+1. Converta 500 GB para bytes usando notação científica. \\
+2. Qual é a velocidade em bits por segundo de uma conexão de 100 Mbps? \\
+3. Um SSD tem capacidade de 1 TB. Quantos bytes ele pode armazenar? \\
+4. Explique por que a notação científica é útil na informática.
+
+\section*{3. Exemplos Práticos}
+
+\subsection*{Exemplo 1:}
+\textbf{Problema:} Um serviço de streaming transmite vídeos a 5 Mbps. Quantos bits são transmitidos em 1 minuto?
+
+\textbf{Resolução:}
+\[
+5 \, \text{Mbps} = 5 \times 10^6 \, \text{bits por segundo}.
+\]
+\[
+1 \, \text{minuto} = 60 \, \text{segundos}.
+\]
+\[
+\text{Bits transmitidos} = 5 \times 10^6 \times 60 = 3 \times 10^8 \, \text{bits}.
+\]
+
+\subsection*{Exemplo 2:}
+\textbf{Problema:} Um HD externo tem capacidade de 4 TB. Quantos arquivos de 500 MB cabem no HD?
+
+\textbf{Resolução:}
+\[
+4 \, \text{TB} = 4 \times 1.024 \times 1.024 \, \text{MB} \approx  4.194.304 \, \text{MB}.
+\]
+\[
+\text{Número de arquivos} = \frac{4.194.304}{500} \approx 8.389 \, \text{arquivos}.
+\]
+
+\subsection*{Atividades}
+1. Um filme de 2 GB é baixado a uma velocidade de 10 Mbps. Quanto tempo levará para o download? \\
+2. Um pendrive de 32 GB é usado para armazenar fotos de 4 MB cada. Quantas fotos cabem no pendrive? \\
+3. Um SSD de 500 GB tem 80\% de sua capacidade ocupada. Quantos bytes estão livres? \\
+4. Explique como a notação científica pode ser usada para comparar tamanhos de arquivos.
+
+\section*{4. Conclusão}
+
+\subsection*{Resumo}
+\begin{itemize}
+    \item As grandezas na informática são essenciais para medir tamanhos de arquivos, velocidades de transmissão e capacidades de armazenamento.
+    \item A notação científica facilita a representação de números muito grandes ou muito pequenos.
+    \item Compreender essas grandezas é fundamental para o uso eficiente de recursos tecnológicos.
+\end{itemize}
+
+\subsection*{Atividade Final}
+1. Crie uma tabela comparando as unidades de medida (bit, byte, KB, MB, GB, TB) e suas respectivas ordens de grandeza. \\
+2. Resolva os problemas propostos nas atividades anteriores e explique suas resoluções.
+
+\end{multicols}
+
+\end{document}

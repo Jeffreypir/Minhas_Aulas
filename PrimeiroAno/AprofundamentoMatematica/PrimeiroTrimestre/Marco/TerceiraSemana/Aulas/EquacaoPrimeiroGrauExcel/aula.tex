@@ -1,0 +1,188 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Cores para títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{\thesection}{1em}{}
+\titleformat{\
+
+\title{\textcolor{blue}{Resolução de Equações do 1º Grau no Excel - Guia Prático}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{Introdução Interativa}
+As equações do 1º grau modelam situações reais como:
+\begin{itemize}
+    \item Cálculo de distâncias
+    \item Orçamentos domésticos
+    \item Planos de telefonia
+\end{itemize}
+
+\section*{1. Método Direto (Fórmula)}
+\
+Resolva no Excel:
+\[ 2x + 8 = 0 \]
+
+\begin{enumerate}
+    \item Preencha:
+
+    \begin{tabular}{|l|c|}
+    \hline
+    \textbf{Célula} & \textbf{Valor} \\ \hline
+    A1 (Descrição) & "Coeficiente a" \\ \hline
+    B1 (Valor) & 2 \\ \hline
+    A2 & "Coeficiente b" \\ \hline
+    B2 & 8 \\ \hline
+    \end{tabular}
+    
+    \item Insira em B3: \texttt{=-B2/B1}
+    \item Resultado deve aparecer: \boxed{-4}
+\end{enumerate}
+
+\section*{2. Método Atingir Meta}
+\
+\begin{enumerate}
+    \item Digite em:
+    \begin{itemize}
+        \item A1: "Valor de x" (deixe vazio)
+        \item B1: \texttt{=3*A1 - 6} (para 3x - 6 = 0)
+    \end{itemize}
+    
+    \item Acesse: \textcolor{blue}{Dados} $\rightarrow$ \textcolor{blue}{Análise de Hipóteses} $\rightarrow$ \textcolor{blue}{Atingir Meta}
+    
+    \item Preencha:
+    \begin{tabular}{|l|l|}
+    \hline
+    \textbf{Opção} & \textbf{Valor} \\ \hline
+    Definir célula & B1 \\ \hline
+    Para valor & 0 \\ \hline
+    Alterando célula & A1 \\ \hline
+    \end{tabular}
+\end{enumerate}
+
+\section*{3. Método Gráfico Visual}
+\
+\begin{tabular}{|c|c|}
+\hline
+\textbf{x} & \textbf{y=2x-4} \\ \hline
+-2 & \texttt{=2*A2-4} \\ \hline
+0 & \texttt{=2*A3-4} \\ \hline
+2 & \texttt{=2*A4-4} \\ \hline
+\end{tabular}
+
+\
+\begin{enumerate}
+    \item Selecione os dados
+    \item \textcolor{blue}{Inserir} $\rightarrow$ \textcolor{blue}{Gráfico de Dispersão}
+    \item Observe onde a linha cruza o eixo x
+\end{enumerate}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.5]
+    \draw[->] (-3,0) -- (3,0) node[right]{$x$};
+    \draw[->] (0,-5) -- (0,1) node[above]{$y$};
+    \draw[blue, thick] (-2,-8) -- (0,-4) -- (2,0) -- (3,2);
+    \filldraw (2,0) circle (3pt) node[above right]{Solução (2,0)};
+\end{tikzpicture}
+\end{center}
+
+\section*{Atividades Práticas}
+
+\par
+1. Resolva no Excel:
+
+\[ 5x + 10 = 0 \]
+
+2. Use o método gráfico para:
+\[ x - 3 = 0 \]
+3. Uma operadora cobra R\$ 30,00 fixos + R\$ 0,50 por minuto. Com R\$ 50,00, quantos minutos são possíveis?
+\[ 0.5x + 30 = 50 \]
+
+4. Plote e resolva:
+\[ \frac{x}{2} + 4 = 0 \]
+
+\
+5. Compare dois planos:
+\begin{itemize}
+    \item Plano A: R\$ 40 + R\$ 1,20/min
+    \item Plano B: R\$ 60 + R\$ 0,80/min
+\end{itemize}
+Determine quando os planos se igualam.
+
+6. Resolva graficamente:
+\[ 2(x - 3) + 4 = 0 \]
+
+\section*{Situações-Problema}
+
+7. Resolva utilizando o método direto:
+\[ -3x + 9 = 0 \]
+
+8. Use a função Atingir Meta para encontrar a solução de:
+\[ \frac{x}{4} - 2 = 0 \]
+
+\
+9. Um táxi cobra R\$ 4,50 de bandeirada mais R\$ 2,30 por km. Qual a distância máxima que pode ser percorrida com R\$ 30,00?
+\[ 2.3x + 4.5 = 30 \]
+
+10. Plote e resolva graficamente a equação:
+\[ -x + 5 = 2x - 1 \]
+
+\
+11. Compare três operadoras de internet:
+\begin{itemize}
+    \item Operadora X: R\$ 80 fixos + R\$ 0,10 por MB excedente
+    \item Operadora Y: R\$ 50 fixos + R\$ 0,25 por MB excedente
+    \item Operadora Z: R\$ 120 fixos (ilimitado)
+\end{itemize}
+Determine em qual consumo as Operadoras X e Y se tornam equivalentes.
+
+12. Modele e resolva:
+Um reservatório perde 2 litros por hora. Após 6 horas, restam 48 litros. Qual era o volume inicial?
+\[ V - 2 \times 6 = 48 \]
+
+\
+\
+Um investimento inicial de R\$ 500,00 rende R\$ 20,00 por mês. Em quanto tempo o montante atingirá R\$ 800,00?
+\[ 500 + 20x = 800 \]
+
+\
+13. Uma empresa de fretes cobra R\$ 150,00 por viagem mais R\$ 0,80 por km. Para um orçamento de R\$ 300,00, qual é o raio máximo de entrega?
+\[ 0.8x + 150 = 300 \]
+\
+
+14. Sua família gasta R\$ 0,80 por kWh de energia. Este mês a conta foi R\$ 120,00 para 150 kWh. Quantos kWh podem ser usados para não ultrapassar R\$ 100,00?
+
+\
+
+15. Para o festival da escola, a turma gastou R\$ 200,00 na decoração e R\$ 5,00 por convite. Se arrecadaram R\$ 10,00 por convite, quantos precisam vender para ter lucro?
+
+\
+
+\end{multicols}
+
+\end{document}

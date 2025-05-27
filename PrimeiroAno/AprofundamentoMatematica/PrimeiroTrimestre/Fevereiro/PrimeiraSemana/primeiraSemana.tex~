@@ -1,0 +1,223 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=1.5cm}
+
+\title{Planejamento Semanal de Aulas de Matemática}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Objetivos}
+\begin{itemize}
+    \item Explorar os conjuntos numéricos (naturais, inteiros, racionais e reais).
+    \item Desenvolver habilidades de manipulação algébrica.
+\end{itemize}
+
+\section{Aula 1: Explorando os Conjuntos Numéricos}
+
+\subsection{Duração:}
+1 hora e 30 minutos.
+
+\subsection{Conteúdo:}
+
+\begin{enumerate}
+    \item \textbf{Introdução aos Conjuntos Numéricos:}
+    \begin{itemize}
+        \item \textbf{Naturais ($\mathbb{N}$):} Números positivos usados para contar (1, 2, 3, \dots).
+        \item \textbf{Inteiros ($\mathbb{Z}$):} Inclui os naturais e seus opostos (\dots, 2, 1, 0, 1, 2, \dots).
+        \item \textbf{Racionais ($\mathbb{Q}$):} Números que podem ser expressos como frações ($\frac{a}{b}$, onde $a$ e $b$ são inteiros e $b \neq 0$).
+        \item \textbf{Reais ($\mathbb{R}$):} Inclui todos os racionais e irracionais (números que não podem ser expressos como frações, como $\sqrt{2}$ e $\pi$).
+    \end{itemize}
+
+    \item \textbf{Exemplos:}
+    \begin{itemize}
+        \item \textbf{Naturais:} Contagem de objetos, como 5 maçãs.
+        \item \textbf{Inteiros:} Temperaturas abaixo de zero, como $5^\circ$C.
+        \item \textbf{Racionais:} Frações como $\frac{1}{2}$, que representa metade de uma pizza.
+        \item \textbf{Reais:} Medidas de comprimento, como 1,4142... metros ($\sqrt{2}$).
+    \end{itemize}
+
+    \item \textbf{Atividades:}
+    \begin{itemize}
+        \item \textbf{Classificação de Números:} Fornecer uma lista de números e pedir aos alunos para classificálos em naturais, inteiros, racionais ou reais.
+        \item \textbf{Discussão em Grupo:} Dividir a turma em grupos e pedir que discutam e apresentem exemplos práticos de cada conjunto numérico.
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Recursos Necessários:}
+\begin{itemize}
+    \item Quadro branco e marcadores.
+    \item Lista de números para classificação.
+    \item Material de apoio (folhas com exemplos e explicações).
+\end{itemize}
+
+\subsection{Questões:}
+
+1. Classifique os números abaixo em naturais ($\mathbb{N}$), inteiros ($\mathbb{Z}$), racionais ($\mathbb{Q}$) ou reais
+($\mathbb{R}$): \\
+    a) $5$  
+    b) $3$  
+    c) $\frac{2}{3}$  
+    d) $\sqrt{2}$  
+    e) $0$  
+    f) $1,5$  
+    g) $\pi$  
+    h) $\frac{7}{2}$   \\
+
+   Respostas:
+    a) $\mathbb{N}, \mathbb{Z}, \mathbb{Q}, \mathbb{R}$  
+    b) $\mathbb{Z}, \mathbb{Q}, \mathbb{R}$  
+    c) $\mathbb{Q}, \mathbb{R}$  
+    d) $\mathbb{R}$  
+    e) $\mathbb{Z}, \mathbb{Q}, \mathbb{R}$  
+    f) $\mathbb{Q}, \mathbb{R}$  
+    g) $\mathbb{R}$  
+    h) $\mathbb{Q}, \mathbb{R}$   \\
+
+2. Escreva três exemplos de números naturais.   \\
+   Resposta: $1, 2, 3$ (ou qualquer número positivo inteiro).
+
+3. Escreva três exemplos de números inteiros que não são naturais.  
+   Resposta: $1, 2, 3$ (ou qualquer número inteiro negativo). \\
+
+4. Explique por que $\frac{4}{2}$ é um número racional. \\ 
+   Resposta: Porque pode ser expresso como uma fração de dois inteiros ($\frac{4}{2} = 2$).
+
+5. Dê um exemplo de número irracional e explique por que ele não é racional.   \\
+   Resposta: $\sqrt{3}$ é irracional porque não pode ser expresso como uma fração de dois inteiros.
+
+6. Classifique o número $0,75$ em $\mathbb{N}, \mathbb{Z}, \mathbb{Q}, \mathbb{R}$.   \\
+   Resposta: $\mathbb{Q}, \mathbb{R}$.
+
+7. Por que o número $5$ pertence aos conjuntos $\mathbb{Z}, \mathbb{Q}, \mathbb{R}$? \\ 
+   Resposta: Porque é um número inteiro, que também é racional e real.
+
+8. Escreva um número que pertença apenas ao conjunto $\mathbb{R}$.   \\
+   Resposta: $\sqrt{5}$ (ou qualquer número irracional).
+
+\section{Aula 2: Manipulação Algébrica}
+
+\subsection{Duração:}
+1 hora e 30 minutos.
+
+\subsection{Conteúdo:}
+
+\begin{enumerate}
+    \item \textbf{Introdução à Manipulação Algébrica:}
+    \begin{itemize}
+        \item \textbf{Expressões Algébricas:} Combinação de números, variáveis e operações (ex: $3x + 2y$).
+        \item \textbf{Simplificação de Expressões:} Combinar termos semelhantes e aplicar propriedades distributivas.
+        \item \textbf{Resolução de Equações:} Isolar a variável para encontrar seu valor.
+    \end{itemize}
+
+    \item \textbf{Exemplos:}
+    \begin{itemize}
+        \item \textbf{Simplificação:} Simplificar a expressão $3x + 2x  5$ para $5x  5$.
+        \item \textbf{Resolução de Equações:} Resolver a equação $2x + 3 = 7$, encontrando $x = 2$.
+    \end{itemize}
+
+    \item \textbf{Atividades:}
+    \begin{itemize}
+        \item \textbf{Prática de Simplificação:} Fornecer uma lista de expressões para simplificar.
+        \item \textbf{Resolução de Equações:} Propor equações simples para os alunos resolverem.
+        \item \textbf{Jogo de Equações:} Criar um jogo onde os alunos devem resolver equações para avançar em um tabuleiro.
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Recursos Necessários:}
+\begin{itemize}
+    \item Quadro branco e marcadores.
+    \item Lista de expressões e equações.
+    \item Material para o jogo de equações (tabuleiro, dados, cartas com equações).
+\end{itemize}
+
+\subsection{Questões:}
+
+1. Simplifique as expressões abaixo:
+
+    a) $3x + 2x  5$  
+    b) $4y  y + 7$  
+    c) $2a + 3b  a + 5b$  
+    d) $5x  3x + 2x  x$  
+
+   Respostas:
+    a) $5x  5$  
+    b) $3y + 7$  
+    c) $a + 8b$  
+    d) $3x$  \\ 
+
+2. Resolva as equações abaixo:
+
+    a) $2x + 3 = 7$  
+    b) $5y  4 = 11$  
+    c) $3a + 2 = 8$  
+    d) $4b  6 = 10$  
+
+   Respostas:
+    a) $x = 2$  
+    b) $y = 3$  
+    c) $a = 2$  
+    d) $b = 4$   \\
+
+3. Aplique a propriedade distributiva e simplifique:
+
+    a) $2(x + 3)$  
+    b) $3(2y  4)$  
+    c) $4(a + b  2)$  
+    d) $5(2x  3y + 1)$  
+
+   Respostas:
+    a) $2x + 6$  
+    b) $6y  12$  
+    c) $4a + 4b  8$  
+    d) $10x  15y + 5$   \\
+
+4. Combine os termos semelhantes:
+
+    a) $3x + 2y  x + 4y$  
+    b) $5a  2b + 3a + b$  
+    c) $7m + 3n  2m  n$  
+    d) $4p + 5q  p  3q$  
+
+   Respostas:
+    a) $2x + 6y$  
+    b) $8a  b$  
+    c) $5m + 2n$  
+    d) $3p + 2q$   \\
+
+5. Resolva a equação $3(x + 2) = 15$.  
+
+   Resposta: $x = 3$. \\
+
+6. Simplifique a expressão $2x + 3y  x + 4y  5$.  
+   Resposta: $x + 7y  5$. \\
+
+7. Resolva a equação $4(y  3) = 20$.  
+
+   Resposta: $y = 8$. \\
+
+8. Simplifique a expressão $5a  2b + 3a + 4b  6$.  
+
+   Resposta: $8a + 2b  6$. \\
+
+\section{Avaliação:}
+\begin{itemize}
+    \item \textbf{Participação nas Discussões:} Avaliar a participação e compreensão dos alunos durante as discussões em grupo.
+    \item \textbf{Atividades Práticas:} Verificar a precisão e o raciocínio nas atividades de classificação, simplificação e resolução de equações.
+    \item \textbf{Feedback:} Fornecer feedback individual e coletivo, destacando pontos fortes e áreas para melhoria.
+\end{itemize}
+
+\section{Materiais Adicionais:}
+\begin{itemize}
+    \item Apostilas com resumos dos conceitos abordados.
+    \item Links para vídeos educacionais sobre conjuntos numéricos e manipulação algébrica.
+    \item Exercícios extras para prática em casa.
+\end{itemize}
+
+\end{document}

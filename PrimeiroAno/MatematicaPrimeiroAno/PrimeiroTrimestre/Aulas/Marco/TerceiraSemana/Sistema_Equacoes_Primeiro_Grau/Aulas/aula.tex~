@@ -1,0 +1,272 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath} % Fonte Times New Melhor renderiza
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem} % Para listas personalizadas
+\usepackage{xcolor} % Para usar cores
+\usepackage{titlesec} % Para personalizar títulos
+
+% Ajusta o espaçamento antes e depois das seções
+\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{8pt}{8pt}{8pt}
+
+\titleformat{\subsection}[block]{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{6pt}{6pt}{6pt}
+
+\titleformat{\subsubsection}[block]{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{6pt}{6pt}{6pt}
+
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+
+\setlength{\columnseprule}{0.4pt}  % Linha dividindo as colunas 
+\setlength{\baselineskip}{1.0\baselineskip} % Espaçamento simples
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}} % Formato do título
+  {\thesection} % Número da seção
+  {1em} % Espaço entre número e título
+  {} % Código antes do título
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+\title{\textcolor{blue}{Sistemas de Equações do 1º Grau - Entendendo e Aplicando}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}  % Ajuste o valor conforme necessário
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{O que é um Sistema de Equações do 1º Grau?}
+
+Um sistema de equações do 1º grau é um conjunto de duas ou mais equações lineares com duas ou mais variáveis. O objetivo é encontrar valores para as variáveis que satisfaçam todas as equações simultaneamente.
+
+A forma geral de um sistema de equações do 1º grau com duas variáveis é:
+
+\[
+\begin{cases}
+a_1x + b_1y = c_1 \\
+a_2x + b_2y = c_2
+\end{cases}
+\]
+
+
+\textbf{Onde:}
+    \begin{itemize}
+    \item  {\color{blue} \(a_1\), \(b_1\), \(c_1\), \(a_2\), \(b_2\) e \(c_2\)} são coeficientes conhecidos.
+    \item {\color{red} \(x\) e \(y\)} são as variáveis que queremos encontrar. 
+\end{itemize}
+ 
+\section*{Métodos de Resolução}
+
+Existem vários métodos para resolver sistemas de equações do 1º grau. Vamos estudar dois deles: o método da substituição e o método da adição.
+
+\subsection*{Método da Substituição}
+
+Este método consiste em isolar uma das variáveis em uma das equações e substituir essa expressão na outra equação.
+
+\textbf{Exemplo:}
+
+Resolva o sistema:
+
+\[
+\begin{cases}
+x + y = 5 \\
+2x - y = 1
+\end{cases}
+\]
+
+\textbf{Solução:}
+
+1. Isolamos \(y\) na primeira equação:
+
+\[
+y = 5 - x
+\]
+
+2. Substituímos \(y\) na segunda equação:
+
+\[
+2x - (5 - x) = 1
+\]
+
+3. Resolvemos a equação resultante:
+
+\[
+    \begin{aligned}
+        3x - 5 &= 1 \\
+        3x &= 6 \\
+        x &= 2
+    \end{aligned}
+\]
+
+4. Substituímos \(x = 2\) na expressão de \(y\):
+
+\[
+y = 5 - 2 = 3
+\]
+
+Portanto, a solução do sistema é \(x = 2\) e \(y = 3\).
+
+\subsection*{Método da Adição}
+
+Este método consiste em somar ou subtrair as equações do sistema de modo a eliminar uma das variáveis.
+
+\textbf{Exemplo:}
+
+Resolva o sistema:
+
+\[
+\begin{cases}
+3x + 2y = 8 \\
+2x - 2y = 2
+\end{cases}
+\]
+
+\textbf{Solução:}
+
+1. Somar as equações para eliminar \(y\).
+
+\[
+   \begin{aligned}
+   3x + 2y &= 8 \quad \text{(Equação 1)} \\
+   2x - 2y &= 2 \quad \text{(Equação 2)} \\
+   \hline
+   5x + 0 &= 10 \\
+   5x &= 10 \\
+   x &= \frac{10}{5} \\
+   x &= 2
+   \end{aligned}
+   \]
+
+2. Substituímos \(x = 2\) na primeira equação para encontrar \(y\):
+
+\[
+    \begin{aligned}
+         3(2) + 2y &= 8 \\
+         6 + 2y    &= 8 \\
+         2y + 6    &= 8 \\
+          y + 3    &= 4 \\
+          y       &= 4 -3 \\
+          y       &= 1 
+    \end{aligned}
+\]
+
+Portanto, a solução do sistema é \(x = 2\) e \(y = 1\).
+
+\section*{Atividade de Fixação}
+
+Agora que já vimos como resolver sistemas de equações do 1º grau, vamos praticar com algumas questões.
+
+\subsection*{Questão 1. Resolva o sistema:}
+\[
+\begin{cases}
+x + y = 7 \\
+x - y = 1
+\end{cases}
+\]
+
+\subsection*{Questão 2. Resolva o sistema:}
+\[
+\begin{cases}
+2x + 3y = 12 \\
+4x - y = 10
+\end{cases}
+\]
+
+\subsection*{Questão 3. Resolva o sistema:}
+\[
+\begin{cases}
+5x - 2y = 4 \\
+3x + y = 9
+\end{cases}
+\]
+
+\subsection*{Questão 4. Resolva o sistema:}
+\[
+\begin{cases}
+\frac{x}{2} + y = 5 \\
+x - \frac{y}{3} = 4
+\end{cases}
+\]
+
+\section*{Atividade Contextualizada}
+
+Resolva as questões abaixo montando e resolvendo sistemas de equações do 1º grau adequados a cada situação.
+
+\subsection*{Questão 1. (Compras no Supermercado)}
+João comprou 3 maçãs e 2 bananas por R\$ 5,00. Maria comprou 2 maçãs e 4 bananas por R\$ 6,00. Qual é o preço de uma maçã e de uma banana?
+
+\subsection*{Questão 2. (Idades)}
+A soma das idades de Pedro e Ana é 25 anos. A diferença entre as idades é 5 anos. Qual é a idade de cada um?
+
+\subsection*{Questão 3. (Investimentos)}
+Um investidor aplicou R\$ 10.000,00 em dois fundos de investimento. No primeiro fundo, ele ganhou 5\% ao ano, e no segundo, ganhou 8\% ao ano. No final de um ano, ele teve um lucro total de R\$ 700,00. Quanto ele investiu em cada fundo?
+
+\subsection*{Questão 4. (Viagem)}
+Dois carros partem de duas cidades distantes 300 km uma da outra. O primeiro carro viaja a 60 km/h, e o segundo a 80 km/h. Em quanto tempo eles se encontrarão?
+
+\subsection*{Questão 5. (Produção)}
+Uma fábrica produz dois tipos de produtos, A e B. Para produzir uma unidade de A, são necessários 2 kg de matéria-prima, e para produzir uma unidade de B, são necessários 3 kg de matéria-prima. Em um dia, a fábrica usou 120 kg de matéria-prima e produziu 50 unidades no total. Quantas unidades de cada produto foram produzidas?
+
+\subsection*{Questão 6. (Cinema)}
+Em um cinema, o ingresso para adultos custa R\$ 20,00 e para crianças custa R\$ 10,00. Em um dia, foram vendidos 100 ingressos, e a arrecadação total foi de R\$ 1.500,00. Quantos ingressos para adultos e para crianças foram vendidos?
+
+\subsection*{Questão 7. (Geometria)}
+Um retângulo tem perímetro de 40 cm. Sabendo que o comprimento é o dobro da largura, determine as dimensões do retângulo.
+
+\subsection*{Questão 8. (Economia Doméstica)}
+Uma família gasta R\$ 800,00 por mês com alimentação e transporte. Sabe-se que o gasto com transporte é R\$ 200,00 a mais que o gasto com alimentação. Quanto a família gasta com cada item?
+
+\subsection*{Questão 9. (Esportes)}
+Em uma partida de basquete, um jogador marcou 25 pontos entre cestas de 2 e 3 pontos. Se ele acertou 10 cestas no total, quantas foram de 2 pontos e quantas foram de 3 pontos?
+
+\subsection*{Questão 10. (Viagem de Trem)}
+Dois trens partem de cidades distantes 600 km uma da outra. O Trem A viaja a 80 km/h, e o Trem B a 70 km/h. Em quanto tempo após a partida eles se encontrarão?
+
+\subsection*{Questão 11. (Compras de Livros)}
+Joana comprou 2 livros e 3 cadernos por R\$ 50,00. Pedro comprou 4 livros e 1 caderno por R\$ 60,00. Qual é o preço de um livro e de um caderno?
+
+\subsection*{Questão 12. (Idades de Irmãos)}
+A soma das idades de dois irmãos é 30 anos. Sabendo que um irmão é 6 anos mais velho que o outro, qual é a idade de cada um?
+
+\subsection*{Questão 13. (Distribuição de Lucros)}
+Uma empresa dividiu um lucro de R\$ 10.000,00 entre dois funcionários. O primeiro recebeu R\$ 2.000,00 a mais que o segundo. Quanto cada funcionário recebeu?
+
+\subsection*{Questão 14. (Viagem de Ônibus)}
+Dois ônibus partem de cidades distantes 400 km uma da outra. O primeiro ônibus viaja a 70 km/h, e o segundo a 90 km/h. Em quanto tempo eles se encontrarão?
+
+\subsection*{Questão 15. (Produção de Camisetas)}
+Uma confecção produz camisetas de dois tamanhos: P e M. Para produzir uma camiseta P, são necessários 1,5 m de tecido, e para uma camiseta M, 2 m de tecido. Em um dia, foram usados 200 m de tecido para produzir 120 camisetas. Quantas camisetas de cada tamanho foram produzidas?
+
+\subsection*{Questão 16. (Venda de Frutas)}
+Um feirante vendeu 50 kg de maçãs e laranjas por R\$ 300,00. Se o preço do kg da maçã é R\$ 8,00 e o da laranja é R\$ 4,00, quantos kg de cada fruta ele vendeu?
+
+\subsection*{Questão 17. (Geometria: Triângulo)}
+Um triângulo tem perímetro de 30 cm. Sabendo que um lado é o dobro do outro e que o terceiro lado é 6 cm, determine as medidas dos lados.
+
+\subsection*{Questão 18. (Economia Doméstica: Contas)}
+Uma família gasta R\$ 1.200,00 por mês com aluguel e energia elétrica. Sabe-se que o gasto com aluguel é R\$ 400,00 a mais que o gasto com energia. Quanto a família gasta com cada item?
+
+\subsection*{Questão 19. (Esportes: Futebol)}
+Em um jogo de futebol, um time marcou 20 gols no campeonato. Sabendo que o número de vitórias é o dobro do número de empates e que cada vitória vale 3 pontos e cada empate vale 1 ponto, quantas vitórias e quantos empates o time teve?
+
+\subsection*{Questão 20. (Viagem de Avião)}
+Dois aviões partem de cidades distantes 1.200 km uma da outra. O primeiro avião viaja a 500 km/h, e o segundo a 700 km/h. Em quanto tempo após a partida eles se encontrarão?
+
+\end{multicols}
+
+\end{document}

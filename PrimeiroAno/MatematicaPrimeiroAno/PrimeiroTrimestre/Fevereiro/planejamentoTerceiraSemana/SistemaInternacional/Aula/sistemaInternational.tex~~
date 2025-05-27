@@ -1,0 +1,162 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{geometry}
+\geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
+\usepackage{amsmath} % Para fórmulas matemáticas
+\usepackage{multicol} % Para dividir a página em colunas
+\usepackage{enumitem} % Para listas personalizadas
+\usepackage{geometry} % Para ajustar margens
+\geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
+\usepackage{xcolor} % Para usar cores
+\usepackage{titlesec} % Para personalizar títulos
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}} % Formato do título
+  {\thesection} % Número da seção
+  {1em} % Espaço entre número e título
+  {} % Código antes do título
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+
+
+\title{\textcolor{blue}{Unidades de Medida, Sistema Internacional (SI) e Conversão de Unidades}}
+    \author{Professor: Jefferson }
+\date{}
+
+% Remove a numeração de todas as páginas
+\pagestyle{empty}
+
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+
+\begin{multicols}{2}
+\section*{Introdução às Unidades de Medida}
+
+\subsection*{O que são Unidades de Medida?}
+Unidades de medida são padrões utilizados para quantificar grandezas físicas, como comprimento, massa, tempo, temperatura, entre outras. Elas permitem que façamos medições precisas e consistentes.
+
+\subsection*{Grandezas Fundamentais e Derivadas}
+\begin{itemize}
+    \item \textbf{Grandezas Fundamentais}: São as grandezas básicas, como comprimento (metro), massa (quilograma) e tempo (segundo).
+    \item \textbf{Grandezas Derivadas}: São combinações das grandezas fundamentais, como área (metro quadrado) e velocidade (metro por segundo).
+\end{itemize}
+
+\subsection*{Exemplo}
+\begin{itemize}
+    \item Comprimento: 5 metros (m).
+    \item Massa: 2 quilogramas (kg).
+    \item Tempo: 10 segundos (s).
+\end{itemize}
+
+\subsection*{Atividade}
+
+ 1. Liste três grandezas físicas e suas respectivas unidades de medida.  
+\vspace{1cm}
+
+2. Explique a diferença entre grandezas fundamentais e derivadas.  
+\vspace{1cm}
+
+\section*{Sistema Internacional de Unidades (SI)}
+
+\subsection*{O que é o SI?}
+O Sistema Internacional de Unidades (SI) é o padrão global de unidades de medida, adotado pela maioria dos países. Ele define as unidades básicas e derivadas para todas as grandezas físicas.
+
+\subsection*{Unidades Básicas do SI}
+\begin{itemize}
+    \item Comprimento: Metro (m).
+    \item Massa: Quilograma (kg).
+    \item Tempo: Segundo (s).
+    \item Corrente elétrica: Ampere (A).
+    \item Temperatura: Kelvin (K).
+    \item Quantidade de matéria: Mol (mol).
+    \item Intensidade luminosa: Candela (cd).
+\end{itemize}
+
+\subsection*{Exemplo}
+\begin{itemize}
+    \item 1 km = 1000 m.
+    \item 1 kg = 1000 g.
+    \item 1 h = 3600 s.
+\end{itemize}
+
+\subsection*{Atividade}
+
+1. Converta 2,5 km para metros.  
+\vspace{1cm} \newline 
+2. Quantos segundos existem em 1,5 horas?  
+\vspace{1cm}\newline
+3. Explique por que o SI é importante para a ciência e a tecnologia.  
+\vspace{1cm}
+
+
+\section*{Conversão de Unidades}
+
+\subsection*{Por que Converter Unidades?}
+A conversão de unidades é necessária para padronizar medições e facilitar a comunicação entre diferentes sistemas de medida.
+
+\subsection*{Fatores de Conversão}
+\begin{itemize}
+    \item 1 km = 1000 m.
+    \item 1 m = 100 cm.
+    \item 1 kg = 1000 g.
+    \item 1 h = 60 min = 3600 s.
+\end{itemize}
+
+\subsection*{Exemplo}
+\begin{itemize}
+    \item Converter 3 km para metros: \( 3 \, \text{km} \times 1000 = 3000 \, \text{m} \).
+    \item Converter 500 g para quilogramas: \( 500 \, \text{g} \div 1000 = 0,5 \, \text{kg} \).
+\end{itemize}
+
+\subsection*{Atividade}
+
+1. Converta 4500 g para quilogramas.  
+\vspace{1cm}\newline
+2. Converta 2,5 horas para segundos.  
+\vspace{1cm}\newline
+3. Explique como você faria para converter 1,2 m para centímetros.  
+\vspace{1cm}
+
+
+\section*{Aplicações Práticas do SI e Conversões}
+
+\subsection*{Aplicações do SI no Cotidiano}
+O SI é utilizado em diversas áreas, como engenharia, medicina, comércio e ciência. Por exemplo:
+\begin{itemize}
+    \item Medição de distâncias em mapas (km).
+    \item Dosagem de medicamentos (mg ou mL).
+    \item Controle de tempo em competições esportivas (s).
+\end{itemize}
+
+\subsection*{Exemplo}
+\begin{itemize}
+    \item Um carro percorre 120 km em 2 horas. Qual é a sua velocidade média em m/s?
+    \begin{align*}
+        \text{Velocidade} &= \frac{\text{Distância}}{\text{Tempo}} \\
+        &= \frac{120 \, \text{km}}{2 \, \text{h}} = 60 \, \text{km/h} \\
+        &= 60 \times \frac{1000 \, \text{m}}{3600 \, \text{s}} \approx 16,67 \, \text{m/s}.
+    \end{align*}
+\end{itemize}
+
+\subsection*{Atividade}
+1. Um avião voa a 900 km/h. Converta essa velocidade para m/s.  
+\vspace{1cm}\newline
+2. Uma caixa contém 2,5 kg de arroz. Quantos gramas de arroz há na caixa?  
+\vspace{1cm}\newline
+3. Pesquise uma aplicação do SI em sua comunidade e descreva como ele é utilizado.  
+\vspace{1cm}
+
+\end{multicols}
+
+\end{document}

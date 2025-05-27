@@ -1,0 +1,263 @@
+\documentclass[12pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath} % Para fórmulas matemáticas
+\usepackage{xcolor} % Para usar cores
+
+\usetheme{Berkeley}
+
+% Definir cores para títulos e subtítulos
+\setbeamercolor{frametitle}{fg=white}
+\setbeamercolor{framesubtitle}{fg=green}
+% Adicionar nota de rodapé em todos os slides
+\setbeamertemplate{footline}{
+    \vspace{0.1cm} % Espaço acima da nota
+    \footnotesize % Tamanho do texto
+%%%%%%%%%    \hspace{2cm} Mestre em Modelagem Matemática e Computacional - UFPB
+}
+
+\title{\textcolor{white}{Equações do 1º Grau - Entendendo e Aplicando}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\frame{\titlepage}
+
+% Slide do sumário
+\begin{frame}
+    \frametitle{Sumário}
+    \tableofcontents
+\end{frame}
+
+
+
+% Slide 1: Título
+\begin{frame}
+\titlepage
+\end{frame}
+
+% Slide 2: Definição
+\section{O que é um Sistema de Equações?}
+\begin{frame}{O que é um Sistema de Equações?}
+Um sistema de equações do 1º grau é um conjunto de duas ou mais equações lineares. Exemplo:
+
+\[
+\begin{cases}
+2x + y = 10 \\
+x - y = 2
+\end{cases}
+\]
+
+\textbf{Objetivo:} Encontrar valores para \(x\) e \(y\) que satisfaçam ambas as equações.
+\end{frame}
+
+% Slide 3: Método da Substituição
+\section{Método da Substituição}
+\begin{frame}{Método da Substituição}
+\textbf{Exemplo:}
+\[
+\begin{cases}
+x + y = 5 \\
+2x - y = 1
+\end{cases}
+\]
+
+\textbf{Passo a Passo:}
+
+1. Isolar \(y\) na 1ª equação:
+\[
+y = 5 - x
+\]
+
+2. Substituir na 2ª equação:
+\[
+2x - (5 - x) = 1
+\]
+
+3. Resolver para \(x\):
+\[
+3x - 5 = 1 \Rightarrow x = 2
+\]
+
+4. Encontrar \(y\):
+\[
+y = 5 - 2 = 3
+\]
+\end{frame}
+
+% Slide 4: Método da Adição
+\section{Método da Adição}
+\begin{frame}{Método da Adição}
+\textbf{Exemplo:}
+\[
+\begin{cases}
+3x + 2y = 8 \\
+2x - 2y = 2
+\end{cases}
+\]
+
+\textbf{Passo a Passo:}
+
+1. Somar as equações:
+\[
+\begin{aligned}
+3x + 2y &= 8 \\
+2x - 2y &= 2 \\
+\hline
+5x &= 10 \Rightarrow x = 2
+\end{aligned}
+\]
+
+2. Substituir \(x = 2\):
+\[
+3(2) + 2y = 8 \Rightarrow y = 1
+\]
+\end{frame}
+
+% Slide 5: Atividades de Fixação
+\section{Atividades de Fixação}
+\begin{frame}{Atividades de Fixação}
+Resolva os sistemas:
+
+1. 
+\[
+\begin{cases}
+x + y = 7 \\
+x - y = 1
+\end{cases}
+\]
+
+2. 
+\[
+\begin{cases}
+2x + 3y = 12 \\
+4x - y = 10
+\end{cases}
+\]
+
+3. 
+\[
+\begin{cases}
+5x - 2y = 4 \\
+3x + y = 9
+\end{cases}
+\]
+\end{frame}
+
+% Slide 6: Questões Contextualizadas
+\section{Questões Contextualizadas}
+
+\begin{frame}
+\frametitle{Questão 1. (Compras no Supermercado)}
+João comprou 3 maçãs e 2 bananas por R\$ 5,00. Maria comprou 2 maçãs e 4 bananas por R\$ 6,00. Qual é o preço de uma maçã e de uma banana?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 2. (Idades)}
+A soma das idades de Pedro e Ana é 25 anos. A diferença entre as idades é 5 anos. Qual é a idade de cada um?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 3. (Investimentos)}
+Um investidor aplicou R\$ 10.000,00 em dois fundos de investimento. No primeiro fundo, ele ganhou 5\% ao ano, e no segundo, ganhou 8\% ao ano. No final de um ano, ele teve um lucro total de R\$ 700,00. Quanto ele investiu em cada fundo?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 4. (Viagem)}
+Dois carros partem de duas cidades distantes 300 km uma da outra. O primeiro carro viaja a 60 km/h, e o segundo a 80 km/h. Em quanto tempo eles se encontrarão?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 5. (Produção)}
+Uma fábrica produz dois tipos de produtos, A e B. Para produzir uma unidade de A, são necessários 2 kg de matéria-prima, e para produzir uma unidade de B, são necessários 3 kg de matéria-prima. Em um dia, a fábrica usou 120 kg de matéria-prima e produziu 50 unidades no total. Quantas unidades de cada produto foram produzidas?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 6. (Cinema)}
+Em um cinema, o ingresso para adultos custa R\$ 20,00 e para crianças custa R\$ 10,00. Em um dia, foram vendidos 100 ingressos, e a arrecadação total foi de R\$ 1.500,00. Quantos ingressos para adultos e para crianças foram vendidos?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 7. (Geometria)}
+Um retângulo tem perímetro de 40 cm. Sabendo que o comprimento é o dobro da largura, determine as dimensões do retângulo.
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 8. (Economia Doméstica)}
+Uma família gasta R\$ 800,00 por mês com alimentação e transporte. Sabe-se que o gasto com transporte é R\$ 200,00 a mais que o gasto com alimentação. Quanto a família gasta com cada item?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 9. (Esportes)}
+Em uma partida de basquete, um jogador marcou 25 pontos entre cestas de 2 e 3 pontos. Se ele acertou 10 cestas no total, quantas foram de 2 pontos e quantas foram de 3 pontos?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 10. (Viagem de Trem)}
+Dois trens partem de cidades distantes 600 km uma da outra. O Trem A viaja a 80 km/h, e o Trem B a 70 km/h. Em quanto tempo após a partida eles se encontrarão?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 11. (Compras de Livros)}
+Joana comprou 2 livros e 3 cadernos por R\$ 50,00. Pedro comprou 4 livros e 1 caderno por R\$ 60,00. Qual é o preço de um livro e de um caderno?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 12. (Idades de Irmãos)}
+A soma das idades de dois irmãos é 30 anos. Sabendo que um irmão é 6 anos mais velho que o outro, qual é a idade de cada um?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 13. (Distribuição de Lucros)}
+Uma empresa dividiu um lucro de R\$ 10.000,00 entre dois funcionários. O primeiro recebeu R\$ 2.000,00 a mais que o segundo. Quanto cada funcionário recebeu?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 14. (Viagem de Ônibus)}
+Dois ônibus partem de cidades distantes 400 km uma da outra. O primeiro ônibus viaja a 70 km/h, e o segundo a 90 km/h. Em quanto tempo eles se encontrarão?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 15. (Produção de Camisetas)}
+Uma confecção produz camisetas de dois tamanhos: P e M. Para produzir uma camiseta P, são necessários 1,5 m de tecido, e para uma camiseta M, 2 m de tecido. Em um dia, foram usados 200 m de tecido para produzir 120 camisetas. Quantas camisetas de cada tamanho foram produzidas?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 16. (Venda de Frutas)}
+Um feirante vendeu 50 kg de maçãs e laranjas por R\$ 300,00. Se o preço do kg da maçã é R\$ 8,00 e o da laranja é R\$ 4,00, quantos kg de cada fruta ele vendeu?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 17. (Geometria: Triângulo)}
+Um triângulo tem perímetro de 30 cm. Sabendo que um lado é o dobro do outro e que o terceiro lado é 6 cm, determine as medidas dos lados.
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 18. (Economia Doméstica: Contas)}
+Uma família gasta R\$ 1.200,00 por mês com aluguel e energia elétrica. Sabe-se que o gasto com aluguel é R\$ 400,00 a mais que o gasto com energia. Quanto a família gasta com cada item?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 19. (Esportes: Futebol)}
+Em um jogo de futebol, um time marcou 20 gols no campeonato. Sabendo que o número de vitórias é o dobro do número de empates e que cada vitória vale 3 pontos e cada empate vale 1 ponto, quantas vitórias e quantos empates o time teve?
+\end{frame}
+
+\begin{frame}
+\frametitle{Questão 20. (Viagem de Avião)}
+Dois aviões partem de cidades distantes 1.200 km uma da outra. O primeiro avião viaja a 500 km/h, e o segundo a 700 km/h. Em quanto tempo após a partida eles se encontrarão?
+\end{frame}
+
+% Slide 7: Conclusão
+\begin{frame}{Conclusão}
+\begin{itemize}
+\item Sistemas de equações resolvem problemas práticos.
+\item Métodos principais: substituição e adição.
+\item Pratique com as atividades propostas!
+\end{itemize}
+
+\centering
+\textbf{Obrigado pela atenção!}
+\end{frame}
+
+\end{document}

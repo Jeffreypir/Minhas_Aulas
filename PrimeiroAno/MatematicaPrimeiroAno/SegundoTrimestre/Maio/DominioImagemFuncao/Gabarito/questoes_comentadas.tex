@@ -1,0 +1,155 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+
+% Cores personalizadas
+\definecolor{titleblue}{RGB}{0,80,150}
+\definecolor{sectionred}{RGB}{180,0,0}
+\definecolor{darkgreen}{RGB}{0,100,0}
+
+% Formatação de títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{titleblue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{sectionred}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{darkgreen}}{\thesubsubsection}{1em}{}
+
+\begin{document}
+
+\begin{multicols}{2}
+
+\section*{Respostas - Exercícios Básicos}
+
+\subsection*{1. Domínio das funções}
+
+\begin{enumerate}[label=\alph*)]
+    \item $f(x) = 5x - 2$ \\
+    \textbf{Resposta:} $\mathbb{R}$ \\
+    \textbf{Explicação:} Funções polinomiais de 1º grau estão definidas para todos os reais.
+    
+    \item $g(x) = \dfrac{x+1}{x-3}$ \\
+    \textbf{Resposta:} $\mathbb{R} - \{3\}$ \\
+    \textbf{Explicação:} Denominador não pode ser zero $\Rightarrow x \neq 3$
+    
+    \item $h(x) = \sqrt{2x - 6}$ \\
+    \textbf{Resposta:} $[3, +\infty)$ \\
+    \textbf{Explicação:} Radicando $\geq 0 \Rightarrow 2x - 6 \geq 0 \Rightarrow x \geq 3$
+\end{enumerate}
+
+\subsection*{2. Imagem das funções}
+
+\begin{enumerate}[label=\alph*)]
+    \item $f(x) = x^2 + 4$ \\
+    \textbf{Resposta:} $[4, +\infty)$ \\
+    \textbf{Explicação:} Valor mínimo ocorre em $x=0 \Rightarrow f(0)=4$
+    
+    \item $g(x) = -2x + 5$ \\
+    \textbf{Resposta:} $\mathbb{R}$ \\
+    \textbf{Explicação:} Funções lineares não constantes cobrem todos os reais
+    
+    \item $h(x) = \sqrt{9 - x^2}$ \\
+    \textbf{Resposta:} $[0, 3]$ \\
+    \textbf{Explicação:} Valor máximo $\sqrt{9}=3$ (quando $x=0$), mínimo $0$ (quando $x=\pm3$)
+\end{enumerate}
+
+\subsection*{3. Classificação V/F}
+
+\begin{enumerate}[label=\alph*)]
+    \item (F) O domínio de $f(x) = \dfrac{1}{x}$ é $\mathbb{R}$ \\
+    \textbf{Correção:} $\mathbb{R} - \{0\}$
+    
+    \item (V) A imagem de $f(x) = |x|$ é $[0, +\infty)$
+    
+    \item (F) $\sqrt{x^2} = x$ para todo $x \in \mathbb{R}$ \\
+    \textbf{Correção:} $\sqrt{x^2} = |x|$
+\end{enumerate}
+
+\subsection*{4. Associação}
+
+\begin{enumerate}[label=\alph*)]
+    \item $f(x) = \dfrac{1}{\sqrt{x}}$ $\Rightarrow$ (x > 0)
+    
+    \item $g(x) = \log(x+2)$ $\Rightarrow$ (x > -2)
+    
+    \item $h(x) = \dfrac{x}{x^2-4}$ $\Rightarrow$ (x $\neq \pm2$)
+\end{enumerate}
+
+\subsection*{5. Resolução}
+
+\begin{enumerate}[label=\alph*)]
+    \item Para $f(x) = \sqrt{4-x}$: \\
+    $f(0) = 2$, $f(4) = 0$, $f(5)$ não definido
+    
+    \item Domínio de $f(x) = \dfrac{1}{\sqrt{x-1}}$: \\
+    $x-1 > 0 \Rightarrow x > 1$ \\
+    \textbf{Resposta:} $(1, +\infty)$
+\end{enumerate}
+
+\section*{Respostas - Exercícios Intermediários}
+
+\subsection*{6. Gráficos, Domínio e Imagem}
+
+\begin{enumerate}[label=\alph*)]
+    \item $f(x) = x^2 - 4$ \\
+    \textbf{Domínio:} $\mathbb{R}$ \\
+    \textbf{Imagem:} $[-4, +\infty)$
+    
+    \item $g(x) = \dfrac{1}{x+2}$ \\
+    \textbf{Domínio:} $\mathbb{R} - \{-2\}$ \\
+    \textbf{Imagem:} $\mathbb{R} - \{0\}$
+\end{enumerate}
+
+\subsection*{7. Domínio máximo}
+
+\begin{enumerate}[label=\alph*)]
+    \item $f(x) = \dfrac{\sqrt{x}}{x^2-9}$ \\
+    \textbf{Resposta:} $[0, 3) \cup (3, +\infty)$
+    
+    \item $g(x) = \log(x^2 - 4)$ \\
+    \textbf{Resposta:} $(-\infty, -2) \cup (2, +\infty)$
+\end{enumerate}
+
+\subsection*{8. Problemas aplicados}
+
+\begin{enumerate}[label=\alph*)]
+    \item $A(r) = \pi r^2$ \\
+    \textbf{Domínio:} $r > 0$ \\
+    \textbf{Imagem:} $(0, +\infty)$
+    
+    \item $V(a) = a^3$ \\
+    \textbf{Domínio:} $a > 0$ \\
+    \textbf{Imagem:} $(0, +\infty)$
+\end{enumerate}
+
+\subsection*{9. Função por partes}
+
+\begin{enumerate}[label=\alph*)]
+    \item $f(x) = \begin{cases} 
+    x+2, & x < 1 \\ 
+    5, & x \geq 1 
+    \end{cases}$ \\
+    \textbf{Domínio:} $\mathbb{R}$ \\
+    \textbf{Imagem:} $(-\infty, 3) \cup \{5\}$
+\end{enumerate}
+
+\subsection*{10. Desafios}
+
+\begin{enumerate}[label=\alph*)]
+    \item Domínio de $f(x) = \sqrt{\dfrac{x-2}{x+3}}$ \\
+    \textbf{Resposta:} $(-\infty, -3) \cup [2, +\infty)$
+    
+    \item Imagem de $f(x) = \dfrac{x}{x^2+1}$ \\
+    \textbf{Resposta:} $\left[-\dfrac{1}{2}, \dfrac{1}{2}\right]$
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}

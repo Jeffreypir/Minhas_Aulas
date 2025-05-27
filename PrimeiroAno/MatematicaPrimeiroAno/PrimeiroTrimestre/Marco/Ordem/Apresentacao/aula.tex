@@ -1,0 +1,197 @@
+\documentclass[12pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath} % Para fórmulas matemáticas
+\usepackage{xcolor} % Para usar cores
+
+\usetheme{Berkeley}
+
+% Definir cores para títulos e subtítulos
+\setbeamercolor{frametitle}{fg=white}
+\setbeamercolor{framesubtitle}{fg=green}
+
+\title{\textcolor{white}{Ordem de Grandeza}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\frame{\titlepage}
+
+% Slide do sumário
+\begin{frame}
+    \frametitle{Sumário}
+    \tableofcontents
+\end{frame}
+
+\begin{frame}
+    \section{O que é Ordem de Grandeza?}
+    \frametitle{O que é Ordem de Grandeza?}
+    \framesubtitle{Definição}
+    \begin{itemize}
+        \item A ordem de grandeza de um número é a potência de dez mais próxima desse valor.
+        \item Para facilitar, comumente colocamos o número em notação científica.
+        \item Exemplo: O número 27.000 em notação científica é \(2,7 \times 10^4\), e sua ordem de grandeza é \(10^4\).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \section{Tipos de Ordem de Grandeza}
+    \frametitle{Tipos de Ordem de Grandeza}
+    \framesubtitle{Média Aritmética vs. Média Geométrica}
+    \begin{itemize}
+        \item \textbf{Média Aritmética}:
+            \begin{itemize}
+                \item Média entre 1 e 10: \(\frac{1 + 10}{2} = 5,5\).
+                \item Se \(m < 5,5\), a ordem de grandeza é \(10^n\).
+                \item Se \(m \geq 5,5\), a ordem de grandeza é \(10^{n+1}\).
+            \end{itemize}
+        \item \textbf{Média Geométrica}:
+            \begin{itemize}
+                \item Média entre 1 e 10: \(\sqrt{1 \times 10} \approx 3,16\).
+                \item Se \(m < 3,16\), a ordem de grandeza é \(10^n\).
+                \item Se \(m \geq 3,16\), a ordem de grandeza é \(10^{n+1}\).
+            \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \section{Como descobrir a ordem de grandeza de um número?}
+    \frametitle{Como descobrir a ordem de grandeza de um número?}
+
+        Para se obter a ordem de grandeza de determinado valor, é necessário seguir as etapas abaixo:
+        \begin{enumerate}
+            \item Convertê-lo em notação científica.
+            \item Analisar o valor que multiplica a potência:
+            \begin{itemize}
+                \item Pelo princípio da média aritmética, se o valor for menor que 5,5, a grandeza será \( 10^n \); se for igual ou maior, será \( 10^{n+1} \).
+                \item Pelo princípio da média geométrica, se o valor for menor que 3,16, a grandeza será \( 10^n \); se for igual ou maior, será \( 10^{n+1} \).
+            \end{itemize}
+        \end{enumerate}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Exemplos de Critérios de Arredondamento}
+    \framesubtitle{Aplicação dos Critérios}
+    \begin{itemize}
+        \item Número: 4,0 = \(4,0 \times 10^0\).
+        \begin{itemize}
+            \item Média Aritmética: \(4,0 < 5,5\) → Ordem de grandeza: \(10^0\).
+            \item Média Geométrica: \(4,0 > 3,16\) → Ordem de grandeza: \(10^1\).
+        \end{itemize}
+        \item Número: 7,0 = \(7,0 \times 10^0\).
+        \begin{itemize}
+            \item Média Aritmética: \(7,0 > 5,5\) → Ordem de grandeza: \(10^1\).
+            \item Média Geométrica: \(7,0 > 3,16\) → Ordem de grandeza: \(10^1\).
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Qual Critério Utilizar?}
+    \framesubtitle{Decisão entre Média Aritmética e Geométrica}
+    \begin{itemize}
+        \item Valores abaixo de 3,16: Ambos os critérios concordam (\(10^n\)).
+        \item Valores acima de 5,5: Ambos os critérios concordam (\(10^{n+1}\)).
+        \item Valores entre 3,16 e 5,5: Depende do critério escolhido.
+        \item Em vestibulares, evita-se números nessa faixa para evitar confusão.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \section{Exemplo 2: Ordem de Grandeza de um Disperso}
+    \frametitle{Exemplo 2: Ordem de Grandeza de um Disperso}
+
+    Um coloide é um tipo de mistura heterogênea composta por disperso (menor quantidade) e dispersante (meio onde o disperso é colocado). Os dispersos devem ter tamanhos entre \(0,000000001 \, \text{m}\) e \(0,000001 \, \text{m}\). 
+
+    Se um determinado disperso sólido possui \(0,00000087 \, \text{m}\), qual a sua ordem de grandeza?
+
+\end{frame}
+\begin{frame}
+    \section{Exemplo 2: Ordem de Grandeza de um Disperso}
+    \frametitle{Resolução}
+    O disperso sólido: \(0,00000087 \)
+     \vspace{6cm} 
+\end{frame}
+
+\begin{frame}
+    \section{Tabela de Prefixos e Ordens de Grandeza}
+    \frametitle{Tabela de Prefixos e Ordens de Grandeza}
+    \framesubtitle{Prefixos Comuns}
+    \begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+    Prefixo & Unidade & Ordem de Grandeza \\
+    \hline
+    Femto & f & \(10^{-15}\) \\
+    Pico & p & \(10^{-12}\) \\
+    Nano & n & \(10^{-9}\) \\
+    Micro & \(\mu\) & \(10^{-6}\) \\
+    Mili & m & \(10^{-3}\) \\
+    Quilo & k & \(10^{3}\) \\
+    Mega & M & \(10^{6}\) \\
+    Giga & G & \(10^{9}\) \\
+    Tera & T & \(10^{12}\) \\
+    \hline
+    \end{tabular}
+    \caption{Prefixos para ordens de grandeza}
+    \end{table}
+\end{frame}
+
+\begin{frame}
+    \section{Escalas de Ordem de Grandeza}
+    \frametitle{Escalas de Ordem de Grandeza}
+    \framesubtitle{Comprimento}
+    \begin{itemize}
+        \item \textbf{Subatômico}: \(0 \leq x < 10^{-15}\) (quarks, elétrons).
+        \item \textbf{Atômico para Celular}: \(10^{-15} < x < 10^{-6}\) (prótons, vírus).
+        \item \textbf{Escala Humana}: \(10^{-6} < x < 10^{6}\) (cabelo humano, Monte Everest).
+        \item \textbf{Astronômico}: \(10^{6} < x < \infty\) (Sol, galáxias).
+    \end{itemize}
+\end{frame}
+
+% Seção 10: Atividade
+\begin{frame}
+\section{Atividade: Ordem de Grandeza}
+\subsection{Exercícios}
+Nos exercícios abaixo encontre a ordem de grandeza utilize o método aritmético e geométrico.
+\begin{enumerate}
+    \item \textbf{Problema 1:} Converta o número \(4500\) g para quilogramas e determine a ordem de grandeza do valor obtido.
+    \item \textbf{Problema 2:} Converta o tempo de \(2,5\) horas para segundos e determine a ordem de grandeza do valor obtido.
+    \item \textbf{Problema 3:} Explique como você faria para converter \(1,2\) m para centímetros e determine a ordem de grandeza do valor obtido.
+\end{enumerate}
+\end{frame}
+
+
+
+\begin{frame}
+    \section{Conclusão}
+    \frametitle{Conclusão}
+    \begin{itemize}
+        \item A ordem de grandeza é uma ferramenta útil para estimar magnitudes de números muito grandes ou muito pequenos.
+        \item A notação científica facilita o cálculo da ordem de grandeza.
+        \item É importante entender os critérios de arredondamento para evitar erros.
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+    \section{Referências}
+    \frametitle{Referências}
+    \framesubtitle{Livros e Materiais Utilizados}
+    \begin{itemize}
+        \item TIPLER, Paul A.; MOSCA, Gene. \textbf{Física para Cientistas e Engenheiros}. 6ª ed. Rio de Janeiro: LTC, 2014.
+        \item HALLIDAY, David; RESNICK, Robert; WALKER, Jearl. \textbf{Fundamentos de Física}. 10ª ed. Rio de Janeiro: LTC, 2016.
+    \end{itemize}
+\end{frame}
+
+% Slide de encerramento (último slide)
+\begin{frame}
+\begin{center}
+    \textbf{\textcolor{blue}{\Large Obrigado pela atenção!}} \\[0.5cm]
+    \small{Professor: Jefferson} \\
+\end{center}
+\end{frame}
+
+\end{document}

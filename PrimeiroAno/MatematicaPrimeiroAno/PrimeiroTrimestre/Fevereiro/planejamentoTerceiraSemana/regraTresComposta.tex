@@ -1,0 +1,130 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem} % Para listas personalizadas
+\usepackage{xcolor} % Para usar cores
+\usepackage{titlesec} % Para personalizar títulos
+
+
+\geometry{a4paper, left=1cm, right=1cm, top=1.5cm, bottom=1.5cm}
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}} % Formato do título
+  {\thesection} % Número da seção
+  {1em} % Espaço entre número e título
+  {} % Código antes do título
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+\title{\textcolor{blue}{Grandezas:Regra de Três Composta}}
+\author{Professor: Jefferson}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+
+\begin{multicols}{2}
+
+\section*{Introdução à Regra de Três Composta}
+
+\subsection*{O que é Regra de Três Composta?}
+A regra de três composta é utilizada quando temos três ou mais grandezas relacionadas, que podem ser direta ou inversamente proporcionais. Diferente da regra de três simples, que envolve apenas duas grandezas, a composta exige análise das relações entre todas as grandezas envolvidas.
+
+\subsection*{Passos para Resolver}
+1. Identifique todas as grandezas envolvidas. \newline
+2. Verifique se são direta ou inversamente proporcionais. \newline  
+3. Monte a proporção isolando a grandeza de interesse  e resolva a equação.
+
+\subsection*{Exemplo 1:}
+\textbf{Problema:} Se 4 operários, trabalhando 6 horas por dia, constroem um muro em 10 dias, quantos dias levarão 6 operários, trabalhando 8 horas por dia, para construir o mesmo muro?
+
+\textbf{Esquema de Proporcionalidade:}
+\begin{itemize}
+    \item Operários (O) $\rightarrow$ Dias (D): \textbf{Inversamente proporcional} (↑ Operários, ↓ Dias).
+    \item Horas por dia (H) $\rightarrow$ Dias (D): \textbf{Inversamente proporcional} (↑ Horas, ↓ Dias).
+\end{itemize}
+
+\textbf{Resolução:}
+1. Montamos o esquema:
+\[
+\frac{O_1}{O_2} \times \frac{H_1}{H_2} = \frac{D_1}{D_2}
+\]
+2. Substituímos os valores e analisamos a proporção:
+\[
+    \underbrace{\frac{4}{6}}_{inversamente} \times \underbrace{\frac{6}{8}}_{inversamente} = \frac{10}{x}
+\]
+
+3. Organizamos a proporção e resolvemos:
+
+\[
+    \frac{6}{4} \times \frac{8}{6} = \frac{10}{x}
+\]
+
+\[
+\frac{2}{1} = \frac{10}{x} \Rightarrow 2x = 10  \Rightarrow x = 5 \text{ dias.}
+\]
+
+\subsection*{Exemplo 2:}
+\textbf{Problema:} Se 5 máquinas, trabalhando 8 horas por dia, produzem 200 peças em 4 dias, quantas peças serão produzidas por 7 máquinas, trabalhando 6 horas por dia, em 10 dias?
+
+\textbf{Esquema de Proporcionalidade:}
+\begin{itemize}
+    \item Máquinas (M) $\rightarrow$ Peças (P): \textbf{Diretamente proporcional} (↑ Máquinas, ↑ Peças).
+    \item Horas por dia (H) $\rightarrow$ Peças (P): \textbf{Diretamente proporcional} (↑ Horas, ↑ Peças).
+    \item Dias (D) $\rightarrow$ Peças (P): \textbf{Diretamente proporcional} (↑ Dias, ↑ Peças).
+\end{itemize}
+
+\textbf{Resolução:}
+1. Montamos o esquema:
+\[
+\frac{M_1}{M_2} \times \frac{H_1}{H_2} \times \frac{D_1}{D_2} = \frac{P_1}{P_2}
+\]
+2. Substituímos os valores e analisamos a proporção:
+
+\[
+\frac{5}{7} \times \frac{8}{6} \times \frac{4}{10} = \frac{200}{x}
+\]
+3. Organizamos a proporção e resolvemos::
+\[
+    \underbrace{\frac{5}{7}}_{diretamente} \times \underbrace{\frac{8}{6}}_{diretamente}
+    \times\underbrace{\frac{4}{10}}_{diretamente} = \frac{200}{x}
+\]
+
+\[
+\frac{160}{420} = \frac{200}{x} \Rightarrow x = 525 \text{ peças.}
+\]
+
+\section*{Atividade: Regra de Três Composta}
+
+Dados os problemas abaixo, encontre a variável de interesse, verifique as relações de proporcionalidade entre as
+grandezas e resolva as questões com as informações encontradas.
+
+\subsection*{Questão 1}
+\textbf{Problema:} Uma fábrica produz 1200 unidades de um produto em 5 dias, trabalhando 8 horas por dia com 10 máquinas. Quantas unidades serão produzidas em 7 dias, trabalhando 10 horas por dia com 12 máquinas?
+
+\subsection*{Questão 2}
+\textbf{Problema:} Um carro consome 40 litros de combustível para percorrer 500 km com 4 passageiros. Quantos litros serão necessários para percorrer 750 km com 5 passageiros, considerando que o consumo aumenta proporcionalmente com o número de passageiros?
+
+
+\subsection*{Questão 3}
+\textbf{Problema :} Uma equipe de 6 pedreiros constrói uma casa em 60 dias, trabalhando 8 horas por dia. Quantos dias serão necessários para que 8 pedreiros, trabalhando 6 horas por dia, construam a mesma casa?
+
+\subsection*{Questão 4}
+\textbf{Problema :} Uma torneira enche um tanque em 12 horas com uma vazão de 5 litros por minuto. Se a vazão for aumentada para 8 litros por minuto, em quanto tempo o tanque estará cheio?
+
+
+\end{multicols}
+
+\end{document}

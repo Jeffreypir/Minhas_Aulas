@@ -1,0 +1,94 @@
+
+Planejamento de Aprofundamento em Matemática do 1 ano  
+
+1º Trimestre – Conjuntos Numéricos, Expressões Algébricas e Equações do 1º Grau
+ Habilidades específicas (Currículo de Pernambuco 2025):
+
+    EM13MAT101PE01 – Resolver e elaborar problemas que envolvem as operações com números racionais, inclusive na forma decimal e fracionária, utilizando diferentes estratégias, tais como cálculo mental, algoritmos e estimativas.
+
+    EM13MAT102PE02 – Compreender as propriedades das operações aritméticas e algébricas nos diferentes conjuntos numéricos.
+
+    EM13MAT102: Resolver problemas que envolvam diferentes representações numéricas, inclusive notação científica.
+
+    EM13MAT403: Analisar informações expressas em tabelas, gráficos e planilhas eletrônicas.
+
+    EM13MAT103PE03 – Resolver e interpretar equações do 1º grau em contextos matemáticos e do cotidiano.
+
+    EM13MAT403 - Analisar informações expressas em tabelas, gráficos e planilhas eletrônicas.
+
+    EM13MAT401 - Coletar, organizar, apresentar e analisar dados, com o uso de diferentes representações (tabelas, gráficos, diagramas etc.) e tecnologias digitais, para comunicar resultados.
+
+ Objetivos / Competências:
+
+    Explorar os conjuntos numéricos (naturais, inteiros, racionais e reais).
+    Desenvolver habilidades de manipulação algébrica.
+    Resolver problemas que envolvem equações do 1º grau no cotidiano.
+    Resolver problemas de notação cientifica e grandezas.
+    Resolver problemas por meio de tecnologias.
+    Analizar e interpreta dados de diferentes fontes com/ou sem recursos digitais.
+
+ Procedimentos Metodológicos:
+
+    Aulas expositivas e práticas com exemplos do dia a dia.
+    Resolução de exercícios e desafios matemáticos.
+    Uso de softwares matemáticos e simulações digitais.
+
+ Procedimentos Avaliativos / Estratégias de Avaliação:
+
+    Provas escritas e listas de exercícios.
+    Atividades contextualizadas com aplicações reais.
+    Jogos matemáticos e desafios envolvendo equações.
+
+2º Trimestre – Funções, Razão e Proporção, Porcentagem e Estatística Descritiva
+ Habilidades específicas (Currículo de Pernambuco 2025):
+
+    EM13MAT105PE05 – Resolver problemas que envolvem funções do 1º grau, identificando padrões e interpretando gráficos e tabelas.
+    EM13MAT303PE23 – Compreender e utilizar os conceitos de razão, proporção e porcentagem em diferentes contextos, incluindo situações financeiras.
+    EM13MAT202PE12 – Coletar, organizar e interpretar dados estatísticos por meio de tabelas e gráficos.
+
+ Objetivos / Competências:
+
+    Interpretar e construir gráficos de funções do 1º grau.
+    Aplicar razão, proporção e porcentagem em problemas financeiros.
+    Compreender conceitos básicos de estatística descritiva.
+
+ Procedimentos Metodológicos:
+
+    Resolução de problemas contextualizados com estatísticas do IBGE.
+    Construção de tabelas e gráficos com dados reais.
+    Aplicação da matemática financeira em simulações práticas.
+
+ Procedimentos Avaliativos / Estratégias de Avaliação:
+
+    Simulados com questões do ENEM.
+    Atividades em grupo sobre estatísticas locais.
+    Provas e desafios matemáticos.
+
+3º Trimestre – Geometria Plana, Trigonometria Básica e Progressões
+ Habilidades específicas (Currículo de Pernambuco 2025):
+
+    EM13MAT403PE33 – Resolver problemas geométricos que envolvem perímetro, área e volume de figuras planas e espaciais.
+    EM13MAT601PE41 – Aplicar conceitos básicos de trigonometria no triângulo retângulo.
+    EM13MAT505PE38 – Compreender e resolver problemas envolvendo progressões aritméticas e geométricas.
+
+ Objetivos / Competências:
+
+    Calcular perímetros e áreas de figuras planas.
+    Aplicar relações trigonométricas básicas na resolução de problemas.
+    Identificar padrões em sequências numéricas e utilizar progressões aritméticas e geométricas.
+
+ Procedimentos Metodológicos:
+
+    Atividades práticas de construção geométrica.
+    Utilização de softwares de geometria dinâmica (Geogebra).
+    Resolução de problemas aplicados ao contexto real.
+
+ Procedimentos Avaliativos / Estratégias de Avaliação:
+
+    Trabalhos práticos com medições e cálculos.
+    Provas teóricas e práticas.
+    Apresentação de projetos sobre progressões e trigonometria no cotidiano.
+
+
+
+

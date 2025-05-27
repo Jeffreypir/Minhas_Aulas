@@ -1,0 +1,157 @@
+\documentclass[12pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath} % Para fórmulas matemáticas
+\usepackage{xcolor} % Para usar cores
+\usepackage{graphicx} % Para incluir imagens
+
+\usetheme{Berkeley}
+
+% Definir cores para títulos e subtítulos
+\setbeamercolor{frametitle}{fg=white}
+\setbeamercolor{framesubtitle}{fg=green}
+
+\title{\textcolor{white}{Grandezas Aplicadas à Informática}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\frame{\titlepage}
+
+% Slide do sumário
+\begin{frame}
+    \frametitle{Sumário}
+    \tableofcontents
+\end{frame}
+
+% Seção 1: Grandezas na Informática
+\section{Grandezas na Informática}
+\begin{frame}
+    \frametitle{Grandezas na Informática}
+    \framesubtitle{Unidades de Medida}
+    \begin{itemize}
+        \item \textbf{Bit (b)}: Menor unidade de informação (0 ou 1).
+        \item \textbf{Byte (B)}: 8 bits.
+        \item \textbf{Quilobyte (KB)}: \(1.024\) bytes.
+        \item \textbf{Megabyte (MB)}: \(1.024\) KB.
+        \item \textbf{Gigabyte (GB)}: \(1.024\) MB.
+        \item \textbf{Terabyte (TB)}: \(1.024\) GB.
+        \item \textbf{Petabyte (PB)}: \(1.024\) TB.
+    \end{itemize}
+    \textbf{Exemplo:}
+    \begin{itemize}
+        \item Um arquivo de 5 MB = \(5 \times 1.024 \times 1.024\) bytes.
+    \end{itemize}
+\end{frame}
+
+% Seção 2: Notação Científica na Informática
+\section{Notação Científica na Informática}
+\begin{frame}
+    \frametitle{Notação Científica na Informática}
+    \framesubtitle{Aplicações Práticas}
+    \begin{itemize}
+        \item \textbf{Tamanho de Arquivos}:
+        \begin{itemize}
+            \item 1 TB = \(1 \times 10^{12}\) bytes.
+            \item 1 GB = \(1 \times 10^9\) bytes.
+        \end{itemize}
+        \item \textbf{Velocidade de Transmissão}:
+        \begin{itemize}
+            \item 1 Gbps (Gigabit por segundo) = \(1 \times 10^9\) bits por segundo.
+        \end{itemize}
+        \item \textbf{Capacidade de Armazenamento}:
+        \begin{itemize}
+            \item Um HD de 2 TB = \(2 \times 10^{12}\) bytes.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+% Seção 3: Exemplos Práticos
+\section{Exemplos Práticos}
+\begin{frame}
+    \frametitle{Exemplos Práticos}
+    \framesubtitle{Conversão de Unidades}
+    \begin{itemize}
+        \item \textbf{Exemplo 1}: Converta 5 GB para bytes.
+        \[
+        5 \, \text{GB} = 5 \times 1.024 \times 1.024 \times 1.024 \, \text{bytes} \approx  5 \times 10^9 \, \text{bytes}.
+        \]
+        \item \textbf{Exemplo 2}: Converta 0,000000001 segundos para notação científica.
+        \[
+        0,000000001 \, \text{s} = 1 \times 10^{-9} \, \text{s}.
+        \]
+        \item \textbf{Exemplo 3}: Qual é a capacidade em bytes de um SSD de 500 GB?
+        \[
+        500 \, \text{GB} = 500 \times 1.024 \times 1.024 \times 1.024 \, \text{bytes} \approx  500 \times 10^9 \, \text{bytes}.
+        \]
+    \end{itemize}
+\end{frame}
+
+% Seção 4: Atividades
+\section{Atividades}
+\begin{frame}
+    \frametitle{Atividades}
+    \begin{enumerate}
+        \item Converta 3 TB para bytes usando notação científica.
+        \item Qual é a velocidade em bits por segundo de uma conexão de 10 Mbps?
+        \item Um pendrive tem capacidade de 64 GB. Quantos bytes ele pode armazenar?
+        \item Explique por que a notação científica é útil na informática.
+        \item Um filme em alta definição tem 4,7 GB. Quantos MB ele ocupa?
+    \end{enumerate}
+\end{frame}
+
+% Seção 5: Resolução das Atividades
+\section{Resolução das Atividades}
+\begin{frame}
+    \frametitle{Resolução das Atividades}
+    \begin{enumerate}
+        \item \textbf{Questão 1}: Converta 3 TB para bytes.
+        \[
+        3 \, \text{TB} = 3 \times 1.024 \times 1.024 \times 1.024 \times 1.024 \, \text{bytes} \approx 3 \times 10^{12} \, \text{bytes}.
+        \]
+        \item \textbf{Questão 2}: Velocidade de 10 Mbps.
+        \[
+        10 \, \text{Mbps} = 10 \times 10^6 \, \text{bits por segundo}.
+        \]
+        \item \textbf{Questão 3}: Pendrive de 64 GB.
+        \[
+        64 \, \text{GB} = 64 \times 1.024 \times 1.024 \times 1.024 \, \text{bytes} \approx  64 \times 10^9 \, \text{bytes}.
+        \]
+        \item \textbf{Questão 5}: Filme de 4,7 GB.
+        \[
+        4,7 \, \text{GB} = 4,7 \times 1.024 \, \text{MB} \approx  4.812,8 \, \text{MB}.
+        \]
+    \end{enumerate}
+\end{frame}
+
+% Seção 6: Conclusão
+\section{Conclusão}
+\begin{frame}
+    \frametitle{Conclusão}
+    \begin{itemize}
+        \item As grandezas na informática são essenciais para medir tamanhos de arquivos, velocidades de transmissão e capacidades de armazenamento.
+        \item A notação científica facilita a representação de números muito grandes ou muito pequenos.
+        \item Compreender essas grandezas é fundamental para o uso eficiente de recursos tecnológicos.
+    \end{itemize}
+\end{frame}
+
+% Seção 7: Referências
+\section{Referências}
+\begin{frame}
+    \frametitle{Referências}
+    \begin{itemize}
+        \item TANENBAUM, Andrew S. \textbf{Redes de Computadores}. 5ª ed. Rio de Janeiro: Elsevier, 2011.
+        \item STALLINGS, William. \textbf{Arquitetura e Organização de Computadores}. 8ª ed. São Paulo: Pearson, 2010.
+    \end{itemize}
+\end{frame}
+
+% Slide de encerramento
+\begin{frame}
+\begin{center}
+    \textbf{\textcolor{blue}{\Large Obrigado pela atenção!}} \\[0.5cm]
+    \small{Professor: Jefferson} \\
+\end{center}
+\end{frame}
+
+\end{document}

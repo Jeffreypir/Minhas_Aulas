@@ -1,0 +1,99 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+\geometry{a4paper, left=1cm, right=1cm, top=1.5cm, bottom=1.5cm}
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}}
+  {\thesection}
+  {1em}
+  {}
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+\title{\textcolor{blue}{Aula Prática no Laboratório: \\ Pensamento Computacional com Excel}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{multicols}{2}
+
+\section*{Introdução ao Excel}
+
+O Excel é uma ferramenta poderosa que pode ser usada para aplicar o pensamento computacional. Ele permite organizar dados, realizar cálculos e automatizar tarefas. Vamos explorar como usar o Excel para resolver problemas de forma eficiente.
+
+\section*{Exemplo Prático: Gerenciamento de Finanças Pessoais}
+
+Vamos aplicar o pensamento computacional para gerenciar finanças pessoais usando o Excel.
+
+\subsection*{1. Decomposição}
+Divida o problema em tarefas menores:
+\begin{itemize}
+    \item Listar todas as fontes de renda.
+    \item Listar todas as despesas.
+    \item Calcular o saldo mensal.
+    \item Identificar áreas para economizar.
+\end{itemize}
+
+\subsection*{2. Reconhecimento de Padrões}
+Identifique padrões:
+\begin{itemize}
+    \item Despesas recorrentes (aluguel, contas, etc.).
+    \item Rendas fixas e variáveis.
+\end{itemize}
+
+\subsection*{3. Abstração}
+Foque no essencial:
+\begin{itemize}
+    \item Não é necessário detalhar cada pequena despesa, apenas categorias principais.
+    \item Concentre-se nas despesas que têm maior impacto no orçamento.
+\end{itemize}
+
+\subsection*{4. Algoritmos}
+Crie um passo a passo:
+\begin{enumerate}
+    \item Crie uma planilha no Excel.
+    \item Liste todas as fontes de renda em uma coluna.
+    \item Liste todas as despesas em outra coluna.
+    \item Use fórmulas para calcular o saldo mensal.
+    \item Analise os dados para identificar áreas de economia.
+\end{enumerate}
+
+\section*{Atividade Prática}
+
+\subsection*{Atividade 1: Criando uma Planilha de Orçamento}
+Crie uma planilha no Excel para gerenciar suas finanças pessoais. Siga os passos abaixo:
+\begin{enumerate}
+    \item Abra o Excel e crie uma nova planilha.
+    \item Na coluna A, liste todas as suas fontes de renda.
+    \item Na coluna B, insira os valores correspondentes a cada fonte de renda.
+    \item Na coluna C, liste todas as suas despesas.
+    \item Na coluna D, insira os valores correspondentes a cada despesa.
+    \item Use a fórmula \texttt{=SOMA(B2:B10)} para calcular o total de renda.
+    \item Use a fórmula \texttt{=SOMA(D2:D10)} para calcular o total de despesas.
+    \item Use a fórmula \texttt{=B11-D11} para calcular o saldo mensal.
+\end{enumerate}
+
+\subsection*{Atividade 2: Analisando Dados}
+Analise os dados da sua planilha de orçamento e responda:
+\begin{itemize}
+    \item Qual é a sua principal fonte de renda?
+    \item Qual é a sua maior despesa?
+    \item Em quais áreas você pode economizar?
+\end{itemize}
+
+\end{multicols}
+
+\end{document}

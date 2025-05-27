@@ -1,0 +1,131 @@
+
+\documentclass{beamer}
+\usepackage[brazil]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+
+% Tema bonito para apresentação
+\usetheme{Madrid}
+
+\title{Gincana Matemática}
+\subtitle{Adição, Subtração, Multiplicação, Potência, Operações com Frações, Conversão de Unidades e Notação Científica}
+\author{Jefferson Bezerra dos Santos}
+\date{1º Ano do Ensino Médio}
+
+% Configuração do rodapé
+\setbeamertemplate{footline}{
+    \vspace{0.5em}
+    \hspace{1em}
+    \begin{minipage}{0.8\textwidth}
+        \small
+        \textbf{Mestre em Modelagem Matemática e Computacional - UFPB} \\
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.1\textwidth}
+        \centering
+        \textcolor{blue}{\insertframenumber}
+    \end{minipage}
+    \vspace{0.5em}
+}
+
+\begin{document}
+
+\frame{\titlepage}
+
+% Slide de introdução
+\begin{frame}{Introdução}
+    \begin{itemize}
+        \item Objetivo: Reforçar conceitos matemáticos de forma dinâmica e interativa.
+        \item Conteúdos: Adição, Subtração, Multiplicação, Potência, Operações com Frações, Conversão de Unidades e Notação Científica.
+        \item Duração: 2 aulas.
+        \item Metodologia: Competição em equipes com desafios matemáticos \cite{silva2018, souza2020, almeida2019, santos2021, pereira2022}.
+    \end{itemize}
+\end{frame}
+
+% Slide de organização
+\begin{frame}{Organização da Gincana}
+    \begin{itemize}
+        \item Formação de equipes com 5 a 6 alunos.
+        \item Cada rodada terá desafios com pontuações diferentes.
+        \item Uso de quadro, cartazes e folhas para resolução.
+        \item O grupo com mais pontos ao final vence.
+    \end{itemize}
+\end{frame}
+
+% Slide de Rodada 1
+\begin{frame}{Rodada 1: Adição e Subtração}
+    \begin{itemize}
+        \item Cada equipe resolverá 3 problemas de adição e subtração.
+        \item Resolução correta: +10 pontos.
+        \item Tempo máximo por questão: 1 minuto.
+    \end{itemize}
+\end{frame}
+
+% Slide de Rodada 2
+\begin{frame}{Rodada 2: Multiplicação e Potência}
+    \begin{itemize}
+        \item Desafios envolvendo multiplicações e potências.
+        \item Algumas questões terão "desafio bônus" para pontuação extra.
+        \item Resolução correta: +15 pontos.
+    \end{itemize}
+\end{frame}
+
+% Slide de Rodada 3
+\begin{frame}{Rodada 3: Operações com Frações}
+    \begin{itemize}
+        \item Cálculos envolvendo soma, subtração, multiplicação e divisão de frações.
+        \item Equipe que responde primeiro corretamente ganha pontos extras.
+        \item Resolução correta: +20 pontos.
+    \end{itemize}
+\end{frame}
+
+% Slide de Rodada 4
+\begin{frame}{Rodada 4: Conversão de Unidades}
+    \begin{itemize}
+        \item Problemas envolvendo conversão de unidades de medida (comprimento, massa, tempo, etc.).
+        \item Resolução correta: +15 pontos.
+        \item Questões bônus para conversões mais complexas.
+    \end{itemize}
+\end{frame}
+
+% Slide de Rodada 5
+\begin{frame}{Rodada 5: Notação Científica}
+    \begin{itemize}
+        \item Exercícios envolvendo escrita e operações com notação científica.
+        \item Aplicação da notação científica em situações do cotidiano.
+        \item Resolução correta: +15 pontos.
+    \end{itemize}
+\end{frame}
+
+% Slide de Código de Conduta
+\begin{frame}{Código de Conduta}
+    \begin{itemize}
+        \item Manter a sala organizada antes, durante e após a gincana.
+        \item Jogar lixo no lixo e manter o ambiente limpo.
+        \item Respeitar os colegas e colaborar para um ambiente saudável.
+        \item Seguir as orientações do professor para um evento harmonioso.
+    \end{itemize}
+\end{frame}
+
+% Slide de Encerramento
+\begin{frame}{Encerramento e Premiação}
+    \begin{itemize}
+        \item Somatória de pontos das equipes.
+        \item Anúncio da equipe vencedora.
+        \item Premiação simbólica de brinde (bis ou equivalente).
+        \item Reflexão sobre os conteúdos revisados.
+    \end{itemize}
+\end{frame}
+
+% Slide de Referências
+\begin{frame}{Referências}
+    \begin{thebibliography}{99}
+        \bibitem{silva2018} SILVA, J. Métodos lúdicos para o ensino da matemática. São Paulo: Editora Acadêmica, 2018.
+        \bibitem{souza2020} SOUZA, M. Aprendizagem baseada em jogos na educação básica. Rio de Janeiro: Educação \& Tecnologia, 2020.
+        \bibitem{almeida2019} ALMEIDA, R. Educação Matemática e suas metodologias. Curitiba: Editora Pedagógica, 2019.
+        \bibitem{santos2021} SANTOS, P. Etnomatemática: cultura e aprendizagem. Fortaleza: Educação Global, 2021.
+        \bibitem{pereira2022} PEREIRA, L. Matemática aplicada e suas conexões. Brasília: Editora Científica, 2022.
+    \end{thebibliography}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,109 @@
+
+Planejamento do Primeiro Timestre do 1 ano 
+
+a) Habilidades especificas a serem desenvolvidas:
+
+(EM13MAT313PE29) Utilizar, quando necessário, a notação científica e sua ordem de grandeza, para expressar medida, compreendendo as noções de algarismos significativos e duvidosos, reconhecendo que toda medida é uma aproximação, consequência das limitações de sentido e imprecisão dos instrumentos, com e/ou sem apoio de tecnologias digitais.
+
+
+(EM13MAT314PE30) Resolver e elaborar situações-problema, envolvendo grandezas determinadas pela razão ou pelo produto de outras, explorando a noção de grandezas como aceleração, densidade, energia elétrica, entre outras.
+
+(EM13MAT103PE05) Compreender a ideia de grandeza e as conversões possíveis entre elas, identificando-as a partir de experimentos, textos científicos e/ou midiáticos.
+
+(EM13MAT103PE06) Interpretar textos científicos ou midiáticos, identificando unidades de medida de diferentes grandezas como também as conversões possíveis entre essas unidades inseridas ou não no Sistema Internacional (SI), como, por exemplo, quilômetro, toneladas, megabyte, entre outras.
+
+(EM13MAT301PE17) Resolver e elaborar situações-problema do cotidiano, envolvendo a matemática e/ou outros domínios do conhecimento em torno das equações lineares simultâneas, por exemplo, sistemas de equações do 1º grau, utilizando técnicas algébricas (substituição, escalonamento etc.) e gráficas, com e/ou sem apoio de tecnologias digitais.
+
+(EM13MAT510PE49) Investigar conjuntos de dados relativos ao comportamento de duas variáveis numéricas de acordo com a lei de formação que determina o comportamento das variáveis, usando ou não tecnologias da informação, e, quando apropriado, levando em conta a variação e utilização de uma reta para descrever a relação observada.
+
+(EM13MAT201PE14) Mobilizar conceitos e propriedades para estabelecer as fórmulas de medida da área e do volume em figuras geométricas, podendo associá-las aos conceitos de “função área” e de “função volume”, com e/ou sem o uso de tecnologias digitais.
+
+(EM13MAT307PE23) Utilizar diferentes modelos de situações-problema para a obtenção da medida da área de uma superfície por meio, por exemplo, da aproximação por cortes, composição e decomposição, entre outros, deduzindo expressões de cálculos, com e/ou sem apoio de tecnologias digitais.
+
+b) Objetivos / Competências a serem desenvolvidas:
+
+Notação Científica, Medidas e Ordem de Grandeza
+
+Algarismos significativos e duvidosos.
+Grandezas: Razão ou produto de outras grandezas.
+
+Ideia e Conversão de Grandezas.
+Unidades de Medida de uma Grandeza.
+
+Sistema Internacional (SI).
+Equações Lineares e Sistemas de Equações do 1º Grau.
+Variáveis Numéricas e Conjunto de Dados Numéricos.
+Medição e Cálculo de Perímetro, Área, Volume, Capacidade e Massa.
+
+Funções Algébricas.
+Conceitos, Propriedades e Medidas de Área e Volume.
+Área de Figuras Geométricas Planas.
+
+c) Procedimentos Metodológicos:
+
+Aulas Expositivas e Dialogadas
+
+    Introdução aos conceitos teóricos com exemplos do cotidiano, como cálculo de consumo energético, escalas geográficas e unidades de armazenamento digital.
+    Discussão sobre erros em medições e a importância da precisão nos cálculos.
+
+Resolução de Problemas Aplicados
+
+    Exercícios práticos envolvendo notação científica, medidas e conversões entre unidades.
+    Problemas contextualizados, como estimativas de distâncias astronômicas e variações de temperatura.
+    Modelagem matemática de situações do dia a dia utilizando equações lineares.
+
+Atividades Experimentais e Simulações
+
+    Realização de medições com instrumentos como balanças, réguas e cronômetros para análise de precisão e erro experimental.
+    Uso de planilhas eletrônicas para manipulação de conjuntos de dados numéricos e cálculos automatizados.
+
+Uso de Tecnologias e Recursos Digitais
+
+    Aplicação de softwares matemáticos para resolver sistemas de equações e visualizar gráficos.
+    Simulações interativas sobre unidades de medida e conversões automáticas.
+
+Estudo de Casos e Análises Críticas
+
+    Leitura e interpretação de artigos científicos e reportagens com dados numéricos.
+    Discussão sobre a aplicação de funções matemáticas na engenharia, física e economia.
+
+Atividades em Grupo e Projetos Colaborativos
+
+    Resolução colaborativa de problemas matemáticos, estimulando o trabalho em equipe.
+    Desenvolvimento de apresentações sobre grandezas e sistemas de medidas.
+
+
+d) Procedimentos Avaliativos / Estratégias de Avaliação:
+
+Listas de Exercícios e Testes Escritos
+
+    Atividades individuais para avaliar a compreensão dos conceitos.
+    Exercícios progressivos, do básico ao avançado, abordando notação científica, equações e medições.
+
+Trabalhos Práticos e Relatórios
+
+    Análise de medições experimentais e interpretação de dados.
+    Desenvolvimento de relatórios sobre grandezas e conversões, incluindo gráficos e tabelas.
+
+Provas Objetivas e Discursivas
+
+    Questões que exigem interpretação e aplicação dos conteúdos estudados.
+    Problemas descritivos que envolvam cálculos e justificativas matemáticas.
+
+Apresentações e Seminários
+
+    Exposição de conceitos e resolução de problemas em grupo.
+    Discussão e argumentação matemática sobre aplicações práticas.
+
+Autoavaliação e Avaliação por Pares
+
+    Reflexão dos alunos sobre seu próprio desempenho e aprendizado.
+    Troca de feedback entre os colegas para aprimoramento contínuo.
+
+Participação em Atividades e Discussões
+
+    Engajamento nas aulas e colaboração em atividades coletivas.
+    Contribuição com ideias e resolução de desafios propostos.
+
+
+

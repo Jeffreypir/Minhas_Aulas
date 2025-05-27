@@ -1,0 +1,242 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem} % Para listas personalizadas
+\usepackage{xcolor} % Para usar cores
+\usepackage{titlesec} % Para personalizar títulos
+
+\geometry{a4paper, left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm}
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}} % Formato do título
+  {\thesection} % Número da seção
+  {1em} % Espaço entre número e título
+  {} % Código antes do título
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+\title{\textcolor{blue}{Função do 1º Grau e Proporcionalidade}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\setlength{\columnsep}{20pt} % Espaço entre as colunas
+\setlength{\columnseprule}{0.4pt} % Espessura da linha de separaçã
+
+
+
+\begin{multicols}{2}
+
+\section*{1. O que é uma Função do 1º Grau?}
+
+\subsection*{Definição}
+Uma função do 1º grau é uma relação entre duas variáveis que pode ser expressa na forma:
+\[
+f(x) = ax + b
+\]
+onde:
+\begin{itemize}
+    \item \(a\) e \(b\) são constantes reais, com \(a \neq 0\).
+    \item \(x\) é a variável independente.
+    \item \(f(x)\) é a variável dependente.
+\end{itemize}
+
+\subsection*{Relação com Proporcionalidade}
+A função do 1º grau está diretamente relacionada à proporcionalidade:
+\begin{itemize}
+    \item Se \(b = 0\), a função é \textbf{diretamente proporcional} (\(f(x) = ax\)).
+    \item Se \(b \neq 0\), a função é \textbf{linear}, mas não diretamente proporcional.
+\end{itemize}
+
+\subsection*{Exemplo 1:}
+\textbf{Problema:} Dada a função \(f(x) = 2x + 3\), calcule \(f(4)\).
+
+\textbf{Resolução:}
+\[
+f(4) = 2 \times 4 + 3 = 8 + 3 = 11
+\]
+
+\subsection*{Exemplo 2:}
+\textbf{Problema:} Dada a função \(f(x) = -x + 5\), calcule \(f(-2)\).
+
+\textbf{Resolução:}
+\[
+f(-2) = -(-2) + 5 = 2 + 5 = 7
+\]
+
+\subsection*{Atividades}
+
+1. Dada a função \(f(x) = 3x - 4\), calcule \(f(2)\) e \(f(-1)\). 
+
+2. Dada a função \(f(x) = -2x + 6\), calcule \(f(3)\) e \(f(0)\).
+
+3. Escreva a função do 1º grau que representa o custo de um serviço que cobra R\$ 30,00 de taxa fixa mais R\$ 15,00 por hora trabalhada. Calcule o custo para 4 horas.
+
+4. Identifique se as funções abaixo são diretamente proporcionais:
+   - \(f(x) = 5x\)
+   - \(f(x) = 3x + 2\)
+   - \(f(x) = -4x\)
+
+\section*{2. Gráfico da Função do 1º Grau}
+
+\subsection*{Construção do Gráfico}
+O gráfico de uma função do 1º grau é uma reta. Para construir o gráfico, basta determinar dois pontos que satisfaçam a equação e traçar a reta que passa por eles.
+
+\subsection*{Exemplo 1:}
+\textbf{Problema:} Construa o gráfico da função \(f(x) = 2x + 1\).
+
+\textbf{Resolução:}
+1. Escolha dois valores para \(x\):
+\[
+x = 0 \Rightarrow f(0) = 2 \times 0 + 1 = 1
+\]
+\[
+x = 1 \Rightarrow f(1) = 2 \times 1 + 1 = 3
+\]
+2. Os pontos são \((0, 1)\) e \((1, 3)\).
+3. Trace a reta que passa por esses pontos.
+
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+\draw[->] (-1, 0) -- (4, 0) node[right]{\(x\)};
+\draw[->] (0, -1) -- (0, 4) node[above]{\(y\)};
+\draw[domain=-0.5:3.5, smooth, variable=\x, blue] plot ({\x}, {2*\x + 1});
+\filldraw (0, 1) circle (2pt) node[above left]{\((0, 1)\)};
+\filldraw (1, 3) circle (2pt) node[above left]{\((1, 3)\)};
+\end{tikzpicture}
+\end{center}
+
+\subsection*{Exemplo 2:}
+\textbf{Problema:} Construa o gráfico da função \(f(x) = -x + 4\).
+
+\textbf{Resolução:}
+1. Escolha dois valores para \(x\):
+\[
+x = 0 \Rightarrow f(0) = -0 + 4 = 4
+\]
+\[
+x = 2 \Rightarrow f(2) = -2 + 4 = 2
+\]
+2. Os pontos são \((0, 4)\) e \((2, 2)\).
+3. Trace a reta que passa por esses pontos.
+
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+\draw[->] (-1, 0) -- (4, 0) node[right]{\(x\)};
+\draw[->] (0, -1) -- (0, 5) node[above]{\(y\)};
+\draw[domain=-0.5:3.5, smooth, variable=\x, red] plot ({\x}, {-\x + 4});
+\filldraw (0, 4) circle (2pt) node[above left]{\((0, 4)\)};
+\filldraw (2, 2) circle (2pt) node[above left]{\((2, 2)\)};
+\end{tikzpicture}
+\end{center}
+
+\subsection*{Atividades}
+1. Construa o gráfico da função \(f(x) = 3x - 2\).
+
+2. Construa o gráfico da função \(f(x) = -2x + 5\).
+
+3. Dada a função \(f(x) = x + 1\), identifique dois pontos e trace o gráfico.
+
+4. Explique por que o gráfico de \(f(x) = 4x\) passa pela origem \((0, 0)\).
+
+\section*{3. Coeficiente Angular e Linear}
+
+\subsection*{Coeficiente Angular (\(a\))}
+O coeficiente angular (\(a\)) determina a inclinação da reta:
+\begin{itemize}
+    \item Se \(a > 0\), a reta é crescente.
+    \item Se \(a < 0\), a reta é decrescente.
+\end{itemize}
+
+\subsection*{Coeficiente Linear (\(b\))}
+O coeficiente linear (\(b\)) indica onde a reta intercepta o eixo \(y\).
+
+\subsection*{Exemplo 1:}
+\textbf{Problema:} Dada a função \(f(x) = 3x - 2\), identifique o coeficiente angular e linear.
+
+\textbf{Resolução:}
+\[
+a = 3 \quad (\text{coeficiente angular})
+\]
+\[
+b = -2 \quad (\text{coeficiente linear})
+\]
+
+\subsection*{Exemplo 2:}
+\textbf{Problema:} Dada a função \(f(x) = -2x + 5\), identifique o coeficiente angular e linear.
+
+\textbf{Resolução:}
+\[
+a = -2 \quad (\text{coeficiente angular})
+\]
+\[
+b = 5 \quad (\text{coeficiente linear})
+\]
+
+\subsection*{Atividades}
+1. Identifique o coeficiente angular e linear da função \(f(x) = 4x - 7\).
+
+2. Dada a função \(f(x) = -3x + 6\), determine se a reta é crescente ou decrescente.
+
+3. Escreva a função do 1º grau que tem coeficiente angular \(a = 5\) e coeficiente linear \(b = -3\).
+
+4. Explique o significado do coeficiente linear no gráfico de uma função do 1º grau.
+
+\section*{4. Aplicações da Função do 1º Grau e Proporcionalidade}
+
+\subsection*{Grandezas Diretamente Proporcionais}
+Duas grandezas são diretamente proporcionais quando uma aumenta na mesma proporção que a outra. Na função do 1º grau, isso ocorre quando \(b = 0\) (\(f(x) = ax\)).
+
+\subsection*{Exemplo 1:}
+\textbf{Problema:} Um táxi cobra R\$ 2,00 por quilômetro rodado. Escreva a função que representa o custo da corrida e calcule o custo para 10 km.
+
+\textbf{Resolução:}
+1. Função do custo:
+\[
+C(x) = 2x
+\]
+2. Custo para 10 km:
+\[
+C(10) = 2 \times 10 = 20 \text{ reais}
+\]
+
+\subsection*{Grandezas Inversamente Proporcionais}
+Duas grandezas são inversamente proporcionais quando uma aumenta na proporção inversa da outra. Isso pode ser modelado por funções do tipo \(f(x) = \frac{k}{x}\), mas não é uma função do 1º grau.
+
+\subsection*{Exemplo 2:}
+\textbf{Problema:} Se 4 operários constroem um muro em 10 dias, quantos dias levarão 8 operários para construir o mesmo muro? (Considere que o trabalho é inversamente proporcional ao número de operários.)
+
+\textbf{Resolução:}
+1. Relação inversamente proporcional:
+\[
+4 \times 10 = 8 \times x
+\]
+2. Resolvendo para \(x\):
+\[
+x = \frac{4 \times 10}{8} = 5 \text{ dias}
+\]
+
+\subsection*{Atividades}
+1. Um carro consome 10 litros de combustível para percorrer 100 km. Escreva a função que representa o consumo e calcule o consumo para 250 km.
+
+2. Se 6 máquinas produzem 120 peças em 4 horas, quantas peças serão produzidas por 8 máquinas em 6 horas? (Considere que a produção é diretamente proporcional ao número de máquinas e ao tempo.)
+
+3. Se 10 pedreiros constroem uma casa em 30 dias, quantos dias levarão 15 pedreiros para construir a mesma casa? (Considere que o trabalho é inversamente proporcional ao número de pedreiros.)
+
+4. Uma torneira enche um tanque em 12 horas com uma vazão de 5 litros por minuto. Se a vazão for aumentada para 8 litros por minuto, em quanto tempo o tanque estará cheio? (Considere que o tempo é inversamente proporcional à vazão.)
+
+\end{multicols}
+
+\end{document}

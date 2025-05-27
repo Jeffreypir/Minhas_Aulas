@@ -1,0 +1,233 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath} % Fonte Times New Melhor renderiza
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem} % Para listas personalizadas
+\usepackage{xcolor} % Para usar cores
+\usepackage{titlesec} % Para personalizar títulos
+
+% Ajusta o espaçamento antes e depois das seções
+\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{8pt}{8pt}{8pt}
+
+\titleformat{\subsection}[block]{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{6pt}{6pt}{6pt}
+
+\titleformat{\subsubsection}[block]{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{6pt}{6pt}{6pt}
+
+
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+
+\setlength{\columnseprule}{0.4pt}  % Linha dividindo as colunas 
+\setlength{\baselineskip}{1.0\baselineskip} % Espaçamento simples
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}} % Formato do título
+  {\thesection} % Número da seção
+  {1em} % Espaço entre número e título
+  {} % Código antes do título
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+\title{\textcolor{blue}{Equação do 1º Grau - Entendendo e Aplicando}}
+\author{Professor: Jefferson}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}  % Ajuste o valor conforme necessário
+
+
+\begin{multicols}{2}
+
+\subsection*{Questão 1. (Análise de Planos)}
+Para encontrar a distância em que os dois planos têm o mesmo custo, igualamos as expressões dos custos totais:
+
+\[
+15 + 2.50x = 30 + 1.80x
+\]
+
+Resolvendo para \(x\):
+
+\[
+x = \frac{15}{0.70} \approx 21.43 \text{ km}
+\]
+
+\textbf{Resposta:} Os dois planos terão o mesmo custo após aproximadamente \boxed{21.43 \text{ km}}.
+
+
+
+\subsection*{Questão 2. (Comparação de Descontos)}
+Igualando os custos totais para \(n\) camisas:
+
+\[
+0.80 \times 120n = 120n - 30
+\]
+
+Resolvendo para \(n\):
+
+\[
+n = \frac{30}{24} = 1.25
+\]
+
+Como \(n\) deve ser inteiro, arredondamos para cima:
+
+\[
+n = 2
+\]
+
+\textbf{Resposta:} A \textbf{Opção 1} se torna mais vantajosa a partir de \boxed{2 \text{ camisas}}.
+
+
+
+\subsection*{Questão 3. (Proporcionalidade Ambiental)}
+A proporção é \(5 \text{ kg} = 1 \text{ árvore}\). Para \(120 \text{ kg}\):
+
+\[
+\text{Árvores preservadas} = \frac{120}{5} = 24 \text{ árvores}
+\]
+
+\textbf{Resposta:} Foram preservadas \boxed{24 \text{ árvores}}.
+
+
+
+\subsection*{Questão 5. (Geometria Aplicada)}
+Seja \(x\) a medida de um dos lados iguais. A base mede \(3x\). O perímetro é:
+
+\[
+x + x + 3x = 50
+\]
+
+Resolvendo para \(x\):
+
+\[
+x = 10 \text{ metros}
+\]
+
+A base mede:
+
+\[
+3x = 30 \text{ metros}
+\]
+
+\textbf{Resposta:} Os lados iguais medem \boxed{10 \text{ metros}} cada, e a base mede \boxed{30 \text{ metros}}.
+
+
+
+\subsection*{Questão 6. (Economia Doméstica)}
+A família deseja gastar no máximo R\$ 150,00. Atualmente, gastam:
+
+\[
+0.50 \times 400 = 200 \text{ reais}
+\]
+
+Para reduzir o gasto para R\$ 150,00:
+
+\[
+0.50(400 - x) = 150
+\]
+
+Resolvendo para \(x\):
+
+\[
+x = 100 \text{ m³}
+\]
+
+\textbf{Resposta:} Eles precisam reduzir o consumo em \boxed{100 \text{ m³}}.
+
+
+
+\subsection*{Questão 7. (Escolha de Pacotes)}
+Custo por MB:
+
+- \textbf{Básico:} \(\frac{80}{100} = 0.80\) reais/MB
+- \textbf{Premium:} \(\frac{140}{200} = 0.70\) reais/MB
+
+\textbf{Resposta:} O \textbf{Pacote Premium} é mais econômico por MB desde o \boxed{\text{primeiro mês}}.
+
+
+
+\subsection*{Questão 8. (Movimento Uniforme)}
+A distância total é 600 km. A soma das distâncias percorridas é:
+
+\[
+80t + 70t = 600
+\]
+
+Resolvendo para \(t\):
+
+\[
+t = 4 \text{ horas}
+\]
+
+\textbf{Resposta:} Os trens se encontrarão após \boxed{4 \text{ horas}}.
+
+
+
+\subsection*{Questão 9. (Sustentabilidade)}
+Custo total em função do tempo \(t\):
+
+- \textbf{LED:} \(40 + 0.010 \times 0.80 \times t\)
+- \textbf{Incandescente:} \(5 + 0.060 \times 0.80 \times t\)
+
+Igualando os custos:
+
+\[
+40 + 0.008t = 5 + 0.048t
+\]
+
+Resolvendo para \(t\):
+
+\[
+t = 875 \text{ horas}
+\]
+
+\textbf{Resposta:} O custo total da \textbf{LED} se torna menor que o da \textbf{incandescente} após \boxed{875 \text{ horas}}.
+
+
+
+\subsection*{Questão 10. (Grandezas)}
+Taxa de produção:
+
+\[
+\frac{120}{5} = 24 \text{ peças/hora}
+\]
+
+Em 8 horas:
+
+\[
+24 \times 8 = 192 \text{ peças}
+\]
+
+\textbf{Resposta:} A máquina produzirá \boxed{192 \text{ peças}} em 8 horas.
+
+
+
+\subsection*{Questão 11. (Grandezas)}
+Distância percorrida:
+
+\[
+60 \times 4 = 240 \text{ km}
+\]
+
+Tempo com velocidade de 80 km/h:
+
+\[
+\frac{240}{80} = 3 \text{ horas}
+\]
+
+\textbf{Resposta:} O carro levará \boxed{3 \text{ horas}} para percorrer a mesma distância.
+
+\end{multicols}
+
+\end{document}
+

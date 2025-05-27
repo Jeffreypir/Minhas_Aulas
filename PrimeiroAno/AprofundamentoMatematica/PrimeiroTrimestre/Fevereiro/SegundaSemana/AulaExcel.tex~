@@ -1,0 +1,120 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+\geometry{a4paper, left=1cm, right=1cm, top=1.5cm, bottom=1.5cm}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}}
+  {\thesection}
+  {1em}
+  {}
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+
+\title{\textcolor{blue}{Uso do Excel para Resolver Problemas de Grandezas Proporcionais}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{Introdução ao Uso do Excel}
+
+O Microsoft Excel é uma ferramenta poderosa para resolver problemas matemáticos de maneira eficiente. Ele permite criar tabelas, aplicar fórmulas e visualizar gráficos para entender melhor a relação entre as grandezas.
+
+\subsection*{Fórmulas Básicas no Excel}
+As fórmulas do Excel seguem uma estrutura simples, sempre iniciando com ``=``. Algumas fórmulas úteis incluem:
+
+\begin{itemize}
+    \item Soma: \texttt{=SOMA(A1:A5)}
+    \item Multiplicação: \texttt{=A1*A2}
+    \item Regra de Três Simples: \texttt{=(B1*C1)/A1}
+    \item Regra de Três Composta: \texttt{=(B1*C1*D1)/(A1*E1)}
+\end{itemize}
+
+
+\subsection*{Exemplos de Operações no Excel}
+
+\begin{itemize}
+    \item Soma: Para somar os valores das células A1 e A2, a fórmula é:
+    \[
+    \mathtt{= A1 + A2}
+    \]
+    Exemplo: Se A1 = 10 e A2 = 5, o resultado será 15.
+
+    \item Subtração: Para subtrair o valor de A2 de A1, a fórmula é:
+    \[
+    \mathtt{= A1 - A2}
+    \]
+    Exemplo: Se A1 = 10 e A2 = 5, o resultado será 5.
+
+    \item Multiplicação: Para multiplicar os valores de A1 e A2, a fórmula é:
+    \[
+    \mathtt{= A1 \times A2}
+    \]
+    Exemplo: Se A1 = 10 e A2 = 5, o resultado será 50.
+
+    \item Divisão: Para dividir o valor de A1 por A2, a fórmula é:
+    \[
+    \mathtt{= \frac{A1}{A2}}
+    \]
+    Exemplo: Se A1 = 10 e A2 = 5, o resultado será 2.
+\end{itemize}
+
+\section*{Grandezas Diretas e Inversas}
+
+\subsection*{Grandezas Diretamente Proporcionais}
+Quando duas grandezas aumentam ou diminuem juntas, dizemos que são diretamente proporcionais. No Excel, podemos calcular o valor desconhecido com a fórmula:
+\[
+X = \frac{B1 \times C1}{A1}
+\]
+Exemplo:
+Se 5 máquinas produzem 1200 peças quantas peças produziram 12 máquinas?
+\[
+\mathtt{= \frac{(1200 \times 12)}{5}} \Rightarrow 2880 \, \text{dias}.
+\]
+
+\subsection*{Grandezas Inversamente Proporcionais}
+Quando uma grandeza aumenta e a outra diminui, são inversamente proporcionais. A fórmula no Excel é:
+\[
+X = \frac{A1 \times B1}{C1}
+\]
+Exemplo:
+Se um carro a 60 km/h faz um trajeto em 3 horas, quanto tempo levará a 80 km/h?
+\[
+\mathtt{= \frac{(60 \times 3)}{80}} \Rightarrow 2,25 \, \text{horas}.
+\]
+
+\section*{Atividade: Aplicação no Excel}
+
+Crie uma planilha no Excel e resolva os seguintes problemas utilizando fórmulas:
+
+\subsection*{Questão 1}
+Um caminhão transporta 100 sacos de cimento em 5 viagens. Quantos sacos levará em 8 viagens?
+
+\subsection*{Questão 2}
+Se 4 torneiras enchem um tanque em 10 horas, quantas horas levarão 6 torneiras?
+
+\subsection*{Questão 3}
+Uma equipe de 8 trabalhadores constrói um muro em 15 dias. Quantos dias levará uma equipe de 10 trabalhadores?
+
+\end{multicols}
+
+\end{document}
+
