@@ -1,0 +1,92 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+
+\usetheme{Berkeley}
+
+\title{Cultura Oceânica e sua Relação com o Sertão}
+\subtitle{Como o oceano influencia nossas vidas, mesmo longe do mar}
+\author{Grupo de Pesquisa - Tecnologias e Sustentabilidade}
+\institute{EREFEM Monsenhor José Kehrle}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+% Slide 1: Introdução (Estudante 1)
+\begin{frame}{Introdução}
+\justifying
+\textbf{Estudante 1:} \\
+"Olá! Somos estudantes do sertão nordestino, e hoje vamos falar sobre a Cultura Oceânica. Mesmo vivendo longe do mar, o oceano tem um impacto direto em nossas vidas. Ele influencia o clima, a economia e até a cultura da nossa região."
+\end{frame}
+
+% Slide 2: O Oceano e o Clima (Estudante 2)
+\begin{frame}{O Oceano e o Clima}
+\justifying
+\textbf{Estudante 2:} \\
+"O oceano é responsável por regular o clima do planeta. Ele controla as correntes marítimas e o ciclo da água, que trazem as chuvas tão importantes para o sertão. Sem o oceano, nosso semiárido seria ainda mais seco e difícil de viver."
+\end{frame}
+
+% Slide 3: O Oceano e o Oxigênio (Estudante 3)
+\begin{frame}{O Oceano e o Oxigênio}
+\justifying
+\textbf{Estudante 3:} \\
+"Você sabia que mais da metade do oxigênio que respiramos vem do oceano? Isso mesmo! As algas marinhas e o fitoplâncton produzem oxigênio através da fotossíntese. Então, mesmo no sertão, dependemos do mar para respirar."
+\end{frame}
+
+% Slide 4: O Oceano na Nossa Mesa (Estudante 4)
+\begin{frame}{O Oceano na Nossa Mesa}
+\justifying
+\textbf{Estudante 4:} \\
+"Além disso, muitos dos alimentos que consumimos têm uma ligação direta com o oceano. Peixes, camarões e até o sal que usamos na cozinha vêm do mar. O oceano está presente na nossa mesa, mesmo estando longe do litoral."
+\end{frame}
+
+% Slide 5: O Oceano na Nossa Cultura (Estudante 5)
+\begin{frame}{O Oceano na Nossa Cultura}
+\justifying
+\textbf{Estudante 5:} \\
+"O oceano também está presente na nossa cultura. Muitas histórias, músicas e tradições do sertão falam sobre o mar. Cantadores de repente e poetas nordestinos muitas vezes usam o oceano como inspiração, mostrando que ele faz parte da nossa identidade, mesmo à distância."
+\end{frame}
+
+% Slide 6: Desafios do Oceano (Estudante 6)
+\begin{frame}{Desafios do Oceano}
+\justifying
+\textbf{Estudante 6:} \\
+"Mas, infelizmente, o oceano está enfrentando grandes desafios. A poluição por plásticos, as mudanças climáticas e a pesca predatória estão prejudicando os ecossistemas marinhos. E isso não afeta só o litoral; aqui no sertão, sentimos os impactos no clima e na economia."
+\end{frame}
+
+% Slide 7: Nossa Responsabilidade (Estudante 7)
+\begin{frame}{Nossa Responsabilidade}
+\justifying
+\textbf{Estudante 7:} \\
+"A Cultura Oceânica nos ensina que todos somos responsáveis pelo oceano, mesmo quem vive longe dele. Precisamos cuidar do mar para garantir um futuro sustentável para o planeta. E isso começa com pequenas ações no nosso dia a dia."
+\end{frame}
+
+% Slide 8: Ações no Sertão (Estudante 8)
+\begin{frame}{Ações no Sertão}
+\justifying
+\textbf{Estudante 8:} \\
+"No sertão, sabemos que cada ação conta. Reduzir o uso de plásticos, economizar água e apoiar iniciativas sustentáveis são formas de proteger o oceano. Afinal, o que fazemos aqui reflete lá no mar."
+\end{frame}
+
+% Slide 9: O Oceano é Patrimônio de Todos (Estudante 9)
+\begin{frame}{O Oceano é Patrimônio de Todos}
+\justifying
+\textbf{Estudante 9:} \\
+"O oceano é um patrimônio de todos. Ele conecta continentes, culturas e pessoas. Cuidar dele é cuidar da vida no planeta, seja no litoral ou no sertão. Precisamos agir agora para garantir um futuro melhor para as próximas gerações."
+\end{frame}
+
+% Slide 10: Conclusão (Estudante 10)
+\begin{frame}{Conclusão}
+\justifying
+\textbf{Estudante 10:} \\
+"Vamos juntos construir uma relação mais sustentável com o oceano. Ele é essencial para a vida na Terra, e depende de nós protegê-lo. Obrigado por assistir e lembre-se: o oceano começa aqui, no sertão, com cada uma das nossas ações!"
+\end{frame}
+
+\end{document}
+
+
+

@@ -1,0 +1,133 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\title{Projeto de Pesquisa: Simulador de Poluição Marinha com Arduino}
+\author{Jefferson \\ Maria Jamile}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Objetivo Educativo}
+Demonstrar como a poluição afeta o ecossistema marinho e como tecnologias podem ajudar no monitoramento ambiental.
+
+\section{Materiais Necessários}
+\begin{itemize}
+    \item Arduino Uno
+    \item Sensor de cor TCS34725
+    \item LEDs RGB (pelo menos 3)
+    \item Resistores (220Ω para os LEDs)
+    \item Recipiente transparente com água (simulando o mar)
+    \item Materiais coloridos para simular poluição (plástico, tinta, papel)
+    \item Jumpers e protoboard
+    \item Cabo USB para conexão com computador
+\end{itemize}
+
+\section{Passo a Passo para Montagem}
+
+\subsection{1. Conexão do Sensor de Cor TCS34725}
+\begin{enumerate}
+    \item Conecte o sensor ao Arduino:
+    \begin{itemize}
+        \item VCC do sensor → 3.3V do Arduino
+        \item GND do sensor → GND do Arduino
+        \item SDA do sensor → A4 (SDA) do Arduino
+        \item SCL do sensor → A5 (SCL) do Arduino
+    \end{itemize}
+\end{enumerate}
+
+\subsection{2. Conexão dos LEDs RGB}
+\begin{enumerate}
+    \item Conecte cada LED RGB à protoboard com resistores de 220Ω nos cátodos (pernas R, G e B).
+    \item Ligue os LEDs ao Arduino:
+    \begin{itemize}
+        \item Vermelho (R) → Pino 9
+        \item Verde (G) → Pino 10
+        \item Azul (B) → Pino 11
+    \end{itemize}
+    \item Conecte o GND dos LEDs ao GND do Arduino.
+\end{enumerate}
+
+\subsection{3. Montagem do Ambiente Marinho}
+\begin{enumerate}
+    \item Encha o recipiente com água limpa.
+    \item Posicione o sensor de cor dentro do recipiente (protegido contra respingos).
+    \item Prepare materiais coloridos (tinta, plástico, papel) para simular poluição.
+\end{enumerate}
+
+\subsection{4. Programação no Arduino IDE}
+\begin{enumerate}
+    \item Instale a biblioteca \texttt{Adafruit\_TCS34725} via Gerenciador de Bibliotecas.
+    \item Carregue o seguinte código no Arduino:
+\begin{verbatim}
+#include <Wire.h>
+#include "Adafruit_TCS34725.h"
+
+Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, 
+                                          TCS34725_GAIN_4X);
+
+const int redPin = 9;
+const int greenPin = 10;
+const int bluePin = 11;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(redPin, OUTPUT);
+  pinMode(greenPin, OUTPUT);
+  pinMode(bluePin, OUTPUT);
+  
+  if (!tcs.begin()) {
+    Serial.println("Sensor não encontrado!");
+    while (1);
+  }
+}
+
+void loop() {
+  uint16_t r, g, b, c;
+  tcs.getRawData(&r, &g, &b, &c);
+  
+  Serial.print("R: "); Serial.print(r);
+  Serial.print(" G: "); Serial.print(g);
+  Serial.print(" B: "); Serial.print(b);
+  Serial.print(" C: "); Serial.println(c);
+  
+  // Mapeia cores para LEDs (exemplo: vermelho = poluição alta)
+  if (r > g && r > b && r > 1000) {
+    analogWrite(redPin, 255);    // Vermelho (poluição alta)
+    analogWrite(greenPin, 0);
+    analogWrite(bluePin, 0);
+    Serial.println("ALERTA: Poluição detectada!");
+  } else {
+    analogWrite(redPin, 0);
+    analogWrite(greenPin, 255);  // Verde (água limpa)
+    analogWrite(bluePin, 0);
+  }
+  delay(500);
+}
+\end{verbatim}
+\end{enumerate}
+
+\subsection{5. Teste e Calibração}
+\begin{enumerate}
+    \item Abra o Monitor Serial (Ctrl+Shift+M) para ver os valores RGB.
+    \item Adicione materiais coloridos à água e observe as mudanças:
+    \begin{itemize}
+        \item Água limpa → LED verde aceso.
+        \item Poluição detectada → LED vermelho aceso.
+    \end{itemize}
+    \item Ajuste os limiares (valores de \texttt{r, g, b}) no código conforme necessário.
+\end{enumerate}
+
+\section{Conclusão}
+Este projeto demonstra como sensores e microcontroladores podem ser usados para monitorar a qualidade da água. O projeto pode ser expandido   adicionando:
+\begin{itemize}
+    \item Um display LCD para mostrar os níveis de poluição.
+    \item Um módulo Wi-Fi (ESP8266) para envio de dados em tempo real.
+    \item Diferentes cores de LED para níveis intermediários de poluição.
+\end{itemize}
+
+\end{document}
