@@ -1,0 +1,70 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage{geometry}
+\geometry{top=1.5cm, bottom=2.5cm, left=2.0cm, right=2.0cm}
+\usepackage{titlesec}
+\titleformat{\section}{\bfseries\normalsize}{\thesection}{1em}{}
+\titleformat{\subsection}{\bfseries\normalsize}{\thesubsection}{1em}{}
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\title{Planejamento de Aulas: \\ Cultura Digital, Redes Sociais e Suas Influências na Sociedade Contemporânea}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Introdução}
+Neste planejamento, abordo a cultura digital e sua influência na sociedade contemporânea, com enfoque nas redes sociais e suas implicações. As aulas foram estruturadas para o 3º ano do Ensino Médio, com duração de duas aulas de 50 minutos cada.
+
+\section{Objetivos}
+\begin{itemize}
+    \item Compreender os conceitos de cultura digital e sua relação com a contemporaneidade.
+    \item Analisar as interações entre cultura digital e sociedade.
+    \item Identificar as influências das redes sociais na formação da identidade dos jovens.
+\end{itemize}
+
+\section{Recursos Necessários}
+\begin{itemize}
+    \item Trechos selecionados do documentário \textit{O Dilema das Redes} (disponível na Netflix).
+    \item Computador, projetor e caixa de som.
+    \item Material de apoio: textos, slides e infográficos sobre cultura digital.
+\end{itemize}
+
+\section{Aula 1: Cultura Digital e Sociedade Contemporânea}
+\subsection{Roteiro}
+\textbf{Introdução (10 minutos):} Apresento o tema "Cultura digital e contemporaneidade: como as redes sociais transformam a sociedade?", contextualizando o documentário \textit{O Dilema das Redes}.
+
+\textbf{Exibição de Trechos do Documentário (20 minutos):} Selecionei cenas que ilustram o funcionamento dos algoritmos, a influência nas tendências e o impacto na identidade dos usuários.
+
+\textbf{Discussão Guiada (15 minutos):} Conduzo a reflexão sobre como as redes moldam a cultura e influenciam as escolhas pessoais.
+
+\textbf{Atividade Prática (5 minutos):} Os alunos, em duplas, listam três exemplos de influência da cultura digital.
+
+\textbf{Tarefa para Casa:} Os alunos pesquisam um caso recente de impacto das redes sociais na cultura popular.
+
+\section{Aula 2: Transformações Culturais e Influências da Cultura Digital}
+\subsection{Roteiro}
+\textbf{Retomada (10 minutos):} Revisamos os conceitos anteriores e compartilho exemplos trazidos pelos alunos.
+
+\textbf{Exibição de Trechos do Documentário (15 minutos):} Apresento cenas sobre desinformação, saúde mental e dependência tecnológica.
+
+\textbf{Debate (20 minutos):} Divido a turma em grupos para discutir os impactos positivos e negativos das redes sociais.
+
+\textbf{Síntese e Reflexão (10 minutos):} Os alunos refletem sobre o uso consciente das redes sociais e suas conclusões são anotadas no quadro.
+
+\textbf{Tarefa para Casa:} Criação de um projeto de conscientização sobre o uso responsável das redes sociais.
+
+\section{Referências}
+\begin{itemize}
+    \item CASTELLS, Manuel. \textit{A Sociedade em Rede}. Paz e Terra, 1999.
+    \item PRENSKY, Marc. \textit{Nativos Digitais, Imigrantes Digitais}. 2001.
+    \item BAUMAN, Zygmunt. \textit{Modernidade Líquida}. Zahar, 2001.
+    \item Documentário: \textit{O Dilema das Redes} (The Social Dilemma, 2020). Dirigido por Jeff Orlowski. Disponível na Netflix.
+\end{itemize}
+
+\end{document}
+

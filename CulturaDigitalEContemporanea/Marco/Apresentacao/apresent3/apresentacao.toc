@@ -1,0 +1,5 @@
+\babel@toc {brazil}{}\relax 
+\beamer@sectionintoc {1}{Introdução ao Pensamento Computacional}{3}{0}{1}
+\beamer@sectionintoc {2}{Condicionais no Excel}{4}{0}{2}
+\beamer@sectionintoc {3}{Exemplos Práticos}{5}{0}{3}
+\beamer@sectionintoc {4}{Exercícios Práticos}{9}{0}{4}

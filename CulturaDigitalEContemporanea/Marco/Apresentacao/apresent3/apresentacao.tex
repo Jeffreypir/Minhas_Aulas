@@ -1,0 +1,196 @@
+\documentclass[12pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath} % Para fórmulas matemáticas
+\usepackage{xcolor} % Para usar cores
+\usepackage{enumitem} % Para listas personalizadas
+
+\usetheme{Berkeley}
+
+% Definir cores para títulos e subtítulos
+\setbeamercolor{frametitle}{fg=white}
+\setbeamercolor{framesubtitle}{fg=green}
+% Adicionar nota de rodapé em todos os slides
+\setbeamertemplate{footline}{
+    \vspace{0.1cm} % Espaço acima da nota
+    \footnotesize % Tamanho do texto
+    \hspace{2cm} Mestre em Modelagem Matemática e Computacional - UFPB
+}
+
+\title{\textcolor{white}{Pensamento Computacional: Condicionais no Excel}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\frame{\titlepage}
+
+% Slide do sumário
+\begin{frame}
+    \frametitle{Sumário}
+    \tableofcontents
+\end{frame}
+
+\section{Introdução ao Pensamento Computacional}
+
+\begin{frame}
+    \frametitle{O que é Pensamento Computacional?}
+    \framesubtitle{Definição e Componentes}
+    O pensamento computacional é uma abordagem para resolver problemas que envolve:
+    \begin{itemize}
+        \item \textbf{Decomposição:} Dividir problemas complexos em partes menores.
+        \item \textbf{Padrões:} Identificar similaridades entre problemas.
+        \item \textbf{Abstração:} Focar apenas nos detalhes relevantes.
+        \item \textbf{Algoritmos:} Criar passos para resolver o problema.
+    \end{itemize}
+\end{frame}
+
+\section{Condicionais no Excel}
+
+\begin{frame}
+    \frametitle{O que são Condicionais?}
+    \framesubtitle{Lógica de Decisão}
+    Condicionais são estruturas que permitem tomar decisões com base em critérios específicos. No Excel, isso é feito com funções como:
+    \begin{itemize}
+        \item \textbf{SE (IF):} Executa uma ação se uma condição for verdadeira.
+        \item \textbf{E (AND):} Verifica se todas as condições são verdadeiras.
+        \item \textbf{OU (OR):} Verifica se pelo menos uma condição é verdadeira.
+    \end{itemize}
+    \textbf{Exemplo:\\} \texttt{=SE(A1 > 10; "Aprovado"; "Reprovado")}
+\end{frame}
+
+\section{Exemplos Práticos}
+
+\begin{frame}
+    \frametitle{Exemplo 1: Classificação de Notas}
+    \framesubtitle{Uso da Função SE}
+    \textbf{Problema:} Classificar notas de alunos como "Aprovado" ou "Reprovado".
+    \begin{itemize}
+        \item \textbf{Condição:} Se a nota for maior ou igual a 6, "Aprovado"; caso contrário, "Reprovado".
+        \item \textbf{Fórmula: \\} \texttt{=SE(B2 >= 6; "Aprovado"; "Reprovado")}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Exemplo 2: Desconto Progressivo}
+    \framesubtitle{Uso de SE Aninhadas}
+    \textbf{Problema:} Aplicar descontos com base no valor da compra:
+    \begin{itemize}
+        \item \textbf{Se valor $\leq $  R\$ 100:} Sem desconto.
+        \item \textbf{Se valor $>$ R\$ 100 e $<$ R\$ 200:} 5\% de desconto.
+        \item \textbf{Se valor $>$ R\$ 200:} 10\% de desconto.
+    \end{itemize}
+    \textbf{Fórmula:\\} 
+    \texttt{=SE(B2 < 100; B2; SE(B2 < 200; B2 * 0.95; B2 * 0.90))}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Exemplo 3A: Validação de Dados com E}
+    \framesubtitle{Verificação de Condições Múltiplas}
+
+    \textbf{Problema:} Um clube esportivo permite acesso à piscina somente se:
+    \begin{itemize}
+        \item \textbf{Condição 1:} Idade $\geq$ 12 anos
+        \item \textbf{Condição 2:} Possui exame médico válido (indicado por "S")
+        \item \textbf{Condição 3:} Está usando touca (indicado por "S")
+    \end{itemize}
+
+    \textbf{Fórmula Excel:}
+    \texttt{=E(B2 >= 12; C2 = "S"; D2 = "S")}
+
+    \begin{exampleblock}{Exemplo Prático}
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            \textbf{Nome} & \textbf{Idade} & \textbf{Exame} & \textbf{Touca} & \textbf{Situação} \\ \hline
+            João & 15 & "S" & "N" & \textcolor{red}{Negado} \\ \hline
+            Maria & 10 & "S" & "S" &  \textcolor{red}{Negado} \\ \hline
+            Pedro & 14 & "S" & "S" &  \textcolor{green}{Permitido} \\ \hline
+        \end{tabular}
+    \end{exampleblock}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Exemplo 3B: Validação com OU}
+    \framesubtitle{Atendimento a Múltiplos Critérios}
+
+    \textbf{Problema:} Uma loja oferece frete grátis se:
+    \begin{itemize}
+        \item \textbf{Condição 1:} Compra acima de R\$ 300 \textbf{ou}
+        \item \textbf{Condição 2:} É cliente premium (indicado por "S") \textbf{ou}
+        \item \textbf{Condição 3:} CEP está na zona de entrega rápida leste.
+    \end{itemize}
+
+    \textbf{Fórmula Excel:}
+    \texttt{=OU(B2 > 300; C2 = "S"; D2 = "Zona Leste")}
+
+    \begin{exampleblock}{Casos de Teste}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            \textbf{Valor} & \textbf{Premium} & \textbf{Zona} & \textbf{Frete} \\ \hline
+            R\$ 250 & "N" & "Oeste" & \textcolor{red}{Pago} \\ \hline
+            R\$ 150 & "S" & "Norte" & \textcolor{green}{Grátis} \\ \hline
+            R\$ 400 & "N" & "Leste" & \textcolor{green}{Grátis} \\ \hline
+        \end{tabular}
+    \end{exampleblock}
+\end{frame}
+
+\section{Exercícios Práticos}
+
+\begin{frame}
+    \frametitle{Exercício 1: Cálculo de Frete}
+    \framesubtitle{Uso de Condicionais}
+
+    \textbf{Problema:} Calcular o frete com base no peso do pacote:
+    \begin{itemize}
+        \item \textbf{Se peso $\leq$ 1 kg:} R\$ 10,00
+        \item \textbf{Se peso $>$ 1 kg e $\leq$ 5 kg:} R\$ 20,00
+        \item \textbf{Se peso $>$ 5 kg:} R\$ 30,00
+    \end{itemize}
+
+    \begin{exampleblock}{Exercício: Calcule o Frete}
+        \begin{tabular}{|c|c|}
+            \hline
+            \textbf{Peso (kg)} & \textbf{Valor do Frete} \\ \hline
+            0,8 & \rule{2cm}{} \\ \hline
+            1,0 & \rule{2cm}{} \\ \hline
+            1,5 & \rule{2cm}{} \\ \hline
+            3,2 & \rule{2cm}{} \\ \hline
+            5,0 & \rule{2cm}{} \\ \hline
+            7,3 & \rule{2cm}{} \\ \hline
+        \end{tabular}
+    \end{exampleblock}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Exercício 2: Bonificação de Funcionários}
+    \framesubtitle{Uso de SE Aninhadas}
+    \textbf{Problema:} Calcular a bonificação de funcionários com base no desempenho:
+    \begin{itemize}
+        \item \textbf{Se desempenho = ``Excelente":} R\$ 500,00.
+        \item \textbf{Se desempenho = ``Bom":} R\$ 300,00.
+        \item \textbf{Se desempenho = ``Regular":} R\$ 100,00.
+        \item \textbf{Caso contrário:} Sem bonificação.
+    \end{itemize}
+
+    \begin{exampleblock}{Calcule a bonificação para cada caso}
+        \begin{tabular}{|c|c|}
+            \hline
+            \textbf{Desempenho} & \textbf{Bonificação (R\$)} \\ \hline
+            Excelente & \rule{2cm}{} \\ \hline
+            Bom & \rule{2cm}{} \\ \hline
+            Regular & \rule{2cm}{} \\ \hline
+            Satisfatório & \rule{2cm}{} \\ \hline
+            Ruim & \rule{2cm}{} \\ \hline
+        \end{tabular}
+    \end{exampleblock}
+\end{frame}
+
+% Slide de encerramento
+\begin{frame}
+    \begin{center}
+        \textbf{\textcolor{blue}{\Large Obrigado pela atenção!}} \\[0.5cm]
+        \textbf{Pratique no Excel e explore as possibilidades!}
+    \end{center}
+\end{frame}
+
+\end{document}

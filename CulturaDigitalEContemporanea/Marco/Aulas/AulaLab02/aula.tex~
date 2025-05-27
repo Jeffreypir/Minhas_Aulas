@@ -1,0 +1,92 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+\geometry{a4paper, left=1cm, right=1cm, top=1.5cm, bottom=1.5cm}
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}}
+  {\thesection}
+  {1em}
+  {}
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+\title{\textcolor{blue}{Aula Prática no Laboratório: \ Pensamento Computacional com Excel}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{multicols}{2}
+
+\section*{Introdução ao Excel}
+
+O Excel é uma ferramenta poderosa para organizar dados, realizar cálculos e automatizar tarefas. Vamos explorar algumas funções essenciais e como utilizar condicionais para resolver problemas de forma eficiente.
+
+\section*{Funções Básicas do Excel}
+
+As funções são comandos que ajudam a realizar cálculos de forma rápida. Algumas das funções básicas incluem:
+
+\begin{itemize}
+    \item \textbf{SOMA}: \texttt{=SOMA(A1:A10)} – Soma os valores entre A1 e A10.
+    \item \textbf{MÉDIA}: \texttt{=MÉDIA(B1:B10)} – Calcula a média dos valores.
+    \item \textbf{MÁXIMO}: \texttt{=MÁXIMO(C1:C10)} – Retorna o maior valor.
+    \item \textbf{MÍNIMO}: \texttt{=MÍNIMO(D1:D10)} – Retorna o menor valor.
+    \item \textbf{SE}: \texttt{=SE(E1>100; "Alto"; "Baixo")} – Verifica se o valor em E1 é maior que 100.
+\end{itemize}
+
+\section*{Uso de Condicionais no Excel}
+
+A função \textbf{SE} permite criar regras para análise de dados. Exemplo:
+
+\begin{itemize}
+    \item Se um aluno tem nota maior ou igual a 7, então "Aprovado", senão "Reprovado".
+    \item Fórmula: \texttt{=SE(A2>=7; "Aprovado"; "Reprovado")}
+\end{itemize}
+
+\section*{Exemplo Prático}
+
+\begin{center}
+\resizebox{\linewidth}{!}{
+    \begin{tabular}{|c|c|c|}
+    \hline
+    Nome & Nota & Situação \\
+    \hline
+    Ana & 8 & \texttt{=SE(B2>=7; "Aprovado"; "Reprovado")} \\
+    João & 5 & \texttt{=SE(B3>=7; "Aprovado"; "Reprovado")} \\
+    Pedro & 7 & \texttt{=SE(B4>=7; "Aprovado"; "Reprovado")} \\
+    \hline
+    \end{tabular}
+    }
+\end{center}
+
+\section*{Atividades Práticas}
+
+\begin{enumerate}
+    \item Crie uma planilha com nomes e notas de 10 alunos. Use a função \textbf{SE} para determinar se cada aluno foi aprovado ou reprovado.
+    \item Utilize a função \textbf{MÉDIA} para calcular a média da turma.
+    \item Use \textbf{MÁXIMO} e \textbf{MÍNIMO} para encontrar a maior e menor nota.
+    \item Crie uma planilha de controle de vendas com produtos e preços. Use \textbf{SE} para indicar se um produto está ``Caro" (acima de R\$50) ou "Barato".
+    \item Elabore um controle de presença com nomes e status ("Presente" ou "Ausente") e conte os presentes usando \textbf{CONT.SE}.
+    \item Faça uma lista de compras e utilize \textbf{SOMA} para calcular o total.
+    \item Crie uma planilha para calcular descontos: Se o valor da compra for maior que R\$100, aplicar 10\% de desconto.
+    \item Crie um controle financeiro pessoal e determine se o saldo mensal é "Positivo" ou "Negativo" com \textbf{SE}.
+    \item Faça uma planilha para controle de estoque e use \textbf{SE} para avisar se um item está "Baixo" (quantidade menor que 5).
+    \item Elabore uma planilha com prazos de entrega e use \textbf{SE} para indicar se um pedido está "Dentro do Prazo" ou "Atrasado".
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}
+

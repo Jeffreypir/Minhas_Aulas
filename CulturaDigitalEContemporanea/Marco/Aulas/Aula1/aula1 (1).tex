@@ -1,0 +1,95 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+\geometry{a4paper, left=1cm, right=1cm, top=1.5cm, bottom=1.5cm}
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}}
+  {\thesection}
+  {1em}
+  {}
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+\title{\textcolor{blue}{Aula 1: Introdução ao Pensamento Computacional}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{O que é Pensamento Computacional?}
+
+O pensamento computacional é uma abordagem para resolver problemas de forma eficiente, utilizando conceitos da ciência da computação. Ele envolve quatro pilares principais:
+
+\begin{itemize}
+    \item \textbf{Decomposição}: Dividir um problema complexo em partes menores.
+    \item \textbf{Reconhecimento de Padrões}: Identificar similaridades e padrões entre os problemas.
+    \item \textbf{Abstração}: Focar apenas nos detalhes relevantes, ignorando o que não é importante.
+    \item \textbf{Algoritmos}: Criar um passo a passo para resolver o problema.
+\end{itemize}
+
+\section*{Exemplo Prático: Planejando uma Festa}
+
+Vamos aplicar o pensamento computacional para planejar uma festa.
+
+\subsection*{1. Decomposição}
+Divida o problema em tarefas menores:
+\begin{itemize}
+    \item Escolher o local.
+    \item Fazer a lista de convidados.
+    \item Comprar os alimentos e bebidas.
+    \item Decorar o local.
+\end{itemize}
+
+\subsection*{2. Reconhecimento de Padrões}
+Identifique padrões:
+\begin{itemize}
+    \item Convidados que gostam de música.
+    \item Alimentos que são populares em festas.
+\end{itemize}
+
+\subsection*{3. Abstração}
+Foque no essencial:
+\begin{itemize}
+    \item Não é necessário decorar todo o local, apenas as áreas principais.
+    \item Compre apenas os alimentos e bebidas necessários.
+\end{itemize}
+
+\subsection*{4. Algoritmos}
+Crie um passo a passo:
+\begin{enumerate}
+    \item Escolha o local.
+    \item Faça a lista de convidados.
+    \item Compre os alimentos e bebidas.
+    \item Decore o local.
+    \item Realize a festa.
+\end{enumerate}
+
+\section*{Atividade Prática}
+
+\subsection*{Atividade 1: Planejando uma Viagem}
+Aplique os quatro pilares do pensamento computacional para planejar uma viagem. Escreva os passos que você seguiria.
+
+\subsection*{Atividade 2: Resolvendo um Problema}
+Escolha um problema do seu dia a dia e aplique o pensamento computacional para resolvê-lo. Descreva cada etapa.
+
+\end{multicols}
+
+\end{document}

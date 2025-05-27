@@ -1,0 +1,134 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{verbatim} % Para código-fonte
+
+\usetheme{Madrid}
+\usecolortheme{default}
+
+\title{Atividade no Laboratório de Informática}
+\subtitle{Redes Sociais, Marketing Digital, Programação e Robótica}
+\author{Jefferson Bezerra dos Santos }
+\date{}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}{Sumário}
+    \tableofcontents
+\end{frame}
+
+\section{Resumo}
+\begin{frame}{Resumo}
+    \begin{itemize}
+        \item Exploração das redes sociais e sua influência no marketing digital.
+        \item Introdução à programação e robótica como ferramentas para inovação.
+        \item Análise das interações entre cultura popular, cultura digital e contemporaneidade.
+        \item Reconhecimento das transformações culturais provocadas pelas tecnologias digitais.
+        \item Realização de pesquisas sobre manifestações culturais populares e contemporâneas.
+    \end{itemize}
+\end{frame}
+
+\section{Introdução}
+\begin{frame}{Introdução}
+    \begin{itemize}
+        \item As redes sociais são plataformas poderosas para comunicação e marketing.
+        \item O marketing digital utiliza estratégias online para influenciar públicos.
+        \item A programação e a robótica promovem inovações tecnológicas e culturais.
+        \item Esta atividade integra esses conceitos em uma experiência prática.
+    \end{itemize}
+\end{frame}
+
+\section{Metodologia}
+\begin{frame}{Metodologia}
+    \begin{itemize}
+        \item \textbf{Redes Sociais e Marketing Digital:}
+        \begin{itemize}
+            \item Uso de \textbf{Facebook Ads} e \textbf{Instagram Insights} para análise de engajamento.
+            \item Simulação de campanhas utilizando \textbf{Canva} e \textbf{Google Trends}.
+        \end{itemize}
+        \item \textbf{Programação:}
+            \begin{itemize}
+                \item A programação é uma habilidade fundamental para criar soluções tecnológicas.
+                \item O Python é uma linguagem de fácil aprendizagem, ideal para iniciantes.
+                \item Neste exemplo, o código solicita ao usuário que digite seu nome e exibe uma mensagem personalizada.
+                \item Vamos explorar mais exemplos práticos de como utilizar Python para resolver problemas simples.
+            \end{itemize}
+        \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Exemplo em Python}
+\begin{verbatim}
+print("Olá, mundo!")
+nome = input("Digite seu nome: ")
+print(f"Bem-vindo, {nome}!")
+\end{verbatim}
+\end{frame}
+
+\begin{frame}{Metodologia (continuação)}
+    \begin{itemize}
+        \item \textbf{Robótica:}
+        \begin{itemize}
+            \item O Arduino é uma plataforma de prototipagem eletrônica popular para iniciantes e profissionais.
+            \item O código a seguir acende e apaga um LED a cada segundo, utilizando um microcontrolador Arduino.
+            \item Este tipo de automação simples pode ser expandido para sistemas mais complexos com sensores e atuadores.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Exemplo em Arduino}
+\begin{verbatim}
+void setup() {
+    pinMode(13, OUTPUT);
+}
+
+void loop() {
+    digitalWrite(13, HIGH);
+    delay(1000);
+    digitalWrite(13, LOW);
+    delay(1000);
+}
+\end{verbatim}
+\end{frame}
+
+\begin{frame}{Robótica (continuação)}
+    \begin{itemize}
+        \item O código acima é utilizado para controlar um LED conectado ao pino 13 do Arduino.
+        \item O método \texttt{digitalWrite} define o estado do pino como alto (ligado) ou baixo (desligado).
+        \item O método \texttt{delay} faz o Arduino esperar por um tempo específico (em milissegundos) antes de executar a próxima ação.
+        \item Este é o primeiro passo para trabalhar com automação e controle no Arduino.
+    \end{itemize}
+\end{frame}
+
+\section{Objetivos}
+\begin{frame}{Objetivos}
+    \begin{itemize}
+        \item \textbf{Geral:} Integrar redes sociais, marketing digital, programação e robótica em uma experiência prática.
+        \item \textbf{Específicos:}
+        \begin{itemize}
+            \item Analisar as interações entre cultura popular e digital.
+            \item Aplicar conceitos de marketing digital em projetos práticos.
+            \item Desenvolver habilidades básicas de programação e robótica.
+            \item Promover o trabalho em equipe e a criatividade.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\section{Referências}
+\begin{frame}{Referências}
+    \begin{itemize}
+        \item KOTLER, P. \textit{Marketing 4.0}. Editora Sextante, 2017.
+        \item SILVA, M. \textit{Introdução à Programação com Python}. Novatec, 2019.
+        \item Arduino. \textit{Official Arduino Website}. Disponível em: \url{https://www.arduino.cc}.
+        \item BRASIL. Ministério da Educação. \textit{Base Nacional Comum Curricular (BNCC)}. Disponível em: \url{http://basenacionalcomum.mec.gov.br}.
+    \end{itemize}
+\end{frame}
+
+\end{document}
+

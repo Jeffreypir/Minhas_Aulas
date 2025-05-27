@@ -1,0 +1,86 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+\geometry{a4paper, left=1cm, right=1cm, top=1.5cm, bottom=1.5cm}
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}}
+  {\thesection}
+  {1em}
+  {}
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+\title{\textcolor{blue}{Cultura Digital\\ Algoritmos e Lógica de Programação}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{O que é um Algoritmo?}
+
+Um algoritmo é uma sequência de passos bem definidos para resolver um problema ou realizar uma tarefa. Ele é a base da programação e pode ser aplicado em diversas áreas, desde a matemática até o dia a dia.
+
+\section*{Exemplo de Algoritmo: Fazer um Sanduíche}
+
+Vamos criar um algoritmo para fazer um sanduíche de queijo:
+
+\begin{enumerate}
+    \item Pegue duas fatias de pão.
+    \item Coloque uma fatia de queijo entre as fatias de pão.
+    \item Leve o sanduíche ao forno por 5 minutos.
+    \item Retire o sanduíche do forno.
+    \item Sirva e aproveite!
+\end{enumerate}
+
+\section*{Lógica de Programação}
+
+A lógica de programação é a forma como organizamos os passos de um algoritmo para que ele possa ser executado por um computador. Ela envolve conceitos como:
+
+\begin{itemize}
+    \item \textbf{Variáveis}: Espaços para armazenar dados.
+    \item \textbf{Estruturas Condicionais}: Tomar decisões com base em condições.
+    \item \textbf{Laços de Repetição}: Repetir ações várias vezes.
+\end{itemize}
+
+\section*{Exemplo Prático: Calculadora Simples}
+
+Vamos criar um algoritmo para uma calculadora simples que soma dois números:
+
+\begin{enumerate}
+    \item Peça ao usuário para digitar o primeiro número.
+    \item Armazene o número em uma variável chamada \texttt{numero1}.
+    \item Peça ao usuário para digitar o segundo número.
+    \item Armazene o número em uma variável chamada \texttt{numero2}.
+    \item Some os dois números e armazene o resultado em uma variável chamada \texttt{resultado}.
+    \item Mostre o valor de \texttt{resultado} para o usuário.
+\end{enumerate}
+
+\section*{Atividade Prática}
+
+\subsection*{Atividade 1: Criando um Algoritmo}
+Crie um algoritmo para fazer uma lista de compras. Descreva cada passo.
+
+\subsection*{Atividade 2: Resolvendo um Problema com Lógica}
+Escreva um algoritmo para calcular a média de três notas. Use variáveis e estruturas condicionais.
+
+\end{multicols}
+
+\end{document}

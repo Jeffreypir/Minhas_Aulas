@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{multicol} % Para dividir a página em colunas
+\usepackage{geometry} % Para ajustar margens
+\geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
+
+\title{Cultura Digital e Cultura Contemporânea}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+% Remove a numeração da primeira página
+\thispagestyle{empty}
+
+\maketitle
+% Remove a numeração de todas as páginas
+ \pagenumbering{gobble}
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\vspace{1cm}
+
+\begin{multicols}{2}
+
+
+\section*{Letramento Digital e Cultura Contemporânea}
+
+A cultura digital é um fenômeno que transformou profundamente a sociedade contemporânea. Com o advento da internet e das tecnologias digitais, novas formas de comunicação, expressão e interação surgiram, influenciando a cultura popular e a formação identitária das pessoas. A cultura popular, que antes se manifestava principalmente por meio de tradições locais, festas e mídias tradicionais, agora se expande e se reinventa no ambiente digital.
+
+Redes sociais, plataformas de streaming, memes e vídeos virais são exemplos de como a cultura digital se apropria de elementos da cultura popular e os transforma em fenômenos globais. Além disso, a programação e a robótica têm um papel central nesse processo, permitindo a criação de novas formas de arte, entretenimento e comunicação.
+
+No entanto, para navegar nesse universo digital, é essencial desenvolver habilidades de pesquisa e curadoria de informações. Com tanta informação disponível online, saber identificar fontes confiáveis e organizar dados de forma crítica é fundamental para o letramento digital.
+
+\section*{Atividade}
+
+1. \textbf{Análise de Conceitos.}  
+   Explique, com suas palavras, o que é cultura digital e como ela se relaciona com a cultura popular. Dê um exemplo de manifestação cultural que surgiu ou se transformou no ambiente digital.
+
+\vspace{1cm}
+
+2. \textbf{Influências da Cultura Digital.}  
+   Identifique e descreva duas formas pelas quais a cultura digital influencia a formação identitária e social das pessoas na contemporaneidade.
+
+\vspace{1cm}
+
+3. \textbf{Pesquisa e Curadoria.}  
+   Imagine que você precisa pesquisar sobre o impacto das redes sociais na política. Quais critérios você usaria para selecionar fontes confiáveis? Liste pelo menos três critérios e justifique sua escolha.
+
+\vspace{1cm}
+
+4. \textbf{Transformações Culturais.}  
+   As tecnologias digitais provocaram diversas transformações culturais. Escolha uma dessas transformações e explique como ela afeta o cotidiano das pessoas.
+
+\vspace{1cm}
+
+5. \textbf{Programação e Robótica.}  
+   O que é programação e qual o seu papel na cultura digital? Dê um exemplo de como a programação ou a robótica pode impactar a cultura e a sociedade.
+
+\vspace{1cm}
+
+\end{multicols}
+
+\end{document}

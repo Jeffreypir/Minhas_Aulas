@@ -1,0 +1,242 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{graphicx}
+
+\geometry{a4paper, left=0.5cm, right=0.5cm, top=1.5cm, bottom=1.5cm}
+\setlength{\columnsep}{0.7cm}
+\setlist{nosep,leftmargin=*}
+
+\titleformat{\section}
+  {\normalfont\large\bfseries\color{blue}}
+  {\thesection}
+  {1em}
+  {}
+
+\title{\color{blue}{Aula de PowerPoint -- Guia Passo a Passo}}
+\author{Professor: Jefferson \\ \color{blue}{Pensamento Computacional}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{multicols}{2}
+
+\section*{1. Abrindo o Programa}
+
+\begin{enumerate}
+\item \textbf{Passo 1:} Clique no botão Iniciar do Windows (ícone no canto inferior esquerdo)
+
+\item \textbf{Passo 2:} Digite ``PowerPoint'' usando seu teclado
+
+\item \textbf{Passo 3:} Quando aparecer o ícone do PowerPoint, clique nele com o botão esquerdo do mouse
+
+\item \textbf{Passo 4:} Na tela inicial, clique em \textbf{``Apresentação em branco''} (é a primeira opção)
+\end{enumerate}
+
+\subsection*{O que você vê agora:}
+Uma tela branca com:
+\begin{itemize}
+\item Menu superior (chamado de ``Faixa de Opções'')
+\item Slide vazio à esquerda
+\item Área de trabalho do slide à direita
+\end{itemize}
+
+\section*{2. Criando o Slide Título}
+
+\begin{enumerate}
+\item \textbf{Passo 1:} Observe as duas caixas no slide:
+\begin{itemize}
+\item ``Clique para adicionar título'' (parte de cima)
+\item ``Clique para adicionar subtítulo'' (parte de baixo)
+\end{itemize}
+
+\item \textbf{Passo 2:} Clique na caixa de título e digite: \textbf{``Meu Primeiro PowerPoint''}
+
+\item \textbf{Passo 3:} Clique na caixa de subtítulo e digite: \textbf{Seu Nome} e \textbf{Sua Turma}
+
+\item \textbf{Passo 4:} Para mudar a cor:
+\begin{enumerate}
+\item Selecione o texto
+\item Clique em ``Formatar'' no menu
+\item Escolha ``Cor do Texto''
+\item Selecione azul escuro
+\end{enumerate}
+\end{enumerate}
+
+\subsection*{Dica Profissional:}
+Títulos devem ter fonte grande (entre 36-44pt). Para alterar:
+\begin{enumerate}
+\item Selecione o texto
+\item Na guia ``Página Inicial'', mude o número da fonte
+\end{enumerate}
+
+\end{multicols}
+
+\begin{multicols}{2}
+
+\section*{3. Adicionando Novos Slides}
+
+\begin{enumerate}
+\item \textbf{Passo 1:} Clique na guia ``Página Inicial'' no menu superior
+
+\item \textbf{Passo 2:} Localize o botão ``Novo Slide'' (tem um ícone de um slide com uma estrela)
+
+\item \textbf{Passo 3:} Clique na setinha abaixo do botão para ver os layouts
+
+\item \textbf{Passo 4:} Escolha ``Título e Conteúdo'' (segunda opção)
+
+\item \textbf{Passo 5:} Repita para criar:
+\begin{itemize}
+\item 1 slide de ``Comparação''
+\item 1 slide de ``Seção''
+\end{itemize}
+\end{enumerate}
+
+\subsection*{Atividade Prática 1:}
+Crie esta sequência de slides:
+\begin{enumerate}
+\item Slide 1: Título (já feito)
+\item Slide 2: Título e Conteúdo
+\item Slide 3: Comparação
+\item Slide 4: Seção
+\item Slide 5: Título somente
+\end{enumerate}
+
+\section*{4. Inserindo Conteúdo}
+
+\subsection*{Texto Básico:}
+\begin{enumerate}
+\item \textbf{Passo 1:} No slide 2, clique em ``Clique para adicionar título''
+
+\item \textbf{Passo 2:} Digite: \textbf{``Minhas Férias''}
+
+\item \textbf{Passo 3:} Na caixa de conteúdo, clique no ícone de marcadores
+
+\item \textbf{Passo 4:} Digite:
+\begin{itemize}
+\item Onde fui
+\item O que fiz
+\item Quem encontrei
+\item Fotos
+\end{itemize}
+\end{enumerate}
+
+\subsection*{Listas Numeradas:}
+\begin{enumerate}
+\item \textbf{Passo 1:} Selecione o texto da lista
+\item \textbf{Passo 2:} Clique em ``Marcadores'' $\rightarrow$ ``Numerados''
+\end{enumerate}
+
+\end{multicols}
+
+\begin{multicols}{2}
+
+\section*{5. Trabalhando com Imagens}
+
+\begin{enumerate}
+\item \textbf{Passo 1:} No slide 2, clique no ícone ``Imagens'' no centro da caixa de conteúdo
+
+\item \textbf{Passo 2:} Navegue até onde salvou suas fotos
+
+\item \textbf{Passo 3:} Selecione uma imagem e clique em ``Inserir''
+
+\item \textbf{Passo 4:} Para redimensionar:
+\begin{itemize}
+\item Clique na imagem
+\item Arraste os círculos nos cantos (mantenha Shift para não distorcer)
+\end{itemize}
+
+\item \textbf{Passo 5:} Para mover:
+\begin{itemize}
+\item Posicione o mouse até aparecer a seta quádrupla
+\item Arraste para o local desejado
+\end{itemize}
+\end{enumerate}
+
+\subsection*{Dica de Organização:}
+\begin{itemize}
+\item Imagens no topo ou à direita têm melhor visualização
+\item Sempre deixe espaço em branco ao redor
+\item Use no máximo 2 imagens por slide
+\end{itemize}
+
+\section*{6. Formatando o Design}
+
+\begin{enumerate}
+\item \textbf{Passo 1:} Clique na guia ``Design'' no menu superior
+
+\item \textbf{Passo 2:} Passe o mouse sobre os temas para pré-visualizar
+
+\item \textbf{Passo 3:} Escolha um tema claro (evite fundos escuros)
+
+\item \textbf{Passo 4:} Para mudar cores:
+\begin{itemize}
+\item Clique em ``Variantes'' $\rightarrow$ ``Cores''
+\item Escolha uma combinação harmoniosa
+\end{itemize}
+\end{enumerate}
+
+\subsection*{Regras de Ouro:}
+\begin{itemize}
+\item Use no máximo 3 cores principais
+\item Fontes sem serifa (Arial, Calibri) são mais legíveis
+\item Contraste alto entre texto e fundo
+\end{itemize}
+
+\end{multicols}
+
+
+\begin{multicols}{2}
+
+\section*{7. Salvando Seu Trabalho}
+
+\begin{enumerate}
+\item \textbf{Passo 1:} Clique no menu ``Arquivo'' (canto superior esquerdo)
+
+\item \textbf{Passo 2:} Selecione ``Salvar Como''
+
+\item \textbf{Passo 3:} Escolha a pasta de seu computador
+
+\item \textbf{Passo 4:} No campo ``Nome do arquivo'', digite: \textbf{Apresentacao\_[SeuNome]}
+
+\item \textbf{Passo 5:} Verifique se o tipo é ``Apresentação PowerPoint (.pptx)''
+
+\item \textbf{Passo 6:} Clique em ``Salvar''
+\end{enumerate}
+
+\subsection*{Dica de Segurança:}
+Salve seu trabalho a cada 10 minutos (Ctrl+S)
+
+\section*{8. Apresentando Seu Slide}
+
+\begin{enumerate}
+\item \textbf{Passo 1:} Vá para o slide 1 (clique nele no painel esquerdo)
+
+\item \textbf{Passo 2:} Pressione F5 no teclado (ou clique em ``Apresentação de Slides'')
+
+\item \textbf{Passo 3:} Para avançar:
+\begin{itemize}
+\item Clique com o mouse
+\item Ou pressione a seta para direita
+\end{itemize}
+
+\item \textbf{Passo 4:} Para voltar: seta para esquerda
+
+\item \textbf{Passo 5:} Para sair: tecla ESC
+\end{enumerate}
+
+\subsection*{Modo Apresentador:}
+\begin{itemize}
+\item Clique com botão direito $\rightarrow$ ``Mostrar Modo Apresentador''
+\item Verá suas anotações enquanto o público vê apenas os slides
+\end{itemize}
+
+\end{multicols}
+
+\end{document}

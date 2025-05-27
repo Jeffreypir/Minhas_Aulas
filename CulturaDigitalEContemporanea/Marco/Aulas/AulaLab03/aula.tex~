@@ -1,0 +1,163 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+\geometry{a4paper, left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm}
+
+\titleformat{\section}
+  {\normalfont\large\bfseries\color{blue}}
+  {\thesection}
+  {1em}
+  {}
+
+\title{\color{blue}{Atividade Prática - Funções Lógicas no Excel (Explicada)}}
+\author{Professor: Jefferson \\ \color{blue}{Pensamento Computacional}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+
+\section*{Introdução às Condicionais}
+
+As funções condicionais permitem automatizar decisões em planilhas. Aprenderemos:
+
+\begin{itemize}
+\item \texttt{SE} - Tomada de decisão simples
+\item \texttt{E} - Todas as condições devem ser verdadeiras
+\item \texttt{OU} - Pelo menos uma condição deve ser verdadeira
+\end{itemize}
+
+\section*{Parte 1: Função SE Básica}
+
+\subsection*{Estrutura:}
+\begin{verbatim}
+=SE(teste_lógico; valor_se_verdadeiro; valor_se_falso)
+\end{verbatim}
+
+\subsection*{Exemplo Prático:}
+Verificar se um aluno foi aprovado (nota $\geq$ 7):
+
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Nota} & \textbf{Resultado} \\
+\hline
+8,5 & =SE(A2$>=$7;"Aprovado";"Reprovado") \\
+\hline
+4,0 & (automaticamente preenchido) \\
+\hline
+\end{tabular}
+
+\subsection*{Passo a Passo:}
+1. Clique na célula B2 \\
+2. Digite a fórmula acima \\
+3. Pressione Enter \\
+4. Arraste a alça de preenchimento para B3
+
+\section*{Parte 2: Função E}
+
+\subsection*{Quando Usar:}
+Quando \textbf{todas} as condições devem ser atendidas.
+
+\subsection*{Estrutura:}
+\begin{verbatim}
+=E(condição1; condição2; ...)
+\end{verbatim}
+
+\subsection*{Exemplo: Acesso ao Clube}
+\begin{tabular}{|c|c|c|}
+\hline
+Idade & Exame & Acesso \\
+\hline
+16 & Sim & =SE(E(A2$>=$18;B2="Sim");"Liberado";"Negado") \\
+\hline
+20 & Sim & (resultado automático) \\
+\hline
+\end{tabular}
+
+\subsection*{Análise:}
+\begin{itemize}
+\item 16 anos: Negado (falha na idade)
+\item 20 anos: Liberado (ambas condições OK)
+\end{itemize}
+
+
+\section*{Parte 3: Função OU}
+
+\subsection*{Quando Usar:}
+Quando \textbf{pelo menos uma} condição deve ser atendida.
+
+\subsection*{Estrutura:}
+\begin{verbatim}
+=OU(condição1; condição2; ...)
+\end{verbatim}
+
+\subsection*{Exemplo: Frete Grátis}
+\begin{tabular}{|c|c|c|}
+\hline
+Valor & Premium & Frete \\
+\hline
+250 & Não & =SE(OU(A2$>=$300;B2="Sim");"Grátis";"Pago") \\
+\hline
+150 & Sim & (resultado automático) \\
+\hline
+\end{tabular}
+
+\subsection*{Análise:}
+\begin{itemize}
+\item R\$250: Pago (nenhuma condição)
+\item R\$150: Grátis (cliente premium)
+\end{itemize}
+
+\section*{Parte 4: Combinação E + OU}
+
+\subsection*{Exemplo Complexo:}
+Aprovar empréstimo se:
+\begin{itemize}
+\item Renda $\geq$ 2000 \textbf{e}
+\item (Score $\geq$ 600 \textbf{ou} tem fiador)
+\end{itemize}
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+Renda & Score & Fiador & Resultado \\
+\hline
+3000 & 550 & Sim & =SE(E(A2$>=$2000;OU(B2$>=$600;C2="Sim"));"Aprovado";"Negado") \\
+\hline
+1800 & 700 & Não & (resultado automático) \\
+\hline
+\end{tabular}
+
+\subsection*{Análise:}
+\begin{itemize}
+\item Caso 1: Aprovado (renda OK e tem fiador)
+\item Caso 2: Negado (renda insuficiente)
+\end{itemize}
+
+\section*{Exercício Prático}
+
+Complete a tabela abaixo usando as regras:
+\begin{itemize}
+\item "Prioritário" se: categoria = "Alimento" \textbf{e} estoque $<$ 10
+\item "Urgente" se: validade $<$ 30 dias \textbf{ou} quebra = "Sim"
+\item "Normal" para outros casos
+\end{itemize}
+
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Produto & Categoria & Estoque & Validade & Status \\
+\hline
+Arroz & Alimento & 5 & 60 & \\
+\hline
+Leite & Alimento & 15 & 25 & \\
+\hline
+Sabão & Limpeza & 8 & 10 & \\
+\hline
+\end{tabular}
+
+\end{document}

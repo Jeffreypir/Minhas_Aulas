@@ -1,0 +1,130 @@
+
+1º Trimestre: Introdução à Cultura Digital e Contemporânea
+
+a) Habilidades específicas:
+
+EM13CHS101: Analisar as interações entre cultura popular, cultura digital e contemporaneidade, identificando suas influências na formação identitária e social.
+
+EM13CHS102: Reconhecer as transformações culturais provocadas pelas tecnologias digitais.
+
+EM13CHS303: Realizar pesquisas sobre manifestações culturais populares e contemporâneas, utilizando fontes digitais confiáveis.
+
+b) Objetivos de conhecimento:
+
+Compreender os conceitos de cultura digital e cultura popular.
+
+Identificar as influências da cultura digital na sociedade contemporânea.
+
+Desenvolver habilidades de pesquisa e curadoria de informações digitais.
+
+Explorar o impacto da programação e da robótica na cultura digital.
+
+c) Procedimentos Metodológicos:
+
+Aulas expositivas e dialogadas sobre os conceitos de cultura digital e popular.
+
+Análise de casos práticos (ex.: memes, trends, influenciadores digitais).
+
+Pesquisa e discussão sobre manifestações culturais populares (ex.: festas, música, artesanato).
+
+Atividades práticas: criação de um mural digital colaborativo (usando ferramentas como Padlet ou Google Jamboard).
+
+Oficina de produção de conteúdo digital (textos, vídeos curtos, podcasts).
+
+Introdução à programação básica para criação de conteúdo interativo (ex.: uso de Scratch para criar histórias digitais ou animações culturais).
+
+d) Procedimentos Avaliativos / Estratégias de Avaliação:
+
+Participação em debates e discussões.
+
+Produção de um relatório de pesquisa sobre uma manifestação cultural popular.
+
+Avaliação do mural digital colaborativo.
+
+Avaliação escrita.
+
+Apresentação de pequenos projetos interativos em Scratch ou outra ferramenta visual de programação.
+
+
+2º Trimestre: Produção e Criação na Cultura Digital
+
+a) Habilidades específicas:
+
+EM13CHS201: Utilizar ferramentas digitais para produzir conteúdos que expressem a diversidade cultural e promovam a valorização da cultura popular.
+
+EM13CHS202: Desenvolver projetos criativos que integrem elementos da cultura digital e popular.
+
+EM13CHS304: Organizar e compartilhar informações de forma crítica e ética, respeitando os direitos autorais e a diversidade cultural.
+
+b) Objetivos de conhecimento:
+
+Explorar ferramentas digitais para a produção de conteúdos culturais.
+
+Promover a criatividade e a expressão por meio de projetos que integrem cultura digital e popular.
+
+Refletir sobre a ética no uso de informações e conteúdos digitais.
+
+Introduzir conceitos de robótica e sua relação com a cultura digital.
+
+c) Procedimentos Metodológicos:
+
+Oficinas práticas de produção de conteúdo digital (vídeos, podcasts, posts para redes sociais).
+
+Desenvolvimento de projetos criativos em grupos (ex.: campanha de valorização da cultura local).
+
+Discussões sobre direitos autorais e ética na cultura digital.
+
+Introdução à robótica educacional (ex.: uso do Arduino para criar projetos interativos que promovam elementos culturais locais).
+
+Aplicação de sensores e autômatos simples para representação de elementos culturais (ex.: simulações de danças folclóricas ou músicas tradicionais).
+
+d) Procedimentos Avaliativos / Estratégias de Avaliação:
+
+Avaliação dos projetos criativos desenvolvidos pelos estudantes.
+
+Participação nas oficinas e discussões.
+
+Autoavaliação e avaliação pelos pares.
+
+Apresentação de projetos interativos com Arduino.
+
+
+3º Trimestre: Reflexão e Intervenção na Cultura Digital e Popular
+
+a) Habilidades específicas:
+
+EM13CHS401: Refletir sobre o papel das tecnologias digitais na democratização ou exclusão cultural.
+
+EM13CHS402: Propor ações que promovam a valorização e a preservação da cultura popular e contemporânea.
+
+EM13CHS403: Participar de debates e discussões sobre temas relacionados à cultura digital e popular, promovendo o diálogo e o respeito às diferenças.
+
+b) Objetivos de conhecimento:
+
+Refletir criticamente sobre o impacto das tecnologias digitais na cultura.
+
+Desenvolver propostas de intervenção para a valorização da cultura popular e contemporânea.
+
+Promover o diálogo e o respeito às diferenças culturais.
+
+Explorar soluções tecnológicas para democratização do acesso à cultura digital.
+
+c) Procedimentos Metodológicos:
+
+Debates sobre temas como democratização do acesso à cultura digital e exclusão cultural.
+
+Desenvolvimento de projetos de intervenção comunitária (ex.: exposição virtual, campanha de conscientização).
+
+Apresentação dos projetos para a comunidade escolar.
+
+Uso de plataformas digitais para divulgação de conteúdo cultural interativo.
+
+Desenvolvimento de aplicações simples (ex.: sites ou apps educativos para valorização da cultura local).
+
+d) Procedimentos Avaliativos / Estratégias de Avaliação:
+
+Avaliação dos projetos de intervenção comunitária.
+
+Participação nos debates e discussões.
+
+Apresentação final dos projetos para a comunidade escolar.

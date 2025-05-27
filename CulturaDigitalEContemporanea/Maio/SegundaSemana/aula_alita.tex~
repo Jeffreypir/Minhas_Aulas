@@ -1,0 +1,108 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}}
+  {\thesection}
+  {1em}
+  {}
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+\title{\textcolor{blue}{Cultura Digital e Contemporânea em \textit{Alita: Anjo de Combate}}}
+\author{Professor: \underline{\hspace{4cm}}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{Introdução à Cultura Digital e Contemporânea}
+
+A cultura digital e contemporânea reflete como a tecnologia redefine nossa sociedade, identidade e relações humanas. O filme \textit{Alita: Anjo de Combate} (2019) é um ótimo exemplo para discutir esses temas, abordando:
+
+\begin{itemize}
+    \item \textbf{Fusão humano-máquina}: A hibridização entre corpo biológico e tecnologia.
+    \item \textbf{Ética tecnológica}: Os limites da inteligência artificial e da manipulação genética.
+    \item \textbf{Desigualdade social}: A divisão entre as elites tecnológicas e as populações marginalizadas.
+    \item \textbf{Identidade digital}: A reconstrução da identidade em um mundo pós-humano.
+\end{itemize}
+
+\section*{Análise do Filme}
+
+\subsection*{1. Fusão Humano-Máquina}
+Em \textit{Alita}, os corpos são frequentemente modificados com próteses cibernéticas. Discuta:
+\begin{itemize}
+    \item Como a tecnologia redefine o que é ``ser humano"?
+    \item Quais os benefícios e riscos dessa fusão?
+\end{itemize}
+
+\subsection*{2. Ética Tecnológica}
+O filme mostra personagens como Dr. Dyson Ido e Nova, que usam a tecnologia de formas opostas:
+\begin{itemize}
+    \item Compare seus objetivos e métodos.
+    \item A tecnologia é neutra ou depende de quem a controla?
+\end{itemize}
+
+
+\subsection*{3. Desigualdade Social}
+A cidade de Iron City contrasta com Zalem, a cidade flutuante:
+\begin{itemize}
+    \item Como a tecnologia aprofunda ou reduz desigualdades?
+    \item Há paralelos com o mundo atual?
+\end{itemize}
+
+\subsection*{4. Identidade Digital}
+Alita é uma ciborgue que busca recuperar suas memórias:
+\begin{itemize}
+    \item O que nos define: memórias, corpos ou ações?
+    \item Como a identidade é construída no mundo digital hoje?
+\end{itemize}
+
+\section*{Atividade Prática}
+
+\subsection*{Atividade 1: Debate - ``Tecnologia e Humanidade"}
+Divida a turma em dois grupos:
+\begin{enumerate}
+    \item \textbf{Pró-tecnologia}: Argumente como a fusão humano-máquina pode melhorar a sociedade.
+    \item \textbf{Críticos}: Discuta os riscos de perder nossa humanidade.
+\end{enumerate}
+
+\subsection*{Atividade 2: Criação de um ``Manifesto Digital"}
+Em grupos, elaborem um manifesto com:
+\begin{itemize}
+    \item 3 princípios éticos para o uso da tecnologia.
+    \item 1 proposta para reduzir desigualdades digitais.
+    \item 1 exemplo de como a tecnologia pode preservar a identidade humana.
+\end{itemize}
+
+\subsection*{Atividade 3: Analogias Contemporâneas}
+Escolha uma cena do filme e relacione-a com:
+\begin{itemize}
+    \item Um avanço tecnológico real (ex.: inteligência artificial, próteses biônicas).
+    \item Um problema social atual (ex.: vigilância digital, exclusão tecnológica).
+\end{itemize}
+
+\end{multicols}
+
+\end{document}

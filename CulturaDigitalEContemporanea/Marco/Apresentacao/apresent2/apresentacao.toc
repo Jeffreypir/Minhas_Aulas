@@ -1,0 +1,6 @@
+\babel@toc {brazil}{}\relax 
+\beamer@sectionintoc {1}{O que é um Algoritmo?}{3}{0}{1}
+\beamer@sectionintoc {2}{Lógica de Programação}{4}{0}{2}
+\beamer@sectionintoc {3}{Exemplo Prático: Calculadora Simples}{5}{0}{3}
+\beamer@sectionintoc {4}{Atividade Prática}{6}{0}{4}
+\beamer@sectionintoc {5}{Conclusão}{7}{0}{5}

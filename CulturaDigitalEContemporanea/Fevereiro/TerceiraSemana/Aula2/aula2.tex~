@@ -1,0 +1,119 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\geometry{a4paper, left=1cm, right=1cm, top=1.5cm, bottom=1.5cm}
+
+\title{Introdução ao Excel - Ensino Médio}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Aula 1: Introdução ao Excel}
+\subsection*{Objetivos}
+- Compreender a interface do Excel.
+- Aprender a inserir e formatar dados em células.
+
+\subsection*{Atividade 1: Inserindo Dados e Fazendo Operações Simples}
+\textbf{Passos:}
+\begin{itemize}
+    \item Abra o Excel e crie uma nova planilha.
+    \item Digite os seguintes números na coluna A:
+    \begin{center}
+        \begin{tabular}{|c|}
+        \hline
+        10 \\
+        20 \\
+        30 \\
+        40 \\
+        \hline
+        \end{tabular}
+    \end{center}
+    \item Na célula B1, digite \texttt{=A1*2} e pressione Enter.
+    \item Copie essa fórmula para as outras células abaixo.
+    \item Observe os resultados e anote suas conclusões.
+\end{itemize}
+
+\section*{Aula 2: Uso de Fórmulas Básicas}
+\subsection*{Objetivos}
+- Aplicar fórmulas matemáticas básicas.
+- Compreender o uso de referências de células.
+
+\subsection*{Atividade 2: Média e Soma de Valores}
+\textbf{Passos:}
+\begin{itemize}
+    \item Insira os seguintes valores na coluna A:
+    \begin{center}
+        \begin{tabular}{|c|}
+        \hline
+        5 \\
+        15 \\
+        25 \\
+        35 \\
+        \hline
+        \end{tabular}
+    \end{center}
+    \item Na célula B1, digite \texttt{=SUM(A1:A4)} e pressione Enter.
+    \item Na célula B2, digite \texttt{=AVERAGE(A1:A4)} e pressione Enter.
+    \item Compare os resultados e anote suas observações.
+\end{itemize}
+
+\section*{Aula 3: Gráficos no Excel}
+\subsection*{Objetivos}
+- Criar gráficos a partir de tabelas.
+- Analisar visualmente os dados.
+
+\subsection*{Atividade 3: Criando um Gráfico de Colunas}
+\textbf{Passos:}
+\begin{itemize}
+    \item Insira os seguintes dados:
+    \begin{center}
+        \begin{tabular}{|c|c|}
+        \hline
+        Produto & Vendas \\
+        \hline
+        Produto A & 50 \\
+        Produto B & 80 \\
+        Produto C & 30 \\
+        \hline
+        \end{tabular}
+    \end{center}
+    \item Selecione os dados e clique na aba \textbf{Inserir}.
+    \item Escolha \textbf{Gráfico de Colunas}.
+    \item Analise o gráfico gerado e descreva o que percebe.
+\end{itemize}
+
+\section*{Aula 4: Funções Condicionais e Tabelas Dinâmicas}
+\subsection*{Objetivos}
+- Aplicar funções condicionais para análise de dados.
+- Criar tabelas dinâmicas para organização de informações.
+
+\subsection*{Atividade 4: Usando a Função SE}
+\textbf{Passos:}
+\begin{itemize}
+    \item Insira os seguintes dados:
+    \begin{center}
+        \begin{tabular}{|c|c|}
+        \hline
+        Nome & Nota \\
+        \hline
+        João & 75 \\
+        Maria & 85 \\
+        Pedro & 60 \\
+        Ana & 90 \\
+        \hline
+        \end{tabular}
+    \end{center}
+    \item Na célula C1, digite \texttt{=SE(B1>=70, "Aprovado", "Reprovado")} e pressione Enter.
+    \item Copie a fórmula para as outras células da coluna.
+    \item Anote as respostas obtidas e compare os resultados.
+\end{itemize}
+
+\end{document}
+

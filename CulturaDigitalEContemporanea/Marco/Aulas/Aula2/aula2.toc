@@ -1,0 +1,7 @@
+\babel@toc {brazil}{}\relax 
+\beamer@sectionintoc {1}{Introdução às Equações do 1º Grau}{3}{0}{1}
+\beamer@sectionintoc {2}{Resolução de Equações do 1º Grau}{4}{0}{2}
+\beamer@sectionintoc {3}{Tipos de Equações do 1º Grau}{7}{0}{3}
+\beamer@sectionintoc {4}{Atividades de Fixação}{9}{0}{4}
+\beamer@sectionintoc {5}{Resolução das Atividades}{13}{0}{5}
+\beamer@sectionintoc {6}{Conclusão}{17}{0}{6}
