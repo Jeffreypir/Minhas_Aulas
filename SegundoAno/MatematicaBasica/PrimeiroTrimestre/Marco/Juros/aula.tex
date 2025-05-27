@@ -1,0 +1,219 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath} % Fonte Times New Melhor renderiza
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem} % Para listas personalizadas
+\usepackage{xcolor} % Para usar cores
+\usepackage{titlesec} % Para personalizar títulos
+
+% Ajusta o espaçamento antes e depois das seções
+\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{8pt}{8pt}{8pt}
+
+\titleformat{\subsection}[block]{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{6pt}{6pt}{6pt}
+
+\titleformat{\subsubsection}[block]{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{6pt}{6pt}{6pt}
+
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+
+\setlength{\columnseprule}{0.4pt}  % Linha dividindo as colunas 
+\setlength{\baselineskip}{1.0\baselineskip} % Espaçamento simples
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}} % Formato do título
+  {\thesection} % Número da seção
+  {1em} % Espaço entre número e título
+  {} % Código antes do título
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+\title{\textcolor{blue}{Matemática Básica: Juros Simples e Compostos}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}  % Ajuste o valor conforme necessário
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{O que são Juros?}
+
+Juros são valores pagos ou recebidos em operações financeiras, como empréstimos, investimentos ou financiamentos. Eles podem ser classificados em dois tipos principais: juros simples e juros compostos.
+
+\section*{Juros Simples}
+
+No regime de juros simples, os juros são calculados sempre sobre o valor inicial (capital), sem considerar os juros acumulados ao longo do tempo. A fórmula para calcular os juros simples é:
+
+\[
+J = C \cdot i \cdot t
+\]
+
+Onde:
+\begin{itemize}
+    \item  \( J \): Juros
+    \item  \( C \): Capital inicial
+    \item  \( i \): Taxa de juros (em decimal)
+    \item  \( t \): Tempo (em períodos)
+\end{itemize}
+
+\subsection*{Exemplo 1: Cálculo de Juros Simples}
+
+Suponha que você emprestou R\$ 1.000,00 a uma taxa de juros simples de 5\% ao mês, por 3 meses. Qual será o valor dos juros?
+
+1. Converta a taxa de juros para decimal:
+\[
+i = 5\% = 0,05
+\]
+
+2. Aplique a fórmula dos juros simples:
+\[
+J = 1000 \cdot 0,05 \cdot 3 = 150
+\]
+
+Portanto, os juros serão de R\$ 150,00.
+
+\subsection*{Montante no Juros Simples}
+
+O montante \( M \) é a soma do capital inicial com os juros:
+\[
+M = C + J = C \cdot (1 + i \cdot t)
+\]
+
+No exemplo anterior:
+\[
+M = 1000 + 150 = 1150
+\]
+
+\section*{Juros Compostos}
+
+No regime de juros compostos, os juros são calculados sobre o capital inicial e também sobre os juros acumulados em períodos anteriores. A fórmula para calcular o montante no regime de juros compostos é:
+
+\[
+M = C \cdot (1 + i)^t
+\]
+
+Onde:
+
+\begin{itemize}
+    \item \( M \): Montante
+    \item \( C \): Capital inicial
+    \item \( i \): Taxa de juros (em decimal)
+    \item \( t \): Tempo (em períodos)
+\end{itemize}
+\subsection*{Exemplo 2: Cálculo de Juros Compostos}
+
+Suponha que você investiu R\$ 1.000,00 a uma taxa de juros compostos de 5\% ao mês, por 3 meses. Qual será o montante ao final do período?
+
+1. Converta a taxa de juros para decimal:
+\[
+i = 5\% = 0,05
+\]
+
+2. Aplique a fórmula dos juros compostos:
+\[
+M = 1000 \cdot (1 + 0,05)^3 = 1000 \cdot 1,157625 = 1157,63
+\]
+
+Portanto, o montante será de R\$ 1.157,63.
+
+\section*{Comparação entre Juros Simples e Compostos}
+
+A principal diferença entre os dois regimes é que, no juros simples, os juros são constantes em cada período, enquanto no juros compostos, os juros aumentam ao longo do tempo, pois são calculados sobre o montante acumulado.
+
+\subsection*{Exemplo 3: Comparação}
+
+Considere um capital de R\$ 1.000,00 aplicado a uma taxa de 10\% ao ano, por 3 anos. \\
+
+\textbf{Juros Simples:}
+\[
+J = 1000 \cdot 0,10 \cdot 3 = 300
+\]
+\[
+M = 1000 + 300 = 1300
+\]
+
+\textbf{Juros Compostos:}
+
+\[
+M = 1000 \cdot (1 + 0,10)^3 = 1000 \cdot 1,331 = 1331
+\]
+
+Note que, no juros compostos, o montante é maior devido ao efeito dos juros sobre juros.
+
+\section*{Atividades de Fixação}
+
+\subsection*{Questão 1: Juros Simples}
+
+Um capital de R\$ 2.000,00 foi aplicado a uma taxa de juros simples de 8\% ao ano, por 5 anos. Qual será o montante ao final do período?
+
+\subsection*{Questão 2: Juros Compostos}
+
+Um investimento de R\$ 5.000,00 foi aplicado a uma taxa de juros compostos de 6\% ao semestre, por 4 semestres. Qual será o montante ao final do período?
+
+\subsection*{Questão 3: Comparação}
+
+Um capital de R\$ 3.000,00 foi aplicado a uma taxa de 12\% ao ano. Calcule o montante após 2 anos, considerando:
+a) Juros simples  
+b) Juros compostos  
+
+\subsection*{Questão 4: Aplicação Prática}
+
+Uma pessoa emprestou R\$ 10.000,00 a uma taxa de juros compostos de 2\% ao mês, por 6 meses. Qual será o valor total a ser pago ao final do período?
+
+\subsection*{Questão 5: Tempo de Investimento}
+
+Quanto tempo é necessário para que um capital de R\$ 1.000,00, aplicado a uma taxa de juros compostos de 5\% ao mês, dobre de valor?
+
+\subsection*{Questão 6: Taxa de Juros}
+
+Um investimento de R\$ 2.000,00 rendeu R\$ 400,00 em juros compostos após 2 anos. Qual foi a taxa de juros anual aplicada?
+
+\subsection*{Questão 7: Capital Inicial}
+
+Um montante de R\$ 6.000,00 foi obtido após aplicar um capital a uma taxa de juros compostos de 10\% ao ano, por 3 anos. Qual foi o capital inicial?
+
+\subsection*{Questão 8: Decisão Financeira}
+
+Uma pessoa tem duas opções de investimento:
+\begin{itemize}
+    \item Opção A: Juros simples de 8\% ao ano.
+    \item Opção B: Juros compostos de 7\% ao ano.
+\end{itemize}
+
+Qual opção é mais vantajosa para um investimento de R\$ 4.000,00 por 5 anos?
+
+\subsection*{Questão 9: Aplicação de Juros Compostos}
+
+Um banco oferece um investimento com juros compostos de 1\% ao mês. Se você investir R\$ 500,00 hoje, quanto terá após 1 ano?
+
+\subsection*{Questão 10: Juros Simples vs. Compostos}
+
+Um capital de R\$ 1.500,00 foi aplicado a uma taxa de 9\% ao ano. Compare os montantes obtidos após 4 anos, considerando juros simples e juros compostos.
+
+\subsection*{Questão 11: Tempo para Triplicar o Capital}
+Um capital de R\$ 2.000,00 foi aplicado a uma taxa de juros compostos de 6\% ao ano. Quanto tempo será necessário para que o capital triplique de valor?
+
+\textbf{Dica:} Use a fórmula dos juros compostos e resolva para tt.
+
+\subsection*{Questão 12: Taxa de Juros Mensal}
+Um investimento de R\$ 3.000,00 rendeu R\$ 900,00 em juros compostos após 6 meses. Qual foi a taxa de juros mensal aplicada?
+
+\textbf{Dica:} Use a fórmula dos juros compostos e resolva para ii.
+
+\end{multicols}
+
+\end{document}

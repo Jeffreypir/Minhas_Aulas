@@ -1,0 +1,246 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage{amsmath,multicol,geometry,enumitem,xcolor,titlesec,tikz}
+\usetikzlibrary{arrows.meta}
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Formatação de títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{red}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+
+\title{\textcolor{blue}{Sistemas de Equações - 30 Exercícios}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{Parte 1: Sistemas 2x2 (Métodos Básicos)}
+
+\subsection*{Método da Substituição}
+1. Resolva:
+\[
+\begin{cases}
+x + y = 10 \\
+2x - y = 5
+\end{cases}
+\]
+
+2. Resolva:
+\[
+\begin{cases}
+3x - y = 7 \\
+x + 2y = 4
+\end{cases}
+\]
+
+3. Resolva:
+\[
+\begin{cases}
+2x + 5y = 16 \\
+x = y + 1
+\end{cases}
+\]
+
+\subsection*{Método da Adição}
+4. Resolva:
+\[
+\begin{cases}
+x + y = 8 \\
+x - y = 2
+\end{cases}
+\]
+
+5. Resolva:
+\[
+\begin{cases}
+3x + 2y = 11 \\
+4x - 2y = 10
+\end{cases}
+\]
+
+6. Resolva:
+\[
+\begin{cases}
+5x - 3y = 12 \\
+2x + 3y = 24
+\end{cases}
+\]
+
+\subsection*{Frações e Decimais}
+7. Resolva:
+\[
+\begin{cases}
+0.5x + y = 6 \\
+x - 0.2y = 5
+\end{cases}
+\]
+
+8. Resolva:
+\[
+\begin{cases}
+\frac{x}{2} + \frac{y}{3} = 4 \\
+x - y = 3
+\end{cases}
+\]
+
+9. Resolva:
+\[
+\begin{cases}
+\frac{2x}{5} - \frac{y}{2} = 1 \\
+3x + 4y = 26
+\end{cases}
+\]
+
+\section*{Parte 2: Aplicações Práticas}
+
+\subsection*{Problemas Numéricos}
+10. A soma de dois números é 15 e sua diferença é 3. Quais são esses números?
+
+11. Um número é o triplo de outro. A soma deles é 48. Determine-os.
+
+12. Dois números estão na razão 2:5. Se a soma é 28, encontre-os.
+
+\subsection*{Idades}
+13. Ana é 5 anos mais velha que Bia. Daqui a 3 anos, a soma das idades será 35. Qual a idade atual de cada uma?
+
+14. Carlos tem o dobro da idade de Davi. Há 10 anos, ele tinha o triplo. Qual a idade atual?
+
+15. A soma das idades de pai e filho é 45. Daqui a 15 anos, o pai terá o dobro da idade do filho. Quais as idades hoje?
+
+\subsection*{Finanças}
+16. Duas camisas e um boné custam R\$ 110. Uma camisa e dois bonés custam R\$ 100. Qual o preço de cada item?
+
+17. 3 kg de maçã e 2 kg de banana custam R\$ 12. 1 kg de maçã e 4 kg de banana custam R\$ 14. Qual o preço por kg?
+
+18. Um ingresso de adulto custa o dobro de um infantil. 2 adultos e 3 crianças pagam R\$ 140. Quanto custa cada ingresso?
+
+\section*{Parte 3: Sistemas 3x3 e Desafios}
+
+\subsection*{Sistemas com Três Variáveis}
+19. Resolva:
+\[
+\begin{cases}
+x + y + z = 6 \\
+2x - y + z = 3 \\
+x + 2y - z = 2
+\end{cases}
+\]
+
+20. Resolva:
+\[
+\begin{cases}
+2x - y + 3z = 9 \\
+x + 3y - z = 4 \\
+3x + 2y + z = 10
+\end{cases}
+\]
+
+21. Resolva:
+\[
+\begin{cases}
+x + 2y - z = 5 \\
+3x - y + 2z = 8 \\
+2x + 3y - 4z = 1
+\end{cases}
+\]
+
+\subsection*{Problemas Gráficos}
+22. Represente graficamente e resolva:
+\[
+\begin{cases}
+y = 2x + 1 \\
+y = -x + 4
+\end{cases}
+\]
+
+23. Quantas soluções tem o sistema:
+\[
+\begin{cases}
+y = 3x - 2 \\
+6x - 2y = 4
+\end{cases}
+\]
+
+24. Para qual valor de \( k \) o sistema é indeterminado?
+\[
+\begin{cases}
+2x + 5y = 7 \\
+4x + ky = 14
+\end{cases}
+\]
+
+\subsection*{Desafios}
+25. Resolva:
+\[
+\begin{cases}
+\frac{1}{x} + \frac{1}{y} = 5 \\
+\frac{2}{x} - \frac{3}{y} = -1
+\end{cases}
+\]
+(Dica: Faça \( a = \frac{1}{x}, b = \frac{1}{y} \))
+
+26. Encontre \( a \) e \( b \) para que o sistema tenha infinitas soluções:
+\[
+\begin{cases}
+2x + ay = 6 \\
+bx + 3y = 9
+\end{cases}
+\]
+
+27. (ITA) Para que valores de \( m \) o sistema é impossível?
+\[
+\begin{cases}
+(m+1)x + 2y = 3 \\
+mx + y = 1
+\end{cases}
+\]
+
+\section*{Parte 4: Problemas Contextualizados}
+
+28. \textbf{(Movimento Uniforme)} Dois trens partem de cidades distantes 300 km. O trem A viaja a 60 km/h e o B a 40 km/h. Em quanto tempo se encontram?
+
+29. \textbf{(Química)} Uma solução A tem 20\% de sal, e a B tem 50\%. Quantos litros de cada devem ser misturados para obter 10 L a 32\%?
+
+30. \textbf{(Geometria)} Um retângulo tem perímetro 40 cm. Se o comprimento é 4 cm maior que a largura, calcule sua área.
+
+\section*{Gabarito Parcial}
+
+\begin{enumerate}[label=\arabic*., leftmargin=*]
+\item \( (5, 5) \)  
+\item \( (2, -1) \)  
+\item \( (3, 2) \)  
+\item \( (5, 3) \)  
+\item \( (3, 1) \)  
+\item \( (4, \frac{8}{3}) \)  
+\item \( (5, 3.5) \)  
+\item \( (6, 3) \)  
+\item \( (5, 2.75) \)  
+\item 9 e 6  
+\item 12 e 36  
+\item 8 e 20  
+\item Ana: 12, Bia: 7  
+\item Carlos: 40, Davi: 20  
+\item Pai: 35, Filho: 10  
+\item Camisa: R\$ 40, Boné: R\$ 30  
+\item Maçã: R\$ 2/kg, Banana: R\$ 3/kg  
+\item Adulto: R\$ 40, Infantil: R\$ 20  
+\item \( (1, 2, 3) \)  
+\item \( (2, 1, 3) \)  
+\end{enumerate}
+
+\end{multicols}
+\end{document}

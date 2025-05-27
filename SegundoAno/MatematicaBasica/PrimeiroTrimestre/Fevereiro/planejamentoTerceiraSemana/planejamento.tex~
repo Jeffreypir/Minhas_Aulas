@@ -1,0 +1,113 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Planejamento Semanal - Função do 1º Grau}
+\author{}
+\date{}
+\maketitle
+
+\section*{Objetivos}
+Compreender e aplicar funções do 1º grau na resolução de problemas.
+
+\section*{Conteúdos}
+\begin{itemize}
+    \item Definição e propriedades da função do 1º grau.
+    \item Gráfico da função do 1º grau.
+    \item Aplicação da função do 1º grau em problemas cotidianos.
+\end{itemize}
+
+\section*{Procedimentos Metodológicos}
+
+\subsection*{Aula 1 (50 minutos)}
+\begin{enumerate}
+    \item Introdução teórica (15 minutos):
+    \begin{itemize}
+        \item Definição da função do 1º grau: $f(x) = ax + b$.
+        \item Explicação do gráfico da função do 1º grau (reta), destacando o coeficiente angular $a$ e o coeficiente linear $b$.
+    \end{itemize}
+    
+    \item Exemplificação e resolução de problemas (25 minutos):
+    \begin{itemize}
+        \item Apresentação de problemas simples de aplicação da função do 1º grau (ex.: cálculo de custo, tempo e distância).
+        \item Resolução dos problemas com a participação dos alunos.
+    \end{itemize}
+    
+    \item Conclusão e revisão (10 minutos):
+    \begin{itemize}
+        \item Discussão das soluções encontradas e revisão dos conceitos.
+    \end{itemize}
+\end{enumerate}
+
+\subsection*{Aula 2 (50 minutos)}
+\begin{enumerate}
+    \item Recapitulação (10 minutos):
+    \begin{itemize}
+        \item Revisão rápida dos conceitos de função do 1º grau e seu gráfico.
+    \end{itemize}
+    
+    \item Resolução de problemas práticos (30 minutos):
+    \begin{itemize}
+        \item Proposição de mais problemas práticos envolvendo função do 1º grau.
+        \item Aplicação dos conceitos de coeficiente angular e linear em situações cotidianas.
+    \end{itemize}
+    
+    \item Conclusão e reflexão (10 minutos):
+    \begin{itemize}
+        \item Reflexão sobre a importância da função do 1º grau em diversas áreas.
+        \item Esclarecimento de dúvidas.
+    \end{itemize}
+\end{enumerate}
+
+\section*{Atividade}
+
+\textbf{Problema 1:} O custo total para produzir $x$ unidades de um produto é dado pela função do 1º grau $C(x) = 5x + 200$, onde $x$ é o número de unidades produzidas, $5$ é o custo unitário e $200$ é o custo fixo. 
+
+\begin{itemize}
+    \item (a) Qual é o custo para produzir 10 unidades?
+    \item (b) Quantas unidades precisam ser produzidas para que o custo total seja igual a 500?
+\end{itemize}
+
+\textbf{Problema 2:} Um pedreiro cobra R\$ 50 por dia de trabalho mais uma taxa fixa de R\$ 100 para realizar um serviço. A função que descreve o custo total do serviço, em função do número de dias trabalhados, é dada por: $C(x) = 50x + 100$.
+
+\begin{itemize}
+    \item (a) Qual é o custo total para um serviço realizado por 3 dias?
+    \item (b) Quantos dias seriam necessários para o custo total ser igual a R\$ 300?
+\end{itemize}
+
+\section*{Respostas}
+
+\textbf{Problema 1:}
+\begin{itemize}
+    \item (a) Substituindo $x = 10$ na função $C(x) = 5x + 200$:
+    \[
+    C(10) = 5(10) + 200 = 50 + 200 = 250
+    \]
+    O custo para produzir 10 unidades é R\$ 250.
+    
+    \item (b) Para encontrar $x$ quando o custo é R\$ 500, substituímos $C(x) = 500$ na equação:
+    \[
+    500 = 5x + 200 \quad \Rightarrow \quad 5x = 500 - 200 = 300 \quad \Rightarrow \quad x = \frac{300}{5} = 60
+    \]
+    São necessárias 60 unidades para que o custo total seja igual a R\$ 500.
+\end{itemize}
+
+\textbf{Problema 2:}
+\begin{itemize}
+    \item (a) Substituindo $x = 3$ na função $C(x) = 50x + 100$:
+    \[
+    C(3) = 50(3) + 100 = 150 + 100 = 250
+    \]
+    O custo total para um serviço realizado por 3 dias é R\$ 250.
+    
+    \item (b) Para encontrar $x$ quando o custo é R\$ 300, substituímos $C(x) = 300$ na equação:
+    \[
+    300 = 50x + 100 \quad \Rightarrow \quad 50x = 300 - 100 = 200 \quad \Rightarrow \quad x = \frac{200}{50} = 4
+    \]
+    São necessários 4 dias para que o custo total seja igual a R\$ 300.
+\end{itemize}
+
+\end{document}
+
