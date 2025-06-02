@@ -1,0 +1,87 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Definir a cor das seções como azul
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}}
+  {\thesection}
+  {1em}
+  {}
+
+\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
+\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
+\title{\textcolor{blue}{Atividade: Ética Tecnológica, Desigualdade Social e Identidade Digital}}
+\author{Professor: \underline{\hspace{4cm}}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{Instruções}
+Responda às questões abaixo com base no filme \textit{Alita: Anjo de Combate} (2019) e em reflexões sobre a sociedade contemporânea.
+
+\section*{Parte 1: Ética Tecnológica}
+\begin{enumerate}
+    \item No filme, Dr. Ido e Nova representam visões opostas sobre o uso da tecnologia. Compare suas posturas éticas.
+    \item A tecnologia de Alita (corpo cibernético) pode ser usada para o bem ou para o mal. Dê exemplos de ambas as situações no filme.
+    \item Quais são os limites éticos da manipulação genética e da inteligência artificial apresentados no filme?
+    \item A ciborguização em Alita é voluntária ou imposta? Discuta os problemas éticos disso.
+    \item Como o filme retrata a responsabilidade dos cientistas (como Ido) sobre suas criações?
+    \item A tecnologia no filme é neutra ou seus impactos dependem de quem a controla? Justifique.
+    \item O que o filme sugere sobre o direito à privacidade em um mundo com corpos hackeáveis?
+    \item Relacione o uso de ciborgues no filme com os debates atuais sobre aprimoramento humano.
+    \item Qual é o papel da consciência na definição do que é humano no filme?
+    \item Como o filme aborda o dilema ético de criar vida artificial com sentimentos?
+\end{enumerate}
+
+\section*{Parte 2: Desigualdade Social}
+\begin{enumerate}[resume]
+    \item Compare as condições de vida em Iron City e Zalem. Que paralelos podemos fazer com a sociedade atual?
+    \item Como o acesso à tecnologia aprofunda as desigualdades no filme?
+    \item O esporte Motorball serve para que tipo de mobilidade social no filme?
+    \item Que grupos sociais são mais vulneráveis em Iron City e por quê?
+    \item Como o filme retrata a exploração dos corpos cibernéticos para benefício dos mais ricos?
+    \item Que mecanismos de controle social são usados para manter a hierarquia entre Zalem e Iron City?
+    \item O que a figura de Vector representa na manutenção das desigualdades?
+    \item Como a violência é usada como ferramenta de opressão no filme?
+    \item Que soluções o filme sugere para reduzir as desigualdades tecnológicas?
+    \item Como a falta de acesso à tecnologia médica afeta os personagens mais pobres?
+\end{enumerate}
+
+\section*{Parte 3: Identidade Digital}
+\begin{enumerate}[resume]
+    \item O que define a identidade de Alita: suas memórias, seu corpo ou suas ações?
+    \item Como a perda de memórias afeta a construção da identidade no filme?
+    \item Compare a identidade de Alita antes e depois de receber o corpo Berserker.
+    \item Que conflitos internos Alita enfrenta ao descobrir seu passado?
+    \item Como as redes sociais atuais influenciam nossa identidade digital?
+    \item O filme sugere que nossa identidade pode ser armazenada digitalmente. Isso é positivo ou perigoso?
+    \item Como o filme aborda o direito ao esquecimento digital?
+    \item Que paralelos podemos fazer entre a busca de Alita por sua identidade e os desafios da identidade online hoje?
+    \item Como o corpo cibernético de Alita desafia noções tradicionais de identidade?
+    \item O filme sugere que a identidade é fixa ou em constante transformação?
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}

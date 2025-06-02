@@ -1,0 +1,280 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\geometry{a4paper, margin=2.5cm}
+\onehalfspacing
+\titleformat{\section}{\normalfont\bfseries\Large}{\thesection}{1em}{}
+
+\begin{document}
+
+% Capa
+\begin{titlepage}
+    \centering
+    {\large EREFEM Monsenhor José Kerhle }\\[2cm]
+    {\Large\bfseries SIMULADOR DE POLUIÇÃO MARINHA COM ARDUINO E SENSORES}\\[2cm]
+    {\large Alicia Otacilia da Silva }\\[4cm]
+    {\large Arcoverde-Pernambuco}
+\end{titlepage}
+
+% Folha de rosto
+\begin{titlepage}
+    \centering
+    {\large Alicia Otacilia da Silva}\\[2cm]
+    {\Large\bfseries SIMULADOR DE POLUIÇÃO MARINHA COM ARDUINO E SENSORES}\\[1.5cm]
+    Orientador: Jefferson Bezerra dos Santos \\[3cm]
+    {\large Arcoverde -- Pernambuco}\\
+    {\large 2025}
+\end{titlepage}
+
+% Resumo
+\begin{abstract}
+    Este projeto tem como objetivo desenvolver um simulador educacional que demonstre como a poluição afeta o ecossistema marinho, utilizando uma plataforma Arduino acoplada a sensores de cor (TCS34725) e LEDs RGB. O sistema simula diferentes tipos de poluição (plásticos, produtos químicos) em um ambiente controlado, permitindo visualizar os efeitos através de indicadores luminosos e dados quantitativos. A proposta visa conscientizar sobre a qualidade dos oceanos e demonstrar o potencial das tecnologias acessíveis para o monitoramento ambiental.
+\end{abstract}
+
+% Sumário
+\tableofcontents
+\newpage
+
+\section{Introdução}
+A poluição dos oceanos é um dos principais desafios ambientais da atualidade, afetando diretamente a biodiversidade marinha e a qualidade da água. Este projeto tem como foco o desenvolvimento de um simulador educacional utilizando Arduino e sensores para demonstrar os efeitos da poluição em ambientes marinhos, combinando aspectos de educação ambiental com tecnologia acessível.
+
+\section{Fundamentação Teórica}
+
+\subsection{Poluição Marinha e Seus Impactos}
+
+A poluição marinha é caracterizada pela introdução de substâncias ou energia no ambiente marinho que resultam em efeitos deletérios. Segundo o relatório da ONU sobre o Estado do Oceano (UNEP, 2021), os principais poluentes incluem:
+
+\begin{itemize}
+    \item Resíduos plásticos (micro e macro)
+    \item Derramamentos de petróleo
+    \item Esgoto doméstico e industrial
+    \item Produtos químicos agrícolas
+\end{itemize}
+
+Estes poluentes alteram parâmetros físico-químicos da água como turbidez, pH e concentração de sólidos dissolvidos, podendo levar à eutrofização, redução de oxigênio e morte de espécies marinhas.
+
+\subsection{Tecnologia Arduino como Ferramenta Educacional}
+
+O Arduino é uma plataforma de prototipagem eletrônica que se tornou popular no ensino de STEM (Ciência, Tecnologia, Engenharia e Matemática) devido a:
+
+\begin{itemize}
+    \item Baixo custo
+    \item Comunidade ativa
+    \item Facilidade de integração com sensores
+    \item Ambiente de programação acessível
+\end{itemize}
+
+No contexto educacional, permite demonstrar conceitos abstratos de poluição através de visualizações concretas.
+
+\subsection{Sensores Utilizados no Projeto}
+
+\subsubsection{Sensor de Cor TCS34725}
+
+O sensor TCS34725 é capaz de detectar cores RGB (Red, Green, Blue) e intensidade luminosa, sendo ideal para identificar mudanças na coloração da água causadas por:
+
+\begin{itemize}
+    \item Turbidez (partículas em suspensão)
+    \item Presença de corantes ou produtos químicos
+    \item Algas ou matéria orgânica
+\end{itemize}
+
+\subsubsection{LEDs RGB como Indicadores Visuais}
+
+Os LEDs RGB serão utilizados para representar graficamente os níveis de poluição:
+
+\begin{itemize}
+    \item Verde: Água limpa
+    \item Amarelo: Poluição moderada
+    \item Vermelho: Poluição crítica
+\end{itemize}
+
+\subsubsection{Sistema Integrado de Monitoramento}
+
+A combinação sensor-atuador permite:
+\begin{itemize}
+    \item Detecção quantitativa de poluentes
+    \item Feedback visual imediato
+    \interface com o computador para análise de dados
+\end{itemize}
+
+\section{Materiais e Métodos}
+
+\subsection{Materiais}
+\begin{itemize}
+    \item Placa Arduino UNO
+    \item Sensor de cor TCS34725
+    \item LEDs RGB (3 unidades)
+    \item Protoboard e jumpers
+    \item Recipiente transparente (20x30cm)
+    \item Materiais para simulação de poluição:
+    \begin{itemize}
+        \item Fragmentos de plástico colorido
+        \item Tinta não tóxica (simulando químicos)
+        \item Óleo vegetal (simulando derramamento)
+    \end{itemize}
+    \item Cabo USB para comunicação serial
+\end{itemize}
+
+\subsection{Metodologia Experimental}
+
+O experimento será conduzido em três etapas:
+
+\subsubsection{Montagem do Sistema}
+\begin{enumerate}
+    \item Configurar o Arduino com o sensor TCS34725 posicionado dentro do recipiente com água limpa
+    \item Instalar os LEDs RGB em posições estratégicas para visualização
+    \item Conectar todos os componentes na protoboard
+\end{enumerate}
+
+\subsubsection{Programação}
+\begin{itemize}
+    \item Desenvolver código para:
+    \begin{itemize}
+        \item Ler valores RGB do sensor
+        \item Classificar os níveis de poluição
+        \item Controlar os LEDs conforme a classificação
+        \item Enviar dados para o monitor serial
+    \end{itemize}
+    \item Calibrar o sistema com água limpa como referência
+\end{itemize}
+
+\subsubsection{Simulação de Cenários}
+\begin{itemize}
+    \item Cenário 1: Água limpa (controle)
+    \item Cenário 2: Adição de plásticos (alteração de turbidez)
+    \item Cenário 3: Adição de tinta (mudança de cor)
+    \item Cenário 4: Mistura de poluentes
+\end{itemize}
+
+Para cada cenário serão registrados:
+\begin{itemize}
+    \item Valores RGB detectados
+    \item Tempo de resposta do sistema
+    \item Intensidade e cor dos LEDs
+\end{itemize}
+
+\section{Resultados Esperados}
+
+Com a implementação deste simulador, espera-se:
+
+\begin{itemize}
+    \item Detecção consistente de mudanças na qualidade da água através do sensor de cor
+    \item Resposta visual imediata através dos LEDs RGB
+    \item Geração de dados quantitativos sobre as variações
+    \item Demonstração clara dos efeitos visuais da poluição marinha
+    
+    \begin{table}[h]
+    \centering
+    \caption{Exemplo de saída esperada do sistema}
+    \begin{tabular}{|l|l|l|l|}
+    \hline
+    Cenário & Valores RGB & LED & Nível de Poluição \\ \hline
+    1 (Limpo) & R:50 G:150 B:200 & Verde & 0\% \\ \hline
+    2 (Plástico) & R:80 G:120 B:180 & Amarelo & 40\% \\ \hline
+    3 (Tinta) & R:200 G:100 B:50 & Vermelho & 80\% \\ \hline
+    \end{tabular}
+    \end{table}
+\end{itemize}
+
+\section{Discussão e Aplicações}
+
+Este simulador oferece múltiplas possibilidades educacionais:
+
+\begin{itemize}
+    \item Demonstração prática dos efeitos da poluição
+    \item Introdução à programação e eletrônica
+    \item Base para projetos interdisciplinares (ciências, tecnologia, ecologia)
+    \item Protótipo para sistemas de monitoramento real
+    
+    As limitações incluem:
+    \item Escala reduzida (ambiente controlado)
+    \item Sensibilidade à iluminação ambiente
+    \item Necessidade de calibração precisa
+\end{itemize}
+
+Futuras melhorias podem incluir:
+\begin{itemize}
+    \item Adição de mais parâmetros (pH, temperatura)
+    \item Interface gráfica para visualização de dados
+    \item Módulo wireless para monitoramento remoto
+\end{itemize}
+
+\section{Referências}
+\begin{thebibliography}{99}
+
+\bibitem{unep2021}
+PROGRAMA DAS NAÇÕES UNIDAS PARA O MEIO AMBIENTE. \textit{Relatório da ONU sobre poluição plástica alerta sobre aumento da poluição nos oceanos}. 2021. Disponível em: \url{https://www.unep.org/pt-br/noticias-e-reportagens/comunicado-de-imprensa/relatorio-da-onu-sobre-poluicao-plastica-alerta-sobre}. Acesso em: 28 maio 2025.
+
+\bibitem{banzi2014}
+BANZI, Massimo; SHILOH, Michael. \textit{Getting Started with Arduino}. 3. ed. Sebastopol, CA: Maker Media, 2014.
+
+\bibitem{tcs34725}
+AMS. \textit{TCS34725 Digital Color Sensor Datasheet}. 2018. Disponível em: \url{https://ams.com/documents/20143/36005/TCS3472_DS000390_3-00.pdf}. Acesso em: 28 maio 2025.
+
+\bibitem{stem}
+NATIONAL SCIENCE TEACHERS ASSOCIATION. \textit{Integrating STEM in the Classroom}. 2022.
+
+\bibitem{marinepollution}
+NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION. \textit{Marine Pollution Threats}. 2023. Disponível em: \url{https://www.noaa.gov/education/resource-collections/ocean-coasts/marine-pollution}. Acesso em: 28 maio 2025.
+
+\end{thebibliography}
+
+\section*{Anexos}
+\subsection*{Diagrama do Circuito}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{circuito.png}
+\caption{Diagrama esquemático da montagem com Arduino, sensor TCS34725 e LEDs RGB}
+\end{figure}
+
+\subsection*{Código Fonte}
+\begin{verbatim}
+// Exemplo simplificado do código Arduino
+#include <Wire.h>
+#include "Adafruit_TCS34725.h"
+
+Adafruit_TCS34725 tcs = Adafruit_TCS34725();
+
+void setup() {
+  pinMode(9, OUTPUT);  // LED Vermelho
+  pinMode(10, OUTPUT); // LED Verde
+  pinMode(11, OUTPUT); // LED Azul
+  
+  if (!tcs.begin()) {
+    Serial.println("Sensor não encontrado!");
+    while (1);
+  }
+}
+
+void loop() {
+  uint16_t r, g, b, c;
+  tcs.getRawData(&r, &g, &b, &c);
+  
+  // Lógica de classificação
+  if (r > 150) {
+    setLED(255, 0, 0); // Vermelho - Poluição alta
+  } else if (r > 100) {
+    setLED(255, 255, 0); // Amarelo - Poluição média
+  } else {
+    setLED(0, 255, 0); // Verde - Água limpa
+  }
+  
+  delay(500);
+}
+
+void setLED(int red, int green, int blue) {
+  analogWrite(9, red);
+  analogWrite(10, green);
+  analogWrite(11, blue);
+}
+\end{verbatim}
+
+\end{document}

@@ -1,0 +1,134 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\geometry{a4paper, margin=2.5cm}
+\onehalfspacing
+\titleformat{\section}{\normalfont\bfseries\Large}{\thesection}{1em}{}
+
+\begin{document}
+
+% Capa
+\begin{titlepage}
+    \centering
+    {\large EREFEM Monsenhor José Kerhle }\\[2cm]
+    {\Large\bfseries ANÁLISE DE ÁGUA MARINHA COM ARDUINO E SENSORES}\\[2cm]
+    {\large Alicia Otacilia da Silva }\\[4cm]
+    {\large Arcoverde-Pernambuco}
+\end{titlepage}
+
+% Folha de rosto
+\begin{titlepage}
+    \centering
+    {\large Alicia Otacilia da Silva}\\[2cm]
+    {\Large\bfseries ANÁLISE DE ÁGUA MARINHA COM ARDUINO E SENSORES}\\[1.5cm]
+    Orientador: Jefferson Bezerra dos Santos \\[3cm]
+    {\large Arcoverde -- Pernambuco}\\
+    {\large 2025}
+\end{titlepage}
+
+% Resumo
+\begin{abstract}
+    Este projeto tem como objetivo a análise de parâmetros físico-químicos da água marinha utilizando uma plataforma Arduino acoplada a sensores específicos: TDS Meter (sólidos totais dissolvidos), HC-SR04 (distância e nível de água) e TCRT5000 (detecção de cor e turbidez). A proposta visa aplicar tecnologias acessíveis para monitoramento ambiental e conscientização sobre a qualidade dos oceanos.
+\end{abstract}
+
+% Sumário
+\tableofcontents
+\newpage
+
+\section{Introdução}
+A poluição dos oceanos é um dos principais desafios ambientais da atualidade. Este projeto tem como foco o desenvolvimento de um sistema de baixo custo utilizando Arduino e sensores para monitorar a qualidade da água marinha.
+
+\section{Fundamentação Teórica}
+
+\subsection{Poluição Marinha e Qualidade da Água}
+
+A poluição dos oceanos é um dos maiores desafios ambientais do século XXI. Substâncias poluentes como resíduos sólidos, esgoto doméstico e produtos químicos industriais são constantemente despejados nos mares, comprometendo a qualidade da água e ameaçando os ecossistemas marinhos. Segundo o relatório da ONU sobre o Estado do Oceano (UNEP, 2021) uma grande preocupação é o destino dos microplásticos, aditivos químicos e outros produtos fragmentados, muitos dos quais são conhecidos por serem tóxicos e perigosos para a saúde humana, a vida selvagem e os ecossistemas. A velocidade com que a poluição oceânica está captando a atenção do público é encorajadora e é vital que aproveitemos este impulso para alcançar um oceano limpo, saudável e resiliente.
+
+
+A qualidade da água pode ser avaliada por meio de diferentes parâmetros físico-químicos, como turbidez, sólidos totais dissolvidos (TDS), pH, temperatura e oxigênio dissolvido. Cada um desses indicadores fornece informações importantes sobre o nível de poluição, a salinidade e a presença de matéria orgânica ou contaminantes.
+
+\subsection{Tecnologia Arduino}
+
+O \textit{Arduino} é uma plataforma de prototipagem eletrônica de código aberto baseada em hardware e software fáceis de usar. Consiste em uma placa com microcontrolador (geralmente um ATmega328P) e um ambiente de desenvolvimento integrado (IDE) que permite escrever e carregar códigos na placa.
+
+O uso do Arduino em experimentos científicos tem crescido devido ao seu baixo custo, flexibilidade e grande comunidade de usuários. Ele pode ser facilmente conectado a sensores diversos, atuadores e módulos de comunicação, sendo uma ferramenta ideal para projetos de automação e coleta de dados ambientais.
+
+\subsection{Sensores Utilizados no Projeto}
+
+Este projeto utiliza três sensores principais, que permitem medir parâmetros relevantes para a análise da água marinha:
+
+\subsubsection{Sensor TDS Meter}
+
+O sensor \textit{TDS Meter} (Total Dissolved Solids) mede a concentração de sólidos totais dissolvidos na água, como sais, minerais e metais. A leitura é feita em partes por milhão (ppm) e está diretamente relacionada à condutividade elétrica da água. Valores elevados podem indicar salinidade excessiva ou presença de contaminantes.
+
+\subsubsection{Sensor HC-SR04}
+
+O sensor \textit{HC-SR04} é um sensor ultrassônico utilizado para medir distâncias com precisão. No contexto deste projeto, ele é utilizado para medir o nível da água ou a distância entre a superfície líquida e o sensor. Funciona emitindo pulsos de som e calculando o tempo de retorno para determinar a distância.
+
+\subsubsection{Sensor TCRT5000}
+
+O \textit{TCRT5000} é um sensor óptico reflexivo que utiliza um LED infravermelho e um fototransistor. Ele é amplamente utilizado para detecção de linhas, obstáculos ou variações de cor e brilho. Neste projeto, é empregado para avaliar a turbidez da água, pois a presença de partículas em suspensão afeta a quantidade de luz refletida.
+
+\subsection{Importância do Monitoramento com Baixo Custo}
+
+A utilização de plataformas como o Arduino e sensores de baixo custo possibilita o desenvolvimento de soluções acessíveis para o monitoramento ambiental. Em regiões costeiras ou comunidades com poucos recursos, projetos como este podem fornecer dados importantes sobre a qualidade da água e apoiar políticas públicas de preservação ambiental.
+
+Além disso, essa abordagem favorece a educação científica, promovendo o aprendizado prático de eletrônica, programação e ciências ambientais.
+
+
+\section{Materiais e Métodos}
+\subsection{Materiais}
+\begin{itemize}
+    \item Placa Arduino UNO
+    \item Sensor HC-SR04
+    \item Sensor TCRT5000
+    \item Sensor TDS Meter
+    \item Protoboard, jumpers, cabos USB
+    \item Recipiente com água marinha ou equivalente para simulação.
+\end{itemize}
+
+\section{Resultados e Discussões}
+
+Este projeto encontra-se em fase inicial, portanto os resultados apresentados são preliminares e baseados em testes de bancada com os sensores HC-SR04, TCRT5000 e TDS Meter. Espera-se que o sensor HC-SR04 permita medir a profundidade com boa precisão, enquanto o TCRT5000 será utilizado para detectar parâmetros específicos relacionados à turbidez da água. O TDS Meter, por sua vez, deverá fornecer informações sobre a concentração de sólidos dissolvidos totais.
+
+A escolha destes sensores foi fundamentada na sua utilização em monitoramento ambiental e custo acessível, o que torna viável a implementação de uma rede de monitoramento contínuo. Contudo, algumas limitações como interferências ambientais e necessidade de calibração adequada são reconhecidas e serão tratadas nas próximas fases do projeto.
+
+Os próximos passos incluem a calibração dos sensores em laboratório, seguido de testes em campo para validar a eficiência e confiabilidade dos dados coletados, permitindo, assim, uma análise crítica da qualidade da água marinha.
+
+
+
+\section{Referências}
+\begin{thebibliography}{99}
+
+\bibitem{unep2021}
+PROGRAMA DAS NAÇÕES UNIDAS PARA O MEIO AMBIENTE. \textit{Relatório da ONU sobre poluição plástica alerta sobre aumento da poluição nos oceanos}. 2021. Disponível em: \url{https://www.unep.org/pt-br/noticias-e-reportagens/comunicado-de-imprensa/relatorio-da-onu-sobre-poluicao-plastica-alerta-sobre}. Acesso em: 28 maio 2025.
+
+\bibitem{banzi2014}
+BANZI, Massimo; SHILOH, Michael. \textit{Getting Started with Arduino}. 3. ed. Sebastopol, CA: Maker Media, 2014.
+
+\bibitem{monk2022}
+MONK, Simon. \textit{Programming Arduino: Getting Started with Sketches}. 3. ed. New York: McGraw-Hill Education, 2022.
+
+\bibitem{hcsr04}
+ELEGOO. \textit{HC-SR04 Ultrasonic Sensor – Technical Specification}. Disponível em: \url{https://www.elegoo.com/products/hc-sr04-ultrasonic-sensor}. Acesso em: 28 maio 2025.
+
+\bibitem{tds}
+DFROBOT. \textit{Gravity: Analog TDS Sensor/Meter for Arduino – Datasheet}. 2021. Disponível em: \url{https://wiki.dfrobot.com/Gravity__Analog_TDS_Sensor___Meter_For_Arduino_SKU__SEN0244}. Acesso em: 28 maio 2025.
+
+\bibitem{tcrt5000}
+VISHAY INTERTECHNOLOGY. \textit{TCRT5000 Reflective Optical Sensor with Transistor Output – Datasheet}. Disponível em: \url{https://www.vishay.com/docs/83760/tcrt5000.pdf}. Acesso em: 28 maio 2025.
+
+\bibitem{arduino}
+ARDUINO. \textit{Arduino Documentation}. Disponível em: \url{https://docs.arduino.cc}. Acesso em: 28 maio 2025.
+
+\end{thebibliography}
+\end{document}
+

@@ -1,0 +1,34 @@
+import serial
+import time
+import sys
+
+def main():
+    if len(sys.argv) < 2:
+        print("Uso: python script.py COMx")
+        sys.exit(1)
+
+    porta = sys.argv[1]
+
+    try:
+        ser = serial.Serial(porta, 9600, timeout=1)
+        time.sleep(2)  # espera Arduino resetar
+        print(f"Conectado à porta {porta} com baudrate 9600")
+
+        while True:
+            if ser.in_waiting > 0:
+                linha = ser.readline().decode('utf-8').rstrip()
+                print(f"Recebido: {linha}")
+
+    except serial.SerialException as e:
+        print(f"Erro na porta serial: {e}")
+
+    except KeyboardInterrupt:
+        print("\nEncerrando programa...")
+
+    finally:
+        if 'ser' in locals() and ser.is_open:
+            ser.close()
+
+if __name__ == "__main__":
+    main()
+

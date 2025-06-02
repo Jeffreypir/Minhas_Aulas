@@ -1,0 +1,14 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {section}{\numberline {1}Introdução}{2}{section.1}%
+\contentsline {section}{\numberline {2}Fundamentação Teórica}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Poluição Marinha e Qualidade da Água}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Tecnologia Arduino}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Sensores Utilizados no Projeto}{2}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Sensor TDS Meter}{3}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Sensor HC-SR04}{3}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Sensor TCRT5000}{3}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}Importância do Monitoramento com Baixo Custo}{3}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Materiais e Métodos}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Materiais}{3}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Resultados e Discussões}{4}{section.4}%
+\contentsline {section}{\numberline {5}Referências}{4}{section.5}%

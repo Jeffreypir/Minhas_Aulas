@@ -1,0 +1,80 @@
+
+- Habilidades: 
+
+(EM13MAT201PE13) Propor ou participar de ações adequadas às demandas de sua região e/ou de sua
+comunidade, envolvendo medições e cálculos de perímetro, área, volume, capacidade e massa, entre
+outros, relacionando as funções algébricas e os diferentes campos do conhecimento, com e/ou sem o
+uso de tecnologias digitais.
+
+(EM13MAT401) Analisar criticamente informações expressas por meio de diferentes linguagens e
+representações matemáticas, reconhecendo sua influência na construção da identidade e nas decisões
+individuais e coletivas.
+
+(EM13MAT402) Avaliar e utilizar criticamente tecnologias digitais para representar, comunicar e
+resolver problemas matemáticos e para investigar situações reais.
+
+(EM13CHS104) Analisar as dinâmicas da desigualdade social no Brasil e no mundo e suas implicações no
+exercício da cidadania.
+
+- Objetivos / Competências:
+
+Utilizar a matemática para compreender desigualdades sociais, explorando
+dados estatísticos e geográficos em contextos locais e globais.
+
+Refletir sobre o uso ético da tecnologia em ambientes matemáticos, incluindo o uso de softwares de
+cálculo, modelagem e inteligência artificial.
+
+Desenvolver a consciência crítica sobre a identidade digital no contexto da matemática: perfis
+digitais, algoritmos de recomendação, coleta e uso de dados.
+
+Produzir e interpretar representações matemáticas (gráficos, tabelas, infográficos) com senso
+crítico sobre as fontes, intenções e possíveis manipulações.
+
+Estimular o pensamento matemático como ferramenta para empoderamento social, investigação científica
+e transformação da realidade.
+
+- Procedimentos Metodológicos:
+
+Aulas expositivas e dialógicas com análise de dados estatísticos reais
+(ex: acesso à internet, distribuição de renda, desigualdade educacional).
+
+Uso de softwares matemáticos (GeoGebra, Excel, Desmos) para criação de modelos e visualizações
+críticas.
+
+Análise crítica de infográficos e dados manipulados: como gráficos distorcem a verdade? O que os
+algoritmos mostram e escondem?
+
+Discussão de casos reais onde algoritmos matemáticos reforçaram desigualdades (ex: distribuição de
+crédito, inteligência artificial, filtragem social).
+
+Criação de projetos matemáticos investigativos: mapeamento da desigualdade digital na comunidade
+escolar usando questionários, gráficos e tabelas.
+
+Rodas de conversa sobre privacidade, uso de dados e identidade digital com foco nos aplicativos e
+ferramentas que usam matemática (ex: algoritmos de redes sociais).
+
+Criação de material digital (podcast, vídeo, infográfico) que articule matemática, tecnologia e
+ética social.
+
+- Procedimentos Avaliativos / Estratégias de Avaliação:
+
+Avaliação contínua por meio de participação em atividades investigativas e tecnológicas.
+
+Produção de relatórios matemáticos com análise crítica de dados, destacando aspectos éticos e
+sociais.
+
+Elaboração e apresentação de projetos interdisciplinares que relacionem matemática com desigualdade
+social e cultura digital.
+
+Avaliações que incluam: clareza na leitura de dados, uso de tecnologia, criticidade e
+argumentação ética.
+
+Autoavaliação e coavaliação em atividades colaborativas (ex: análise de gráficos e construção de
+modelos).
+
+Apresentação de propostas matemáticas para intervenção social, baseadas em dados e raciocínio
+lógico.
+
+Provas para verificação de aprendizagem.
+
+

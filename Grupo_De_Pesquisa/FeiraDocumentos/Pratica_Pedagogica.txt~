@@ -1,0 +1,38 @@
+A Utilização do Arduino em Projetos Interdisciplinares
+
+Este trabalho explora a aplicação do Arduino como ferramenta educacional e tecnológica em dois projetos distintos, demonstrando sua versatilidade em diferentes contextos. No primeiro projeto, o Arduino foi utilizado para controlar uma mão robótica sustentável, desenvolvida com materiais recicláveis e acionada por visão computacional, permitindo a reprodução de movimentos humanos em tempo real. O microcontrolador integrou servomotores e sensores, facilitando o aprendizado de automação e programação.
+
+No segundo projeto, o Arduino foi empregado na criação de um animatrônico interativo, construído com resíduos como papelão e MDF, com temática voltada à conscientização ambiental. Por meio de servomotores e programação em C++, o sistema simulou movimentos realistas, destacando o potencial do Arduino na prototipagem de baixo custo.
+
+Além dessas aplicações em robótica, o Arduino também foi utilizado em um sistema de monitoramento ambiental, onde sensores de temperatura e umidade (DHT11 e HD-38) coletaram dados em tempo real, processados estatisticamente via Python. A plataforma mostrou-se eficiente na aquisição e transmissão de informações, reforçando seu papel em soluções de IoT e análise de dados.
+
+Esses exemplos ilustram como o Arduino pode ser integrado em projetos que unem tecnologia, sustentabilidade e educação, servindo como uma ferramenta acessível para o desenvolvimento de protótipos funcionais e interdisciplinares.
+
+Palavras-chave: Arduino, robótica educacional, automação, monitoramento ambiental, prototipagem.
+
+
+Objetivo:
+
+O objetivo deste estudo é demonstrar a aplicação do Arduino como ferramenta interdisciplinar em projetos educacionais, destacando sua versatilidade para integrar tecnologia, sustentabilidade e ensino prático. Por meio de três projetos concretos – uma mão robótica sustentável, um animatrônico interativo e um sistema de monitoramento ambiental – busca-se:
+
+Ilustrar as potencialidades do Arduino no controle de sistemas embarcados, combinando hardware (sensores, atuadores) e software (programação em C++, Python) para desenvolver protótipos funcionais e acessíveis.
+
+Promover a interdisciplinaridade, mostrando como a plataforma pode conectar áreas como robótica, programação, eletrônica, estatística e educação ambiental em contextos de aprendizagem ativa.
+
+Incentivar a sustentabilidade tecnológica, evidenciando a viabilidade de soluções de baixo custo com materiais recicláveis e componentes eletrônicos acessíveis.
+
+Fomentar a educação STEM/STEAM, utilizando projetos práticos para ensinar conceitos complexos de forma tangível, como automação, análise de dados e pensamento computacional.
+
+
+Objetivo: 
+
+Analisar como o Arduino pode integrar diferentes áreas do conhecimento através do desenvolvimento de projetos práticos, incluindo uma mão robótica sustentável, um animatrônico interativo e um sistema de monitoramento ambiental, promovendo aprendizagem ativa e interdisciplinar.
+
+
+Resultado Esperados: 
+
+Este trabalho visa demonstrar a eficácia do Arduino como ferramenta interdisciplinar através de três protótipos funcionais: (1) uma mão robótica sustentável controlada por visão computacional, capaz de reproduzir movimentos humanos com precisão; (2) um animatrônico interativo construído com materiais reciclados, simulando movimentos realistas; e (3) um sistema de monitoramento ambiental que coleta e analisa dados climáticos em tempo real.
+
+Os resultados comprovarão a viabilidade técnica e sustentável dessas soluções, mostrando como componentes eletrônicos acessíveis e materiais reutilizados podem integrar tecnologia, educação e consciência ambiental. Espera-se que os projetos desenvolvam habilidades multidisciplinares nos estudantes, incluindo programação (C++/Python), automação (controle de sensores/atuadores) e pensamento crítico sobre sustentabilidade.
+
+Avaliar-se-á: o desempenho dos protótipos (precisão de movimentos, acurácia dos dados), o custo-benefício das soluções e o impacto educacional por meio de feedback dos participantes. Os resultados poderão ser aplicados em educação STEM, agricultura inteligente e desenvolvimento de tecnologias sustentáveis acessíveis

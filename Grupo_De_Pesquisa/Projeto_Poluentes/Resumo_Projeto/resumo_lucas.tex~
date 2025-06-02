@@ -1,0 +1,223 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows, positioning, calc, circuits.ee.IEC}
+
+\geometry{a4paper, margin=2.5cm}
+\onehalfspacing
+\titleformat{\section}{\normalfont\bfseries\Large}{\thesection}{1em}{}
+
+\begin{document}
+
+% Capa
+\begin{titlepage}
+    \centering
+    {\large EREFEM Monsenhor José Kerhle }\\[2cm]
+    {\Large\bfseries SIMULADOR DE POLUIÇÃO MARINHA COM ARDUINO E SENSOR TCS230}\\[2cm]
+    {\large Lucas Matheus Borges Barbosa }\\[4cm]
+    {\large Arcoverde-Pernambuco}
+\end{titlepage}
+
+% Folha de rosto
+\begin{titlepage}
+    \centering
+    {\large Lucas Matheus Borges Barbosa}\\[2cm]
+    {\Large\bfseries SIMULADOR DE POLUIÇÃO MARINHA COM ARDUINO E SENSOR TCS230}\\[1.5cm]
+    Orientador: Jefferson Bezerra dos Santos \\[3cm]
+    {\large Arcoverde -- Pernambuco}\\
+    {\large 2025}
+\end{titlepage}
+
+% Resumo
+\begin{abstract}
+    Este projeto tem como objetivo desenvolver um simulador educacional que demonstre como a poluição afeta o ecossistema marinho, utilizando uma plataforma Arduino acoplada ao sensor de cor TCS230 e LEDs RGB. O sistema simula diferentes tipos de poluição em um ambiente controlado, permitindo visualizar os efeitos através de indicadores luminosos e dados quantitativos. A proposta visa conscientizar sobre a qualidade dos oceanos utilizando tecnologias acessíveis.
+\end{abstract}
+
+% Sumário
+\tableofcontents
+\newpage
+
+\section{Introdução}
+A poluição dos oceanos é um dos principais desafios ambientais da atualidade, afetando diretamente a biodiversidade marinha e a qualidade da água. Este projeto tem como foco o desenvolvimento de um simulador educacional utilizando Arduino e sensores para demonstrar os efeitos da poluição em ambientes marinhos, combinando aspectos de educação ambiental com tecnologia acessível.
+
+\section{Fundamentação Teórica}
+
+A poluição marinha é caracterizada pela introdução de substâncias ou energia no ambiente marinho que resultam em efeitos deletérios. Segundo o relatório da ONU sobre o Estado do Oceano (UNEP, 2021), os principais poluentes incluem:
+
+\begin{itemize}
+    \item Resíduos plásticos (micro e macro)
+    \item Derramamentos de petróleo
+    \item Esgoto doméstico e industrial
+    \item Produtos químicos agrícolas
+\end{itemize}
+
+Estes poluentes alteram parâmetros físico-químicos da água como turbidez, pH e concentração de sólidos dissolvidos, podendo levar à eutrofização, redução de oxigênio e morte de espécies marinhas.
+
+
+\subsection{Sensor TCS230}
+O TCS230 é um sensor de cor que converte a intensidade luminosa em frequência, com as seguintes características:
+
+\begin{itemize}
+    \item Matriz de fotodiodos com filtros RGB
+    \item Saída em onda quadrada (frequência proporcional à intensidade)
+    \item Escalabilidade de saída (100\%, 20\% ou 2\%)
+    \item Faixa espectral: 400-700nm
+    \item Alimentação: 2.7-5.5V
+\end{itemize}
+
+
+\section{Materiais e Métodos}
+
+\subsection{Materiais Atualizados}
+\begin{itemize}
+    \item Placa Arduino UNO R3
+    \item Sensor de cor TCS230
+    \item LEDs RGB (catodo comum)
+    \item Resistores de 220Ω (3 unidades)
+    \item Protoboard 400 pontos
+    \item Jumpers macho-fêmea
+    \item Recipiente transparente
+    \item Materiais poluentes simulados
+\end{itemize}
+
+\subsection{Diagrama do Circuito}
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}[circuit ee IEC]
+    % Arduino
+    \node[draw] (arduino) at (0,0) {Arduino UNO};
+    
+    % TCS230
+    \node[draw] (tcs) at (-3,-2) {TCS230};
+    \draw (tcs.east) -- ++(0.5,0) node[right, font=\tiny] {S0-S3};
+    
+    % LEDs
+    \node[led] (ledR) at (3,1) {};
+    \node[led] (ledG) at (3,0) {};
+    \node[led] (ledB) at (3,-1) {};
+    
+    % Conexões
+    \draw (arduino.south) |- (tcs.north);
+    \draw (arduino.east) -| (ledR.west);
+    \draw (arduino.east) -| (ledG.west);
+    \draw (arduino.east) -| (ledB.west);
+    
+    % Legenda
+    \node[draw, fill=white] at (0,-4) {
+        \footnotesize
+        \begin{tabular}{ll}
+        S0-S1 & Pinos D7-D6 (escala) \\
+        S2-S3 & Pinos D5-D4 (filtro) \\
+        OUT & Pino D3 \\
+        LEDs & Pinos D9-D11 (PWM) \\
+        \end{tabular}
+    };
+\end{tikzpicture}
+\caption{Diagrama simplificado do circuito com TCS230}
+\end{figure}
+
+\subsection{Programação}
+\begin{verbatim}
+// Pinos do TCS230
+#define S0 7
+#define S1 6
+#define S2 5
+#define S3 4
+#define OUT 3
+
+void setup() {
+  pinMode(S0, OUTPUT);
+  pinMode(S1, OUTPUT);
+  // Configura escala 20%
+  digitalWrite(S0, HIGH);
+  digitalWrite(S1, LOW);
+  
+  // Configura LEDs RGB
+  pinMode(9, OUTPUT); // R
+  pinMode(10, OUTPUT); // G
+  pinMode(11, OUTPUT); // B
+}
+
+int readColor() {
+  digitalWrite(S2, LOW); digitalWrite(S3, LOW);
+  return pulseIn(OUT, LOW); // Mede frequência
+}
+
+void loop() {
+  int red = readColor();
+  // Lógica de poluição (valores de exemplo)
+  if(red > 500) { // Água poluída
+    analogWrite(9, 255); // Vermelho
+    analogWrite(10, 0);
+  } else {
+    analogWrite(9, 0);
+    analogWrite(10, 255); // Verde
+  }
+  delay(300);
+}
+\end{verbatim}
+
+\section{Resultados Esperados}
+
+Com a implementação deste simulador, espera-se:
+
+\begin{itemize}
+    \item Detecção consistente de mudanças na qualidade da água através do sensor de cor
+    \item Resposta visual imediata através dos LEDs RGB
+    \item Geração de dados quantitativos sobre as variações
+    \item Demonstração clara dos efeitos visuais da poluição marinha
+    
+\end{itemize}
+
+\section{Discussão e Aplicações}
+
+Este simulador oferece múltiplas possibilidades educacionais:
+
+\begin{itemize}
+    \item Demonstração prática dos efeitos da poluição
+    \item Introdução à programação e eletrônica
+    \item Base para projetos interdisciplinares (ciências, tecnologia, ecologia)
+    \item Protótipo para sistemas de monitoramento real
+    
+    As limitações incluem:
+    \item Escala reduzida (ambiente controlado)
+    \item Sensibilidade à iluminação ambiente
+    \item Necessidade de calibração precisa
+\end{itemize}
+
+Futuras melhorias podem incluir:
+\begin{itemize}
+    \item Adição de mais parâmetros (pH, temperatura)
+    \item Interface gráfica para visualização de dados
+    \item Módulo wireless para monitoramento remoto
+\end{itemize}
+
+
+%\section{Referências}
+\begin{thebibliography}{99}
+\bibitem{unep2021}
+PROGRAMA DAS NAÇÕES UNIDAS PARA O MEIO AMBIENTE. \textit{Relatório da ONU sobre poluição plástica alerta sobre aumento da poluição nos oceanos}. 2021. Disponível em: \url{https://www.unep.org/pt-br/noticias-e-reportagens/comunicado-de-imprensa/relatorio-da-onu-sobre-poluicao-plastica-alerta-sobre}. Acesso em: 28 maio 2025.
+
+\bibitem{banzi2014}
+BANZI, Massimo; SHILOH, Michael. \textit{Getting Started with Arduino}. 3. ed. Sebastopol, CA: Maker Media, 2014.
+
+\bibitem{monk2022}
+MONK, Simon. \textit{Programming Arduino: Getting Started with Sketches}. 3. ed. New York: McGraw-Hill Education, 2022.
+
+\bibitem{lastminuteengineers2021}
+Last Minute Engineers. \emph{TCS230/TCS3200 Color Sensor with Arduino – Complete Guide}. Disponível em: \url{https://lastminuteengineers.com/tcs230-tcs3200-color-sensor-arduino-tutorial/}. Acesso em: 29 maio 2025.
+
+\bibitem{mschoeffler2021}
+SCHOEFFLER, Michael. \emph{Arduino Tutorial: Color Sensor TCS230 TCS3200}. 2021. Disponível em: \url{https://mschoeffler.com/2021/10/16/arduino-tutorial-color-sensor-tcs230-tcs3200/}. Acesso em: 29 maio 2025.
+
+\end{thebibliography}
+
+\end{document}

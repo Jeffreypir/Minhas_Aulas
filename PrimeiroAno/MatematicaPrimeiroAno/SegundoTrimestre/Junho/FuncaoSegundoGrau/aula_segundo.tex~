@@ -1,0 +1,153 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configurações de layout
+\geometry{a4paper, left=2cm, right=2cm, top=1.5cm, bottom=2cm}
+\setlength{\columnseprule}{0.4pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Cores para títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{red}}{\thesubsection}{1em}{}
+
+\title{\textcolor{blue}{Atividade de Matemática - Função do 2º Grau}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\large{Nome: \underline{\hspace{6cm}} \quad Turma: \underline{\hspace{3cm}} \quad Data: \underline{\hspace{2cm}}}
+\end{center}
+
+\section*{Questões Teóricas (1-10)}
+\begin{enumerate}
+    \item Defina uma função quadrática e dê dois exemplos com seus coeficientes identificados.
+    
+    \item Como se determina a concavidade de uma parábola? Dê um exemplo para cada caso.
+    
+    \item Qual é a fórmula para calcular as raízes de uma função quadrática? Explique cada termo.
+    
+    \item Descreva como o discriminante ($\Delta$) influencia no número de raízes reais.
+    
+    \item Como se calculam as coordenadas do vértice de uma parábola? Demonstre com um exemplo.
+    
+    \item Esboce os possíveis gráficos de funções quadráticas com:
+    \begin{enumerate}[label=\alph*)]
+        \item $\Delta > 0$ e $a > 0$
+        \item $\Delta = 0$ e $a < 0$
+    \end{enumerate}
+    
+    \item Explique o método para estudar o sinal de uma função quadrática.
+    
+    \item Por que uma função quadrática sempre terá um valor máximo ou mínimo?
+    
+    \item Relacione o vértice da parábola com problemas de maximização ou minimização.
+    
+    \item Cite duas aplicações práticas de funções quadráticas.
+\end{enumerate}
+
+\section*{Questões Práticas (11-30)}
+\subsection*{Cálculo de Raízes e Vértice}
+\begin{enumerate}
+    \setcounter{enumi}{10}
+    \item Determine as raízes de $f(x) = x^2 - 5x + 6$.
+    
+    \item Calcule o vértice da função $y = -2x^2 + 8x - 5$.
+    
+    \item Para $f(x) = x^2 + 4x + k$, encontre $k$ para que a função tenha uma raiz real dupla.
+    
+    \item Resolva a equação $3x^2 - 2x - 1 = 0$ e classifique as raízes.
+    
+    \item Determine os pontos de interseção da parábola $y = x^2 - 4$ com o eixo $x$.
+\end{enumerate}
+
+\subsection*{Concavidade e Análise Gráfica}
+\begin{enumerate}
+    \setcounter{enumi}{15}
+    \item Classifique a concavidade e encontre o vértice das funções:
+    \begin{enumerate}[label=\alph*)]
+        \item $f(x) = 2x^2 - 4x + 1$
+        \item $y = -x^2 + 6x - 9$
+    \end{enumerate}
+    
+    \item Para a função $y = x^2 - 6x + 5$:
+    \begin{enumerate}[label=\alph*)]
+        \item Determine as raízes
+        \item Encontre o vértice
+        \item Esboce o gráfico
+    \end{enumerate}
+    
+    \item Estude o sinal das funções:
+    \begin{enumerate}[label=\alph*)]
+        \item $f(x) = x^2 - 3x + 2$
+        \item $y = -x^2 + 4x - 4$
+    \end{enumerate}
+    
+    \item Determine $m$ para que $f(x) = (m-2)x^2 + 3x - 1$ tenha concavidade voltada para cima.
+    
+    \item Qual deve ser o valor de $k$ para que a parábola $y = kx^2 - 4x + 1$ tenha vértice no ponto $(1, -1)$?
+\end{enumerate}
+
+\subsection*{Aplicações Práticas}
+\begin{enumerate}
+    \setcounter{enumi}{20}
+    \item O lucro de uma empresa é dado por $L(x) = -x^2 + 80x - 700$, onde $x$ é o número de unidades vendidas. Determine:
+    \begin{enumerate}[label=\alph*)]
+        \item O lucro máximo
+        \item Quantas unidades devem ser vendidas para obter esse lucro
+    \end{enumerate}
+    
+    \item Um projétil é lançado e sua trajetória é descrita por $h(t) = -5t^2 + 20t$, onde $h$ é a altura em metros e $t$ o tempo em segundos. Calcule:
+    \begin{enumerate}[label=\alph*)]
+        \item A altura máxima atingida
+        \item O tempo que o projétil permanece no ar
+    \end{enumerate}
+    
+    \item Um terreno retangular deve ser cercado com 100m de cerca. Determine as dimensões para que a área seja máxima.
+    
+    \item Uma bola é lançada verticalmente para cima com velocidade inicial de 30 m/s. A altura $h$ (em metros) em função do tempo $t$ (em segundos) é dada por $h(t) = 30t - 5t^2$. Determine:
+    \begin{enumerate}[label=\alph*)]
+        \item O tempo que a bola leva para atingir a altura máxima
+        \item A altura máxima atingida
+    \end{enumerate}
+    
+    \item O custo de produção de $x$ unidades de um produto é dado por $C(x) = 0,1x^2 - 10x + 1000$ e a receita por $R(x) = 50x$. Determine:
+    \begin{enumerate}[label=\alph*)]
+        \item O ponto de equilíbrio (break-even point)
+        \item O número de unidades para lucro máximo
+    \end{enumerate}
+\end{enumerate}
+
+\subsection*{Desafios}
+\begin{enumerate}
+    \setcounter{enumi}{25}
+    \item Determine a função quadrática cujo gráfico passa pelos pontos $(0,3)$, $(1,4)$ e $(2,9)$.
+    
+    \item Resolva o sistema:
+    \[
+    \begin{cases}
+    y = x^2 - 2x \\
+    y = x + 4
+    \end{cases}
+    \]
+    
+    \item Prove que $x^2 - 2x + 1 \geq 0$ para todo $x$ real.
+    
+    \item Se $f(x) = ax^2 + bx + c$ tem vértice em $(2, -1)$ e passa por $(0,3)$, determine os coeficientes $a$, $b$ e $c$.
+    
+    \item Um fazendeiro quer cercar um galinheiro retangular usando um muro como um dos lados. Se ele tem 40m de cerca, quais as dimensões para área máxima?
+\end{enumerate}
+
+\end{document}

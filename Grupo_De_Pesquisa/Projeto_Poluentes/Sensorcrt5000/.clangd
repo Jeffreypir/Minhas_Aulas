@@ -1,0 +1,18 @@
+CompileFlags:
+    CompileFlags:
+  Add:    
+    # Caminhos principais (usando / ou \)
+    - -IC:/Users/Jeffrey24/AppData/Local/Arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino
+    - -IC:\Users\Jeffrey24\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\variants\standard
+    
+    # Bibliotecas padrão
+    - -IC:/Users/Jeffrey24/AppData/Local/Arduino15/libraries/Arduino_BuiltIn/src
+    - -IC:\Users\Jeffrey24\AppData\Local\Arduino15\libraries\Ethernet\src
+    
+    # Bibliotecas locais
+    - -IC:/Users/Jeffrey24/Documents/Arduino/libraries/LiquidCrystal/src
+    - -IC:\Users\Jeffrey24\Documents\Arduino\libraries\Servo\src
+    
+    # Bibliotecas de hardware
+    - -IC:/Users/Jeffrey24/AppData/Local/Arduino15/packages/arduino/hardware/avr/1.8.6/libraries/SPI/src
+      

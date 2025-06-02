@@ -1,0 +1,43 @@
+\babel@toc {portuguese}{}\relax 
+\contentsline {section}{\numberline {1}Introdução}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objetivo da Apostila}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Metodologia de Ensino}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Aplicações Práticas}{4}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Fundamentação Teórica}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Por que Analisar Água Marinha?}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Princípios de Detecção de Poluentes}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Sensor Ultrassônico HC-SR04}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Introdução ao Sensor}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Princípio de Funcionamento}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Montagem Prática}{5}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Materiais Necessários}{5}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Diagrama de Conexão}{5}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Programação Básica}{6}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Aplicação em Análise de Água}{7}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Sensor TCRT5000}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}O que é e Como Funciona?}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Montagem Prática}{8}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Materiais Necessários}{8}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Diagrama de Conexão}{8}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Programação Básica}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Testando e Interpretando os Dados}{9}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Sensor TDS Meter V1.0}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Entendendo o Sensor TDS}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Montagem do Circuito}{9}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Lista de Materiais}{9}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Diagrama de Conexões}{10}{subsubsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.3}Programação Avançada}{10}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Integrando os Sensores}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Por que Usar Ambos os Sensores?}{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Diagrama do Sistema Completo}{11}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Programação Integrada}{11}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Experimentos Práticos}{12}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Teste Comparativo: Água Normal vs Água Salgada}{12}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Objetivo}{12}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Materiais Necessários}{12}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Procedimento}{12}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Análise dos Resultados}{13}{subsubsection.7.1.4}%
+\contentsline {subsection}{\numberline {7.2}Teste com Água Limpa}{13}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Conclusão}{13}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Próximos Passos}{13}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Referências Complementares}{13}{subsection.8.2}%

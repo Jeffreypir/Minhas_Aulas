@@ -1,0 +1,16 @@
+
+BOARD=arduino:avr:uno
+PORT=COM10
+SKETCH=Sensorcrt5000.ino
+BUILD_DIR=build
+
+compile:
+	arduino-cli compile --fqbn $(BOARD) $(SKETCH)
+
+upload:
+	arduino-cli upload -p $(PORT) --fqbn $(BOARD) $(SKETCH)
+
+generate_commands:
+	arduino-cli compile --fqbn $(BOARD) --build-path $(BUILD_DIR) $(SKETCH)
+	copy $(BUILD_DIR)\compile_commands.json .
+	rmdir /s /q $(BUILD_DIR) 2>nul || rm -rf $(BUILD_DIR)

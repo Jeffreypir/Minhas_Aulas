@@ -1,0 +1,26 @@
+
+name: Arduino CI/CD
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v2
+      
+      - name: Instalar Arduino CLI
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+          arduino-cli core update-index
+          arduino-cli core install arduino:avr
+      
+      - name: Compilar Sketch
+        run: make compile
+      
+      - name: Gerar compile_commands.json
+        run: make generate_commands
+      
+      - name: Upload para Arduino
+        run: make upload

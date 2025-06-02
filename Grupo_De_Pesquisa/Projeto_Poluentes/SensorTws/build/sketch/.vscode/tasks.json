@@ -1,0 +1,32 @@
+#line 1 "C:\\Users\\Jeffrey24\\Documents\\Grupo_Pesquisa\\Projeto_Poluentes\\SensorTws\\.vscode\\tasks.json"
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar Arduino com Make",
+            "type": "shell",
+            "command": "make compile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Upload para Arduino com Make",
+            "type": "shell",
+            "command": "make upload",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Gerar compile_commands.json",
+            "type": "shell",
+            "command": "make generate_commands",
+            "problemMatcher": []
+        }
+    ]
+}

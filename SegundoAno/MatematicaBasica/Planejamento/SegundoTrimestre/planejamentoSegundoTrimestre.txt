@@ -1,0 +1,59 @@
+Planejamento de Matemática básica do 2 ano do Ensino Médio 
+
+a) Habilidades especificas a serem desenvolvidas:
+
+(EM13MAT302PE18) Construir modelos matemáticos, a partir das leis de formação, para resolver situações-problema em vários contextos, envolvendo funções polinomiais do 1º e 2º graus, com e/ou sem apoio de tecnologias digitais.
+
+(EM13MAT501PE40) Investigar relações entre números expressos em tabelas para representá-los no plano cartesiano, identificando padrões e criando conjecturas para generalizar e expressar algebricamente essa generalização, reconhecendo quando essa representação é de função polinomial do 1º grau.
+
+(EM13MAT402PE34) Converter e analisar representações algébricas de funções polinomiais do 2º grau em representações geométricas no plano cartesiano, reconhecendo o papel dos coeficientes a, b e c no gráfico, como também distinguir os casos nos quais uma variável for diretamente proporcional ao quadrado de outra variável, com e/ou sem apoio de tecnologias digitais.
+
+(EM13MAT502PE41) Investigar relações entre números expressos em tabelas para representá-los no plano cartesiano, identificando padrões e criando conjecturas para generalizar e expressar algebricamente essa generalização, reconhecendo quando essa representação é de função polinomial de 2º grau do tipo y = ax², com e/ou sem apoio de tecnologias digitais.
+
+b) Objetivos / Competências:
+
+Funções Polinomiais do 2º grau:
+proporcionalidade.
+
+Função Polinomial do 1º grau: relações e representações
+
+Funções Polinomiais do 2º grau:
+proporcionalidade
+
+Função Polinomial do 2º grau: relações e
+representações
+
+c) Procedimentos Metodológicos:
+
+Resolução de problemas contextualizados envolvendo situações reais (movimento, lucro, área, etc.).
+
+Construção e análise de tabelas de valores para identificar padrões e relações.
+
+Representação gráfica das funções no plano cartesiano com apoio de recursos digitais (como GeoGebra).
+
+Interpretação dos coeficientes nas expressões algébricas das funções.
+
+Comparação entre diferentes representações: algébrica, gráfica e tabelar.
+
+Exploração da proporcionalidade entre variáveis (direta e quadrática) em diferentes contextos.
+
+Uso de atividades investigativas e exploratórias para estimular a construção de conceitos.
+
+Discussão em grupo e socialização de estratégias de resolução.
+
+d) Procedimentos Avaliativos / Estratégias de Avaliação:
+
+Observação da participação nas atividades em grupo e discussões.
+
+Análise das resoluções de problemas, com foco na argumentação e no uso correto das representações.
+
+Produções escritas (gráficos, expressões algébricas e tabelas) feitas ao longo das aulas.
+
+Atividades diagnósticas para verificar conhecimentos prévios e avanços.
+
+Avaliações formativas contínuas por meio de exercícios, simulações e projetos.
+
+Autoavaliação e coavaliação para promover a reflexão sobre o próprio processo de aprendizagem.
+
+Aplicação de instrumentos diversificados: quizzes, tarefas em dupla, apresentações, trabalhos e provas. 
+

@@ -1,0 +1,122 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, calc}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{tcolorbox}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Cores personalizadas
+\definecolor{titleblue}{RGB}{0,80,150}
+\definecolor{sectionred}{RGB}{180,0,0}
+\definecolor{darkgreen}{RGB}{0,100,0}
+\definecolor{explanationbg}{RGB}{240,248,255}
+
+% Formatação de títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{titleblue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{sectionred}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{darkgreen}}{\thesubsubsection}{1em}{}
+
+\title{\textcolor{titleblue}{Atividade Avaliativa: Domínio de Funções }}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{center}
+    \large{\textbf{Observação:} Respostas no caderno com letra legível. \quad Série: 1 Ano. Valor: 1,0 }
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{Atividade}
+\begin{enumerate}
+
+\item \textbf{Função Polinomial}\\
+Determine o domínio de $f(x) = 5x^3 - 2x + 7$
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Funções polinomiais estão definidas para todos os números reais. Não há restrições de denominador ou raiz.
+\end{tcolorbox}
+
+\item \textbf{Função Racional}\\
+Encontre o domínio de $g(x) = \dfrac{x+2}{x-5}$
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Em funções racionais, o denominador não pode ser zero. Resolva $x-5 \neq 0$.
+\end{tcolorbox}
+
+\item \textbf{Função com Raiz Quadrada}\\
+Qual o domínio de $h(x) = \sqrt{x-4}$?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Para raízes quadradas, o radicando deve ser $\geq 0$. Resolva $x-4 \geq 0$.
+\end{tcolorbox}
+
+\item \textbf{Raiz no Denominador}\\
+Determine o maior domínio possível para $f(x) = \dfrac{1}{\sqrt{x+3}}$
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Duas condições: 1) denominador $\neq 0$  \\ 2) raiz quadrada $> 0$ (já que está no denominador).
+\end{tcolorbox}
+
+\item \textbf{Denominador Quadrático}\\
+Para $f(x) = \dfrac{x}{x^2-9}$, determine os valores excluídos do domínio
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Resolva: $x^2-9 = 0$. Valores que zeram o denominador são excluídos.
+\end{tcolorbox}
+
+\item \textbf{Combinação de Restrições}\\
+Determine o domínio de $f(x) = \sqrt{7-x} + \dfrac{1}{x+2}$
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Duas partes: 1) $\sqrt{7-x}$ requer $7-x \geq 0$ e 2) $\dfrac{1}{x+2}$ requer $x+2 \neq 0$.
+\end{tcolorbox}
+
+\item \textbf{Função Logarítmica}\\
+Qual o domínio da função $g(x) = \log(x-1)$?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+O argumento do logaritmo deve ser $> 0$. Resolva $x-1 > 0$.
+\end{tcolorbox}
+
+\item \textbf{Raiz no Numerador e Denominador}\\
+Determine o domínio de $h(x) = \dfrac{\sqrt{x}}{x^2-4}$
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+1) Numerador: $\sqrt{x}$ requer $x \geq 0$; \\  2) Denominador: $x^2-4 \neq 0$.
+\end{tcolorbox}
+
+\item \textbf{Valor Absoluto no Denominador}\\
+Encontre o domínio de $f(x) = \dfrac{1}{|x|-2}$
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Todo número em módulo $|x|$ é positivo; \\
+Resolva $|x|-2 \neq 0$.
+\end{tcolorbox}
+
+\item \textbf{Raiz Cúbica e Denominador}\\
+Determine o domínio de $g(x) = \sqrt[3]{x^2-1} + \dfrac{1}{x}$
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Raiz cúbica não tem restrição, mas $\dfrac{1}{x}$ requer $x \neq 0$.
+\end{tcolorbox}
+
+\section*{Desafio}
+
+\item \textbf{Função com Raiz de Quociente}\\
+Determine o domínio de $f(x) = \sqrt{\dfrac{x+1}{x-2}}$
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Duas condições: 1) $\dfrac{x+1}{x-2} \geq 0$ e 2) $x-2 \neq 0$. Resolva a inequação racional.
+\end{tcolorbox}
+
+
+\end{enumerate}
+\end{multicols}
+
+
+\end{document}
