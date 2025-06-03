@@ -10,7 +10,7 @@
 | EMILLY SIQUEIRA BEZERRA           | 7.5  |      |     |     |     | 10.0  |
 | GABRIEL DANTAS BARBOSA DA SILVA   | NF   |      |     |     |     | 9.0   |
 | GABRIEL HONORIO DOURADO           | NF   |      |     |     |     | 10.0  |
-| GUSTAVO DA SILVA SOBRAL           | 1.25 |      |     |     |     | 8.0   |
+| GUSTAVO DA SILVA SOBRAL           | 8.75 |      |     |     |     | 8.0   |
 | IGOR DE LIMA FERREIRA BARBOSA     | 6.25 |      |     |     |     | 8.0   |
 | IGOR GABRIEL CARVALHO DA SILVA    | 5.0  |      |     |     |     | 10.0  |
 | JOAO PEDRO DA SILVA SANTOS        | 2.5  |      |     |     |     | 9.0   |
