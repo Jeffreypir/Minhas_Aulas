@@ -1,0 +1,119 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, calc}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{tcolorbox}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Cores personalizadas
+\definecolor{titleblue}{RGB}{0,80,150}
+\definecolor{sectionred}{RGB}{180,0,0}
+\definecolor{darkgreen}{RGB}{0,100,0}
+\definecolor{explanationbg}{RGB}{240,248,255}
+
+% Formatação de títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{titleblue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{sectionred}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{darkgreen}}{\thesubsubsection}{1em}{}
+
+\title{\textcolor{titleblue}{Atividade Avaliativa: Perímetro}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{center}
+    \large{\textbf{Observação:} Respostas no caderno com letra legível. \quad Série: 1 Ano. Valor: 1,0 }
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{Atividade}
+\begin{enumerate}
+
+\item \textbf{Retângulo}\\
+Um retângulo tem perímetro 34 cm. Se o comprimento é 5 cm maior que a largura, encontre as dimensões.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Chame a largura de $x$ e o comprimento de $x+5$. \\ Perímetro $= 2x + 2(x+5) = 34$
+\end{tcolorbox}
+
+\item \textbf{Quadrado}\\
+O perímetro de um quadrado é igual a 3 vezes a medida de seu lado mais 20 cm. Qual é seu lado?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Perímetro do quadrado $= 4x$ \\ Equação: $4x = 3x + 20$
+\end{tcolorbox}
+
+\item \textbf{Triângulo Equilátero}\\
+Um triângulo equilátero tem perímetro 12 cm a menos que um quadrado de lado 10 cm. Qual é seu lado?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Perímetro do quadrado $= 40$ cm \\ $3x = 40 - 12$
+\end{tcolorbox}
+
+\item \textbf{Retângulo (Desafio)}\\
+A largura de um retângulo é a metade do comprimento. Se o perímetro é 60 m, encontre a área.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Largura $= x$, Comprimento $= 2x$ \\ Perímetro $= 2(x + 2x) = 60$
+\end{tcolorbox}
+
+\item \textbf{Hexágono Regular}\\
+Um hexágono regular tem perímetro igual ao de um triângulo equilátero de lado 12 cm. Qual é seu lado?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Perímetro do triângulo $= 36$ cm \\ $6x = 36$
+\end{tcolorbox}
+
+\item \textbf{Figura Composta}\\
+Uma figura formada por 3 quadrados iguais lado a lado tem perímetro 56 cm. Qual é o lado de cada quadrado?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Cada quadrado tem lado $x$. Perímetro total $= 8x$ (14 lados expostos - 2 lados internos)
+\end{tcolorbox}
+
+\item \textbf{Retângulo (Fração)}\\
+A largura de um retângulo é $\frac{2}{3}$ do comprimento. Se o perímetro é 50 cm, encontre as dimensões.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Largura $= \frac{2}{3}x$, Comprimento $= x$ \\ $2\left(x + \frac{2}{3}x\right) = 50$
+\end{tcolorbox}
+
+\item \textbf{Comparação de Perímetros}\\
+Um retângulo tem comprimento igual ao lado de um quadrado de perímetro 28 cm. Se o retângulo tem largura 3 cm e perímetro 26 cm, verifique a afirmação.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Encontre primeiro o lado do quadrado ($7$ cm), depois verifique o perímetro do retângulo com comprimento $7$ cm e largura $3$ cm.
+\end{tcolorbox}
+
+\item \textbf{Polígono Regular}\\
+Um pentágono regular tem perímetro 15 cm maior que o dobro de seu lado. Qual é seu lado?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+$5x = 2x + 15$
+\end{tcolorbox}
+
+\item \textbf{Problema Contextualizado}\\
+Uma cerca retangular para cachorros tem perímetro 30 m. Se o comprimento é o triplo da largura, quantos metros de cerca serão necessários para aumentar cada lado em 1 m?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Largura original = $x$, Comprimento = $3x$ \\ Novo perímetro = $2[(x+1)+(3x+1)]$
+\end{tcolorbox}
+
+\section*{Desafio:}
+
+\item \textbf{Sistema de Equações}\\
+Dois retângulos têm o mesmo perímetro. O primeiro tem largura 8 cm e comprimento $x+2$ cm. O segundo tem largura $x$ cm e comprimento 10 cm. Determine $x$ e o perímetro comum.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Iguale os perímetros: \\ $2(8 + x + 2) = 2(x + 10)$
+\end{tcolorbox}
+
+\end{enumerate}
+\end{multicols}
+
+\end{document}

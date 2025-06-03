@@ -1,0 +1,119 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, calc}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{tcolorbox}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Cores personalizadas
+\definecolor{titleblue}{RGB}{0,80,150}
+\definecolor{sectionred}{RGB}{180,0,0}
+\definecolor{darkgreen}{RGB}{0,100,0}
+\definecolor{explanationbg}{RGB}{240,248,255}
+
+% Formatação de títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{titleblue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{sectionred}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{darkgreen}}{\thesubsubsection}{1em}{}
+
+\title{\textcolor{titleblue}{Atividade Avaliativa: Função do 2º Grau - Parte 2}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{center}
+    \large{\textbf{Observação:} Respostas no caderno com letra legível. \quad Série: 2º Ano. Valor: 1,0}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{Atividade}
+\begin{enumerate}
+
+\item \textbf{Coeficientes}\\
+Identifique $a$, $b$, $c$ em $f(x) = -x^2 + 5x - 6$.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Forma geral: $ax^2 + bx + c$.
+\end{tcolorbox}
+
+\item \textbf{Gráfico}\\
+Esboce o gráfico de $f(x) = x^2 - 1$ indicando raízes e vértice.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Calcule os pontos notáveis primeiro.
+\end{tcolorbox}
+
+\item \textbf{Raízes}\\
+Resolva $2x^2 - 8x + 6 = 0$.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Simplifique dividindo todos os termos por 2 primeiro.
+\end{tcolorbox}
+
+\item \textbf{Vértice}\\
+Determine o vértice de $f(x) = -3x^2 + 6x - 2$.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Use as fórmulas $x_v = -b/2a$ e $y_v = -\Delta/4a$.
+\end{tcolorbox}
+
+\item \textbf{Valor Máximo}\\
+Qual o valor máximo de $f(x) = -x^2 + 4x$?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Encontre o $y_v$ do vértice.
+\end{tcolorbox}
+
+\item \textbf{Discriminante}\\
+Para $f(x) = x^2 + 2x + m$, qual $m$ para ter 1 raiz real?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+$\Delta = 0 \Rightarrow b^2 - 4ac = 0$.
+\end{tcolorbox}
+
+\item \textbf{Forma Fatorada}\\
+Escreva $f(x) = 3x^2 - 12x + 9$ na forma fatorada.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Fatore colocando 3 em evidência primeiro.
+\end{tcolorbox}
+
+\item \textbf{Construção}\\
+Determine a função com vértice em $(1, -4)$ e que passa por $(0, -3)$.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Use a forma $f(x) = a(x - x_v)^2 + y_v$.
+\end{tcolorbox}
+
+\item \textbf{Estudo do Sinal}\\
+Para $f(x) = -2x^2 + 8x - 6$, determine quando $f(x) < 0$.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Encontre as raízes e analise a concavidade.
+\end{tcolorbox}
+
+\item \textbf{Aplicação}\\
+A área de um retângulo é dada por $A(x) = -x^2 + 10x$. Qual a área máxima?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+O valor máximo ocorre no vértice.
+\end{tcolorbox}
+
+\section*{Desafio}
+
+\item \textbf{Parâmetro}\\
+Para $f(x) = (m+1)x^2 - 2x + 4$, determine $m$ para que a função tenha concavidade para baixo e duas raízes reais distintas.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Duas condições: $a < 0$ e $\Delta > 0$.
+\end{tcolorbox}
+
+\end{enumerate}
+\end{multicols}
+
+\end{document}

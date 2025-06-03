@@ -20,7 +20,7 @@
 | LIDSA LORRANY SILVA MORAES        | 5.0  |      |     |     |     | 8.0   |
 | MARIA EVELLYN OLIVEIRA DOS SANTOS | 8.75 |      |     |     |     | 8.0   |
 | MARIA FLAVIA BATISTA DA SILVA     | 2.5  |      |     |     |     | 9.0   |
-| NATALY DO NASCIMENTO SILVA        | NF   |      |     |     |     | NF    |
+| NATALY DO NASCIMENTO SILVA        | 8.0  |      |     |     |     | 8.0   |
 | PAULA RAQUEL DE SOUZA SILVA       | 6.25 |      |     |     |     | 10.0  |
 | PEDRO NASCIMENTO NOVAES           | 7.5  |      |     |     |     | 9.0   |
 | VICTOR GABRIEL DA SILVA SANTOS    | 10.0 |      |     |     |     | 10.0  |

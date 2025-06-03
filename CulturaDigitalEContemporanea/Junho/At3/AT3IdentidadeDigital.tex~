@@ -1,0 +1,130 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, calc}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{tcolorbox}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Cores personalizadas
+\definecolor{titleblue}{RGB}{0,80,150}
+\definecolor{sectionred}{RGB}{180,0,0}
+\definecolor{darkgreen}{RGB}{0,100,0}
+\definecolor{explanationbg}{RGB}{240,248,255}
+
+% Formatação de títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{titleblue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{sectionred}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{darkgreen}}{\thesubsubsection}{1em}{}
+
+\title{\textcolor{titleblue}{Atividade Avaliativa 3: Identidade Digital}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{center}
+    \large{\textbf{Observação:} Respostas no caderno com letra legível. \quad Série: 3 Ano. Valor: 1,0}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{Atividade}
+\begin{enumerate}
+
+\item \textbf{Conceito Básico}\\
+O que é identidade digital e como difere da identidade física?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Pense em dados online vs. documentos físicos.
+\end{tcolorbox}
+
+\item \textbf{Componentes}\\
+Quais elementos compõem sua identidade digital em redes sociais?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Fotos, posts, curtidas, localizações, etc.
+\end{tcolorbox}
+
+\item \textbf{Segurança}\\
+Por que usar a mesma senha em vários serviços é um risco para sua identidade digital?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Vazamento em um serviço compromete todos.
+\end{tcolorbox}
+
+\item \textbf{Deepfakes}\\
+Como vídeos falsos podem prejudicar a identidade digital de uma pessoa?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Danos à reputação e disseminação de mentiras.
+\end{tcolorbox}
+
+\item \textbf{Login Único}\\
+Quais as vantagens e riscos de usar "Login com Google/Facebook" em sites?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Conveniência vs. centralização de dados.
+\end{tcolorbox}
+
+\item \textbf{Digital Afterlife}\\
+O que acontece com a identidade digital de alguém após sua morte?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Herança digital e políticas de plataformas.
+\end{tcolorbox}
+
+\item \textbf{Verificação em 2 Etapas}\\
+Por que a autenticação em dois fatores protege melhor sua identidade?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Dois métodos diferentes = segurança extra.
+\end{tcolorbox}
+
+\item \textbf{Anonimato}\\
+É possível ter uma identidade digital completamente anônima? Discuta os desafios.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Rastreamento por IP, cookies, metadados.
+\end{tcolorbox}
+
+\item \textbf{Identidade Gov}\\
+Como o GOV.BR oferece uma identidade digital segura para serviços públicos?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Certificação digital e níveis de segurança.
+\end{tcolorbox}
+
+\item \textbf{Reputação Online}\\
+Por que empregadores pesquisam candidatos nas redes sociais?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Identidade digital como extensão profissional.
+\end{tcolorbox}
+
+\section*{Desafio}
+
+\item \textbf{Caso Complexo}\\
+Ana teve seu celular roubado com:
+\begin{itemize}
+\item Acesso a e-mails
+\item Redes sociais logadas
+\item App bancário sem senha extra
+\end{itemize}
+Analise:
+\begin{enumerate}[label=(\alph*)]
+    \item Quais riscos à sua identidade digital?
+    \item Quais medidas preventivas falharam?
+    \item Como remediar a situação?
+\end{enumerate}
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Considere roubo de contas, fraude financeira e sequestro de perfis.
+\end{tcolorbox}
+
+\end{enumerate}
+\end{multicols}
+
+\end{document}
