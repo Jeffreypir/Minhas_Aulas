@@ -27,7 +27,7 @@
 \titleformat{\subsection}{\normalfont\large\bfseries\color{sectionred}}{\thesubsection}{1em}{}
 \titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{darkgreen}}{\thesubsubsection}{1em}{}
 
-\title{\textcolor{titleblue}{Atividade Avaliativa 2: Desigualdade Social}}
+\title{\textcolor{titleblue}{Atividade Avaliativa 2: Cultura Digital e Contemporânea \\ Assunto: Desigualdade Social}}
 \author{Professor: Jefferson}
 \date{}
 
@@ -54,7 +54,7 @@ Pense na distribuição de recursos vs. falta absoluta de recursos.
 \item \textbf{Indicadores}\\
 Por que o Coeficiente de Gini varia entre 0 e 1? O que cada extremo representa?
 \begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
-0 = igualdade perfeita; 1 = desigualdade máxima.
+0 $=$ igualdade perfeita; 1 $=$ desigualdade máxima.
 \end{tcolorbox}
 
 \item \textbf{Educação}\\

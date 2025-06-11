@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.5.8)  2 JUN 2025 17:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.5.8)  10 JUN 2025 09:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -642,7 +642,7 @@ L3 programming layer <2025-01-18>
 Here is how much of TeX's memory you used:
  17353 strings out of 475151
  358292 string characters out of 5766387
- 763618 words of memory out of 5000000
+ 763661 words of memory out of 5000000
  40097 multiletter control sequences out of 15000+600000
  567950 words of font info for 56 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
@@ -653,9 +653,9 @@ Here is how much of TeX's memory you used:
 </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> <
 /home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </
 home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk>
-Output written on AT1EticaTecnologica.pdf (1 page, 55871 bytes).
+Output written on AT1EticaTecnologica.pdf (1 page, 58921 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
+ 214 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)

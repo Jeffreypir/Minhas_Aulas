@@ -1,0 +1,113 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, calc}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{tcolorbox}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Cores personalizadas
+\definecolor{titleblue}{RGB}{0,80,150}
+\definecolor{sectionred}{RGB}{180,0,0}
+\definecolor{darkgreen}{RGB}{0,100,0}
+\definecolor{explanationbg}{RGB}{240,248,255}
+
+% Formatação de títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{titleblue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{sectionred}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{darkgreen}}{\thesubsubsection}{1em}{}
+
+\title{\textcolor{titleblue}{Atividade Avaliativa 2: Aprofundamento em Matemática \\ Assunto: Área}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{center}
+    \large{\textbf{Observação:} Respostas no caderno com letra legível. \quad Série: 1 Ano. Valor: 1,0 }
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{Atividade}
+\begin{enumerate}
+
+\item \textbf{Retângulo}\\
+Um retângulo tem área 48 cm². Se o comprimento é 8 cm, qual é sua largura?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Área $=$ comprimento × largura \\ $48 = 8 \times x$
+\end{tcolorbox}
+
+\item \textbf{Triângulo}\\
+Um triângulo tem base 12 cm e altura 5 cm. Qual é sua área?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Área do triângulo $=$ $\frac{base \times altura}{2}$
+\end{tcolorbox}
+
+\item \textbf{Retângulo (Desafio)}\\
+A largura de um retângulo é um terço do comprimento. Se a área é 108 m², encontre as dimensões.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Largura $= \frac{1}{3}x$, Comprimento $= x$ \\ Área $= x \times \frac{x}{3} = 108$
+\end{tcolorbox}
+
+\item \textbf{Losango}\\
+As diagonais de um losango medem 6 cm e 8 cm. Qual é sua área?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Área do losango $=$ $\frac{d_1 \times d_2}{2}$
+\end{tcolorbox}
+
+\item \textbf{Figura Composta}\\
+Uma figura formada por 2 quadrados iguais lado a lado tem área total 98 cm². Qual é o perímetro da figura?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Área de cada quadrado $= 49$ cm² \\ Lado $=$ $\sqrt{49}$ \\ Perímetro total $=$ 6 lados
+\end{tcolorbox}
+
+\item \textbf{Trapézio}\\
+Um trapézio tem bases 5 cm e 7 cm e altura 4 cm. Qual é sua área?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Área do trapézio $=$ $\frac{(B + b) \times h}{2}$
+\end{tcolorbox}
+
+\item \textbf{Comparação de Áreas}\\
+Um quadrado tem área igual a um retângulo com lados 9 cm e 4 cm. Qual é o lado do quadrado?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Área do retângulo $=$ 36 cm² \\ Lado do quadrado $=$ $\sqrt{36}$
+\end{tcolorbox}
+
+\item \textbf{Círculo}\\
+Um círculo tem área 78,5 cm². Qual é seu raio? (Use $\pi = 3,14$)
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Área $=$ $\pi r^2$ \\ $78,5 = 3,14 \times r^2$
+\end{tcolorbox}
+
+\item \textbf{Problema Contextualizado}\\
+Um terreno retangular de 20 m × 30 m tem 50% de sua área ocupada por uma casa. Quantos m² de área livre restam?
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Área total $=$ 600 m² \\ Área livre $=$ 50% de 600
+\end{tcolorbox}
+
+\section*{Desafio:}
+
+\item \textbf{Sistema de Equações}\\
+Dois retângulos têm a mesma área. O primeiro tem largura 5 cm e comprimento $x+3$ cm. O segundo tem largura $x$ cm e comprimento 7,5 cm. Determine $x$ e a área comum.
+\begin{tcolorbox}[colback=explanationbg,colframe=titleblue,title=Dica:]
+Iguale as áreas: \\ $5 \times (x + 3) = x \times 7,5$
+\end{tcolorbox}
+
+\end{enumerate}
+\end{multicols}
+
+\end{document}

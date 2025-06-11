@@ -27,7 +27,7 @@
 \titleformat{\subsection}{\normalfont\large\bfseries\color{sectionred}}{\thesubsection}{1em}{}
 \titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{darkgreen}}{\thesubsubsection}{1em}{}
 
-\title{\textcolor{titleblue}{Atividade Avaliativa 1: Ética Tecnológica}}
+\title{\textcolor{titleblue}{Atividade Avaliativa 1: Cultura Digital e Contemporânea \\Assunto: Ética Tecnológica}}
 \author{Professor: Jefferson}
 \date{}
 

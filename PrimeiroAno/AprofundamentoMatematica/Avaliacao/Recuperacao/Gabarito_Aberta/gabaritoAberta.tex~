@@ -1,0 +1,127 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{amsmath}
+
+\title{Respostas Comentadas de Aprofundamento em Matemática}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Questão 1: Tempo de Download do Filme}
+
+\textbf{Dados:}
+\begin{itemize}
+    \item Tamanho do arquivo: $3\,\text{GB} = 24.576\,\text{Mb}$ (convertido usando $3 \times 1024 \times 8$)
+    \item Velocidade de download: $12\,\text{Mbps}$
+\end{itemize}
+
+\textbf{Fórmula:}
+\[
+\text{Tempo} = \frac{\text{Tamanho do arquivo}}{\text{Velocidade}} = \frac{24.576\,\text{Mb}}{12\,\text{Mbps}}
+\]
+
+\textbf{Cálculo:}
+\[
+\frac{24.576}{12} = 2.048\,\text{segundos} \approx 34,13\,\text{minutos}
+\]
+
+\textbf{Resposta:} O download levará aproximadamente \boxed{34,13\,\text{minutos}}.
+
+\section*{Questão 2: Número de Fotos no Pendrive}
+
+\textbf{Dados:}
+\begin{itemize}
+    \item Capacidade do pendrive: $64\,\text{GB} = 65.536\,\text{MB}$ (convertido usando $64 \times 1024$)
+    \item Tamanho de cada foto: $8\,\text{MB}$
+\end{itemize}
+
+\textbf{Fórmula:}
+\[
+\text{Número de fotos} = \frac{\text{Capacidade total}}{\text{Tamanho por foto}} = \frac{65.536\,\text{MB}}{8\,\text{MB}}
+\]
+
+\textbf{Cálculo:}
+\[
+\frac{65.536}{8} = 8.192\,\text{fotos}
+\]
+
+\textbf{Resposta:} Cabem \boxed{8.192\,\text{fotos}} no pendrive.
+
+\section*{Questão 3: Espaço Livre no SSD}
+
+\textbf{Dados:}
+\begin{itemize}
+    \item Capacidade total: $1\,\text{TB} = 1.000\,\text{GB}$
+    \item Espaço ocupado: $72,8\%$
+\end{itemize}
+
+\textbf{Fórmula:}
+\[
+\text{Espaço livre} = \text{Capacidade total} \times (1 - \text{Porcentagem ocupada})
+\]
+
+\textbf{Cálculo:}
+\[
+1.000\,\text{GB} \times (1 - 0,728) = 1.000 \times 0,272 = 272\,\text{GB}
+\]
+
+\textbf{Resposta:} Restam \boxed{272\,\text{GB}} de espaço livre.
+
+\section*{Questão 4: Conversão de MB para Bytes}
+
+\textbf{Dado:}
+\[
+1\,\text{MB} = 1.048.576\,\text{bytes}
+\]
+
+\textbf{Cálculo:}
+\[
+5\,\text{MB} = 5 \times 1.048.576 = 5.242.880\,\text{bytes}
+\]
+
+\textbf{Notação científica:}
+\[
+5.242.880 \approx 5,24 \times 10^6\,\text{bytes}
+\]
+
+\textbf{Resposta:} O valor é \boxed{5,24 \times 10^6\,\text{bytes}}.
+
+\section*{Questão 5: Conversão de MB para GB}
+
+\textbf{Dado:}
+\[
+1\,\text{GB} = 1.024\,\text{MB}
+\]
+
+\textbf{Cálculo:}
+\[
+3.072\,\text{MB} = \frac{3.072}{1.024} = 3\,\text{GB}
+\]
+
+\textbf{Resposta:} Equivale a \boxed{3\,\text{GB}}.
+
+\section*{Questão 6: Fórmula de Soma no Excel}
+
+\textbf{Resposta:} A fórmula correta é \boxed{\texttt{=SOMA(A1:A5)}}.
+
+\section*{Questão 7: Célula Válida no Excel}
+
+\textbf{Resposta:} A célula válida é \boxed{\texttt{D3}}.
+
+\section*{Questão 8: Fórmula de Média no Excel}
+
+\textbf{Resposta:} A fórmula correta é \boxed{\texttt{=MÉDIA(A1:A5)}}.
+
+\section*{Questão 9: Função para Maior Valor}
+
+\textbf{Resposta:} A função correta é \boxed{\texttt{=MÁXIMO()}}.
+
+\section*{Questão 10: Notação Científica em Informática}
+
+\textbf{Resposta:} Serve para \boxed{\text{representar números grandes ou pequenos de forma simplificada}}.
+
+\end{document}
