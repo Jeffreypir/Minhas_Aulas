@@ -1,0 +1,97 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{geometry}
+\geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\title{Aula: Identidade Digital}
+\author{Professor(a): Seu Nome}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Objetivos da Aula}
+Ao final da aula, os alunos deverão:
+\begin{itemize}
+    \item Compreender o conceito de identidade digital.
+    \item Reconhecer a importância de gerenciar sua presença online.
+    \item Identificar riscos e oportunidades relacionados à identidade digital.
+    \item Aplicar boas práticas para construir uma identidade digital positiva.
+\end{itemize}
+
+\section*{1. Introdução (\textbf{10 minutos})}
+\subsection*{O que é Identidade Digital?}
+\begin{itemize}
+    \item \textbf{Definição:} Conjunto de informações sobre uma pessoa disponíveis na internet (redes sociais, perfis profissionais, comentários, fotos, etc.).
+    \item \textbf{Comparação:} Assim como temos uma identidade no mundo físico (RG, CPF), temos uma no mundo virtual.
+    \item \textbf{Exemplos:} Perfil no LinkedIn, postagens no Instagram, histórico de buscas no Google.
+\end{itemize}
+
+\subsection*{Atividade Inicial (Discussão)}
+\textbf{Pergunta aos alunos:} 
+\begin{quote}
+    ``O que você acha que sua identidade digital diz sobre você?''
+\end{quote}
+
+\section*{2. Desenvolvimento (\textbf{30 minutos})}
+\subsection*{2.1. Componentes da Identidade Digital}
+\begin{itemize}
+    \item \textbf{Perfis sociais} (Facebook, Instagram, TikTok)
+    \item \textbf{Presença profissional} (LinkedIn, Lattes)
+    \item \textbf{Registros públicos} (comentários em fóruns, avaliações)
+    \item \textbf{Dados implícitos} (histórico de navegação, cookies)
+\end{itemize}
+
+\subsection*{2.2. Riscos e Oportunidades}
+\begin{itemize}
+    \item \textbf{Riscos:}
+        \begin{itemize}
+            \item Exposição excessiva (\textit{oversharing})
+            \item Cyberbullying e assédio online
+            \item Roubo de dados e fraudes
+        \end{itemize}
+    \item \textbf{Oportunidades:}
+        \begin{itemize}
+            \item Networking profissional
+            \item Construção de marca pessoal
+            \item Acesso a oportunidades educacionais e de emprego
+        \end{itemize}
+\end{itemize}
+
+\subsection*{2.3. Boas Práticas}
+\begin{itemize}
+    \item \textbf{Privacidade:} Configurar permissões em redes sociais.
+    \item \textbf{Reputação:} Pensar antes de postar (``Se não diria pessoalmente, não poste'').
+    \item \textbf{Segurança:} Usar senhas fortes e autenticação em dois fatores.
+    \item \textbf{Curadoria:} Manter perfis profissionais atualizados (LinkedIn).
+\end{itemize}
+
+\section*{3. Atividade Prática (\textbf{10 minutos})}
+\subsection*{Cenário para Debate}
+Dividir a turma em grupos e discutir:
+\begin{quote}
+    ``Um recrutador verificou as redes sociais de um candidato e encontrou fotos inadequadas. O candidato foi reprovado. Isso é justo?''
+\end{quote}
+
+\section*{4. Conclusão (\textbf{5 minutos})}
+\subsection*{Recapitulação}
+\begin{itemize}
+    \item Identidade digital é o seu ``eu virtual'' e impacta sua vida real.
+    \item É possível gerenciá-la com consciência e segurança.
+\end{itemize}
+
+\subsection*{Tarefa para Casa}
+\begin{itemize}
+    \item Pesquisar sobre \href{https://digitalguardian.com/blog/what-digital-footprint}{pegada digital} e trazer exemplos na próxima aula.
+\end{itemize}
+
+\end{document}
