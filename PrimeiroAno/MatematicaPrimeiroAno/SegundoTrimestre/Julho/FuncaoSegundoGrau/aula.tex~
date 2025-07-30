@@ -80,8 +80,8 @@ Características principais:
 
 \section*{3. Concavidade}
 \begin{itemize}
-    \item \textbf{Para cima} ($a > 0$): Formato de "u"
-    \item \textbf{Para baixo} ($a < 0$): Formato de ""
+    \item \textbf{Para cima} ($a > 0$): Concavidade voltada para cima.
+    \item \textbf{Para baixo} ($a < 0$): Concavidade voltada para baixo.
 \end{itemize}
 
 \begin{center}
@@ -99,20 +99,7 @@ Características principais:
 \end{tikzpicture}
 \end{center}
 
-\section*{4. Vértice da Parábola}
-Coordenadas do vértice ($V$):
-\[
-V\left( -\frac{b}{2a}, -\frac{\Delta}{4a} \right)
-\]
-onde $\Delta = b^2 - 4ac$.
-
-\subsection*{Exemplo}
-Para $f(x) = x^2 - 6x + 5$:
-\[
-V\left( -\frac{-6}{2\cdot1}, -\frac{16}{4\cdot1} \right) = (3, -4)
-\]
-
-\section*{5. Zeros da Função (Raízes)}
+\section*{4. Zeros da Função (Raízes)}
 Soluções da equação $ax^2 + bx + c = 0$:
 \[
 x = \frac{-b \pm \sqrt{\Delta}}{2a}
@@ -142,6 +129,41 @@ x = \frac{-b \pm \sqrt{\Delta}}{2a}
     \node at (10,-2) {$\Delta < 0$};
 \end{tikzpicture}
 \end{center}
+
+\begin{center}
+\begin{tikzpicture}[scale=0.6]
+    % Delta > 0 (concavidade para baixo)
+    \draw[->] (-2,0) -- (2,0);
+    \draw[blue, thick, domain=-1.3:1.3] plot (\x, {-\x*\x + 0.5});
+    \filldraw (-0.707,0) circle (1.5pt);
+    \filldraw (0.707,0) circle (1.5pt);
+    \node at (0,-2) {$\Delta > 0$};
+    
+    % Delta = 0 (concavidade para baixo)
+    \draw[->] (3,0) -- (7,0);
+    \draw[red, thick, domain=4.3:5.7] plot (\x, {-(\x-5)*(\x-5)});
+    \filldraw (5,0) circle (1.5pt);
+    \node at (5,-2) {$\Delta = 0$};
+    
+    % Delta < 0 (concavidade para baixo)
+    \draw[->] (8,0) -- (12,0);
+    \draw[green, thick, domain=9:11] plot (\x, {-(\x-10)*(\x-10)-1});
+    \node at (10,-2) {$\Delta < 0$};
+\end{tikzpicture}
+\end{center}
+
+\section*{5. Vértice da Parábola}
+Coordenadas do vértice ($V$):
+\[
+V\left( -\frac{b}{2a}, -\frac{\Delta}{4a} \right)
+\]
+onde $\Delta = b^2 - 4ac$.
+
+\subsection*{Exemplo}
+Para $f(x) = x^2 - 6x + 5$:
+\[
+V\left( -\frac{-6}{2\cdot1}, -\frac{16}{4\cdot1} \right) = (3, -4)
+\]
 
 \section*{6. Estudo do Sinal}
 \begin{itemize}
@@ -176,117 +198,90 @@ x = \frac{-b \pm \sqrt{\Delta}}{2a}
 \end{tikzpicture}
 \end{center}
 
-\section*{7. Aplicações Práticas}
-\subsection*{Lançamento de Projétil}
-A altura $h$ em função do tempo $t$:
-\[
-h(t) = -5t^2 + v_0t + h_0
-\]
-\begin{center}
-\begin{tikzpicture}[scale=0.7]
-    \draw[->] (0,0) -- (4,0) node[right]{$t$};
-    \draw[->] (0,0) -- (0,3) node[above]{$h$};
-    \draw[blue, thick, domain=0:3] plot (\x, {-\x*\x + 2*\x});
-    \filldraw (1,1) circle (1.5pt) node[above right]{Vértice};
-\end{tikzpicture}
-\end{center}
+\section*{2. Gráfico: Parábola}
+Características principais:
+\begin{itemize}
+    \item \textbf{Concavidade}: Para cima ($a>0$) ou para baixo ($a<0$)
+    \item \textbf{Eixo de simetria}: Linha vertical que divide a parábola em duas partes simétricas
+\end{itemize}
 
-\subsection*{Maximização de Área}
-Cercar área retangular com 100m de cerca:
+\section*{3. Zeros da Função (Raízes)}
+Soluções da equação $ax^2 + bx + c = 0$:
 \[
-A(x) = x(50 - x) = -x^2 + 50x
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 \]
-Área máxima no vértice: $x = 25m$
+\begin{itemize}
+    \item $\Delta > 0$: Duas raízes reais distintas
+    \item $\Delta = 0$: Uma raiz real dupla
+    \item $\Delta < 0$: Nenhuma raiz real
+\end{itemize}
 
-\section*{8. Exercícios Básicos (1-10)}
+\section*{4. Exercícios}
+
 \begin{enumerate}
     \item Dada $f(x) = x^2 - 5x + 6$, determine:
     \begin{enumerate}[label=\alph*)]
         \item Os coeficientes $a$, $b$, $c$
-        \item As raízes
-        \item O vértice
+        \item As raízes da função
+        \item O valor de $f(0)$
+        \item O valor de $f(1)$
+        \item O valor de $f(2)$
     \end{enumerate}
     
     \item Classifique a concavidade:
     \begin{enumerate}[label=\alph*)]
         \item $y = 3x^2 - 2x + 1$
         \item $f(x) = -x^2 + 4$
+        \item $y = \frac{1}{2}x^2 - 3x$
+        \item $f(x) = -3x^2 + x - 2$
+        \item $y = 0.5x^2 + 1$
     \end{enumerate}
     
     \item Calcule $\Delta$ para:
     \begin{enumerate}[label=\alph*)]
         \item $x^2 - 6x + 9 = 0$
         \item $2x^2 + x - 3 = 0$
+        \item $x^2 + 4x + 5 = 0$
+        \item $-3x^2 + 7x - 2 = 0$
+        \item $5x^2 - 10x + 5 = 0$
     \end{enumerate}
     
-    \item Determine o vértice:
-    \begin{enumerate}[label=\alph*)]
-        \item $y = x^2 - 4x + 3$
-        \item $f(x) = -2x^2 + 8x - 5$
-    \end{enumerate}
-    
-    \item Esboce o gráfico de:
-    \begin{enumerate}[label=\alph*)]
-        \item $f(x) = x^2 - 1$
-        \item $y = -x^2 + 4x$
-    \end{enumerate}
-\end{enumerate}
-
-\section*{9. Exercícios Intermediários (11-20)}
-\begin{enumerate}\setcounter{enumi}{5}
     \item Resolva as equações:
     \begin{enumerate}[label=\alph*)]
         \item $x^2 - 5x + 6 = 0$
         \item $2x^2 + 3x - 2 = 0$
+        \item $x^2 - 4x + 4 = 0$
+        \item $3x^2 - x - 2 = 0$
+        \item $-x^2 + 2x - 1 = 0$
     \end{enumerate}
-    
-    \item Estude o sinal:
+\end{enumerate}
+
+\begin{enumerate}\setcounter{enumi}{4}
+    \item Para cada função, determine:
     \begin{enumerate}[label=\alph*)]
-        \item $f(x) = x^2 - 3x + 2$
-        \item $y = -x^2 + 2x - 1$
+        \item As raízes de $f(x) = x^2 - 4x + 3$
+        \item As raízes de $f(x) = -x^2 + 2x + 3$
+        \item O valor de $f(2)$ para $f(x) = 2x^2 - 3x + 1$
+        \item O valor de $f(-1)$ para $f(x) = x^2 + x - 1$
+        \item O valor de $f(0.5)$ para $f(x) = 4x^2 - 4x + 1$
     \end{enumerate}
     
     \item Aplicações:
     \begin{enumerate}[label=\alph*)]
-        \item O lucro $L$ em função das unidades $x$ é $L(x) = -x^2 + 80x - 1000$. Qual o lucro máximo?
-        \item Uma bola é lançada com $h(t) = -5t^2 + 20t$. Qual a altura máxima?
+        \item Uma bola é lançada com $h(t) = -5t^2 + 20t$. Em que instantes ela atinge 15m de altura?
+        \item A área de um retângulo é dada por $A(x) = -x^2 + 10x$. Para que valores de x a área é máxima?
+        \item O lucro de uma empresa é dado por $L(x) = -x^2 + 50x - 400$. Qual o lucro máximo?
+        \item A trajetória de um projétil é dada por $y = -x^2 + 6x$. Qual a altura máxima atingida?
+        \item O custo de produção é dado por $C(x) = 0.1x^2 - 2x + 10$. Para qual quantidade o custo é mínimo?
     \end{enumerate}
     
     \item Determine $m$ para que:
     \begin{enumerate}[label=\alph*)]
         \item $f(x) = (m-1)x^2 + 2x - 3$ tenha concavidade para cima
-        \item $y = (3-m)x^2 - 4x + 1$ tenha vértice no eixo $x$
-    \end{enumerate}
-    
-    \item Problemas:
-    \begin{enumerate}[label=\alph*)]
-        \item Um retângulo tem perímetro 20cm. Escreva a área em função de um lado e encontre a área máxima
-        \item Qual a função quadrática que passa por (0,3), (1,4) e (2,9)?
-    \end{enumerate}
-\end{enumerate}
-
-\section*{10. Exercícios Avançados (21-30)}
-\begin{enumerate}\setcounter{enumi}{10}
-    \item Sistemas:
-    \begin{enumerate}[label=\alph*)]
-        \item Resolva $\begin{cases} y = x^2 - 2x \\ y = x + 4 \end{cases}$
-    \end{enumerate}
-    
-    \item Análise gráfica:
-    \begin{enumerate}[label=\alph*)]
-        \item Para $f(x) = x^2 - 4x + k$, determine $k$ para que o gráfico tangencie o eixo $x$
-    \end{enumerate}
-    
-    \item Funções definidas:
-    \begin{enumerate}[label=\alph*)]
-        \item Dada $f(x) = \begin{cases} x^2, & x \leq 1 \\ 2x - 1, & x > 1 \end{cases}$, calcule $f(0)$, $f(1)$, $f(2)$
-    \end{enumerate}
-    
-    
-    \item Problemas complexos:
-    \begin{enumerate}[label=\alph*)]
-        \item Um fazendeiro quer cercar um galinheiro retangular usando um muro como um dos lados. Se ele tem 40m de cerca, quais as dimensões para área máxima?
-        \item Uma empresa estima que o custo $C(x) = 0.1x^2 - 10x + 1000$ e a receita $R(x) = 50x$. Determine o break-even point.
+        \item $f(x) = (2-m)x^2 - 4x + 1$ tenha concavidade para baixo
+        \item $f(x) = mx^2 + 3x - 2$ tenha duas raízes reais distintas
+        \item $f(x) = x^2 + mx + 9$ tenha uma única raiz real
+        \item $f(x) = -x^2 + mx - m$ não tenha raízes reais
     \end{enumerate}
 \end{enumerate}
 
