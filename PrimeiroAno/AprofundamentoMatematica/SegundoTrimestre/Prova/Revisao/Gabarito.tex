@@ -1,0 +1,124 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Cores para títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{red}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{black}}{\thesubsubsection}{1em}{}
+
+\title{\textcolor{blue}{Revisão: Perímetro e Área}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{1. Conceitos Fundamentais}
+
+\subsection*{Perímetro}
+Soma das medidas de todos os lados de uma figura plana.
+
+\subsection*{Área}
+Medida da superfície ocupada pela figura.
+
+\section*{2. Fórmulas Essenciais}
+
+\begin{itemize}
+\item \textbf{Retângulo:} $P = 2(b+h)$; $A = b \cdot h$
+\item \textbf{Quadrado:} $P = 4L$; $A = L^2$
+\item \textbf{Triângulo:} $P = a+b+c$; $A = \frac{b \cdot h}{2}$
+\item \textbf{Círculo:} $C = 2\pi r$; $A = \pi r^2$
+\end{itemize}
+
+\section*{3. Questões Resolvidas}
+
+\begin{enumerate}
+
+\item O perímetro de um retângulo é 50 cm, e seu comprimento é o dobro da largura. Qual é a largura?  
+{\color{red} $2(x+2x)=50 \Rightarrow 6x=50 \Rightarrow x=8,33$ cm (largura).}
+
+\item Um quadrado tem área igual a 144 m². Qual é o seu perímetro?  
+{\color{red} $L=\sqrt{144}=12 \Rightarrow P=4\cdot 12=48$ m.}
+
+\item O perímetro de um triângulo é 72 cm. Dois lados medem 20 cm e 18 cm. Qual é a medida do terceiro lado?  
+{\color{red} $72-(20+18)=34$ cm.}
+
+\item Um terreno retangular tem 5 m a mais de comprimento do que de largura. Se seu perímetro é 50 m, qual é a largura?  
+{\color{red} $2(x+x+5)=50 \Rightarrow 4x+10=50 \Rightarrow x=10$ m.}
+
+\item Um campo quadrado tem perímetro 60 m. Qual é a área?  
+{\color{red} $L=60/4=15 \Rightarrow A=15^2=225$ m².}
+
+\item A base de um retângulo mede 3 vezes sua altura. Se a área é 75 m², qual é a altura?  
+{\color{red} $3x \cdot x=75 \Rightarrow 3x^2=75 \Rightarrow x=5$ m (altura).}
+
+\item Um losango tem perímetro de 64 cm. Qual é a medida de cada lado?  
+{\color{red} $64/4=16$ cm.}
+
+\item Um retângulo tem 2 m a mais de largura que de comprimento. Se a área é 120 m², qual é o comprimento?  
+{\color{red} $x(x+2)=120 \Rightarrow x^2+2x-120=0 \Rightarrow x=10$ m (comprimento).}
+
+\item O perímetro de um triângulo equilátero é 45 cm. Qual é a área?  
+{\color{red} $L=45/3=15 \Rightarrow A=\frac{\sqrt{3}}{4}(15^2)\approx 97,4$ cm².}
+
+\item Um retângulo tem comprimento igual ao triplo da largura. Se seu perímetro é 64 cm, qual é a área?  
+{\color{red} $2(x+3x)=64 \Rightarrow 8x=64 \Rightarrow x=8$ cm, $A=8 \cdot 24=192$ cm².}
+
+\item Um círculo tem área 78,5 m² (use $\pi = 3,14$). Qual seu perímetro?  
+{\color{red} $r^2=78,5/3,14=25 \Rightarrow r=5 \Rightarrow C=2\pi r=31,4$ m.}
+
+\item Um trapézio tem bases 8 cm e 12 cm, e altura 5 cm. Qual sua área?  
+{\color{red} $A=\frac{(8+12)\cdot 5}{2}=50$ cm².}
+
+\item Um hexágono regular tem lado 5 cm. Qual seu perímetro?  
+{\color{red} $6\cdot 5=30$ cm.}
+
+\item Um triângulo retângulo tem catetos 6 cm e 8 cm. Qual seu perímetro?  
+{\color{red} Hipotenusa $=10$, então $P=6+8+10=24$ cm.}
+
+\item Um paralelogramo tem lados 7 cm e 9 cm. Qual seu perímetro?  
+{\color{red} $2(7+9)=32$ cm.}
+
+\item Um retângulo tem área 48 cm². Se aumentarmos seus lados em 25\%, qual a nova área?  
+{\color{red} $A_{novo}=48 \cdot (1,25)^2=75$ cm².}
+
+\item Um jardim quadrado tem área 81 m². Se reduzirmos seu lado em 2 m, qual o novo perímetro?  
+{\color{red} $L=9 \Rightarrow L'=7 \Rightarrow P'=4\cdot 7=28$ m.}
+
+\item Um retângulo tem perímetro 30 cm e área 50 cm². Quais suas dimensões?  
+{\color{red} $x+y=15$, $xy=50 \Rightarrow$ soluções: $x=10$, $y=5$.}
+
+\item Um triângulo isósceles tem perímetro 36 cm e base 14 cm. Qual é a medida dos lados iguais?  
+{\color{red} $2x+14=36 \Rightarrow x=11$ cm.}
+
+\item Um terreno retangular tem razão entre lados 3:4 e perímetro 84 m. Qual sua área?  
+{\color{red} $2(3k+4k)=84 \Rightarrow 14k=84 \Rightarrow k=6$, lados $=18$ e $24$, área $=432$ m².}
+
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}
+

@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.5.8)  5 AUG 2025 12:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.5.8)  10 AUG 2025 11:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/mnt/c/Users/Jeffrey24/Documents/2025/PrimeiroAno/AprofundamentoMatematica/Se
-gundoTrimestre/Poliedros/aula.tex
+**/mnt/c/Users/Jeffrey24/Documents/2025/PrimeiroAno/MatematicaPrimeiroAno/Terce
+iroTrimestre/ProgressaoAritmetica/progressaoAritmetica.tex
 
-(/mnt/c/Users/Jeffrey24/Documents/2025/PrimeiroAno/AprofundamentoMatematica/Seg
-undoTrimestre/Poliedros/aula.tex
+(/mnt/c/Users/Jeffrey24/Documents/2025/PrimeiroAno/MatematicaPrimeiroAno/Tercei
+roTrimestre/ProgressaoAritmetica/progressaoAritmetica.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -102,6 +102,17 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \c@tracingmulticols=\count282
@@ -477,19 +488,7 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-shapes.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geomet
-ric.code.tex
-File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-3d.code.tex
-File: tikzlibrary3d.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+))) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip56
 \enit@outerparindent=\dimen276
@@ -514,23 +513,24 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count318
 \l__pdf_internal_box=\box113
-) (./aula.aux)
-\openout1 = `aula.aux'.
+)
+(./progressaoAritmetica.aux)
+\openout1 = `progressaoAritmetica.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -587,41 +587,87 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-)) [1
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
+
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
+
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+! Missing } inserted.
+<inserted text> 
+                }
+l.32 \end{center}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (1.82228pt too wide) in paragraph at lines 83--84
+[] 
+ []
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (4.38184pt too wide) in paragraph at lines 163--175
+[]
+ []
 
-[2] (./aula.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--175
+
+ []
+
+
+
+[2] (./progressaoAritmetica.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14694 strings out of 475151
- 292907 string characters out of 5766387
- 701839 words of memory out of 5000000
- 37456 multiletter control sequences out of 15000+600000
- 571424 words of font info for 63 fonts, out of 8000000 for 9000
+ 14807 strings out of 475151
+ 287816 string characters out of 5766387
+ 692809 words of memory out of 5000000
+ 37554 multiletter control sequences out of 15000+600000
+ 576798 words of font info for 82 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 102i,6n,107p,524b,763s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk
-> </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk>
- </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> 
+ 102i,13n,107p,533b,794s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk
+> </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk>
+ </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> 
 </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> <
-/home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </
-home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </h
-ome/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </ho
-me/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </hom
-e/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb>
-Output written on aula.pdf (2 pages, 109065 bytes).
+/home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </
+home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </h
+ome/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </ho
+me/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </hom
+e/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home
+/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on progressaoAritmetica.pdf (2 pages, 198343 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 404 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.5.8)  5 AUG 2025 12:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.5.8)  12 AUG 2025 10:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/mnt/c/Users/Jeffrey24/Documents/2025/PrimeiroAno/AprofundamentoMatematica/Se
-gundoTrimestre/Poliedros/aula.tex
+**/mnt/c/Users/Jeffrey24/Documents/2025/SegundoAno/MatematicaBasica/SegundoTrim
+estre/Revisao/RevisaoFuncaoSegundoExponencial.tex
 
-(/mnt/c/Users/Jeffrey24/Documents/2025/PrimeiroAno/AprofundamentoMatematica/Seg
-undoTrimestre/Poliedros/aula.tex
+(/mnt/c/Users/Jeffrey24/Documents/2025/SegundoAno/MatematicaBasica/SegundoTrime
+stre/Revisao/RevisaoFuncaoSegundoExponencial.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -486,13 +486,16 @@ File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-3d.code.tex
-File: tikzlibrary3d.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen276
+\pgfarrowlength=\dimen277
+\pgfarrowwidth=\dimen278
+\pgfarrowlinewidth=\dimen279
 ) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip56
-\enit@outerparindent=\dimen276
+\enit@outerparindent=\dimen280
 \enit@toks=\toks38
 \enit@inbox=\box111
 \enit@count@id=\count316
@@ -503,19 +506,20 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box112
 \beforetitleunit=\skip57
 \aftertitleunit=\skip58
-\ttl@plus=\dimen277
-\ttl@minus=\dimen278
+\ttl@plus=\dimen281
+\ttl@minus=\dimen282
 \ttl@toksa=\toks39
-\titlewidth=\dimen279
-\titlewidthlast=\dimen280
-\titlewidthfirst=\dimen281
+\titlewidth=\dimen283
+\titlewidthlast=\dimen284
+\titlewidthfirst=\dimen285
 )
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count318
 \l__pdf_internal_box=\box113
-) (./aula.aux)
-\openout1 = `aula.aux'.
+)
+(./RevisaoFuncaoSegundoExponencial.aux)
+\openout1 = `RevisaoFuncaoSegundoExponencial.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
@@ -569,13 +573,13 @@ LaTeX Font Info:    ... okay on input line 27.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count319
-\scratchdimen=\dimen282
+\scratchdimen=\dimen286
 \scratchbox=\box114
 \nofMPsegments=\count320
 \nofMParguments=\count321
 \everyMPshowfont=\toks40
 \MPscratchCnt=\count322
-\MPscratchDim=\dimen283
+\MPscratchDim=\dimen287
 \MPnumerator=\count323
 \makeMPintoPDFobject=\count324
 \everyMPtoPDFconversion=\toks41
@@ -587,41 +591,65 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-)) [1
+))
+! Undefined control sequence.
+<recently read> \mathbb 
+                        
+l.95 Domínio & $\mathbb
+                        {R}$ & $\mathbb{R}$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mathbb 
+                        
+l.95 Domínio & $\mathbb{R}$ & $\mathbb
+                                       {R}$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-[2] (./aula.aux)
+[2] (./RevisaoFuncaoSegundoExponencial.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14694 strings out of 475151
- 292907 string characters out of 5766387
- 701839 words of memory out of 5000000
- 37456 multiletter control sequences out of 15000+600000
- 571424 words of font info for 63 fonts, out of 8000000 for 9000
+ 15382 strings out of 475151
+ 309012 string characters out of 5766387
+ 712061 words of memory out of 5000000
+ 38145 multiletter control sequences out of 15000+600000
+ 569472 words of font info for 61 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 102i,6n,107p,524b,763s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk
-> </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk>
- </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> 
-</home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> <
-/home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </
-home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </h
-ome/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </ho
-me/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </hom
-e/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb>
-Output written on aula.pdf (2 pages, 109065 bytes).
+ 102i,8n,107p,549b,754s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1440.600pk
+> </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk>
+ </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> 
+</home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> <
+/home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </
+home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </h
+ome/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </ho
+me/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on RevisaoFuncaoSegundoExponencial.pdf (2 pages, 143195 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 295 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

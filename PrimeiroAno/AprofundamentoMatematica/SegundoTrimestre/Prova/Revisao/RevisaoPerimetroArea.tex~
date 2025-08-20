@@ -1,0 +1,103 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Cores para títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{red}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{black}}{\thesubsubsection}{1em}{}
+
+\title{\textcolor{blue}{Revisão: Perímetro e Área}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{center}
+\large{Nome: \underline{\hspace{8cm}} \quad Turma: \underline{\hspace{3cm}}}
+\end{center}
+
+\begin{multicols}{2}
+
+\section*{1. Conceitos Fundamentais}
+
+\subsection*{Perímetro}
+Soma das medidas de todos os lados de uma figura plana.
+
+\subsection*{Área}
+Medida da superfície ocupada pela figura.
+
+\section*{2. Fórmulas Essenciais}
+
+\begin{itemize}
+\item \textbf{Retângulo:} $P = 2(b+h)$; $A = b \cdot h$
+\item \textbf{Quadrado:} $P = 4L$; $A = L^2$
+\item \textbf{Triângulo:} $P = a+b+c$; $A = \frac{b \cdot h}{2}$
+\item \textbf{Círculo:} $C = 2\pi r$; $A = \pi r^2$
+\end{itemize}
+
+\section*{3. Questões}
+
+\begin{enumerate}
+
+\item O perímetro de um retângulo é 50 cm, e seu comprimento é o dobro da largura. Qual é a largura?
+
+\item Um quadrado tem área igual a 144 m². Qual é o seu perímetro?
+
+\item O perímetro de um triângulo é 72 cm. Dois lados medem 20 cm e 18 cm. Qual é a medida do terceiro lado?
+
+\item Um terreno retangular tem 5 metros a mais de comprimento do que de largura. Se seu perímetro é 50 m, qual é a largura?
+
+\item Um campo quadrado tem perímetro 60 m. Qual é a área?
+
+\item A base de um retângulo mede 3 vezes sua altura. Se a área é 75 m², qual é a altura?
+
+\item Um losango tem perímetro de 64 cm. Qual é a medida de cada lado?
+
+\item Um retângulo tem 2 metros a mais de largura que de comprimento. Se a área é 120 m², qual é o comprimento?
+
+\item O perímetro de um triângulo equilátero é 45 cm. Qual é a área?
+
+\item Um retângulo tem comprimento igual ao triplo da largura. Se seu perímetro é 64 cm, qual é a área?
+
+\item Um círculo tem área 78,5 m² (use $\pi = 3,14$). Qual seu perímetro?
+
+\item Um trapézio tem bases 8 cm e 12 cm, e altura 5 cm. Qual sua área?
+
+\item Um hexágono regular tem lado 5 cm. Qual seu perímetro?
+
+\item Um triângulo retângulo tem catetos 6 cm e 8 cm. Qual seu perímetro?
+
+\item Um paralelogramo tem lados 7 cm e 9 cm. Qual seu perímetro?
+
+\item Um retângulo tem área 48 cm². Se aumentarmos seus lados em 25\%, qual a nova área?
+
+\item Um jardim quadrado tem área 81 m². Se reduzirmos seu lado em 2 m, qual o novo perímetro?
+
+\item Um retângulo tem perímetro 30 cm e área 50 cm². Quais suas dimensões?
+
+\item Um triângulo isósceles tem perímetro 36 cm e base 14 cm. Qual é a medida dos lados iguais?
+
+\item Um terreno retangular tem razão entre lados 3:4 e perímetro 84 m. Qual sua área?
+
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}
