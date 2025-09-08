@@ -18,7 +18,8 @@
 \titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{\thesection}{1em}{}
 \titleformat{\subsection}{\normalfont\large\bfseries\color{red}}{\thesubsection}{1em}{}
 
-\title{\textcolor{blue}{Progressão Aritmética: Função Afim de Domínio Discreto}}
+\title{\textcolor{blue}{ Terceiro Trimestre: Matemática
+    \\Progressão Aritmética: Função Afim de Domínio Discreto}}
 \author{Professor: Jefferson}
 \date{}
 
@@ -34,11 +35,27 @@
 \begin{multicols}{2}
 
 \section*{Objetivo da Aula}
-Relacionar Progressões Aritméticas com funções afins de domínio discreto:
-\begin{quote}
+
+% CAIXA COLORIDA COM A HABILIDADE
+\begin{tikzpicture}
+\node[rectangle, 
+      fill=purple!15, 
+      rounded corners=5pt, 
+      inner sep=10pt, 
+      draw=purple!60!black, 
+      thick,
+      drop shadow={opacity=0.3}] (box) 
+{
+\begin{minipage}{0.75\linewidth}
+\justifying
 \small
-    (EM13MAT507PE46) Identificar e associar progressões aritméticas (PA) a funções afins de domínios discretos, para análise de propriedades, dedução de fórmulas e resolução de problemas.
-\end{quote}
+\textbf{(EM13MAT507PE46)} Identificar e associar progressões aritméticas (PA) a funções afins de domínios discretos, para análise de propriedades, dedução de fórmulas e resolução de problemas.
+\end{minipage}
+};
+\end{tikzpicture}
+
+\vspace{5mm}
+
 
 \section*{2. Fórmula do Termo Geral: Progressão Aritmética}
 Partindo da analogia:
@@ -139,7 +156,7 @@ f(n) = a_1 + (n-1) \cdot r
 
 \item (UFPE) Se a soma dos 15 primeiros termos de uma PA é 150 e o 8º termo é 15, qual é a razão?
 
-\item (ENEM) Um teatro tem 18 filas de cadeiras. Na 1ª fila há 20 cadeiras, na 2ª 23, na 3ª 26, e assim por diante. Quantas cadeiras tem o teatro?
+\item (ENEM) Um teatro tem 18 filas de cadeiras. Na 1ª fila há 20 cadeiras, na 2ª 23 cadeiras, na 3ª 26, e assim por diante. Quantas cadeiras tem o teatro?
 
 \item Dada a PA $(x-1, 2x, 5x+1)$, determine:
 \begin{enumerate}[label=\alph*)]
@@ -179,7 +196,7 @@ Taxa de variação constante $a$ & Razão constante $r$ \\
 \draw[->] (-0.5,0) -- (4,0) node[right]{$x$};
 \draw[->] (0,-0.5) -- (0,3) node[above]{$y$};
 \draw[blue, thick, domain=0:3.5] plot (\x, {0.5*\x + 1});
-\node[blue] at (2.5,2.5) {$f(x)=0.5x+1$};
+\node[blue] at (2.5,3.0) {$f(x)=0.5x+1$};
 
 % PA discreta
 \draw[->] (5,0) -- (9.5,0) node[right]{$n$};
@@ -188,7 +205,7 @@ Taxa de variação constante $a$ & Razão constante $r$ \\
     \filldraw[red] (5+\n,{0.5*\n+1}) circle (3pt);
     \draw[dashed] (5+\n,0) -- (5+\n,{0.5*\n+1});
 }
-\node[red] at (8,2.5) {$a_n=0.5n+1$};
+\node[red] at (8,3.4) {$a_n=0.5n+1$};
 \end{tikzpicture}
 \end{center}
 
@@ -257,17 +274,8 @@ f(1) &= 42 - (3-1)\cdot9 = 24 \text{ cm}
 \item Calcule o custo para 15 km em ambos modelos
 \end{enumerate}
 
-\item Prove que em qualquer PA finita, a média dos extremos é igual à média aritmética dos termos equidistantes dos extremos, usando propriedades de funções afins.
 \end{enumerate}
 
 \end{multicols}
-
-\section*{Respostas dos Exercícios}
-\begin{enumerate}
-\item a) 2, b) 1, c) 3
-\item a) $r=4$, b) $a_1=2$, c) $f(n)=4n-2$
-\item a) $f(x)=2x+5$, b) $a_n=5+2n$, c) R\$ 35,00
-\item Demonstração pela linearidade da função afim
-\end{enumerate}
 
 \end{document}

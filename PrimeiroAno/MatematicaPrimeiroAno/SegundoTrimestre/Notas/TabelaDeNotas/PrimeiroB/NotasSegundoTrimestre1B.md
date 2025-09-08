@@ -1,0 +1,46 @@
+| ESTUDANTES                                | AT1 | AT2 | AT3 | Prova |
+|-------------------------------------------|-----|-----|-----|-------|
+| ADRIELLE TENORIO ARAUJO                   | NF  | 1.0 | NF  | 0.0   |
+| ANA BEATRIZ NEVES DA SILVA                | 1.0 | NF  | 7.0 | 1.5   |
+| ANY GABRIELLY DE OLIVEIRA SILVA           | 1.0 | 1.0 | 8.0 | 1.0   |
+| ARYANE BARBOSA DA SILVA                   | 1.0 | 1.0 | 1.5 | 1.0   |
+| DIEGO LEITE DA SILVA                      | 1.0 | 1.0 | 2.5 | 0.0   |
+| DIEGO SILVA MOURA SANTOS                  | NF  | 1.0 | NF  | 2.5   |
+| GABRIEL BESERRA CAMILO CORREIA            | NF  | 1.0 | 2.0 | 3.5   |
+| INGRID IARA DA SILVA BRITTO               | 1.0 | 1.0 | 4.0 | 2.5   |
+| JAILSON EMANOEL MAGALHAES ALVES           | 1.0 | 1.0 | 6.5 | 2.0   |
+| JOAO GABRIEL BARBOSA DOMINGOS             | 1.0 | 1.0 | 1.5 | NF    |
+| JOAO VITOR DE SANTANA GOMES               | NF  | 1.0 | 5.0 | 2.5   |
+| JOSE ANDRADE DE LIMA NETO                 | NF  | NF  | 3.5 | 2.5   |
+| JOSE JEMERSON DA SILVA RIBEIRO            | NF  | 1.0 | 7.0 | 0.5   |
+| JOSE WESLEY MOURA VIANA DA SILVA          | 1.0 | 1.0 | NF  | NF    |
+| KAUA DE LIMA BRITTO                       | NF  | NF  | NF  | 1.5   |
+| LEANDRO HENRIQUE SILVA DE MELO            | 1.0 | 1.0 | 6.0 | NF    |
+| LUCAS VINICIUS SIMAO DIAS                 | NF  | NF  | 2.5 | 0.0   |
+| MARIA CLARA LIRA DA SILVA                 | NF  | NF  | 0.5 | 0.5   |
+| MARIA CLARA PEREIRA DA SILVA              | 1.0 | 1.0 | NF  | NF    |
+| MARIA EDUARDA DA SILVA MONTEIRO           | NF  | 1.0 | NF  | NF    |
+| MARIA ELOISA VIANA DIAS                   | NF  | NF  | NF  | NF    |
+| MARIA JAMILE ARCOVERDE DA SILVA           | 1.0 | 1.0 | 6.5 | 3.0   |
+| MARJORIE MAIARA PEREIRA ROSA              | 1.0 | NF  | 7.0 | 2.0   |
+| MARYELLY VICTORIA HONORIO SIQUEIRA        | 1.0 | 1.0 | 8.0 | 0.5   |
+| MATEUS VICTOR EVANGELISTA DA SILVA        | 1.0 | 1.0 | NF  | 2.0   |
+| NAYNE RAQUELE DA SILVA HONORIO            | NF  | NF  | 5.5 | 1.5   |
+| PABLO EDUARDO TAVARES FORTUNATO DA SILVA  | 1.0 | 1.0 | 5.0 | 2.0   |
+| PAULO VINICIUS MOURA SANTOS DA SILVA      | 1.0 | NF  | 6.0 | 4.0   |
+| RICHARLYSON YSTEFERSON PEREIRA DE LIMA    | 1.0 | 1.0 | 6.0 | 1.5   |
+| ROBERTO LUCAS DOS SANTOS JULIAO           | 1.0 | 1.0 | 5.0 | 1.0   |
+| VICTORIA YASMIN HONORIO DA SILVA OLIVEIRA | NF  | NF  | 1.5 | 1.0   |
+| YASMIM DE ARAUJO CAVALCANTI               | NF  | NF  | 3.5 | 2.5   |
+| YASMIN RAISSA BARBOSA DA SILVA            | 1.0 | NF  | NF  | 1.0   |
+| YTALLA VITORIA SANTOS MOREIRA             | 1.0 | 1.0 | 8.0 | 5.5   |
+| YTALO KAWAN SOUZA DA SILVA                | 1.0 | 1.0 | 3.5 | 2.5   |
+| EVERSON DOUGLAS BARBOSA                   | NF  | NF  | NF  | 2.0   |
+| NICKOLY VICTORIA                          | NF  | NF  | 5.0 | 1.0   |
+|-------------------------------------------|-----|-----|-----|-------|
+| Regra de três: 16 acerto -> 8,0 pontos    |
+| Atualização:                              |
+| 25/08                                     |
+| Atualização de notas                      |
+|-------------------------------------------|
+
