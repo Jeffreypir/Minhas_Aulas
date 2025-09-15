@@ -1,33 +1,33 @@
 | ESTUDANTES                              | AT1 | AT2 | AT3 | Prova |
 | ------------------------------------    | --- | --- | --- | ----- |
-| ANA ALICE HENRIQUE DA SILVA             | NF  | NF  | 4.8 | NF    |
-| BARBARA MONIQUE DA SILVA RIBEIRO        | NF  | NF  | 3.2 | NF    |
-| BEATRIZ DOS SANTOS LIMA                 | 1.0 | 1.0 | 8.0 | NF    |
-| CLOVIS NERIVAN FEITOSA DE OLIVEIRA      | NF  | NF  | 4.8 | NF    |
-| EDSON BATISTA DE ARAUJO CADUFF          | 1.0 | 1.0 | 8.0 | NF    |
+| ANA ALICE HENRIQUE DA SILVA             | NF  | NF  | 4.8 | 1.5   |
+| BARBARA MONIQUE DA SILVA RIBEIRO        | NF  | NF  | 3.2 | 3.0   |
+| BEATRIZ DOS SANTOS LIMA                 | 1.0 | 1.0 | 8.0 | 5.0   |
+| CLOVIS NERIVAN FEITOSA DE OLIVEIRA      | NF  | NF  | 4.8 | 6.0   |
+| EDSON BATISTA DE ARAUJO CADUFF          | 1.0 | 1.0 | 8.0 | 4.0   |
 | ELIETE CAVALCANTI DA SILVA              | NF  | NF  | NF  | NF    |
-| ELIZANDRA DA SILVA BATISTA              | 1.0 | 1.0 | 8.8 | NF    |
-| EWERTON JOHN BEZERRA DA SILVA           | NF  | NF  | NF  | NF    |
-| GABRIEL PEREIRA VIEIRA                  | NF  | NF  | 0.8 | NF    |
-| JEFFERSON DE MOURA LIMA                 | NF  | NF  | NF  | NF    |
-| JOICE KELLY FERREIRA FREIRE             | NF  | NF  | NF  | NF    |
-| JOSE THIAGO DOS SANTOS SILVA            | NF  | NF  | 0.8 | NF    |
-| JULIANA PEREIRA DE SIQUEIRA             | NF  | NF  | 3.2 | NF    |
-| LUCAS GABRIEL DOS SANTOS DE FREITAS     | 1.0 | 1.0 | 8.0 | NF    |
-| MARIA ISLLIANY DA SILVA LUCAS           | NF  | NF  | NF  | NF    |
-| MARIA MAYARA BANDEIRA FERRAZ            | 1.0 | 1.0 | 5.6 | NF    |
-| MAX DOUGLAS MELO MOREIRA                | NF  | NF  | NF  | NF    |
-| NATALIA ISADORA ALVES BEZERRA CABRAL    | 1.0 | 1.0 | NF  | NF    |
-| SARAH EMILLY DOS SANTOS ALVES           | 1.0 | 1.0 | 8.0 | NF    |
-| SAULO MARQUES CAVALCANTI                | 1.0 | 1.0 | 8.0 | NF    |
-| THALYTA CLARA RODRIGUES LEITE           | 1.0 | NF  | 4.0 | NF    |
-| WEDSON MICKAEL BEZERRA DA SILVA         | 1.0 | 1.0 | 0.8 | NF    |
-| WELLINGTON DE MENDONÇA ALBUQUERQUE      | NF  | NF  | NF  | NF    |
-| YASMIN GABRIELLY DE OLIVEIRA LIMA       | 1.0 | 1.0 | 7.2 | NF    |
-| YASMIN LETYCIA DA SILVA BARBOSA         | 1.0 | NF  | 7.2 | NF    |
-| MAXLYAN  BEZERRA                        | NF  | NF  | 4.0 | NF    |
-| JHONATHA GABRIEL                        | NF  | NF  | 4.0 | NF    |
-| CAROLINE BEZERRA                        | NF  | NF  | NF  | NF    |
+| ELIZANDRA DA SILVA BATISTA              | 1.0 | 1.0 | 8.0 | 9.0   |
+| EWERTON JOHN BEZERRA DA SILVA           | NF  | NF  | NF  | 2.0   |
+| GABRIEL PEREIRA VIEIRA                  | NF  | NF  | 1.0 | 1.5   |
+| JEFFERSON DE MOURA LIMA                 | NF  | NF  | NF  | 1.0   |
+| JOICE KELLY FERREIRA FREIRE             | NF  | NF  | NF  | 4.0   |
+| JOSE THIAGO DOS SANTOS SILVA            | NF  | NF  | 1.0 | 1.5   |
+| JULIANA PEREIRA DE SIQUEIRA             | NF  | NF  | 3.2 | 1.0   |
+| LUCAS GABRIEL DOS SANTOS DE FREITAS     | 1.0 | 1.0 | 8.0 | 6.0   |
+| MARIA ISLLIANY DA SILVA LUCAS           | NF  | NF  | NF  | 2.5   |
+| MARIA MAYARA BANDEIRA FERRAZ            | 1.0 | 1.0 | 5.6 | 6.5   |
+| MAX DOUGLAS MELO MOREIRA                | NF  | NF  | NF  | 2.5   |
+| NATALIA ISADORA ALVES BEZERRA CABRAL    | 1.0 | 1.0 | NF  | 6.5   |
+| SARAH EMILLY DOS SANTOS ALVES           | 1.0 | 1.0 | 8.0 | 4.0   |
+| SAULO MARQUES CAVALCANTI                | 1.0 | 1.0 | 8.0 | 2.0   |
+| THALYTA CLARA RODRIGUES LEITE           | 1.0 | NF  | 4.0 | 6.5   |
+| WEDSON MICKAEL BEZERRA DA SILVA         | 1.0 | 1.0 | 1.0 | 1.5   |
+| WELLINGTON DE MENDONÇA ALBUQUERQUE      | NF  | NF  | NF  | 5.5   |
+| YASMIN GABRIELLY DE OLIVEIRA LIMA       | 1.0 | 1.0 | 7.2 | 9.0   |
+| YASMIN LETYCIA DA SILVA BARBOSA         | 1.0 | 1.0  | 7.2 | 2.0   |
+| MAXLYAN  BEZERRA                        | NF  | NF  | 4.0 | 1.0   |
+| JHONATHA GABRIEL                        | NF  | NF  | 4.0 | 1.0   |
+| CAROLINE BEZERRA                        | NF  | NF  | NF  | 2.5   |
 |-----------------------------------------|-----|-----|-----|-------|
 | Regra de três: 10 acertos -> 8.0 pontos |
 | 25/08/2025                              |
