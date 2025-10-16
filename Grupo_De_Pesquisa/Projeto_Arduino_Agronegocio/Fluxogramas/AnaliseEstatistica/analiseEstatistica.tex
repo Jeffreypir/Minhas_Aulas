@@ -1,0 +1,32 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning}
+
+\begin{document}
+
+\tikzstyle{iniciofim} = [ellipse, draw, fill=gray!20, text width=3cm, text centered, minimum height=1cm]
+\tikzstyle{processo} = [rectangle, draw, fill=orange!15, text width=4.2cm, text centered, rounded corners, minimum height=1cm]
+\tikzstyle{decisao} = [diamond, draw, fill=green!10, text width=3.5cm, text centered, aspect=2]
+\tikzstyle{seta} = [->, thick]
+
+\begin{tikzpicture}[node distance=1.6cm]
+
+\node (inicio) [iniciofim] {Início};
+\node (leitura) [processo, below of=inicio] {Importar dados do SD para o Python};
+\node (estatistica) [processo, below of=leitura] {Calcular média, mediana, desvio padrão e IQR};
+\node (outliers) [processo, below of=estatistica] {Detectar e remover outliers};
+\node (correlacao) [processo, below of=outliers] {Calcular correlação de Pearson};
+\node (graficos) [processo, below of=correlacao] {Gerar gráficos e relatórios};
+\node (fim) [iniciofim, below of=graficos] {Fim da análise};
+
+\draw [seta] (inicio) -- (leitura);
+\draw [seta] (leitura) -- (estatistica);
+\draw [seta] (estatistica) -- (outliers);
+\draw [seta] (outliers) -- (correlacao);
+\draw [seta] (correlacao) -- (graficos);
+\draw [seta] (graficos) -- (fim);
+
+\end{tikzpicture}
+
+\end{document}
+

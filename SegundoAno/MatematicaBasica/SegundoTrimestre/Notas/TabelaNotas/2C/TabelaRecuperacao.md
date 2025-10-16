@@ -1,0 +1,20 @@
+| NOME DO ESTUDANTE                   | NOTAS DA RECUPERAÇÃO |
+|-------------------------------------|----------------------|
+| BRYAN VINICIUS DE LIMA 7.0          | NC                   |
+| DIEGO SOUZA MAURO                   | NC                   |
+| GUSTAVO HENRIQUE DA SILVA           | NC                   |
+| GUILHERME RUAN DE OLIVEIRA SILVA    | 6.0                  |
+| ISABELLA BEATRIZ RODRIGUES SIQUEIRA | 0.5                  |
+| ITALO DE BARROS DA SILVA            | 0.5                  |
+| JOSE FRANCISCO MARTINS PAIS DE LIRA | NC                   |
+| JOSE RIQUELME TEIXEIRA VINUTO       | NC                   |
+| KAUA FREIRE BATISTA DA SILVA        | 7.0                  |
+| LARISSA MONIKE PEREIRA MACENA       | NC                   |
+| MARIA CLARA DA SILVA CABRAL         | NC                   |
+| PABLO STHYVAN TAVARES DE LIMA       | 0.5                  |
+| PEDRO LUCAS ALVES DO CARMO          | 6.0                  |
+| RAQUELE BARBOSA BESERRA             | NC                   |
+| RAYSSA VITORIA DE FRANCA VIEIRA     | 0.5                  |
+| SANDREANE BARBOSA DA SILVA          | NC                   |
+| VIVIANE DE OLIVEIRA ARAUJO          | 5.0                  |
+| WALLISON FERNANDO DA SILVA SANTOS   | 7.0                  |

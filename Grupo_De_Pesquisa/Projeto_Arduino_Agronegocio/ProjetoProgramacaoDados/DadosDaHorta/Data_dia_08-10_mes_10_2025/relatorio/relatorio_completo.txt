@@ -1,0 +1,44 @@
+📄 RELATÓRIO COMPLETO DE ANÁLISE DE DADOS
+============================================================
+
+📊 Estatísticas Descritivas das Variáveis Principais:
+
+UmidadeAr:
+ - Média: 46.92
+ - Mediana: 47.00
+ - Desvio Padrão: 1.70
+ - Mínimo: 40.00
+ - Máximo: 50.00
+ - Outliers detectados: 11
+
+Temp:
+ - Média: 25.45
+ - Mediana: 25.40
+ - Desvio Padrão: 0.42
+ - Mínimo: 24.80
+ - Máximo: 26.20
+ - Outliers detectados: 0
+
+USolo:
+ - Média: 80.39
+ - Mediana: 82.00
+ - Desvio Padrão: 4.78
+ - Mínimo: 56.00
+ - Máximo: 87.00
+ - Outliers detectados: 32
+
+📈 Correlações entre Variáveis Principais:
+
+📌 Correlações fortes (>|0.7|):
+⚠️ Nenhuma correlação forte encontrada.
+
+📌 Correlação: USolo × Temp
+Valor da correlação: 0.121
+
+📌 Correlação: UmidadeAr × Temp
+Valor da correlação: -0.316
+
+📌 Correlação: UmidadeAr × USolo
+Valor da correlação: 0.448
+
+✅ Gráficos salvos na pasta 'graficos', arquivos CSV/TXT em 'relatorio'

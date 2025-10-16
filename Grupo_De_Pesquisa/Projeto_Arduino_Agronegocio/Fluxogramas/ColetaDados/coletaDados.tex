@@ -1,0 +1,32 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning}
+
+\begin{document}
+
+\tikzstyle{iniciofim} = [ellipse, draw, fill=gray!20, text width=3cm, text centered, minimum height=1cm]
+\tikzstyle{processo} = [rectangle, draw, fill=blue!15, text width=4cm, text centered, rounded corners, minimum height=1cm]
+\tikzstyle{decisao} = [diamond, draw, fill=green!10, text width=3.5cm, text centered, aspect=2]
+\tikzstyle{seta} = [->, thick]
+
+\begin{tikzpicture}[node distance=1.6cm]
+
+\node (inicio) [iniciofim] {Início};
+\node (leitura) [processo, below of=inicio] {Leitura dos sensores DHT11 e Higrômetro};
+\node (validar) [decisao, below of=leitura, yshift=-0.5cm] {Leitura válida?};
+\node (salvar) [processo, below of=validar, yshift=-0.5cm] {Salvar dados no cartão SD};
+\node (loop) [processo, below of=salvar, yshift=-0.5cm] {Aguardar intervalo e repetir};
+\node (fim) [iniciofim, below of=loop, yshift=-0.5cm] {Fim};
+
+\draw [seta] (inicio) -- (leitura);
+\draw [seta] (leitura) -- (validar);
+\draw [seta] (validar) -- node[right]{Sim} (salvar);
+\draw [seta] (salvar) -- (loop);
+\draw [seta] (loop) -- ++(3,0) |- (leitura);
+\draw [seta] (validar.west) -- ++(-2,0) node[left]{Não} |- (leitura.west);
+\draw [seta] (loop) -- (fim);
+
+\end{tikzpicture}
+
+\end{document}
+

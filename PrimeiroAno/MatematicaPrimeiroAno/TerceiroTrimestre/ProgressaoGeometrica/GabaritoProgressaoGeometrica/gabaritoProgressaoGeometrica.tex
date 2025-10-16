@@ -1,0 +1,259 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+
+% Cores para títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{red}}{\thesubsection}{1em}{}
+
+\title{\textcolor{blue}{Gabarito Comentado - Progressão Geométrica}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{multicols}{2}
+
+\section*{7. Gabarito dos Exercícios de PG}
+
+\begin{enumerate}[leftmargin=*]
+
+\item \textbf{Determine o 8º termo da PG $(2, 6, 18, 54, \ldots)$}
+
+\textbf{Resposta:} $a_8 = 4374$
+
+\textbf{Comentário:}
+\begin{align*}
+a_1 &= 2,\quad q = \frac{6}{2} = 3 \\
+a_8 &= a_1 \cdot q^{7} = 2 \cdot 3^{7} = 2 \cdot 2187 = 4374
+\end{align*}
+
+\item \textbf{Numa PG, o 3º termo vale 20 e o 6º termo vale 160. Calcule:}
+
+\textbf{Respostas:}
+\begin{enumerate}[label=\alph*)]
+\item $q = 2$
+\item $a_1 = 5$
+\item $S_8 = 1275$
+\end{enumerate}
+
+\textbf{Comentário:}
+\begin{align*}
+a_3 &= a_1 \cdot q^2 = 20 \\
+a_6 &= a_1 \cdot q^5 = 160 \\
+\frac{a_6}{a_3} &= \frac{a_1 \cdot q^5}{a_1 \cdot q^2} = q^3 = \frac{160}{20} = 8 \\
+q &= \sqrt[3]{8} = 2 \\
+a_1 &= \frac{a_3}{q^2} = \frac{20}{4} = 5 \\
+S_8 &= \frac{a_1(q^8 - 1)}{q - 1} = \frac{5(256 - 1)}{2 - 1} = \frac{5 \cdot 255}{1} = 1275
+\end{align*}
+
+\item \textbf{Interpole 4 meios geométricos entre 2 e 486.}
+
+\textbf{Resposta:} $(2, 6, 18, 54, 162, 486)$
+
+\textbf{Comentário:}
+\begin{align*}
+a_1 &= 2,\quad a_6 = 486,\quad n = 6 \\
+a_6 &= a_1 \cdot q^{5} = 2 \cdot q^{5} = 486 \\
+q^5 &= \frac{486}{2} = 243 = 3^5 \\
+q &= 3 \\
+\text{PG: } &(2, 6, 18, 54, 162, 486)
+\end{align*}
+
+\item \textbf{Calcule a soma dos 10 primeiros termos da PG $(1, 3, 9, 27, \ldots)$}
+
+\textbf{Resposta:} $S_{10} = 29524$
+
+\textbf{Comentário:}
+\begin{align*}
+a_1 &= 1,\quad q = 3 \\
+S_{10} &= \frac{a_1(q^{10} - 1)}{q - 1} = \frac{1(3^{10} - 1)}{3 - 1} = \frac{59049 - 1}{2} = \frac{59048}{2} = 29524
+\end{align*}
+
+\item \textbf{Três números estão em PG. O produto deles é 216 e a soma é 21. Determine esses números.}
+
+\textbf{Resposta:} $(3, 6, 12)$ ou $(12, 6, 3)$
+
+\textbf{Comentário:}
+Sejam os números $\frac{a}{q}, a, aq$:
+\begin{align*}
+\frac{a}{q} \cdot a \cdot aq &= a^3 = 216 \Rightarrow a = 6 \\
+\frac{6}{q} + 6 + 6q &= 21 \\
+6 + 6q + 6q^2 &= 21q \\
+6q^2 - 15q + 6 &= 0 \\
+2q^2 - 5q + 2 &= 0 \\
+q &= 2 \text{ ou } \frac{1}{2} \\
+\text{Números: } &(3, 6, 12) \text{ ou } (12, 6, 3)
+\end{align*}
+
+\item \textbf{(UFPE) Se o 4º termo de uma PG é 48 e o 7º termo é 384, qual é o 1º termo?}
+
+\textbf{Resposta:} $a_1 = 6$
+
+\textbf{Comentário:}
+\begin{align*}
+a_4 &= a_1 \cdot q^3 = 48 \\
+a_7 &= a_1 \cdot q^6 = 384 \\
+\frac{a_7}{a_4} &= q^3 = \frac{384}{48} = 8 \Rightarrow q = 2 \\
+a_1 &= \frac{a_4}{q^3} = \frac{48}{8} = 6
+\end{align*}
+
+\item \textbf{(ENEM) Uma população de bactérias triplica a cada hora. Se inicialmente há 200 bactérias, quantas haverá após 6 horas?}
+
+\textbf{Resposta:} $145800$ bactérias
+
+\textbf{Comentário:}
+\begin{align*}
+a_1 &= 200,\quad q = 3 \\
+a_6 &= 200 \cdot 3^{6-1} = 200 \cdot 3^5 = 200 \cdot 243 = 48600
+\end{align*}
+\textbf{Correção:} O cálculo correto é:
+\[a_6 = 200 \cdot 3^{5} = 200 \cdot 243 = 48600\]
+Porém, se considerarmos que após 1 hora já temos o primeiro triplicamento:
+\[a_6 = 200 \cdot 3^{6} = 200 \cdot 729 = 145800\]
+A resposta correta é $145800$.
+
+\item \textbf{Dada a PG $(x+1, 3x, 9x-6)$, determine:}
+
+\textbf{Respostas:}
+\begin{enumerate}[label=\alph*)]
+\item $x = 2$
+\item $q = 2$
+\item $a_8 = 384$
+\end{enumerate}
+
+\textbf{Comentário:}
+\begin{align*}
+\frac{3x}{x+1} &= \frac{9x-6}{3x} \\
+(3x)^2 &= (x+1)(9x-6) \\
+9x^2 &= 9x^2 + 9x - 6x - 6 \\
+9x^2 &= 9x^2 + 3x - 6 \\
+3x &= 6 \Rightarrow x = 2 \\
+\text{PG: } &(3, 6, 12),\quad q = 2 \\
+a_8 &= 3 \cdot 2^{7} = 3 \cdot 128 = 384
+\end{align*}
+
+\item \textbf{Um carro sofre desvalorização de 15\% ao ano. Se hoje vale R\$ 40.000,00, quanto valerá daqui a 5 anos?}
+
+\textbf{Resposta:} R\$ 17.714,41
+
+\textbf{Comentário:}
+\begin{align*}
+a_1 &= 40000,\quad q = 1 - 0,15 = 0,85 \\
+a_5 &= 40000 \cdot (0,85)^{4} = 40000 \cdot 0,52200625 \approx 17714,41
+\end{align*}
+
+\item \textbf{(UERJ) Uma bola é lançada de uma altura de 10m. A cada quique, ela atinge 70\% da altura anterior. Qual a distância total percorrida pela bola até o 5º quique?}
+
+\textbf{Resposta:} Aproximadamente 44,17 metros
+
+\textbf{Comentário:}
+\begin{align*}
+\text{Quedas: } &10 + 10\cdot0,7 + 10\cdot0,7^2 + 10\cdot0,7^3 + 10\cdot0,7^4 \\
+\text{Subidas: } &10\cdot0,7 + 10\cdot0,7^2 + 10\cdot0,7^3 + 10\cdot0,7^4 \\
+\text{Total: } &10 + 2(10\cdot0,7 + 10\cdot0,7^2 + 10\cdot0,7^3) + 10\cdot0,7^4 \\
+S &= 10 + 2\cdot10\cdot0,7\cdot\frac{1-0,7^3}{1-0,7} + 10\cdot0,7^4 \\
+&= 10 + 14\cdot\frac{1-0,343}{0,3} + 10\cdot0,2401 \\
+&= 10 + 14\cdot\frac{0,657}{0,3} + 2,401 \\
+&= 10 + 14\cdot2,19 + 2,401 \\
+&= 10 + 30,66 + 2,401 = 43,061
+\end{align*}
+\textbf{Correção:} O cálculo mais preciso:
+\begin{align*}
+S &= 10 + 2\cdot\sum_{k=1}^{4}10\cdot0,7^k \\
+&= 10 + 20\cdot0,7\cdot\frac{1-0,7^4}{1-0,7} \\
+&= 10 + 14\cdot\frac{1-0,2401}{0,3} \\
+&= 10 + 14\cdot\frac{0,7599}{0,3} \\
+&= 10 + 14\cdot2,533 = 10 + 35,462 = 45,462
+\end{align*}
+Porém, considerando apenas até o 5º quique (4 subidas completas):
+\begin{align*}
+S &= 10 + 2(7 + 4,9 + 3,43 + 2,401) \\
+&= 10 + 2(17,731) = 10 + 35,462 = 45,462
+\end{align*}
+A resposta mais precisa é aproximadamente 45,46 metros.
+
+\end{enumerate}
+
+\section*{8. Gabarito dos Exercícios de Associação PG-Função Exponencial}
+
+\begin{enumerate}
+
+\item \textbf{Associe cada PG à sua função exponencial correspondente:}
+
+\textbf{Resposta:} a-2, b-1, c-3
+
+\textbf{Comentário:}
+\begin{enumerate}[label=\alph*)]
+\item $(2, 4, 8, 16, \ldots)$: $a_1 = 2$, $q = 2$, $f(n) = 2 \cdot 2^{n-1}$
+\item $(3, 6, 12, 24, \ldots)$: $a_1 = 3$, $q = 2$, $f(n) = 3 \cdot 2^{n-1}$
+\item $(4, 8, 16, 32, \ldots)$: $a_1 = 4$, $q = 2$, $f(n) = 4 \cdot 2^{n-1} = 2 \cdot 4^{n-1}$
+\end{enumerate}
+
+\item \textbf{Dada a PG com $f(2) = 12$ e $f(5) = 96$, determine:}
+
+\textbf{Respostas:}
+\begin{enumerate}[label=\alph*)]
+\item $q = 2$
+\item $a_1 = 6$
+\item $f(n) = 6 \cdot 2^{n-1}$
+\end{enumerate}
+
+\textbf{Comentário:}
+\begin{align*}
+f(2) &= a_1 \cdot q = 12 \\
+f(5) &= a_1 \cdot q^4 = 96 \\
+\frac{f(5)}{f(2)} &= q^3 = \frac{96}{12} = 8 \Rightarrow q = 2 \\
+a_1 &= \frac{12}{2} = 6 \\
+f(n) &= 6 \cdot 2^{n-1}
+\end{align*}
+
+\item \textbf{Um medicamento tem meia-vida de 6 horas. Se a dose inicial é 400mg, modele como:}
+
+\textbf{Respostas:}
+\begin{enumerate}[label=\alph*)]
+\item $A(t) = 400 \cdot \left(\frac{1}{2}\right)^{t/6}$
+\item $a_n = 400 \cdot \left(\frac{1}{2}\right)^{n-1}$
+\item 25mg
+\end{enumerate}
+
+\textbf{Comentário:}
+\begin{align*}
+\text{a) } &A(t) = 400 \cdot \left(\frac{1}{2}\right)^{t/6} \\
+\text{b) } &a_n = 400 \cdot \left(\frac{1}{2}\right)^{n-1} \\
+\text{c) } &\text{Após 24 horas:} \\
+&\text{Modelo contínuo: } A(24) = 400 \cdot \left(\frac{1}{2}\right)^{24/6} = 400 \cdot \left(\frac{1}{2}\right)^4 = 400 \cdot \frac{1}{16} = 25\text{mg} \\
+&\text{Modelo discreto: } a_5 = 400 \cdot \left(\frac{1}{2}\right)^4 = 25\text{mg}
+\end{align*}
+
+\end{enumerate}
+
+\section*{Observações Finais}
+
+\begin{itemize}
+\item A PG é uma função exponencial de domínio discreto ($\mathbb{N}^*$)
+\item A razão $q$ corresponde à base da função exponencial
+\item O termo geral $a_n = a_1 \cdot q^{n-1}$ é análogo a $f(x) = a \cdot b^x$
+\item Em problemas de desvalorização, use $q = 1 - \text{taxa}$
+\item Em problemas de crescimento, use $q = 1 + \text{taxa}$
+\item Sempre verifique se a razão encontrada é coerente com o problema
+\end{itemize}
+
+\end{multicols}
+
+\end{document}

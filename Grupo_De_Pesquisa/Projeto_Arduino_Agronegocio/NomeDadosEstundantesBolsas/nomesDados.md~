@@ -1,6 +1,6 @@
 | Titulo do projeto:               | Tecnologias de baixo custo no Agronegócio | Agência: | Conta:   |
 | Nomes                            | CPF:                                      |          |          |
-| Vitor Miguel Vieira de Morais    | 14676190433                               | 0068-X   | 592110   |
+| Vitor Miguel Vieira de Morais    | 14676190433                               | 0068-X   | 59211-0   |
 | Maria Jamile Arcoverde da Silva  | 14096929492                               | 0068-X   | 56.307-2 |
 | Rayssa Albuquerque Silva         | 11699419400                               | 0068-X   | 58.528-9 |
 | Thalyta Clara Rodrigues Leite    | 16688605465                               | 0068-X   | 61005-4  |

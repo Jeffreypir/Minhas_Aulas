@@ -1,0 +1,29 @@
+Planejamento Bimestral
+
+a) Habilidades específicas a serem desenvolvidas com base na BNCC:
+
+(EM13MAT310PE26) Resolver e elaborar situações-problema de contagem, envolvendo agrupamentos que dependam da ordem dos elementos ou não (com ou sem repetição), por meio dos princípios multiplicativo e aditivo, bem como da Análise Combinatória, utilizando estratégias diversas.
+
+(EM13MAT316PE32) Resolver e elaborar situações-problema, em contextos diversos, que envolvam o cálculo e a interpretação das medidas de tendência central (média, moda, mediana) e das medidas de dispersão (amplitude, variância e desvio padrão), com e/ou sem apoio de tecnologias digitais.
+
+b) Objetos de conhecimento:
+
+Agrupamentos de elementos que dependam da ordem ou não (com repetição ou não).
+
+Princípio multiplicativo e aditivo.
+
+Análise combinatória: permutação, arranjo e combinação.
+
+Medidas de tendência central: média, moda e mediana.
+
+Medidas de dispersão: amplitude, variância e desvio padrão.
+
+c) Procedimentos metodológicos:
+As aulas iniciarão com uma retomada dos conceitos de contagem e das situações em que a ordem dos elementos influencia o resultado. Em seguida, os estudantes serão conduzidos à formulação de problemas que envolvam o uso dos princípios multiplicativo e aditivo, compreendendo sua aplicação em contextos cotidianos e tecnológicos.
+A partir disso, serão exploradas as noções de permutação, arranjo e combinação por meio de atividades práticas, jogos de lógica e uso de planilhas eletrônicas para verificar padrões de contagem.
+Posteriormente, os alunos trabalharão com dados reais obtidos em pesquisas amostrais, aplicando cálculos de média, moda, mediana, amplitude, variância e desvio padrão. O uso de ferramentas digitais (como planilhas e softwares estatísticos simples) será estimulado para facilitar a análise e a visualização dos resultados.
+
+d) Procedimentos avaliativos:
+A avaliação ocorrerá de forma contínua, observando-se a participação nas atividades, a capacidade de interpretação e resolução de problemas e o raciocínio lógico aplicado às situações propostas.
+Serão considerados também os relatórios individuais e em grupo sobre as atividades realizadas, a precisão nos cálculos combinatórios e estatísticos e a habilidade em utilizar ferramentas digitais para representar e interpretar os dados.
+Uma avaliação final poderá incluir a elaboração de um problema que integre conceitos de análise combinatória e estatística, demonstrando a compreensão dos conteúdos e sua aplicação em diferentes contextos.
