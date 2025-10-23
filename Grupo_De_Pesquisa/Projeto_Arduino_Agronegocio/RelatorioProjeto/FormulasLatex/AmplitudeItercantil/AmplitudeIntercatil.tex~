@@ -1,0 +1,19 @@
+\documentclass[preview,10pt]{standalone}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fontspec} % Necessário para usar fontes do sistema
+\setmainfont{Arial}[BoldFont=Arial Bold]
+\setsansfont{Arial}[BoldFont=Arial Bold]
+\setmonofont{Courier New}[BoldFont=Courier New Bold]
+
+
+\begin{document}
+
+\[
+\mathrm{IQR} = Q_3 - Q_1
+\]
+
+
+\end{document}
+
+

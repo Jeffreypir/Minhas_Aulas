@@ -22,7 +22,7 @@
 #include <Arduino.h>  // Biblioteca base do Arduino
 #include "DHT.h"      // Biblioteca do sensor DHT
 
-#define DHTPIN 10       // Define o pino digital onde o sinal DATA do DHT11 está conectado
+#define DHTPIN A2       // Define o pino digital onde o sinal DATA do DHT11 está conectado
 #define DHTTYPE DHT11   // Define o tipo do sensor (DHT11)
 
 DHT dht(DHTPIN, DHTTYPE); // Cria um objeto 'dht' para manipular o sensor

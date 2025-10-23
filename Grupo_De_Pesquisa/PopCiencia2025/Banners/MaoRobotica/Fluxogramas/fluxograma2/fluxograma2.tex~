@@ -1,0 +1,37 @@
+% fluxograma_colorido_sem_verde.tex
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes.geometric, calc}
+
+\begin{document}
+\begin{tikzpicture}[
+  node distance=10mm and 15mm,
+  box/.style={draw, rounded corners, minimum width=40mm, minimum height=8mm, align=center, fill=#1!30, text=#1!900},
+  io/.style={draw, trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=40mm, minimum height=8mm, align=center, fill=#1!30, text=#1!900},
+  arrow/.style={-{Stealth[length=3mm]}, thick, #1}
+]
+
+% Nodes
+\node[io=blue] (cam) {1. Captura de imagem\\(câmera)};
+\node[box=teal, below=of cam] (detect) {2. Detecção de landmarks\\(MediaPipe)};
+\node[box=orange, below=of detect] (process) {3. Processamento\\(extração de gestos)};
+\node[box=purple, below=of process] (map) {4. Mapeamento\\(gesto → ângulo dos servos)};
+\node[box=red, below=of map] (send) {5. Envio serial\\(Python → Arduino)};
+\node[box=brown, below=of send] (act) {6. Atuação\\(servomotores)};
+\node[box=violet, right=of process, xshift=35mm] (visual) {Feedback visual\\(GUI / vídeo)};
+
+% Arrows
+\draw[arrow=black] (cam) -- (detect);
+\draw[arrow=black] (detect) -- (process);
+\draw[arrow=black] (process) -- (map);
+\draw[arrow=black] (map) -- (send);
+\draw[arrow=black] (send) -- (act);
+\draw[arrow=black] (process) -- (visual);
+\draw[arrow=black] (visual) |- (send);
+
+% Optional annotations
+\node[below=6mm of act, align=center] (note) {Observações:\\iluminação e taxa de captura afetam precisão.};
+
+\end{tikzpicture}
+\end{document}
+

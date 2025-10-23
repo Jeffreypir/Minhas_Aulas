@@ -1,0 +1,2 @@
+fqbn: arduino:avr:nano
+port: COM3

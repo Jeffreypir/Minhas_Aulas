@@ -1,0 +1,40 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning}
+
+\begin{document}
+\begin{tikzpicture}[
+  node distance=10mm and 20mm,
+  font=\sffamily\Largue,
+  start/.style={ellipse, draw, thick, fill=green!20, minimum width=38mm, minimum height=9mm, align=center, font=\bfseries},
+  process/.style={rectangle, rounded corners=3mm, draw, thick, fill=blue!10, minimum width=52mm, minimum height=10mm, align=center, drop shadow},
+  skill/.style={rectangle, rounded corners=3mm, draw, thick, fill=orange!15, minimum width=52mm, minimum height=10mm, align=center, drop shadow},
+  end/.style={ellipse, draw, thick, fill=purple!15, minimum width=38mm, minimum height=9mm, align=center, font=\bfseries},
+  arrow/.style={thick, -{Stealth[length=3mm]}, line width=0.9pt, color=gray!70},
+  every node/.style={text centered}
+]
+
+% Nodes
+\node[start] (inicio) {Início do Projeto Interdisciplinar};
+\node[skill, below=of inicio] (prog) {💻 Habilidade em Programação (C/C++)};
+\node[skill, below=of prog] (elec) {🔌 Integração e Eletrônica Aplicada};
+\node[skill, below=of elec] (design) {🌱 Sustentabilidade e Design Criativo};
+\node[skill, below=of design] (team) {🤝 Trabalho em Equipe e Comunicação};
+\node[end, below=of team] (avaliacao) {Avaliação e Reflexão Final};
+
+% Arrows
+\draw[arrow] (inicio) -- (prog);
+\draw[arrow] (prog) -- (elec);
+\draw[arrow] (elec) -- (design);
+\draw[arrow] (design) -- (team);
+\draw[arrow] (team) -- (avaliacao);
+
+% Caption
+\node[below=7mm of avaliacao, align=center, font=\footnotesize] {
+ Fluxograma estilizado da metodologia baseada no desenvolvimento de habilidades\\
+em programação, eletrônica, sustentabilidade e colaboração interdisciplinar.
+};
+
+\end{tikzpicture}
+\end{document}
+

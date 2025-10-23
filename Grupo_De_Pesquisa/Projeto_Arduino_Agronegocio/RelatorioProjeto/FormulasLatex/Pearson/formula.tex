@@ -1,0 +1,39 @@
+\documentclass[preview,10pt]{standalone}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fontspec} % Necessário para usar fontes do sistema
+\setmainfont{Arial}[BoldFont=Arial Bold]
+\setsansfont{Arial}[BoldFont=Arial Bold]
+\setmonofont{Courier New}[BoldFont=Courier New Bold]
+
+
+\begin{document}
+
+\[
+r_{TU} = 
+\frac{
+\sum_{i=1}^{n} (T_i - \overline{T})(U_i - \overline{U})
+}{
+\sqrt{
+\left[
+\sum_{i=1}^{n} (T_i - \overline{T})^2
+\right]
+\left[
+\sum_{i=1}^{n} (U_i - \overline{U})^2
+\right]
+}
+}
+\]
+
+\noindent 
+
+\begin{align*}
+T_i & : \text{ valor da temperatura na $i$-ésima leitura;}\\
+U_i & : \text{ valor da umidade do solo na $i$-ésima leitura;}\\
+\overline{T} & : \text{ média das temperaturas;}\\
+\overline{U} & : \text{ média das umidades;}\\
+n & : \text{ número de observações.}
+\end{align*}
+
+\end{document}
+
