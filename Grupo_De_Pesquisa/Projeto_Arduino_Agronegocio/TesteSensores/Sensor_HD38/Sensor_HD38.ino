@@ -22,6 +22,7 @@
  */
 
 #include <Arduino.h>          // Biblioteca base do Arduino
+#include <Servo.h>                          
 
 const int pinoSensor = A0;    // Define o pino analógico conectado à saída AOUT do sensor HD-38
 int leituraSensor;            // Variável para armazenar a leitura bruta (0–1023)

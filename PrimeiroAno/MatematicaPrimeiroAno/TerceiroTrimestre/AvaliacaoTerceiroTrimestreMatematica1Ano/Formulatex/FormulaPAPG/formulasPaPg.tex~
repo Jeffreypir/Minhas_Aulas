@@ -1,0 +1,22 @@
+\documentclass[preview,10pt]{standalone}
+\usepackage{amsmath, amssymb, enumitem}
+
+\begin{document}
+
+\textbf{Progressão Aritmética (P.A.):}
+
+\begin{align*}
+a_n &= a_1 + (n - 1) \cdot r \\
+r &= a_{n} - a_{n-1} \\
+S_n &= \frac{(a_1 + a_n) \cdot n}{2} 
+\end{align*}
+
+\textbf{Progressão Geométrica (P.G.):}
+
+\begin{align*}
+a_n &= a_1 \cdot q^{(n - 1)} \\
+    q &= \frac{a_n}{a_{n-1}}\\ 
+S_n &= a_1 \cdot \frac{q^n - 1}{q - 1}, \quad \text{para } q \neq 1 
+\end{align*}
+
+\end{document}

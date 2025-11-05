@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.25)  16 OCT 2025 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.20)  28 OCT 2025 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/mnt/c/Users/Jeffrey24/Documents/2025/Grupo_De_Pesquisa/JardimDigital/Analiza
-dorSoloHorta/Apresentacao/AnalizadorSoloHortaSemRoteiro.tex
+**/mnt/c/Users/Jeffrey24/Documents/2025/Grupo_De_Pesquisa/Projeto_Arduino_Agron
+egocio/Apresentacao/AnalizadorSoloHortaSemRoteiro.tex
 
-(/mnt/c/Users/Jeffrey24/Documents/2025/Grupo_De_Pesquisa/JardimDigital/Analizad
-orSoloHorta/Apresentacao/AnalizadorSoloHortaSemRoteiro.tex
+(/mnt/c/Users/Jeffrey24/Documents/2025/Grupo_De_Pesquisa/Projeto_Arduino_Agrone
+gocio/Apresentacao/AnalizadorSoloHortaSemRoteiro.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1078,10 +1078,16 @@ Dictionary: translator-numbers-dictionary, Language: English
 sh.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./AnalizadorSoloHortaSemRoteiro.nav)
+<logo.jpg, id=13, 301.125pt x 168.63pt>
+File: logo.jpg Graphic file (type jpg)
+<use logo.jpg>
+Package pdftex.def Info: logo.jpg  used on input line 40.
+(pdftex.def)             Requested size: 116.29527pt x 65.12473pt.
+
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
+ <./logo.jpg>]
 
 [2
 
@@ -1090,7 +1096,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 [3
 
 ]
-Overfull \vbox (13.88423pt too high) detected at line 81
+Overfull \vbox (13.88423pt too high) detected at line 89
  []
 
 
@@ -1102,13 +1108,13 @@ Overfull \vbox (13.88423pt too high) detected at line 81
 [5
 
 ]
-<Temp.png, id=152, 722.7pt x 361.35pt>
+<Temp.png, id=153, 722.7pt x 361.35pt>
 File: Temp.png Graphic file (type png)
 <use Temp.png>
-Package pdftex.def Info: Temp.png  used on input line 110.
+Package pdftex.def Info: Temp.png  used on input line 118.
 (pdftex.def)             Requested size: 232.59499pt x 116.296pt.
 
-Overfull \vbox (15.34062pt too high) detected at line 110
+Overfull \vbox (15.34062pt too high) detected at line 118
  []
 
 
@@ -1116,13 +1122,13 @@ Overfull \vbox (15.34062pt too high) detected at line 110
 [6
 
  <./Temp.png>]
-<UmidadeAr.png, id=183, 722.7pt x 361.35pt>
+<UmidadeAr.png, id=184, 722.7pt x 361.35pt>
 File: UmidadeAr.png Graphic file (type png)
 <use UmidadeAr.png>
-Package pdftex.def Info: UmidadeAr.png  used on input line 127.
+Package pdftex.def Info: UmidadeAr.png  used on input line 135.
 (pdftex.def)             Requested size: 232.59499pt x 116.296pt.
 
-Overfull \vbox (13.21146pt too high) detected at line 127
+Overfull \vbox (13.21146pt too high) detected at line 135
  []
 
 
@@ -1130,13 +1136,13 @@ Overfull \vbox (13.21146pt too high) detected at line 127
 [7
 
  <./UmidadeAr.png>]
-<USolo.png, id=212, 722.7pt x 361.35pt>
+<USolo.png, id=213, 722.7pt x 361.35pt>
 File: USolo.png Graphic file (type png)
 <use USolo.png>
-Package pdftex.def Info: USolo.png  used on input line 144.
+Package pdftex.def Info: USolo.png  used on input line 152.
 (pdftex.def)             Requested size: 232.59499pt x 116.296pt.
 
-Overfull \vbox (13.21146pt too high) detected at line 144
+Overfull \vbox (13.21146pt too high) detected at line 152
  []
 
 
@@ -1148,13 +1154,13 @@ Overfull \vbox (13.21146pt too high) detected at line 144
 [9
 
 ]
-<correlacao_geral.png, id=267, 433.62pt x 361.35pt>
+<correlacao_geral.png, id=268, 433.62pt x 361.35pt>
 File: correlacao_geral.png Graphic file (type png)
 <use correlacao_geral.png>
-Package pdftex.def Info: correlacao_geral.png  used on input line 173.
+Package pdftex.def Info: correlacao_geral.png  used on input line 181.
 (pdftex.def)             Requested size: 232.59499pt x 193.83037pt.
 
-Overfull \vbox (65.67497pt too high) detected at line 173
+Overfull \vbox (65.67497pt too high) detected at line 181
  []
 
 
@@ -1185,13 +1191,13 @@ hanged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30497 strings out of 475151
- 637449 string characters out of 5766386
- 1028993 words of memory out of 5000000
- 52916 multiletter control sequences out of 15000+600000
- 562294 words of font info for 47 fonts, out of 8000000 for 9000
+ 30446 strings out of 475151
+ 636251 string characters out of 5766385
+ 1029147 words of memory out of 5000000
+ 52865 multiletter control sequences out of 15000+600000
+ 561994 words of font info for 46 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 128i,16n,123p,526b,876s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,16n,123p,520b,876s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1095.600pk
 > </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcsx1095.600pk>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/te
@@ -1199,10 +1205,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mssi10.pfb>
-Output written on AnalizadorSoloHortaSemRoteiro.pdf (11 pages, 570611 bytes).
+Output written on AnalizadorSoloHortaSemRoteiro.pdf (11 pages, 580619 bytes).
 PDF statistics:
- 357 PDF objects out of 1000 (max. 8388607)
+ 358 PDF objects out of 1000 (max. 8388607)
  314 compressed objects within 4 object streams
  23 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

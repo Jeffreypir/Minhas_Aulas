@@ -2,9 +2,9 @@
 
 ARDUINO_CLI = arduino-cli.exe
 BOARD = arduino:avr:uno
-	PORT = COM7
-	SKETCH = AnaliseEstatisticaCompletaPearsonTempArSolo.ino
-	BUILD_DIR = build
+PORT = COM7
+SKETCH = AnaliseEstatisticaCompletaPearsonTempArSolo.ino
+BUILD_DIR = build
 
 compile:
 	$(ARDUINO_CLI) compile --fqbn $(BOARD) $(SKETCH)
