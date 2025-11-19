@@ -1,0 +1,250 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=2cm}
+\usepackage{amsmath}
+\usepackage{tcolorbox}
+\usepackage{parskip} % espaçamento entre parágrafos
+
+% Estilos das caixas
+\tcbset{
+    arc=6pt,
+    boxrule=0.9pt,
+    leftrule=0.6pt,
+    rightrule=0.6pt,
+    toprule=0.6pt,
+    bottomrule=0.6pt,
+    left=8pt,
+    right=8pt,
+    top=8pt,
+    bottom=8pt,
+    fonttitle=\bfseries
+}
+
+\begin{document}
+
+
+\begin{center}
+\Large \textbf{Revisão de Aprofundamento em Matemática} \\
+\large \textbf{Análise Combinatória}
+\\[0.5cm]
+
+\textbf{Professor: Jefferson}
+\end{center}
+
+% QUESTÃO 1
+\begin{tcolorbox}[title=\textbf{Questão 1}, colback=blue!6, colframe=blue!70!black]
+Uma cafeteria oferece 5 tipos de café e 2 tipos de adoçante. De quantas maneiras uma pessoa pode pedir um café com exatamente 1 tipo de adoçante?
+\end{tcolorbox}
+
+\begin{tcolorbox}[title=\textbf{Solução 1}, colback=green!6, colframe=green!60!black]
+\textbf{Passo 1: Identificar escolhas independentes.}\\
+Há duas decisões independentes: escolha do tipo de café e escolha do adoçante.
+
+\textbf{Passo 2: Contar as opções de cada escolha.}\\
+- Opções de café: 5.\\
+- Opções de adoçante: 2.
+
+\textbf{Passo 3: Aplicar o Princípio Fundamental da Contagem.}\\
+Como as escolhas são independentes, multiplicamos:
+\[
+5 \times 2 = 10.
+\]
+
+\textbf{Interpretação :} Existem 10 pedidos diferentes possíveis (cada tipo de café combinado com cada tipo de adoçante).\\
+\emph{Comentário :} Sempre que tivermos decisões independentes e quisermos saber quantas combinações possíveis existem, multiplicamos o número de opções de cada decisão.
+\end{tcolorbox}
+
+
+% QUESTÃO 2
+\begin{tcolorbox}[title=\textbf{Questão 2}, colback=blue!6, colframe=blue!70!black]
+Uma senha eletrônica possui 4 dígitos, e cada dígito pode ser de 0 a 9. Quantas senhas diferentes existem se a repetição é permitida?
+\end{tcolorbox}
+
+\begin{tcolorbox}[title=\textbf{Solução 2}, colback=green!6, colframe=green!60!black]
+\textbf{Passo 1: Entender a estrutura da senha.}\\
+A senha tem 4 posições (dígitos) independentemente escolhidos de 0 a 9.
+
+\textbf{Passo 2: Contar opções por posição.}\\
+Cada posição pode assumir 10 valores (0,1,2,\dots,9).
+
+\textbf{Passo 3: Multiplicar as opções de cada posição.}\\
+Como a repetição é permitida e cada posição é independente:
+\[
+10 \times 10 \times 10 \times 10 = 10^4 = 10000.
+\]
+
+\textbf{Interpretação :} Há 10\,000 senhas possíveis de 4 dígitos com repetição permitida.\\
+\emph{Comentário :} Quando as posições são independentes e repetição é permitida, elevamos o número de opções ao número de posições.
+\end{tcolorbox}
+
+
+% QUESTÃO 3
+\begin{tcolorbox}[title=\textbf{Questão 3}, colback=blue!6, colframe=blue!70!black]
+Usando os algarismos 1, 4, 6 e 8, quantos números de dois algarismos distintos podem ser formados?
+\end{tcolorbox}
+
+\begin{tcolorbox}[title=\textbf{Solução 3}, colback=green!6, colframe=green!60!black]
+\textbf{Passo 1: Escolha do primeiro dígito.}\\
+Podemos escolher qualquer um dos 4 algarismos (1,4,6,8), então 4 opções.
+
+\textbf{Passo 2: Escolha do segundo dígito (sem repetição).}\\
+Depois de usar um algarismo no primeiro dígito, restam 3 algarismos disponíveis para o segundo.
+
+\textbf{Passo 3: Multiplicar as opções de cada posição.}\\
+\[
+4 \times 3 = 12.
+\]
+
+\textbf{Passo 4: Listagem (opcional) para conferir:}\\
+14, 16, 18, 41, 46, 48, 61, 64, 68, 81, 84, 86 — total 12.
+
+\textbf{Interpretação :} Existem 12 números de dois algarismos distintos formados com os algarismos dados.\\
+\emph{Comentário :} Aqui usamos permutação sem repetição para posições distintas (ordem importa).
+\end{tcolorbox}
+
+
+% QUESTÃO 4
+\begin{tcolorbox}[title=\textbf{Questão 4}, colback=blue!6, colframe=blue!70!black]
+De quantas maneiras podemos organizar 5 livros diferentes em uma prateleira?
+\end{tcolorbox}
+
+\begin{tcolorbox}[title=\textbf{Solução 4}, colback=green!6, colframe=green!60!black]
+\textbf{Passo 1: Interpretar o problema.}\\
+Organizar livros em prateleira significa atribuir uma ordem às 5 posições disponíveis; a ordem importa.
+
+\textbf{Passo 2: Usar permutação simples.}\\
+Número de maneiras = número de permutações de 5 objetos distintos:
+\[
+5! = 5 \times 4 \times 3 \times 2 \times 1 = 120.
+\]
+
+\textbf{Interpretação :} Há 120 formas diferentes de organizar os 5 livros.\\
+\emph{Comentário :} O fatorial n! conta todas as ordens possíveis de n objetos distintos.
+\end{tcolorbox}
+
+
+% QUESTÃO 5
+\begin{tcolorbox}[title=\textbf{Questão 5}, colback=blue!6, colframe=blue!70!black]
+Em uma caixa há 7 cartões numerados, todos diferentes. De quantas formas podemos retirar 3 cartões sem se importar com a ordem?
+\end{tcolorbox}
+
+\begin{tcolorbox}[title=\textbf{Solução 5}, colback=green!6, colframe=green!60!black]
+\textbf{Passo 1: Identificar se a ordem importa.}\\
+Aqui a ordem não importa (só nos interessa quais 3 cartões foram retirados).
+
+\textbf{Passo 2: Usar combinação.}\\
+Número de maneiras de escolher 3 de 7:
+\[
+\binom{7}{3} = \frac{7!}{3! (7-3)!} = \frac{7!}{3! \, 4!} =  \frac{7 \times 6 \times 5 \times 4!}{3! \, 4!} =\frac{7 \times 6 \times 5}{3 \times 2 \times 1} = 35.
+\]
+
+\textbf{Passo 3: Interpretação.}\\
+Existem 35 subconjuntos distintos de três cartões que podemos retirar.\\
+\emph{Comentário :} A combinação remove contagens duplicadas causadas por diferentes ordens do mesmo conjunto.
+\end{tcolorbox}
+
+
+% QUESTÃO 6
+\begin{tcolorbox}[title=\textbf{Questão 6}, colback=blue!6, colframe=blue!70!black]
+Em um grupo de 6 atletas, de quantas maneiras é possível escolher uma dupla para competir?
+\end{tcolorbox}
+
+\begin{tcolorbox}[title=\textbf{Solução 6}, colback=green!6, colframe=green!60!black]
+\textbf{Passo 1: Ordem importa?} \\
+Uma dupla não distingue quem foi escolhido primeiro; a ordem não importa.
+
+\textbf{Passo 2: Aplicar combinação de 6 tomados 2 a 2.}\\
+\[
+    \binom{6}{2} =  \frac{6!}{4! (6-2)!} = \frac{6!}{4! \, 2!} =  \frac{6 \times 5 \times 4!}{4! \, 2 \times 1} = \frac{6 \times 5}{2} = 15.
+\]
+
+\textbf{Interpretação :} Há 15 possíveis duplas diferentes.\\
+\emph{Comentário :} Se fosse uma dupla com posições (ex.: capitão e parceiro), usaríamos permutação; aqui não.
+\end{tcolorbox}
+
+
+% QUESTÃO 7
+\begin{tcolorbox}[title=\textbf{Questão 7}, colback=blue!6, colframe=blue!70!black]
+Uma pessoa possui 4 calças e 3 camisetas. Quantos conjuntos (calça + camiseta) ela pode montar?
+\end{tcolorbox}
+
+\begin{tcolorbox}[title=\textbf{Solução 7}, colback=green!6, colframe=green!60!black]
+\textbf{Passo 1: Identificar decisões independentes.}\\
+Escolha de calça (4 opções) e escolha de camiseta (3 opções) são independentes.
+
+\textbf{Passo 2: Multiplicar as opções.}\\
+\[
+4 \times 3 = 12.
+\]
+
+\textbf{Interpretação :} A pessoa pode montar 12 combinações diferentes de roupa.\\
+\emph{Comentário :} Cada calça pode ser combinada com cada camiseta — por isso a multiplicação.
+\end{tcolorbox}
+
+
+% QUESTÃO 8
+\begin{tcolorbox}[title=\textbf{Questão 8}, colback=blue!6, colframe=blue!70!black]
+Quantos anagramas podem ser formados com as letras da palavra \textbf{SOL}?
+\end{tcolorbox}
+
+\begin{tcolorbox}[title=\textbf{Solução 8}, colback=green!6, colframe=green!60!black]
+\textbf{Passo 1: Verificar se há letras repetidas.}\\
+As letras S, O, L são todas distintas.
+
+\textbf{Passo 2: Calcular permutação simples de 3 letras.}\\
+\[
+3! = 3 \times 2 \times 1 = 6.
+\]
+
+\textbf{Passo 3: (Opcional) Listar os anagramas:} SOL, SLO, OSL, OLS, LSO, LOS.
+
+\textbf{Interpretação :} São 6 anagramas possíveis.\\
+\emph{Comentário :} Com letras distintas, o número de anagramas é simplesmente o fatorial do número de letras.
+\end{tcolorbox}
+
+
+% QUESTÃO 9
+\begin{tcolorbox}[title=\textbf{Questão 9}, colback=blue!6, colframe=blue!70!black]
+Serão escolhidos um líder e um assistente entre 5 estudantes. De quantas formas isso pode ser feito?
+\end{tcolorbox}
+
+\begin{tcolorbox}[title=\textbf{Solução 9}, colback=green!6, colframe=green!60!black]
+\textbf{Passo 1: Reconhecer que os cargos são distintos.}\\
+Líder e assistente são posições diferentes — a ordem importa.
+
+\textbf{Passo 2: Contar as opções em sequência.}\\
+- Escolha do líder: 5 opções.\\
+- Após escolher o líder, escolha do assistente: 4 opções restantes.
+
+\textbf{Passo 3: Multiplicar as escolhas.}\\
+\[
+5 \times 4 = 20.
+\]
+
+\textbf{Interpretação :} Existem 20 formas distintas de atribuir os dois cargos.\\
+\emph{Comentário :} Cargos distintos equivalem a permutações de 2 entre 5.
+\end{tcolorbox}
+
+
+% QUESTÃO 10
+\begin{tcolorbox}[title=\textbf{Questão 10}, colback=blue!6, colframe=blue!70!black]
+Um combo de cinema inclui 3 bebidas, 4 pipocas e 2 chocolates. Quantos combos completos podem ser montados?
+\end{tcolorbox}
+
+\begin{tcolorbox}[title=\textbf{Solução 10}, colback=green!6, colframe=green!60!black]
+\textbf{Passo 1: Identificar escolhas independentes.}\\
+Escolha de bebida (3), escolha de pipoca (4) e escolha de chocolate (2) são independentes.
+
+\textbf{Passo 2: Multiplicar as opções.}\\
+\[
+3 \times 4 \times 2 = 24.
+\]
+
+\textbf{Interpretação :} São 24 combos diferentes possíveis.\\
+\emph{Comentário :} Cada escolha de bebida combina com cada escolha de pipoca e cada escolha de chocolate — multiplicamos as quantidades.
+\end{tcolorbox}
+
+\end{document}
+

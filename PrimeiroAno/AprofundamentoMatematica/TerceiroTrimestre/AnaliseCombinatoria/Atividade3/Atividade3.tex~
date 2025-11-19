@@ -1,0 +1,168 @@
+% Atividade: Análise Combinatória (Fácil)
+% Autor: ChatGPT
+% Formato: Prova com gabarito comentado no final
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{multicol}
+\usepackage{titling}
+\setlength{\droptitle}{-4em}
+
+\title{Atividade -- Análise Combinatória}
+\author{Prof. / Atividade gerada por ChatGPT}
+\date{}
+
+\begin{document}
+\maketitle
+
+\vspace{0.5cm}
+\noindent \textbf{Instruções:} Marque a alternativa correta (A--E). Mostre cálculos quando necessário.\
+
+\begin{enumerate}[leftmargin=*]
+
+\item (Permutação simples) Quantas maneiras diferentes podemos organizar as letras da palavra \textbf{SOL}? 
+\begin{multicols}{2}
+\begin{enumerate}[label=\Alph*)]
+\item 3
+\item 4
+\item 5
+\item 6
+\item 8
+\end{enumerate}
+\end{multicols}
+
+\item (Permutação simples) De quantas formas diferentes podemos organizar 4 pessoas em uma fila?
+\begin{multicols}{2}
+\begin{enumerate}[label=\Alph*)]
+\item 8
+\item 10
+\item 12
+\item 16
+\item 24
+\end{enumerate}
+\end{multicols}
+
+\item (Permutação com repetição) De quantas formas diferentes podemos organizar as letras da palavra \textbf{MAMA}?
+\begin{multicols}{2}
+\begin{enumerate}[label=\Alph*)]
+\item 4
+\item 6
+\item 8
+\item 12
+\item 24
+\end{enumerate}
+\end{multicols}
+
+\item (Arranjo simples) De 5 alunos, queremos escolher 2 para formar uma dupla em ordem (primeiro e segundo lugar). Quantos arranjos possíveis existem?
+\begin{multicols}{2}
+\begin{enumerate}[label=\Alph*)]
+\item 10
+\item 15
+\item 20
+\item 25
+\item 30
+\end{enumerate}
+\end{multicols}
+
+\item (Combinação simples) De 5 alunos, quantos grupos de 2 podemos formar sem importar a ordem?
+\begin{multicols}{2}
+\begin{enumerate}[label=\Alph*)]
+\item 5
+\item 8
+\item 10
+\item 15
+\item 20
+\end{enumerate}
+\end{multicols}
+
+\item (Conceito) Em qual tipo de situação a ordem não importa?
+\begin{multicols}{2}
+\begin{enumerate}[label=\Alph*)]
+\item Permutação
+\item Arranjo
+\item Combinação
+\item Nenhuma
+\item Todas
+\end{enumerate}
+\end{multicols}
+
+\item (Arranjo simples) Em uma corrida com 6 competidores, de quantas maneiras diferentes podemos ter os 3 primeiros colocados?
+\begin{multicols}{2}
+\begin{enumerate}[label=\Alph*)]
+\item 20
+\item 60
+\item 120
+\item 240
+\item 720
+\end{enumerate}
+\end{multicols}
+
+\item (Combinação) Uma professora vai escolher 3 representantes entre 6 alunos. Quantas escolhas diferentes ela pode fazer?
+\begin{multicols}{2}
+\begin{enumerate}[label=\Alph*)]
+\item 10
+\item 15
+\item 18
+\item 20
+\item 24
+\end{enumerate}
+\end{multicols}
+
+\item (Permutação circular) Em uma mesa redonda, 5 pessoas vão se sentar. Quantas disposições diferentes são possíveis?
+\begin{multicols}{2}
+\begin{enumerate}[label=\Alph*)]
+\item 24
+\item 60
+\item 120
+\item 240
+\item 720
+\end{enumerate}
+\end{multicols}
+
+\item (Situação prática – combinação) Uma equipe de esportes precisa escolher 2 jogadores entre 4 para representar o time em uma entrevista. Quantas duplas diferentes podem ser formadas?
+\begin{multicols}{2}
+\begin{enumerate}[label=\Alph*)]
+\item 4
+\item 5
+\item 6
+\item 8
+\item 12
+\end{enumerate}
+\end{multicols}
+
+\end{enumerate}
+
+\newpage
+\section*{Gabarito Comentado}
+\begin{enumerate}[leftmargin=*]
+\item \textbf{D) 6}.\quad Permutação de 3 letras distintas: $3! = 6$.
+
+\item \textbf{E) 24}.\quad Permutação de 4 pessoas em fila: $4! = 24$.
+
+\item \textbf{B) 6}.\quad Permutação com repetição: palavra MAMA tem 4 letras com 2 M e 2 A. Número de arranjos = $\dfrac{4!}{2!\,2!} = \dfrac{24}{4} = 6$.
+
+\item \textbf{C) 20}.\quad Arranjo $A_{5,2} = \dfrac{5!}{(5-2)!} = \dfrac{120}{6} = 20$.
+
+\item \textbf{C) 10}.\quad Combinação $C_{5,2} = \dfrac{5!}{2!\,3!} = 10$.
+
+\item \textbf{C) Combinação}.\quad A combinação é usada quando a ordem dos elementos \emph{não importa}.
+
+\item \textbf{C) 120}.\quad Arranjo $A_{6,3} = \dfrac{6!}{(6-3)!} = \dfrac{720}{6} = 120$.
+
+\item \textbf{D) 20}.\quad Combinação $C_{6,3} = \dfrac{6!}{3!\,3!} = 20$.
+
+\item \textbf{A) 24}.\quad Permutação circular: $(n-1)! = (5-1)! = 4! = 24$.
+
+\item \textbf{C) 6}.\quad Combinação $C_{4,2} = \dfrac{4!}{2!\,2!} = 6$.
+
+\end{enumerate}
+
+\vspace{1cm}
+\noindent Boa sorte! Se quiser, posso gerar um PDF pronto para imprimir ou adaptar o estilo (fonte maior, espaço para resolução, incluir cabeçalho para nome/turma etc.).
+
+\end{document}
+

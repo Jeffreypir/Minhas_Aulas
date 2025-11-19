@@ -28,7 +28,8 @@
 #define SD_CS_PIN 10         // Pino ChipSelect do módulo SD (padrão SPI)
 
 // ================= PARÂMETROS DE AMOSTRAGEM =================
-#define LOG_INTERVAL 300000  // Intervalo entre leituras (5 minutos em ms)
+#define LOG_INTERVAL 60000  // Intervalo entre leituras (1 minutos em ms)
+//#define LOG_INTERVAL 300000  // Intervalo entre leituras (5 minutos em ms)
 #define SAMPLE_SIZE 8        // Tamanho da amostra para estatísticas
 #define CORR_BUFFER_SIZE 12  // Tamanho do buffer para correlação
 
@@ -435,14 +436,50 @@ void loop() {
       if (stats_umid_ar.is_outlier) Serial.println(F("ALERTA: Outlier de umidade do ar!"));
       if (stats_umid_solo.is_outlier) Serial.println(F("ALERTA: Outlier de umidade do solo!"));
 
-      // Grava dados
+      // Grava dados no SD
       logData(dados, stats_umid_ar, stats_temp, stats_umid_solo, correlacoes, millis());
       
-      // Exibe informações no serial para debug
-      Serial.print(F("Registro gravado - "));
-      Serial.print(calcularDataRelativa(millis()));
-      Serial.print(" ");
-      Serial.println(formatarTempo(millis()));
+      // ---------------------- PRINT ESTATÍSTICAS COMPLETAS ----------------------
+      Serial.println(F("=== Estatísticas ==="));
+      
+      Serial.println(F("Temperatura:"));
+      Serial.print(F("  Média: ")); Serial.println(stats_temp.media, 2);
+      Serial.print(F("  Desvio Padrão: ")); Serial.println(stats_temp.desvio_padrao, 2);
+      Serial.print(F("  Q1: ")); Serial.println(stats_temp.q1, 2);
+      Serial.print(F("  Mediana: ")); Serial.println(stats_temp.mediana, 2);
+      Serial.print(F("  Q3: ")); Serial.println(stats_temp.q3, 2);
+      Serial.print(F("  Outlier: ")); Serial.println(stats_temp.is_outlier ? F("SIM") : F("NAO"));
+
+      Serial.println(F("Umidade do Ar:"));
+      Serial.print(F("  Média: ")); Serial.println(stats_umid_ar.media, 2);
+      Serial.print(F("  Desvio Padrão: ")); Serial.println(stats_umid_ar.desvio_padrao, 2);
+      Serial.print(F("  Q1: ")); Serial.println(stats_umid_ar.q1, 2);
+      Serial.print(F("  Mediana: ")); Serial.println(stats_umid_ar.mediana, 2);
+      Serial.print(F("  Q3: ")); Serial.println(stats_umid_ar.q3, 2);
+      Serial.print(F("  Outlier: ")); Serial.println(stats_umid_ar.is_outlier ? F("SIM") : F("NAO"));
+
+      Serial.println(F("Umidade do Solo:"));
+      Serial.print(F("  Média: ")); Serial.println(stats_umid_solo.media, 2);
+      Serial.print(F("  Desvio Padrão: ")); Serial.println(stats_umid_solo.desvio_padrao, 2);
+      Serial.print(F("  Q1: ")); Serial.println(stats_umid_solo.q1, 2);
+      Serial.print(F("  Mediana: ")); Serial.println(stats_umid_solo.mediana, 2);
+      Serial.print(F("  Q3: ")); Serial.println(stats_umid_solo.q3, 2);
+      Serial.print(F("  Outlier: ")); Serial.println(stats_umid_solo.is_outlier ? F("SIM") : F("NAO"));
+      
+      // ---------------------- PRINT CORRELAÇÃO ----------------------
+      Serial.println(F("=== Correlação Pearson ==="));
+      for (byte i = 0; i < 3; i++) {
+        Serial.print(correlacoes[i].variavel1);
+        Serial.print(F(" vs "));
+        Serial.print(correlacoes[i].variavel2);
+        Serial.print(F(" -> Coef: "));
+        Serial.print(correlacoes[i].coeficiente, 4);
+        Serial.print(F(" | Significativa: "));
+        Serial.println(correlacoes[i].significativa ? F("SIM") : F("NAO"));
+      }
+      
+      Serial.println(F("---------------------------"));
     }
   }
 }
+

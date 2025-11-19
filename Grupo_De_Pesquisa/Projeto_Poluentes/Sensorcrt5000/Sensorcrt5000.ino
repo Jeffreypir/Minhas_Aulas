@@ -1,5 +1,6 @@
+
+
 #include <Arduino.h>
-#include <SerialJeff.h>
 
 // Pino analogico conectado ao sensor 
 

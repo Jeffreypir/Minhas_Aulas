@@ -1,16 +1,28 @@
+# ==========================================================
+# Makefile para Arduino CLI
+# Gerado automaticamente por CreateMakefile()
+# ==========================================================
 
-BOARD=arduino:avr:uno
-PORT=COM10
-SKETCH=Sensorcrt5000.ino
-BUILD_DIR=build
+ARDUINO_CLI = arduino-cli.exe
+BOARD = arduino:avr:uno
+PORT = COM3
+SKETCH = Sensorcrt5000.ino
+BUILD_DIR = build
+BAUD = 9600
 
 compile:
-	arduino-cli compile --fqbn $(BOARD) $(SKETCH)
+	$(ARDUINO_CLI) compile --fqbn $(BOARD) $(SKETCH)
 
 upload:
-	arduino-cli upload -p $(PORT) --fqbn $(BOARD) $(SKETCH)
+	$(ARDUINO_CLI) upload -p $(PORT) --fqbn $(BOARD) $(SKETCH)
 
-generate_commands:
-	arduino-cli compile --fqbn $(BOARD) --build-path $(BUILD_DIR) $(SKETCH)
-	copy $(BUILD_DIR)\compile_commands.json .
-	rmdir /s /q $(BUILD_DIR) 2>nul || rm -rf $(BUILD_DIR)
+usb: compile
+	$(ARDUINO_CLI) upload --fqbn $(BOARD) --programmer usbasp $(SKETCH)
+
+clean:
+	rm -rf $(BUILD_DIR)
+
+monitor:
+	$(ARDUINO_CLI) monitor -p $(PORT) -c baudrate=$(BAUD)
+
+run: compile upload

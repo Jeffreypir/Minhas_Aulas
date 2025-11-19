@@ -1,0 +1,146 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=2cm}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Gabarito: Matemática Básica - Medidas e Estatística}}\\[6pt]
+    {\large Soluções detalhadas}
+\end{center}
+
+\bigskip
+
+\begin{enumerate}
+
+\item Um aluno estudou durante 5 dias: $1{,}5;\;2{,}0;\;1{,}8;\;2{,}2;\;2{,}0$ horas. Calcule a média.
+
+\textbf{Cálculo:}
+\[
+\text{Soma} = 1{,}5 + 2{,}0 + 1{,}8 + 2{,}2 + 2{,}0 = 9{,}5
+\]
+\[
+\text{Média} = \frac{9{,}5}{5} = 1{,}9
+\]
+
+\textbf{Resposta: B) 1,9}
+
+\bigskip
+
+\item As notas de um estudante em 5 provas foram: $6{,}5;\;7{,}0;\;7{,}2;\;6{,}8;\;7{,}0$. Determine a mediana das notas.
+
+\textbf{Cálculo:} ordenar os valores:
+\[
+6{,}5,\;6{,}8,\;7{,}0,\;7{,}0,\;7{,}2
+\]
+Com 5 observações, a mediana é o 3.º valor (termo do meio): $7{,}0$.
+
+\textbf{Resposta: C) 7,0}
+
+\bigskip
+
+\item Em uma pesquisa, foram registradas as idades de 6 crianças: $8,\,9,\,8,\,10,\,9,\,8$. Identifique a moda das idades.
+
+\textbf{Cálculo:} contagem das frequências:
+\[
+8 \to 3\ \text{vezes},\quad 9 \to 2,\quad 10 \to 1
+\]
+Moda = valor com maior frequência = $8$.
+
+\textbf{Resposta: A) 8}
+
+\bigskip
+
+\item O tempo (em horas) gasto em 4 corridas por um atleta foi: $0{,}8;\;1{,}0;\;0{,}9;\;1{,}1$. Calcule a média de tempo das corridas.
+
+\textbf{Cálculo:}
+\[
+\text{Soma} = 0{,}8 + 1{,}0 + 0{,}9 + 1{,}1 = 3{,}8
+\]
+\[
+\text{Média} = \frac{3{,}8}{4} = 0{,}95
+\]
+
+\textbf{Resposta: B) 0,95}
+
+\bigskip
+
+\item A quantidade de frutas consumidas por 5 pessoas em um dia foi: $2{,}5;\;3{,}0;\;2{,}8;\;3{,}2;\;3{,}0$. Determine a mediana do consumo.
+
+\textbf{Cálculo:} ordenar:
+\[
+2{,}5,\;2{,}8,\;3{,}0,\;3{,}0,\;3{,}2
+\]
+Com 5 observações, a mediana é o 3.º valor: $3{,}0$.
+
+\textbf{Resposta: C) 3,0}
+
+\bigskip
+
+\item A média de 5 números é $8{,}4$. Quatro desses números são $7{,}5;\;8{,}2;\;9{,}0;\;8{,}8$. Determine o quinto número $x$.
+
+\textbf{Cálculo:} soma total necessária:
+\[
+5 \times 8{,}4 = 42{,}0
+\]
+Soma dos quatro dados:
+\[
+7{,}5 + 8{,}2 + 9{,}0 + 8{,}8 = 33{,}5
+\]
+Logo
+\[
+x = 42{,}0 - 33{,}5 = 8{,}5
+\]
+
+\textbf{Resposta: C) 8,5}
+
+\bigskip
+
+\item Cinco estudantes tiveram notas $7{,}5;\;8{,}0;\;9{,}0;\;8{,}5$ e $x$. Se a mediana é $8{,}0$, determine $x$.
+
+\textbf{Cálculo:} com 5 valores a mediana é o 3.º menor após ordenação. Já existem os valores \(7{,}5,\,8{,}0,\,8{,}5,\,9{,}0\). Para que o 3.º valor (mediana) seja $8{,}0$ é necessário que, após inserir $x$, o elemento do meio permaneça $8{,}0$. Isso ocorre se $x\le 8{,}0$ (por exemplo $x=7{,}5$ ou $x=8{,}0$) ou até mesmo $x$ entre $8{,}0$ e $8{,}5$ dependendo da posição. Entre as alternativas, a que garante claramente a mediana $8{,}0$ é $x=8{,}0$.
+
+\textbf{Resposta: B) 8,0}
+
+\bigskip
+
+\item Em uma pesquisa de idades, os valores foram: $20,\,22,\,21,\,20,\,x,\,22$. Se a moda é $20$, determine $x$.
+
+\textbf{Cálculo:} frequências atuais: $20$ aparece 2 vezes, $22$ aparece 2 vezes, $21$ aparece 1. Para que a moda seja exclusivamente $20$ (ou ao menos $20$ seja moda), precisamos que $20$ apareça mais vezes que os outros; assim devemos ter $x=20$ (então $20$ terá 3 ocorrências).  
+
+\textbf{Resposta: A) 20}
+
+\bigskip
+
+\item O tempo (em horas) gasto por 4 funcionários em uma tarefa foi: $3{,}2;\;3{,}5;\;3{,}8;\;x$. Se a média é $3{,}6$ horas, determine $x$.
+
+\textbf{Cálculo:} soma total necessária:
+\[
+4 \times 3{,}6 = 14{,}4
+\]
+Soma conhecida:
+\[
+3{,}2 + 3{,}5 + 3{,}8 = 10{,}5
+\]
+Logo
+\[
+x = 14{,}4 - 10{,}5 = 3{,}9
+\]
+
+\textbf{Resposta: E) 3,9}
+
+\bigskip
+
+\item As notas de 7 alunos em uma prova foram: $7{,}0;\;7{,}5;\;7{,}8;\;8{,}0;\;8{,}2;\;8{,}5;\;x$. Se a mediana é $8{,}0$, determine $x$.
+
+\textbf{Cálculo:} com 7 valores, a mediana é o 4.º menor. Observando os números dados já ordenados (exceto $x$), o 4.º é $8{,}0$. Para que a mediana continue sendo $8{,}0$ basta que $x \ge 8{,}0$ (assim o 4.º permanece $8{,}0$). Entre as alternativas, a que cumpre isto e é mínima é $8{,}0$.
+
+\textbf{Resposta: C) 8,0}
+
+\end{enumerate}
+
+\end{document}
+

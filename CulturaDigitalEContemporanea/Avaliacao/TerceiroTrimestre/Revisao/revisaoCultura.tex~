@@ -1,0 +1,219 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{geometry}
+\usepackage{tcolorbox}
+\usepackage{ragged2e}
+
+\geometry{a4paper, margin=1.8cm}
+\tcbset{colback=white}
+
+\begin{document}
+
+\begin{center}
+\Large \textbf{Revisão – Cultura Digital} \\
+\large \textbf{Segurança Digital e Ética Online}
+\\[0.5cm]
+
+\textbf{Autor: Jefferson}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% QUESTÃO 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[colback=blue!10,colframe=blue!60!black,
+title=\textbf{Questão 1 – Senha Forte}]
+O que é uma senha forte e por que é importante utilizá-la em todas as suas contas digitais?
+Dê um exemplo de uma senha segura.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!10,colframe=green!60!black,
+title=\textbf{Solução 1 — Explicação }]
+Uma \textbf{senha forte} é aquela difícil de adivinhar, usando letras maiúsculas, minúsculas,
+números e símbolos. Ela protege suas contas contra invasões e roubo de dados.
+
+\textbf{Exemplo de senha forte:} \texttt{Fz!92kP\#11}
+\end{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% QUESTÃO 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[colback=blue!10,colframe=blue!60!black,
+title=\textbf{Questão 2 – Phishing}]
+O que é phishing e como podemos nos proteger desse golpe?  
+Descreva uma situação em que isso poderia acontecer.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!10,colframe=green!60!black,
+title=\textbf{Solução 2 — Explicação }]
+\textbf{Phishing} é um golpe em que criminosos fingem ser empresas ou pessoas confiáveis
+para roubar dados, como senhas e informações bancárias.  
+Para se proteger, é importante verificar links, desconfiar de mensagens urgentes
+e nunca informar senhas por e-mail.
+
+\textbf{Exemplo de situação:}  
+Um e-mail falso dizendo que seu banco bloqueará sua conta se você não “confirmar seus dados”.
+\end{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% QUESTÃO 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[colback=blue!10,colframe=blue!60!black,
+title=\textbf{Questão 3 – Privacidade nas Redes Sociais}]
+Quais cuidados você deve ter ao compartilhar informações pessoais nas redes sociais?
+Dê dois exemplos de boas práticas.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!10,colframe=green!60!black,
+title=\textbf{Solução 3 — Explicação }]
+É importante evitar expor dados sensíveis e controlar quem tem acesso às suas publicações.
+
+\textbf{Boas práticas:}
+\begin{itemize}
+\item Não compartilhar endereço, escola ou rotina diária.
+\item Ajustar a privacidade das postagens.
+\end{itemize}
+\end{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% QUESTÃO 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[colback=blue!10,colframe=blue!60!black,
+title=\textbf{Questão 4 – Cyberbullying}]
+Explique o que é cyberbullying e como ele pode afetar as pessoas.  
+O que você faria se visse alguém sofrendo agressão online?
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!10,colframe=green!60!black,
+title=\textbf{Solução 4 — Explicação }]
+\textbf{Cyberbullying} é agressão, humilhação ou ofensa praticada pela internet.
+Ele pode causar tristeza profunda, ansiedade, isolamento e baixa autoestima.
+
+Diante dessa situação, a atitude correta é apoiar a vítima, denunciar o agressor
+e avisar um responsável ou autoridade.
+\end{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% QUESTÃO 5 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[colback=blue!10,colframe=blue!60!black,
+title=\textbf{Questão 5 – Fake News}]
+O que são fake news e como identificar se uma notícia é falsa?
+Apresente dois critérios de verificação.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!10,colframe=green!60!black,
+title=\textbf{Solução 5 — Explicação }]
+\textbf{Fake news} são notícias falsas criadas para enganar, manipular ou gerar confusão.
+
+\textbf{Critérios para identificar:}
+\begin{itemize}
+\item Verificar a fonte e se outros veículos confiáveis confirmam a informação.
+\item Conferir data, autor e possíveis sinais de manipulação.
+\end{itemize}
+\end{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% QUESTÃO 6 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[colback=blue!10,colframe=blue!60!black,
+title=\textbf{Questão 6 – Antivírus Atualizado}]
+Por que é importante manter o antivírus atualizado?
+O que pode acontecer se isso não for feito?
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!10,colframe=green!60!black,
+title=\textbf{Solução 6 — Explicação }]
+O antivírus atualizado reconhece novas ameaças.  
+Se não for atualizado, o dispositivo pode ser infectado por vírus recentes,
+causando perda de arquivos, roubo de dados ou travamentos.
+\end{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% QUESTÃO 7 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[colback=blue!10,colframe=blue!60!black,
+title=\textbf{Questão 7 – Backup}]
+O que é um backup e por que ele é importante?  
+Dê um exemplo de situação em que o backup seria útil.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!10,colframe=green!60!black,
+title=\textbf{Solução 7 — Explicação }]
+\textbf{Backup} é uma cópia de segurança dos arquivos.  
+Ele é importante porque permite recuperar dados após danos, invasões,
+roubos ou falhas no dispositivo.
+
+\textbf{Exemplo:} Perder o celular e recuperar fotos e documentos através da nuvem.
+\end{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% QUESTÃO 8 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[colback=blue!10,colframe=blue!60!black,
+title=\textbf{Questão 8 – Mídias Digitais}]
+As mídias digitais mudaram a comunicação.  
+Explique duas mudanças positivas e uma negativa dessas tecnologias.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!10,colframe=green!60!black,
+title=\textbf{Solução 8 — Explicação }]
+\textbf{Duas mudanças positivas:}
+\begin{itemize}
+\item Comunicação rápida com qualquer pessoa.
+\item Acesso a informações e conteúdos educativos.
+\end{itemize}
+
+\textbf{Mudança negativa:}  
+Exposição excessiva e dependência das redes sociais.
+\end{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% QUESTÃO 9 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[colback=blue!10,colframe=blue!60!black,
+title=\textbf{Questão 9 – Respeito à Privacidade}]
+O que significa respeitar a privacidade alheia nas redes sociais?  
+Dê um exemplo de atitude respeitosa e outra de atitude inadequada.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!10,colframe=green!60!black,
+title=\textbf{Solução 9 — Explicação }]
+Respeitar a privacidade significa não divulgar informações, imagens ou conversas
+de outras pessoas sem permissão.
+
+\textbf{Exemplo respeitosa:} Pedir autorização antes de postar foto com alguém.  
+\textbf{Exemplo inadequada:} Compartilhar prints de conversas privadas.
+\end{tcolorbox}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% QUESTÃO 10 %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tcolorbox}[colback=blue!10,colframe=blue!60!black,
+title=\textbf{Questão 10 – Uso Ético da Internet}]
+O que significa ser um usuário responsável e ético nas mídias digitais?  
+Dê sua explicação e um exemplo de comportamento adequado.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!10,colframe=green!60!black,
+title=\textbf{Solução 10 — Explicação }]
+Ser um usuário ético é agir com respeito, sinceridade e responsabilidade online,
+evitando ofensas, mentiras e conteúdos prejudiciais.
+
+\textbf{Exemplo de comportamento adequado:}  
+Verificar informações antes de repassar e tratar todos com respeito.
+\end{tcolorbox}
+
+\end{document}
+

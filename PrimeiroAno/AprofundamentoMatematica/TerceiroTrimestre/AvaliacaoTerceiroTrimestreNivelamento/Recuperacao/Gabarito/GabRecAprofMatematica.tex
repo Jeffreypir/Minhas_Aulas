@@ -1,0 +1,112 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{amsmath,amssymb}
+\geometry{a4paper, margin=2cm}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Gabarito de Recuperação em Aprofundamento em Matemática – Análise Combinatória}}\\[6pt]
+    {\large Respostas com passos}
+\end{center}
+
+\bigskip
+
+\textbf{1.} Uma sorveteria oferece 4 sabores de sorvete e 3 tipos de cobertura. De quantas formas diferentes uma pessoa pode montar seu sorvete com 1 sabor e 1 cobertura? Mostre o raciocínio.
+
+\textbf{Resposta:}\\
+Escolha independente de sabor e cobertura $\Rightarrow$ princípio multiplicativo.\\
+Número de formas: $4 \times 3 = 12$.\\
+\textbf{Portanto: 12 formas.}
+
+\bigskip
+
+\textbf{2.} Um cadeado tem 3 números, e cada número pode ser escolhido de 0 a 9. Quantas combinações diferentes podem ser formadas se os números podem se repetir?
+
+\textbf{Resposta:}\\
+Para cada uma das 3 posições há 10 possibilidades (0--9).\\
+Total: $10 \times 10 \times 10 = 10^3 = 1000$.\\
+\textbf{Portanto: 1000 combinações.}
+
+\bigskip
+
+\textbf{3.} Usando os algarismos 2, 3, 4 e 5, quantos números de 2 algarismos diferentes podem ser formados? Apresente as etapas.
+
+\textbf{Resposta:}\\
+Primeiro algarismo: 4 opções (2,3,4,5).\\
+Segundo algarismo (diferente do primeiro): 3 opções.\\
+Total: $4 \times 3 = 12$.\\
+\textbf{Portanto: 12 números distintos.}
+
+\bigskip
+
+\textbf{4.} De quantas formas podemos organizar 4 alunos em uma fila para tirar uma foto? Explique sua resposta.
+
+\textbf{Resposta:}\\
+Estamos permutando 4 elementos: número de ordens distintas = $4!$.\\
+$4! = 4 \times 3 \times 2 \times 1 = 24$.\\
+\textbf{Portanto: 24 formas.}
+
+\bigskip
+
+\textbf{5.} Há 6 frutas diferentes em uma cesta. De quantas maneiras é possível escolher 2 frutas para fazer um suco misto? Mostre o cálculo.
+
+\textbf{Resposta:}\\
+Escolha sem ordem $\Rightarrow$ combinação $\binom{6}{2}$.\\
+\[
+\binom{6}{2}=\frac{6\cdot 5}{2\cdot 1}=15.
+\]
+\textbf{Portanto: 15 maneiras.}
+
+\bigskip
+
+\textbf{6.} Um grupo tem 5 amigos. De quantas formas é possível formar uma dupla para um trabalho em grupo? Apresente o raciocínio.
+
+\textbf{Resposta:}\\
+Escolha de 2 entre 5, sem ordem: $\binom{5}{2}$.\\
+\[
+\binom{5}{2}=\frac{5\cdot 4}{2}=10.
+\]
+\textbf{Portanto: 10 formas.}
+
+\bigskip
+
+\textbf{7.} Uma pessoa tem 3 camisas e 2 pares de sapatos. Quantas combinações diferentes de roupa (camisa + sapato) ela pode usar? Mostre como chegou à resposta.
+
+\textbf{Resposta:}\\
+Escolhas independentes: $3$ opções de camisa $\times$ $2$ opções de sapato $=3\cdot2=6$.\\
+\textbf{Portanto: 6 combinações.}
+
+\bigskip
+
+\textbf{8.} Quantas palavras diferentes podem ser formadas com as letras da palavra \textbf{MAR}? Explique seu pensamento.
+
+\textbf{Resposta:}\\
+Todas as letras são distintas; número de permutações de 3 letras = $3!$.\\
+$3! = 6$.\\
+\textbf{Portanto: 6 palavras (anagramas) distintas.}
+
+\bigskip
+
+\textbf{9.} Uma escola vai escolher um presidente e um vice-presidente entre 4 alunos. De quantas formas diferentes isso pode ser feito? Mostre os passos.
+
+\textbf{Resposta:}\\
+Aqui a ordem importa (presidente e vice são cargos distintos).\\
+Escolha do presidente: 4 opções.\\
+Para cada escolha do presidente, escolha do vice: 3 opções.\\
+Total: $4 \times 3 = 12$.\\
+(Equivalente a permutação $P(4,2)=4\cdot3=12$.)\\
+\textbf{Portanto: 12 formas.}
+
+\bigskip
+
+\textbf{10.} Um restaurante oferece 2 tipos de sopa, 3 tipos de prato principal e 2 sobremesas. Quantas refeições completas (1 sopa + 1 prato + 1 sobremesa) podem ser formadas? Apresente o cálculo.
+
+\textbf{Resposta:}\\
+Princípio multiplicativo: $2 \times 3 \times 2 = 12$.\\
+\textbf{Portanto: 12 refeições diferentes.}
+
+\end{document}
+

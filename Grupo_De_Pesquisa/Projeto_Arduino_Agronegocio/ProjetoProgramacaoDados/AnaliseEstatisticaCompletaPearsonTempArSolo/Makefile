@@ -1,15 +1,19 @@
+# ==========================================================
 # Makefile para Arduino CLI
+# Gerado automaticamente por CreateMakefile()
+# ==========================================================
 
 ARDUINO_CLI = arduino-cli.exe
-BOARD = arduino:avr:uno
-PORT = COM7
+BOARD = arduino:avr:nano
+PORT = COM3
 SKETCH = AnaliseEstatisticaCompletaPearsonTempArSolo.ino
 BUILD_DIR = build
+BAUD = 9600
 
 compile:
 	$(ARDUINO_CLI) compile --fqbn $(BOARD) $(SKETCH)
 
-upload: compile
+upload:
 	$(ARDUINO_CLI) upload -p $(PORT) --fqbn $(BOARD) $(SKETCH)
 
 usb: compile
@@ -18,6 +22,7 @@ usb: compile
 clean:
 	rm -rf $(BUILD_DIR)
 
-verify:
-	$(ARDUINO_CLI) verify --fqbn $(BOARD) $(SKETCH)
+monitor:
+	$(ARDUINO_CLI) monitor -p $(PORT) -c baudrate=$(BAUD)
 
+run: compile upload

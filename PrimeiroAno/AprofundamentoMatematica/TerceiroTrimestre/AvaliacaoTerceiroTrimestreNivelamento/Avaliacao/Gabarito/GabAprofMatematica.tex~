@@ -1,0 +1,103 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{amsmath, amssymb}
+\geometry{a4paper, margin=2cm}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Gabarito - Aprofundamento em Matemática: \\  Análise Combinatória}}
+\end{center}
+
+\bigskip
+
+\textbf{1.} Uma lanchonete oferece 3 tipos de sanduíche e 2 tipos de suco. Quantas combinações diferentes podem ser escolhidas?
+
+\textbf{Resposta:}\\
+Multiplicação de opções: $3 \times 2 = 6$. \\
+\textbf{Resposta: 6.}
+
+\bigskip
+
+\textbf{2.} Um código possui 2 letras e 3 números, com repetição permitida. Quantos códigos diferentes podem ser formados?
+
+\textbf{Resposta:}\\
+Letras: $26$ possibilidades cada.  
+Números: $10$ possibilidades cada.  
+Total: $26 \times 26 \times 10 \times 10 \times 10 = 26^2 \cdot 1000$. \\
+\textbf{Resposta: } $26 \times 26 \times 1000$.
+
+\bigskip
+
+\textbf{3.} Quantos números de 3 algarismos distintos podem ser formados com \{1,2,3,4\}?
+
+\textbf{Resposta:}\\
+Primeiro algarismo: 4 opções.  
+Segundo: 3 opções.  
+Terceiro: 2 opções.  
+Total: $4 \times 3 \times 2 = 24$. \\
+\textbf{Resposta: 24.}
+
+\bigskip
+
+\textbf{4.} De quantas maneiras diferentes podemos organizar 3 livros distintos?
+
+\textbf{Resposta:}\\
+Permutação de 3: $3! = 6$. \\
+\textbf{Resposta: 6.}
+
+\bigskip
+
+\textbf{5.} De quantas maneiras podemos escolher 2 alunos entre 5?
+
+\textbf{Resposta:}\\
+Combinação: $\binom{5}{2} = \frac{5 \cdot 4}{2} = 10$. \\
+\textbf{Resposta: 10.}
+
+\bigskip
+
+\textbf{6.} Quantas equipes de 3 jogadores podem ser formadas a partir de 6 pessoas?
+
+\textbf{Resposta:}\\
+$\binom{6}{3} = \frac{6 \cdot 5 \cdot 4}{6} = 20$. \\
+\textbf{Resposta: 20.}
+
+\bigskip
+
+\textbf{7.} Uma pessoa possui 4 camisas e 3 calças. Quantos trajes diferentes podem ser escolhidos?
+
+\textbf{Resposta:}\\
+$4 \times 3 = 12$. \\
+\textbf{Resposta: 12.}
+
+\bigskip
+
+\textbf{8.} Quantos anagramas podem ser feitos com “SOL”?
+
+\textbf{Resposta:}\\
+Permutação de 3 letras distintas: $3! = 6$. \\
+\textbf{Resposta: 6.}
+
+\bigskip
+
+\textbf{9.} Um comitê de 2 pessoas será escolhido entre 4 candidatos. Quantas maneiras existem?
+
+\textbf{Resposta:}\\
+$\binom{4}{2} = \frac{4 \cdot 3}{2} = 6$. \\
+\textbf{Resposta: 6.}
+
+\bigskip
+
+\textbf{10.} Um menu oferece 2 entradas, 3 pratos principais e 2 sobremesas. Quantas refeições completas diferentes existem?
+
+\textbf{Resposta:}\\
+Multiplicação das escolhas:  
+\[
+2 \times 3 \times 2 = 12.
+\]
+\textbf{Resposta: 12.}
+
+\end{document}
+

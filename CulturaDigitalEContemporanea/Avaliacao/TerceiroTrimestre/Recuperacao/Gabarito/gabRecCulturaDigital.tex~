@@ -1,0 +1,100 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\geometry{a4paper, margin=1.8cm}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Gabarito - Recuperação: Cultura Digita}}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{enumerate}
+
+\item \textbf{O que é uma senha forte e por que é importante utilizá-la em todas as suas contas digitais?  
+Explique e dê um exemplo de uma senha segura.}  
+
+\textbf{Resposta:}  
+Uma senha forte é aquela difícil de adivinhar, que combina letras maiúsculas e minúsculas, números e símbolos. Ela é importante porque dificulta invasões e protege dados pessoais.  
+\textbf{Exemplo de senha forte:} \texttt{Lz!92@Km7}.
+
+\item \textbf{O que é phishing e como uma pessoa pode se proteger desse tipo de golpe virtual?  
+Descreva uma situação em que isso poderia acontecer.}  
+
+\textbf{Resposta:}  
+Phishing é um golpe no qual criminosos tentam enganar o usuário para roubar senhas, dados bancários ou informações pessoais.  
+Para se proteger, é importante não clicar em links suspeitos, verificar o endereço dos sites e desconfiar de mensagens que pedem dados pessoais.  
+\textbf{Exemplo de situação:} Um e-mail falso dizendo ser do banco pedindo para “atualizar a conta” por um link inseguro.  
+
+\item \textbf{Quais cuidados você deve ter ao compartilhar informações pessoais nas redes sociais?  
+Dê pelo menos dois exemplos de boas práticas.}  
+
+\textbf{Resposta:}  
+É importante evitar publicar dados pessoais que possam ser usados para golpes ou invasões.  
+\textbf{Boas práticas:}  
+1) Manter o perfil privado.  
+2) Não divulgar endereço, localização ou documentos.
+
+\item \textbf{Explique o que é cyberbullying e como ele pode afetar as pessoas.  
+O que você faria se visse alguém sofrendo esse tipo de agressão online?}  
+
+\textbf{Resposta:}  
+Cyberbullying é humilhar, ofender ou intimidar alguém por meios digitais. Pode causar tristeza, ansiedade e isolamento.  
+Se eu visse alguém sofrendo, denunciaria a agressão, apoiaria a vítima e avisaria um responsável ou autoridade.
+
+\item \textbf{O que são fake news e como podemos identificar se uma notícia é falsa ou verdadeira na internet?  
+Apresente dois critérios para verificar a veracidade das informações.}  
+
+\textbf{Resposta:}  
+Fake news são notícias falsas criadas para enganar ou manipular as pessoas.  
+\textbf{Critérios de verificação:}  
+1) Conferir a fonte e se é confiável.  
+2) Buscar outras notícias sobre o assunto em veículos reconhecidos.
+
+\item \textbf{Por que é importante manter um antivírus atualizado no computador ou celular?  
+Explique o que pode acontecer se isso não for feito.}  
+
+\textbf{Resposta:}  
+O antivírus atualizado identifica novos vírus e golpes.  
+Sem atualização, o aparelho fica vulnerável a invasões, roubo de dados e danos ao sistema.
+
+\item \textbf{O que é um backup e por que ele é importante para a segurança dos dados?  
+Dê um exemplo de situação em que o backup seria útil.}  
+
+\textbf{Resposta:}  
+Backup é uma cópia de segurança dos arquivos. Ele é importante para recuperar dados em caso de perda, falha ou ataque.  
+\textbf{Exemplo:} Se o celular quebrar, as fotos e documentos podem ser restaurados pelo backup.
+
+\item \textbf{As mídias digitais transformaram a forma como as pessoas se comunicam.  
+Explique duas mudanças positivas e uma negativa trazida por essas tecnologias.}  
+
+\textbf{Resposta:}  
+\textbf{Positivas:}  
+1) Comunicação mais rápida e acessível.  
+2) Possibilidade de aprender e compartilhar informações.  
+\textbf{Negativa:}  
+1) Aumento de casos de exposição excessiva e cyberbullying.
+
+\item \textbf{O que significa respeitar a privacidade alheia nas redes sociais?  
+Dê um exemplo de atitude respeitosa e outro de atitude que deve ser evitada.}  
+
+\textbf{Resposta:}  
+Significa não expor informações ou imagens de outras pessoas sem permissão.  
+\textbf{Atitude respeitosa:} Pedir autorização antes de postar foto de alguém.  
+\textbf{Atitude a evitar:} Compartilhar conversas privadas sem permissão.
+
+\item \textbf{O que significa ser um usuário responsável e ético nas mídias digitais?  
+Explique com suas próprias palavras e cite um exemplo de comportamento adequado online.}  
+
+\textbf{Resposta:}  
+Ser responsável e ético significa usar a internet com respeito, cuidado e honestidade.  
+\textbf{Exemplo:} Verificar informações antes de compartilhar e tratar todos com respeito nas redes.
+
+\end{enumerate}
+
+\end{document}
+

@@ -1,0 +1,51 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\geometry{a4paper, margin=1.8cm}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Gabarito – Cultura Digital:\\ Segurança Digital e Cidadania na Internet}}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{enumerate}
+
+\item \textbf{O que significa o termo “senha forte”?}  
+\textbf{Resposta:} C) Uma senha com letras, números e símbolos.
+
+\item \textbf{O que é phishing (pescaria virtual)?}  
+\textbf{Resposta:} B) Um golpe que tenta enganar o usuário para roubar dados pessoais.
+
+\item \textbf{Qual dessas atitudes aumenta a segurança nas redes sociais?}  
+\textbf{Resposta:} B) Usar senhas diferentes para cada conta.
+
+\item \textbf{O que é considerado um comportamento ético nas mídias digitais?}  
+\textbf{Resposta:} C) Respeitar a privacidade e a opinião dos outros.
+
+\item \textbf{Qual é a função principal do antivírus?}  
+\textbf{Resposta:} C) Proteger o sistema contra programas maliciosos.
+
+\item \textbf{O que é uma fake news?}  
+\textbf{Resposta:} B) Uma notícia falsa criada para enganar ou manipular.
+
+\item \textbf{Qual dessas ações ajuda a proteger seus dados pessoais na internet?}  
+\textbf{Resposta:} C) Fazer login apenas em sites seguros (com “https”).
+
+\item \textbf{O que significa o termo cyberbullying?}  
+\textbf{Resposta:} C) A prática de ofender ou humilhar alguém por meio digital.
+
+\item \textbf{Qual é uma característica das mídias digitais?}  
+\textbf{Resposta:} C) Facilitam a interação e o compartilhamento de informações online.
+
+\item \textbf{O que é backup?}  
+\textbf{Resposta:} C) Uma cópia de segurança dos arquivos importantes.
+
+\end{enumerate}
+
+\end{document}
+
