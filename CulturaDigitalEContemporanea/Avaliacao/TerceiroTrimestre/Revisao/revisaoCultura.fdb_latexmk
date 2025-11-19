@@ -1,12 +1,12 @@
 # Fdb version 4
-["pdflatex"] 1763559599.52592 "/mnt/c/Users/Jeffrey24/Documents/2025/CulturaDigitalEContemporanea/Avaliacao/TerceiroTrimestre/Revisao/revisaoCultura.tex" "revisaoCultura.pdf" "revisaoCultura" 1763559601.25998 0
+["pdflatex"] 1763560615.7761 "/mnt/c/Users/Jeffrey24/Documents/2025/CulturaDigitalEContemporanea/Avaliacao/TerceiroTrimestre/Revisao/revisaoCultura.tex" "revisaoCultura.pdf" "revisaoCultura" 1763560617.54716 0
   "/home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk" 1747158817.93634 28952 6d9f0c509b120410186305372e0b5f91 ""
   "/home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk" 1747158819.14434 31928 c8e4ea2cd7b110f5fcae4581e2f1f730 ""
   "/home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk" 1747158821.52434 40112 4d33e88d290c1d8407f1c2d40b25d19e ""
   "/home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk" 1747158820.32834 26208 a55d20e32572c1fd057e4a035698912a ""
   "/home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk" 1747659183.07716 21952 a528318176e693b78f4d75784f9b1afb ""
   "/home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk" 1746629734.92046 12644 248d65553b3d644f6e769fd935e78d90 ""
-  "/mnt/c/Users/Jeffrey24/Documents/2025/CulturaDigitalEContemporanea/Avaliacao/TerceiroTrimestre/Revisao/revisaoCultura.tex" 1763559600.04954 8748 30353c57e57a2173ebd0978551360a30 ""
+  "/mnt/c/Users/Jeffrey24/Documents/2025/CulturaDigitalEContemporanea/Avaliacao/TerceiroTrimestre/Revisao/revisaoCultura.tex" 1763560615.617 8752 d865a0a404613c177b80dc82415a7f0d ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1755987285 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1755987285 3584 402da0b29eafbad07963b1224b222f18 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1755987285 3584 13049b61b922a28b158a38aeff75ee9b ""
@@ -110,8 +110,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1762960440 5011229 9e2a3c024ce745caba5794ee5595b35e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1762960407 2009821 dc71e98791ae04761aaac15ee3ea0820 ""
-  "revisaoCultura.aux" 1763559601.0171 169 46b6c6ad8823b08fd8d64ef1a84d50c3 "pdflatex"
-  "revisaoCultura.tex" 1763559600.04954 8748 30353c57e57a2173ebd0978551360a30 ""
+  "revisaoCultura.aux" 1763560617.29685 169 46b6c6ad8823b08fd8d64ef1a84d50c3 "pdflatex"
+  "revisaoCultura.tex" 1763560615.617 8752 d865a0a404613c177b80dc82415a7f0d ""
   (generated)
   "revisaoCultura.aux"
   "revisaoCultura.log"

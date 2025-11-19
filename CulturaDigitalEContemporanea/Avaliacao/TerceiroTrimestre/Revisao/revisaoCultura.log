@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  19 NOV 2025 10:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  19 NOV 2025 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -503,7 +503,7 @@ L3 programming layer <2025-01-18>
 Here is how much of TeX's memory you used:
  16107 strings out of 475151
  335390 string characters out of 5766385
- 719626 words of memory out of 5000000
+ 719635 words of memory out of 5000000
  38886 multiletter control sequences out of 15000+600000
  564427 words of font info for 45 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
@@ -514,9 +514,9 @@ Here is how much of TeX's memory you used:
 </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> <
 /home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </
 home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk>
-Output written on revisaoCultura.pdf (3 pages, 58587 bytes).
+Output written on revisaoCultura.pdf (3 pages, 58744 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
+ 209 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
