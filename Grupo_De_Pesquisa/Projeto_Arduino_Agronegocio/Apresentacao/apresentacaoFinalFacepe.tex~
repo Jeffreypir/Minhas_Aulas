@@ -1,5 +1,5 @@
 \documentclass{beamer}
-\usetheme{Berkeley}
+\usetheme{Madrid}
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
 \usepackage{graphicx}
@@ -42,6 +42,12 @@
 % ==================== CONTEXTUALIZAÇÃO ====================
 % ==========================================================
 
+\begin{frame}{Sumário}
+    \tableofcontents
+\end{frame}
+
+
+\section{Contextualização}
 \begin{frame}{Contextualização}
 \begin{itemize}
     \item O uso de tecnologia e sustentabilidade.
@@ -54,6 +60,7 @@
 % ==========================================================
 % ========================= DESAFIOS =======================
 % ==========================================================
+\section{Desafios do projeto}
 \begin{frame}{Desafios do Projeto}
 \begin{tcolorbox}[colback=blue!5!white, colframe=blue!60!black, title=Principais Desafios, width=1.08\textwidth, enlarge left by=-4mm, enlarge right by=0mm]
 \centering
@@ -104,6 +111,7 @@
 % ==================== OBJETIVOS ===========================
 % ==========================================================
 
+\section{Objetivos}
 \begin{frame}{Objetivos}
 \begin{itemize}
     \item Desenvolver um sistema de baixo custo para monitoramento ambiental agrícola.
@@ -115,6 +123,7 @@
 % ==========================================================
 % ====================== JUSTIFICATIVA ======================
 % ==========================================================
+\section{Justificativas}
 \begin{frame}{Justificativas}
 \begin{itemize}
 
@@ -142,6 +151,7 @@
 % ==================== MÉTODOS =============================
 % ==========================================================
 
+\section{Métodos}
 \begin{frame}{Métodos}
 \begin{itemize}
     \item Coleta automatizada de dados utilizando \textbf{Arduino Uno/Nano} com os sensores:
@@ -205,6 +215,7 @@
 % ==================== RESULTADOS =========================
 % ==========================================================
 
+\section{Resultados}
 \begin{frame}{Resultados — Temperatura do Ar}
 \begin{itemize}
     \item Intervalo: \textbf{1,4°C} (de 24,8°C a 26,2°C)
@@ -245,6 +256,7 @@
 % ==================== ENTREGA E EVIDÊNCIAS ==============
 % ==========================================================
 
+\section{Entregáveis}
 \begin{frame}{Entregáveis}
 \begin{itemize}
     \item Sistema funcional para monitoramento ambiental.
@@ -276,6 +288,7 @@
 % ==================== ENGAJAMENTO ========================
 % ==========================================================
 
+\section{Engajamento}
 \begin{frame}{Engajamento}
 \begin{itemize}
     \item Alunos participaram da montagem, programação e análise de dados.
@@ -288,7 +301,7 @@
 % ==================== EVIDÊNCIAS ==========================
 % ==========================================================
 
-
+\section{Evidências}
 \begin{frame}{Evidências}
     \begin{figure}[h]
         \centering
@@ -306,6 +319,7 @@
 % ==================== INDICADORES QUANTITATIVOS ===========
 % ==========================================================
 
+\section{Indicadores}
 \begin{frame}{Indicadores Quantitativos}
 \begin{itemize}
     \item \textbf{Capacitações realizadas:} 30 vagas  
@@ -316,11 +330,11 @@
 \end{frame}
 
 
-
 % ==========================================================
 % ==================== EXPECTATIVAS =======================
 % ==========================================================
 
+\section{Expectativas}
 \begin{frame}{Expectativas e Próximos Passos}
 \begin{itemize}
     \item Expandir o número de áreas monitoradas.
@@ -334,6 +348,7 @@
 % ==================== CONCLUSÃO ==========================
 % ==========================================================
 
+\section{Conclusão}
 \begin{frame}{Conclusão}
 \begin{itemize}
     \item Sistema de baixo custo eficaz e acessível.
