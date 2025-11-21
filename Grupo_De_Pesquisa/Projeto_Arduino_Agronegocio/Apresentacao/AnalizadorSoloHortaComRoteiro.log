@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.20)  22 OCT 2025 13:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  21 NOV 2025 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -969,23 +969,13 @@ Dictionary: translator-theorem-dictionary, Language: English
                                                   \beamer@stalign \beamer@st...
 l.43 }
       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 ! Undefined control sequence.
 \beamer@ststart ...{\beamer@tempdim }\raggedright 
                                                   \beamer@stalign \beamer@st...
 l.43 }
       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
@@ -994,12 +984,7 @@ and I'll forget about whatever was undefined.
                                                   \beamer@firstlineitemizeun...
 l.59 \end{frame}
                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 
 
 ! Undefined control sequence.
@@ -1007,23 +992,13 @@ and I'll forget about whatever was undefined.
                                                   \beamer@stalign \beamer@st...
 l.59 \end{frame}
                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 ! Undefined control sequence.
 \beamer@ststart ...{\beamer@tempdim }\raggedright 
                                                   \beamer@stalign \beamer@st...
 l.59 \end{frame}
                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 [2
 
 ]
@@ -1032,12 +1007,7 @@ and I'll forget about whatever was undefined.
                                                   \beamer@firstlineitemizeun...
 l.74 \end{frame}
                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 
 
 ! Undefined control sequence.
@@ -1045,23 +1015,13 @@ and I'll forget about whatever was undefined.
                                                   \beamer@stalign \beamer@st...
 l.74 \end{frame}
                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 ! Undefined control sequence.
 \beamer@ststart ...{\beamer@tempdim }\raggedright 
                                                   \beamer@stalign \beamer@st...
 l.74 \end{frame}
                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 [3
 
 ]
@@ -1070,12 +1030,7 @@ and I'll forget about whatever was undefined.
                                                   \beamer@firstlineitemizeun...
 l.89 \end{frame}
                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 
 
 ! Undefined control sequence.
@@ -1083,23 +1038,13 @@ and I'll forget about whatever was undefined.
                                                   \beamer@stalign \beamer@st...
 l.89 \end{frame}
                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 ! Undefined control sequence.
 \beamer@ststart ...{\beamer@tempdim }\raggedright 
                                                   \beamer@stalign \beamer@st...
 l.89 \end{frame}
                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 [4
 
 ]
@@ -1108,12 +1053,7 @@ and I'll forget about whatever was undefined.
                                                   \beamer@firstlineitemizeun...
 l.104 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 
 
 ! Undefined control sequence.
@@ -1121,23 +1061,13 @@ and I'll forget about whatever was undefined.
                                                   \beamer@stalign \beamer@st...
 l.104 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 ! Undefined control sequence.
 \beamer@ststart ...{\beamer@tempdim }\raggedright 
                                                   \beamer@stalign \beamer@st...
 l.104 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 [5
 
 ]
@@ -1146,12 +1076,7 @@ and I'll forget about whatever was undefined.
                                                   \beamer@firstlineitemizeun...
 l.119 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 
 
 ! Undefined control sequence.
@@ -1159,23 +1084,13 @@ and I'll forget about whatever was undefined.
                                                   \beamer@stalign \beamer@st...
 l.119 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 ! Undefined control sequence.
 \beamer@ststart ...{\beamer@tempdim }\raggedright 
                                                   \beamer@stalign \beamer@st...
 l.119 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 [6
 
 ]
@@ -1184,12 +1099,7 @@ and I'll forget about whatever was undefined.
                                                   \beamer@firstlineitemizeun...
 l.134 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 
 
 ! Undefined control sequence.
@@ -1197,23 +1107,13 @@ and I'll forget about whatever was undefined.
                                                   \beamer@stalign \beamer@st...
 l.134 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 ! Undefined control sequence.
 \beamer@ststart ...{\beamer@tempdim }\raggedright 
                                                   \beamer@stalign \beamer@st...
 l.134 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 [7
 
 ]
@@ -1222,12 +1122,7 @@ and I'll forget about whatever was undefined.
                                                   \beamer@firstlineitemizeun...
 l.149 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 
 
 ! Undefined control sequence.
@@ -1235,23 +1130,13 @@ and I'll forget about whatever was undefined.
                                                   \beamer@stalign \beamer@st...
 l.149 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 ! Undefined control sequence.
 \beamer@ststart ...{\beamer@tempdim }\raggedright 
                                                   \beamer@stalign \beamer@st...
 l.149 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 [8
 
 ]
@@ -1260,12 +1145,7 @@ and I'll forget about whatever was undefined.
                                                   \beamer@firstlineitemizeun...
 l.164 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 
 
 ! Undefined control sequence.
@@ -1273,23 +1153,13 @@ and I'll forget about whatever was undefined.
                                                   \beamer@stalign \beamer@st...
 l.164 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 ! Undefined control sequence.
 \beamer@ststart ...{\beamer@tempdim }\raggedright 
                                                   \beamer@stalign \beamer@st...
 l.164 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 [9
 
 ]
@@ -1298,12 +1168,7 @@ and I'll forget about whatever was undefined.
                                                   \beamer@firstlineitemizeun...
 l.179 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 
 
 ! Undefined control sequence.
@@ -1311,23 +1176,13 @@ and I'll forget about whatever was undefined.
                                                   \beamer@stalign \beamer@st...
 l.179 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 ! Undefined control sequence.
 \beamer@ststart ...{\beamer@tempdim }\raggedright 
                                                   \beamer@stalign \beamer@st...
 l.179 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 [10
 
 ]
@@ -1336,12 +1191,7 @@ and I'll forget about whatever was undefined.
                                                   \beamer@firstlineitemizeun...
 l.195 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 
 
 ! Undefined control sequence.
@@ -1349,23 +1199,13 @@ and I'll forget about whatever was undefined.
                                                   \beamer@stalign \beamer@st...
 l.195 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 ! Undefined control sequence.
 \beamer@ststart ...{\beamer@tempdim }\raggedright 
                                                   \beamer@stalign \beamer@st...
 l.195 \end{frame}
                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 [11
 
 ]
@@ -1388,25 +1228,21 @@ hanged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27711 strings out of 475151
- 558793 string characters out of 5766385
+ 27708 strings out of 475151
+ 558765 string characters out of 5766385
  932985 words of memory out of 5000000
- 50194 multiletter control sequences out of 15000+600000
+ 50192 multiletter control sequences out of 15000+600000
  560943 words of font info for 43 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  128i,16n,123p,520b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Navigation12} has been referenced but does not exis
-t, replaced by a fixed one
-
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmssbx10.pfb>
-Output written on AnalizadorSoloHortaComRoteiro.pdf (11 pages, 76629 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmssbx10.pfb>
+Output written on AnalizadorSoloHortaComRoteiro.pdf (11 pages, 76579 bytes).
 PDF statistics:
- 334 PDF objects out of 1000 (max. 8388607)
- 303 compressed objects within 4 object streams
- 24 named destinations out of 1000 (max. 500000)
+ 333 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
+ 23 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
