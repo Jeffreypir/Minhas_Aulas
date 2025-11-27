@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.25)  16 OCT 2025 10:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  22 NOV 2025 20:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/mnt/c/Users/Jeffrey24/Documents/2025/Grupo_De_Pesquisa/JardimDigital/Analiza
-dorSoloHorta/Apresentacao/AnalizadorSoloHorta.tex
+**/mnt/c/Users/Jeffrey24/Documents/2025/Grupo_De_Pesquisa/Projeto_Arduino_Agron
+egocio/Apresentacao/AnalizadorSoloHorta.tex
 
-(/mnt/c/Users/Jeffrey24/Documents/2025/Grupo_De_Pesquisa/JardimDigital/Analizad
-orSoloHorta/Apresentacao/AnalizadorSoloHorta.tex
+(/mnt/c/Users/Jeffrey24/Documents/2025/Grupo_De_Pesquisa/Projeto_Arduino_Agrone
+gocio/Apresentacao/AnalizadorSoloHorta.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1205,7 +1205,7 @@ Overfull \vbox (86.91107pt too high) detected at line 233
 [11
 
 ]
-<correlacao_geral.png, id=318, 433.62pt x 361.35pt>
+<correlacao_geral.png, id=319, 433.62pt x 361.35pt>
 File: correlacao_geral.png Graphic file (type png)
 <use correlacao_geral.png>
 Package pdftex.def Info: correlacao_geral.png  used on input line 274.
@@ -1247,13 +1247,13 @@ Package rerunfilecheck Info: File `AnalizadorSoloHorta.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30611 strings out of 475151
- 639597 string characters out of 5766386
+ 30613 strings out of 475151
+ 639595 string characters out of 5766385
  1032293 words of memory out of 5000000
- 53004 multiletter control sequences out of 15000+600000
+ 53006 multiletter control sequences out of 15000+600000
  567218 words of font info for 65 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 128i,16n,123p,516b,875s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,16n,123p,510b,875s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1095.600pk
 > </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcsx1095.600pk>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/te
@@ -1261,7 +1261,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mssi10.pfb>
-Output written on AnalizadorSoloHorta.pdf (13 pages, 582494 bytes).
+Output written on AnalizadorSoloHorta.pdf (13 pages, 582510 bytes).
 PDF statistics:
  411 PDF objects out of 1000 (max. 8388607)
  366 compressed objects within 4 object streams

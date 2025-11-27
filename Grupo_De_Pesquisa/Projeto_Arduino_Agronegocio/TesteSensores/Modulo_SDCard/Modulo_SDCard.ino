@@ -16,7 +16,7 @@ Conexões (para módulos SD comuns):
  - VCC -> 5V
  - GND -> GND
 
-*OBS: Alguns módulos usam 3.3V. Verifique seu modelo.*
+*OBS: Alguns módulos usam 3.3V. Verifica o modelo  modelo.*
 
 Autor: Jefferson Bezerra dos Santos
 Data: Outubro de 2025

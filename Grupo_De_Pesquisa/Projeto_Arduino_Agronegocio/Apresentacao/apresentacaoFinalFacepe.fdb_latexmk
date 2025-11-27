@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1763749274.30249 "/mnt/c/Users/Jeffrey24/Documents/2025/Grupo_De_Pesquisa/Projeto_Arduino_Agronegocio/Apresentacao/apresentacaoFinalFacepe.tex" "apresentacaoFinalFacepe.pdf" "apresentacaoFinalFacepe" 1763749281.94742 2
+["pdflatex"] 1763855247.24277 "/mnt/c/Users/Jeffrey24/Documents/2025/Grupo_De_Pesquisa/Projeto_Arduino_Agronegocio/Apresentacao/apresentacaoFinalFacepe.tex" "apresentacaoFinalFacepe.pdf" "apresentacaoFinalFacepe" 1763855255.0339 2
   "../Fotos_Projeto_Arduino_Agronegocio/Etapa_1_Introducao/Ensino1.jpg" 1755298193 1770423 a9b2e531e8736275702e46763e47e5c0 ""
   "../Fotos_Projeto_Arduino_Agronegocio/Etapa_1_Introducao/galera5.jpg" 1755298149 1822397 b20676911aa1155a71b926d2b1336aef ""
   "../Fotos_Projeto_Arduino_Agronegocio/Etapa_3_Condicionais/20250820_203148.jpg" 1755732712 6290314 9e1e88277d5d4baa10fea1dcad8bf22f ""
@@ -8,7 +8,7 @@
   "../Fotos_Projeto_Arduino_Agronegocio/Etapa_4_Construcao/20250926_195233.jpg" 1758927158 6092328 46cecfe54cd5b84add647b7d2f863592 ""
   "/home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1095.600pk" 1759146217.70366 11620 98979cbd571bf489a50127e9e53e0c19 ""
   "/home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcsx1095.600pk" 1760618585.17146 12400 6f697c32f923868ca717a41d9ae92873 ""
-  "/mnt/c/Users/Jeffrey24/Documents/2025/Grupo_De_Pesquisa/Projeto_Arduino_Agronegocio/Apresentacao/apresentacaoFinalFacepe.tex" 1763749274.06474 13879 d91c538c0dac59387e49999e7df7f4d5 ""
+  "/mnt/c/Users/Jeffrey24/Documents/2025/Grupo_De_Pesquisa/Projeto_Arduino_Agronegocio/Apresentacao/apresentacaoFinalFacepe.tex" 1763855247.03513 14466 fe2f8aeb23a9a7331e01450f0e1a60a4 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcss1095.tfm" 1755987285 1536 f0fa079cdc83a6ffeda21e42352cf1ea ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcsx1095.tfm" 1755987285 1536 3c856c7696a6d12747a29fbae044a001 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1755987285 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -231,11 +231,11 @@
   "Temp.png" 1760100453 164614 be3c680e4e3e02523248339458588fb3 ""
   "USolo.png" 1760100453 173039 18ce06708ad37f2ad3b050892940190f ""
   "UmidadeAr.png" 1760100452 134578 468be36d005ee277186eabe739f7c0c4 ""
-  "apresentacaoFinalFacepe.aux" 1763749281.45252 6117 6fd433c1dc5485b66bf6d99640763075 "pdflatex"
-  "apresentacaoFinalFacepe.nav" 1763749281.46856 3662 19299831aa6b0fb061b99085564ccc4b "pdflatex"
-  "apresentacaoFinalFacepe.out" 1763749281.46856 1241 e2119ce0ce29dba5e03c2a3e7df87c13 "pdflatex"
-  "apresentacaoFinalFacepe.tex" 1763749274.06474 13879 d91c538c0dac59387e49999e7df7f4d5 ""
-  "apresentacaoFinalFacepe.toc" 1763749281.46856 618 15dc80306775bc98efbd9c67fc0cb471 "pdflatex"
+  "apresentacaoFinalFacepe.aux" 1763855254.50454 6117 6fd433c1dc5485b66bf6d99640763075 "pdflatex"
+  "apresentacaoFinalFacepe.nav" 1763855254.53187 3662 19299831aa6b0fb061b99085564ccc4b "pdflatex"
+  "apresentacaoFinalFacepe.out" 1763855254.52454 1241 e2119ce0ce29dba5e03c2a3e7df87c13 "pdflatex"
+  "apresentacaoFinalFacepe.tex" 1763855247.03513 14466 fe2f8aeb23a9a7331e01450f0e1a60a4 ""
+  "apresentacaoFinalFacepe.toc" 1763855254.53187 618 15dc80306775bc98efbd9c67fc0cb471 "pdflatex"
   "logo.jpg" 1755172462 9235 2d8d8f6fec52d4535081ae86059b8fde ""
   (generated)
   "apresentacaoFinalFacepe.aux"
