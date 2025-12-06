@@ -1,31 +1,32 @@
-| ESTUDANTES                                   | AT1   | AT2   | AT3   | Prova   |
-|----------------------------------------------|-------|-------|-------|---------|
-| AMANDA DA SILVA COTA                         | NF    | NF    | NF    | NF      |
-| BRENO EDUARDO MENDES DA SILVA                | NF    | NF    | NF    | NF      |
-| BRYAN VINICIUS DE LIMA BONFIM                | NF    | NF    | NF    | NF      |
-| DIEGO SOUZA MAURO                            | NF    | NF    | NF    | NF      |
-| EVELYN MYRELLE DA SILVA LIMA                 | NF    | NF    | NF    | NF      |
-| GABRIELA VIVIANE DA SILVA CAVALCANTI         | NF    | NF    | NF    | NF      |
-| GUILHERME RUAN DE OLIVEIRA SILVA             | NF    | NF    | NF    | NF      |
-| GUSTAVO HENRIQUE DA SILVA                    | NF    | NF    | NF    | NF      |
-| GUTEMBERG MENDES LEITE                       | NF    | NF    | NF    | NF      |
-| IASMIN CAVALCANTI TENORIO                    | NF    | NF    | NF    | NF      |
-| INGRID NAYANE SANTOS CAVALCANTI              | NF    | NF    | NF    | NF      |
-| ISABELLA BEATRIZ RODRIGUES SIQUEIRA          | NF    | NF    | NF    | NF      |
-| ITALO DE BARROS DA SILVA                     | NF    | NF    | NF    | NF      |
-| JOSE FRANCISCO MARTINS PAIS DE LIRA          | NF    | NF    | NF    | NF      |
-| JOSE RIQUELME TEIXEIRA VINUTO                | NF    | NF    | NF    | NF      |
-| KAUA FREIRE BATISTA DA SILVA                 | NF    | NF    | NF    | NF      |
-| LARISSA MONIKE PEREIRA MACENA                | NF    | NF    | NF    | NF      |
-| MARIA CLARA DA SILVA CABRAL                  | NF    | NF    | NF    | NF      |
-| PABLO STHYVAN TAVARES DE LIMA                | NF    | NF    | NF    | NF      |
-| PEDRO LUCAS ALVES DO CARMO                   | NF    | NF    | NF    | NF      |
-| RAQUELE BARBOSA BESERRA                      | NF    | NF    | NF    | NF      |
-| RAYSSA VITORIA DE FRANCA VIEIRA              | NF    | NF    | NF    | NF      |
-| SAMUEL JOSE BISPO DA SILVA                   | NF    | NF    | NF    | NF      |
-| SANDREANE BARBOSA DA SILVA                   | NF    | NF    | NF    | NF      |
-| VALDECI BARBOSA DE ARAUJO NETO               | NF    | NF    | NF    | NF      |
-| VIVIANE DE OLIVEIRA ARAUJO                   | NF    | NF    | NF    | NF      |
-| WALLISON FERNANDO DA SILVA SANTOS            | NF    | NF    | NF    | NF      |
-| -------------------------------------------- | ----- | ----- | ----- | ------- |
+| ESTUDANTES                                   | ATs   | Prova   |
+|----------------------------------------------|-------|---------|
+| AMANDA DA SILVA COTA                         | 10.0  | 5.5     |
+| BRENO EDUARDO MENDES DA SILVA                | NF    | NF      |
+| BRYAN VINICIUS DE LIMA BONFIM                | 10.0  | 3.0     |
+| DIEGO SOUZA MAURO                            | 7.5   | OK      |
+| EVELYN MYRELLE DA SILVA LIMA                 | 10.0  | 6.0     |
+| GABRIELA VIVIANE DA SILVA CAVALCANTI         | 7.5   | 5.5     |
+| GUILHERME RUAN DE OLIVEIRA SILVA             | NF    | 8.0     |
+| GUSTAVO HENRIQUE DA SILVA                    | OK    | OK      |
+| GUTEMBERG MENDES LEITE                       | 12.5  | 7.0     |
+| IASMIN CAVALCANTI TENORIO                    | 12.5  | 8.0     |
+| INGRID NAYANE SANTOS CAVALCANTI              | 10.0  | 9.0     |
+| ISABELLA BEATRIZ RODRIGUES SIQUEIRA          | 10.0  | 6.0     |
+| ITALO DE BARROS DA SILVA                     | NF    | NF      | celular
+| JOSE FRANCISCO MARTINS PAIS DE LIRA          | NF    | NF      |
+| JOSE RIQUELME TEIXEIRA VINUTO                | 7.5   | NF      |
+| KAUA FREIRE BATISTA DA SILVA                 | 12.5  | 6.0     |
+| LARISSA MONIKE PEREIRA MACENA                | NF    | 9.0     |
+| MARIA CLARA DA SILVA CABRAL                  | NF    | NF      |
+| PABLO STHYVAN TAVARES DE LIMA                | 10.0  | NF      |
+| PEDRO LUCAS ALVES DO CARMO                   | NF    | NF      |
+| RAQUELE BARBOSA BESERRA                      | NF    | NF      |
+| RAYSSA VITORIA DE FRANCA VIEIRA              | 10.0  | 5.0     |
+| SAMUEL JOSE BISPO DA SILVA                   | NF    | 8.5     |
+| SANDREANE BARBOSA DA SILVA                   | NF    | NF      |
+| VIVIANE DE OLIVEIRA ARAUJO                   | NF    | NF      |
+| WALLISON FERNANDO DA SILVA SANTOS            | 12.5  | NF      | celular
+| -------------------------------------------- | ----- | ------- |
 
+Update in: 28-11-2025 17:11
+Atualizei as Ats: 28-11-2025 17:11

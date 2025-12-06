@@ -1,0 +1,32 @@
+| ESTUDANTES                                     | ATs     | Prova     | Recuperação
+| ---------------------------------------------- | ------- | --------- | ------------
+| AMANDA DA SILVA COTA                           | 10.0    | 5.5       | Passou: 7.75        |
+| BRENO EDUARDO MENDES DA SILVA                  | NF      | NF        | Recuperacao: 0.00   |
+| BRYAN VINICIUS DE LIMA BONFIM                  | 10.0    | 3.0       | Passou: 6.50        |
+| DIEGO SOUZA MAURO                              | 7.5     | 7.0       | Passou: 7.25        |
+| EVELYN MYRELLE DA SILVA LIMA                   | 10.0    | 6.0       | Passou: 8.00        |
+| GABRIELA VIVIANE DA SILVA CAVALCANTI           | 7.5     | 5.5       | Passou: 6.50        |
+| GUILHERME RUAN DE OLIVEIRA SILVA               | NF      | 8.0       | Recuperacao: 4.00   |
+| GUSTAVO HENRIQUE DA SILVA                      | 8.0     | 7.0       | Passou: 7.50        |
+| GUTEMBERG MENDES LEITE                         | 10.0    | 7.0       | Passou: 8.50        |
+| IASMIN CAVALCANTI TENORIO                      | 10.0    | 10.0      | Passou: 10.00       |
+| INGRID NAYANE SANTOS CAVALCANTI                | 10.0    | 9.0       | Passou: 9.50        |
+| ISABELLA BEATRIZ RODRIGUES SIQUEIRA            | NF      | 6.0       | Recuperacao: 3.00   |
+| ITALO DE BARROS DA SILVA                       | 10.0    | NF  cel   | Recuperacao: NF     |
+| JOSE FRANCISCO MARTINS PAIS DE LIRA            | NF      | NF        | Recuperacao: 0.00   |
+| JOSE RIQUELME TEIXEIRA VINUTO                  | NF      | NF        | Recuperacao: 0.00   |
+| KAUA FREIRE BATISTA DA SILVA                   | 7.5     | 6.0       | Passou: 6.75        |
+| LARISSA MONIKE PEREIRA MACENA                  | 10.0    | 9.0       | Passou: 9.50        |
+| MARIA CLARA DA SILVA CABRAL                    | NF      | NF        | Recuperacao: 0.00   |
+| PABLO STHYVAN TAVARES DE LIMA                  | NF      | NF        | Recuperacao: 0.00   |
+| PEDRO LUCAS ALVES DO CARMO                     | 10.0    | NF        | Recuperacao: 5.00   |
+| RAQUELE BARBOSA BESERRA                        | NF      | NF        | Recuperacao: 0.00   |
+| RAYSSA VITORIA DE FRANCA VIEIRA                | 10.0    | 5.0       | Passou: 7.50        |
+| SAMUEL JOSE BISPO DA SILVA                     | 10.0    | 8.5       | Passou: 9.25        |
+| SANDREANE BARBOSA DA SILVA                     | NF      | NF        | Recuperacao: 0.00   |
+| VIVIANE DE OLIVEIRA ARAUJO                     | NF      | NF        | Recuperacao: 0.00   |
+| WALLISON FERNANDO DA SILVA SANTOS              | 10.0    | NF  cel   | Recuperacao: NF     |
+| --------------------------------------------   | -----   | -------   | -------------------
+
+Update in: 28-11-2025 17:11
+Atualizei as Ats: 28-11-2025 17:11

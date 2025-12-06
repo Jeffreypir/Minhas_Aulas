@@ -1,40 +1,39 @@
-| ESTUDANTES                              | AT1| AT2 | AT3 | Prova |
-|-----------------------------------------|-----|-----|-----|-------|
-| ALEYLAIDE ALVES DE LIMA                 | NF  | NF  | NF  | NF    |
-| ALICIA OTACILIA DA SILVA                | NF  | NF  | NF  | NF    |
-| ANA CECILIA ALMEIDA DE CARVALHO         | NF  | NF  | NF  | NF    |
-| ARTHUR GUILHERME BARBOSA LIMA           | NF  | NF  | NF  | NF    |
-| BEATRIZ FERREIRA LOPES                  | NF  | NF  | NF  | NF    |
-| DANIEL CAETANO CALIXTO                  | NF  | NF  | NF  | NF    |
-| DANIEL SILVA GREGORIO GONCALVES         | NF  | NF  | NF  | NF    |
-| DAYSE FERREIRA DOS SANTOS               | NF  | NF  | NF  | NF    |
-| DOUGLAS MICHAEL LIMA DE OLIVEIRA        | NF  | NF  | NF  | NF    |
-| ELLEN VITORIA DE SOUZA BARROS           | NF  | NF  | NF  | NF    |
-| EMYLLI VITORIA DA SILVA MOREIRA         | NF  | NF  | NF  | NF    |
-| ENRIQUE GABRIEL BARBOSA DA SILVA        | NF  | NF  | NF  | NF    |
-| ERICK SILVA OLIVEIRA DE LIMA            | NF  | NF  | NF  | NF    |
-| EVELYN SAMARA DA SILVA BERNARDO         | NF  | NF  | NF  | NF    |
-| FABIANA CORDEIRO DA SILVA               | NF  | NF  | NF  | NF    |
-| ITALO RENAN DA SILVA SOUZA MENDONÇA     | NF  | NF  | NF  | NF    |
-| JEFFERSON BARBOSA DA SILVA FEITOZA      | NF  | NF  | NF  | NF    |
-| JOAO RAUL VIEIRA LIMA                   | NF  | NF  | NF  | NF    |
-| JOSE HENRYQUE BEZERRA DA SILVA          | NF  | NF  | NF  | NF    |
-| JOSE MANOEL OLIVEIRA CAMARA             | NF  | NF  | NF  | NF    |
-| JOSE RENATO FREITAS DA SILVA JUNIOR     | NF  | NF  | NF  | NF    |
-| JULIANA MARIA DA SILVA                  | NF  | NF  | NF  | NF    |
-| KARINNY VITORIA DE MORAIS FRANCA        | NF  | NF  | NF  | NF    |
-| LEANDRO GOMES BARBOZA DA SILVA          | NF  | NF  | NF  | NF    |
-| LUCAS MATHEUS BORGES BARBOSA            | NF  | NF  | NF  | NF    |
-| LUCAS VINICIUS BEZERRA                  | NF  | NF  | NF  | NF    |
-| MARCELE CLEMENTE VERAS                  | NF  | NF  | NF  | NF    |
-| MARCELO BEZERRA DE SOUZA FILHO          | NF  | NF  | NF  | NF    |
-| MARIA CLARA HENRIQUE DA SILVA           | NF  | NF  | NF  | NF    |
-| MARIA VITORIA DE MATOS LOPES            | NF  | NF  | NF  | NF    |
-| MATHEUS DA SILVA FERNANDES              | NF  | NF  | NF  | NF    |
-| MELISSA THAYNA NUNES DOS SANTOS         | NF  | NF  | NF  | NF    |
-| PRISCILA DOS SANTOS DE ARAUJO           | NF  | NF  | NF  | NF    |
-| WESLEY KAIO PEREIRA DE OLIVEIRA         | NF  | NF  | NF  | NF    |
-| AUGUSTO CESAR ALVES CAVALCANTI          | NF  | NF  | NF  | NF    |
-| ISABELLY FELIX DO NASCIMENTO            | NF  | NF  | NF  | NF    |
-|-----------------------------------------|-----|-----|-----|-------|
-| Regra de três: NF acertos -> 8,0 pontos |
+| ESTUDANTES                          | ATs  | Prova | Recuperacao       |
+|-------------------------------------|------|-------|-------------------|
+| ALEYLAIDE ALVES DE LIMA             | 10.0 | 8.5   | Passou: 9.25      |
+| ALICIA OTACILIA DA SILVA            | 10.0 | 9.0   | Passou: 9.50      |
+| ANA CECILIA ALMEIDA DE CARVALHO     | 6.0  | 2.5   | Recuperacao: 4.25 |
+| ARTHUR GUILHERME BARBOSA LIMA       | 8.0  | 9.0   | Passou: 8.50      |
+| BEATRIZ FERREIRA LOPES              | 9.5  | 3.0   | Passou: 6.25      |
+| DANIEL CAETANO CALIXTO              | NF   | 0.0   | Recuperacao: 0.00 |
+| DANIEL SILVA GREGORIO GONCALVES     | 2.0  | 2.0   | Recuperacao: 2.00 |
+| DAYSE FERREIRA DOS SANTOS           | 7.0  | 5.0   | Passou: 6.00      |
+| DOUGLAS MICHAEL LIMA DE OLIVEIRA    | 10.0 | 4.0   | Passou: 7.00      |
+| ELLEN VITORIA DE SOUZA BARROS       | 7.0  | NF    | Recuperacao: 3.50 |
+| EMYLLI VITORIA DA SILVA MOREIRA     | NF   | NF    | Recuperacao: 0.00 |
+| ENRIQUE GABRIEL BARBOSA DA SILVA    | 9.0  | 7.0   | Passou: 8.00      |
+| ERICK SILVA OLIVEIRA DE LIMA        | 10.0 | 1.5   | Passou: 5.75      |
+| EVELYN SAMARA DA SILVA BERNARDO     | 10.0 | 4.5   | Passou: 7.25      |
+| FABIANA CORDEIRO DA SILVA           | 10.0 | 3.0   | Passou: 6.50      |
+| ITALO RENAN DA SILVA SOUZA MENDONÇA | NF   | 1.5   | Recuperacao: 0.75 |
+| JEFFERSON BARBOSA DA SILVA FEITOZA  | 10.0 | 4.5   | Passou: 7.25      |
+| JOAO RAUL VIEIRA LIMA               | 9.0  | 7.5   | Passou: 8.25      |
+| JOSE HENRYQUE BEZERRA DA SILVA      | NF   | 2.0   | Recuperacao: 1.00 |
+| JOSE MANOEL OLIVEIRA CAMARA         | 7.5  | 4.0   | Passou: 5.75      |
+| JOSE RENATO FREITAS DA SILVA JUNIOR | 7.0  | 8.0   | Passou: 7.50      |
+| JULIANA MARIA DA SILVA              | 10.0 | 5.0   | Passou: 7.50      |
+| KARINNY VITORIA DE MORAIS FRANCA    | 7.0  | 9.0   | Passou: 8.00      |
+| LEANDRO GOMES BARBOZA DA SILVA      | 10.0 | 9.0   | Passou: 9.50      |
+| LUCAS MATHEUS BORGES BARBOSA        | 10.0 | 8.5   | Passou: 9.25      |
+| LUCAS VINICIUS BEZERRA              | 6.0  | 6.0   | Passou: 6.00      |
+| MARCELE CLEMENTE VERAS              | NF   | NF    | Recuperacao: 0.00 |
+| MARCELO BEZERRA DE SOUZA FILHO      | 7.0  | 6.0   | Passou: 6.50      |
+| MARIA CLARA HENRIQUE DA SILVA       | 2.0  | 1.0   | Recuperacao: 1.50 |
+| MARIA VITORIA DE MATOS LOPES        | 6.0  | 6.0   | Passou: 6.00      |
+| MATHEUS DA SILVA FERNANDES          | 8.0  | 8.0   | Passou: 8.00      |
+| MELISSA THAYNA NUNES DOS SANTOS     | 6.0  | 6.0   | Passou: 6.00      |
+| PRISCILA DOS SANTOS DE ARAUJO       | 6.0  | 5.5   | Passou: 5.75      |
+| WESLEY KAIO PEREIRA DE OLIVEIRA     | 6.0  | 6.0   | Passou: 6.00      |
+| AUGUSTO CESAR ALVES CAVALCANTI      | 8.5  | 3.0   | Passou: 5.75      |
+| ISABELLY FELIX DO NASCIMENTO        | NF   | NF    | Recuperacao: 0.00 |
+|-------------------------------------|------|-------|-------------------|

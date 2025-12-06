@@ -1,32 +1,35 @@
-| ESTUDANTES                          | AT1 | AT2 | AT3 | Prova |
-|-------------------------------------|-----|-----|-----|-------|
-| ALINE DA SILVA BRIANO               | NF  | NF  | NF  | NF    |
-| ARIELE RIANNA DE OLIVEIRA           | NF  | NF  | NF  | NF    |
-| BEATRIZ DA SILVA LOPES              | NF  | NF  | NF  | NF    |
-| DANIEL VIRGINIO DO NASCIMENTO ALVES | NF  | NF  | NF  | NF    |
-| GEOVANNA ALVES DA SILVA LIMA        | NF  | NF  | NF  | NF    |
-| JAMERSON MYCAEL BARBOSA DE LIMA     | NF  | NF  | NF  | NF    |
-| JEYSIANE MARIA DOS SANTOS           | NF  | NF  | NF  | NF    |
-| JOAO PAULO DE ANDRADE BARROS        | NF  | NF  | NF  | NF    |
-| JOSE EUDES DE OLIVEIRA CORDEIRO     | NF  | NF  | NF  | NF    |
-| JOSE GABRIEL LEITE DE OLIVEIRA      | NF  | NF  | NF  | NF    |
-| JOSE MANOEL BRITO DA HORA           | NF  | NF  | NF  | NF    |
-| KAUE SANTOS DA SILVA                | NF  | NF  | NF  | NF    |
-| LAUANNY VIEIRA DOS SANTOS           | NF  | NF  | NF  | NF    |
-| LUIS FELIPE DA SILVA DE MELO        | NF  | NF  | NF  | NF    |
-| MARIA KASSIA FREIRE DEZIDERIO       | NF  | NF  | NF  | NF    |
-| MICHEL DA SILVA BARBOSA             | NF  | NF  | NF  | NF    |
-| MIKAELLY FELIX BORGES               | NF  | NF  | NF  | NF    |
-| MIKELLY RAYANE MENDONÇA CLEMENTE    | NF  | NF  | NF  | NF    |
-| PAULO HENRIQUE DE ANDRADE LOPES     | NF  | NF  | NF  | NF    |
-| PIETRA STEFFANE TAVARES DE LIMA     | NF  | NF  | NF  | NF    |
-| RANYELLE MONTEIRO RAMOS             | NF  | NF  | NF  | NF    |
-| RENAN MALTA GOMES                   | NF  | NF  | NF  | NF    |
-| ROMILDO FERREIRA DOS SANTOS FILHO   | NF  | NF  | NF  | NF    |
-| SABRINA GONÇALVES DA SILVA          | NF  | NF  | NF  | NF    |
-| SIMONY ALEXANDRE DE SOUZA ALVES     | NF  | NF  | NF  | NF    |
-| VICTOR GABRYEL SANTOS FREIRE        | NF  | NF  | NF  | NF    |
-| VIVIANE BEZERRA DE BRITO            | NF  | NF  | NF  | NF    |
-| WELLINGTON NASCIMENTO DA SILVA      | NF  | NF  | NF  | NF    |
-|-------------------------------------|-----|-----|-----|-------|
+| ESTUDANTES - 3 Trimestre            | ATs  | Prova | Recuperacao       |
+|-------------------------------------|------|-------|-------------------|
+| ALINE DA SILVA BRIANO               | NF   | NF    | Recuperacao: 0.00 |
+| ARIELE RIANNA DE OLIVEIRA           | 2.0  | 9.5   | Recuperacao: 5.75 |
+| BEATRIZ DA SILVA LOPES              | 8.0  | 8.5   | Passou: 8.25      |
+| DANIEL VIRGINIO DO NASCIMENTO ALVES | NF   | 6.0   | Recuperacao: 3.00 |
+| GEOVANNA ALVES DA SILVA LIMA        | 10.0 | 4.5   | Passou: 7.25      |
+| JAMERSON MYCAEL BARBOSA DE LIMA     | NF   | NF    | Recuperacao: 0.00 |
+| JEYSIANE MARIA DOS SANTOS           | 10.0 | 5.0   | Passou: 7.50      |
+| JOAO PAULO DE ANDRADE BARROS        | 10.0 | 9.5   | Passou: 9.75      |
+| JOSE EUDES DE OLIVEIRA CORDEIRO     | NF   | 4.5   | Recuperacao: 2.25 |
+| JOSE GABRIEL LEITE DE OLIVEIRA      | NF   | 8.5   | Recuperacao: 4.25 |
+| JOSE MANOEL BRITO DA HORA           | 10.0 | 9.0   | Passou: 9.50      |
+| KAUE SANTOS DA SILVA                | 8.0  | 9.0   | Passou: 8.50      |
+| LAUANNY VIEIRA DOS SANTOS           | NF   | NF    | Recuperacao: 0.00 |
+| LUIS FELIPE DA SILVA DE MELO        | NF   | 7.0   | Recuperacao: 3.50 |
+| MICHEL DA SILVA BARBOSA             | 10.0 | 9.5   | Passou: 9.75      |
+| MIKAELLY FELIX BORGES               | 12.0 | 6.5   | Passou: 9.25      |
+| MIKELLY RAYANE MENDONÇA CLEMENTE    | NF   | NF    | Recuperacao: 0.00 |
+| PAULO HENRIQUE DE ANDRADE LOPES     | 10.0 | 8.5   | Passou: 9.25      |
+| PIETRA STEFFANE TAVARES DE LIMA     | NF   | 1.0   | Recuperacao: 0.50 |
+| RANYELLE MONTEIRO RAMOS             | 4.0  | 3.0   | Recuperacao: 3.50 |
+| RENAN MALTA GOMES                   | NF   | 8.5   | Recuperacao: 4.25 |
+| ROMILDO FERREIRA DOS SANTOS FILHO   | 12.0 | NF    | Passou: 6.00      |
+| SABRINA GONÇALVES DA SILVA          | 10.0 | NF    | Recuperacao: 5.00 |
+| SIMONY ALEXANDRE DE SOUZA ALVES     | NF   | NF    | Recuperacao: 0.00 |
+| VICTOR GABRYEL SANTOS FREIRE        | NF   | 5.0   | Recuperacao: 2.50 |
+| VIVIANE BEZERRA DE BRITO            | 10.0 | 8.5   | Passou: 9.25      |
+| WELLINGTON NASCIMENTO DA SILVA      | 8.0  | 0.5   | Recuperacao: 4.25 |
+| MARIA EDUARDA DE SIQUEIRA           | 8.0  | 7.5   | Passou: 7.75      |
+| ARTHUR FRANCISCO LIRA DO NASCIMENTO | 4.0  | 8.5   | Passou: 6.25      |
+|-------------------------------------|------|-------|-------------------|
 
+Update in: 27-11-2025 14:54
+Notas de Ats atualizadas: 29-11-2025  13:38

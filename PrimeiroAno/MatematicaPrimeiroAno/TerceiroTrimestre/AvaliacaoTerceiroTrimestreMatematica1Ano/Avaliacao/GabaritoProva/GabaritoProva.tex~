@@ -1,0 +1,82 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{lmodern}
+
+\geometry{margin=2cm}
+\onehalfspacing
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Lista de Exercícios – PA e PG}} \\[0.2cm]
+    {\large Matemática – Ensino Médio}
+\end{center}
+
+\vspace{0.8cm}
+
+\section*{Exercícios}
+
+\begin{enumerate}
+    \item Numa P.A., o primeiro termo é 3 e a razão é 5. Qual é o 6º termo? \\  
+    A) 25 \quad B) 26 \quad C) 27 \quad D) 28 \quad E) 29
+
+    \item O termo geral da P.A. $(2,5,8,11,\dots)$ é: \\
+
+    \item A soma dos 6 primeiros termos da P.A. $(3, 8, 13, \dots)$ é:  \\
+    A) 91 \quad B) 92 \quad C) 93 \quad D) 94 \quad E) 95
+
+    \item Qual o número que deve ser adicionado a cada termo da P.A. $(5, 8, 11)$ para que ela se torne $(9, 12, 15)$?   \\
+    A) 2 \quad B) 3 \quad C) 4 \quad D) 5 \quad E) 6
+
+    \item Qual a razão da P.A. $(-6, -3, 0, 3, 6, \dots)$? \\ 
+    A) -7 \quad B) -8 \quad C) 3 \quad D) -10 \quad E) -3
+
+    \item O 5º termo de uma P.G. com $a_1 = 2$ e $q = 3$ é: \\ 
+    A) 54 \quad B) 72 \quad C) 108 \quad D) 162 \quad E) 243
+
+    \item Qual é a razão da P.G. $(2, 6, 18, 54, \dots)$? \\ 
+    A) 2 \quad B) 3 \quad C) 4 \quad D) 6 \quad E) 8
+
+    \item Em uma P.G. de razão $1/2$ e primeiro termo $64$, o 4º termo é: \\  
+    A) 4 \quad B) 6 \quad C) 8 \quad D) 10 \quad E) 16
+
+    \item Qual das alternativas abaixo melhor descreve a P.G. $(3, 6, 12, \dots)$?   \\
+    A) Crescente \quad B) Decrescente \quad C) Constante \quad D) Harmônica \quad E) Nenhuma das anteriores
+
+    \item O produto dos três primeiros termos de uma P.G. é 8, e a razão é 2. O primeiro termo vale:   \\
+    A) 0,5 \quad B) 1 \quad C) 1,5 \quad D) 2 \quad E) 4
+\end{enumerate}
+
+\vspace{1cm}
+
+\section*{Gabarito}
+
+\begin{enumerate}
+    \item \textbf{D) 28} \\
+    $a_n = 3 + 5(6-1) = 28$
+
+    \item $a_n = 3n - 1$
+
+    \item \textbf{C) 93} \\
+    $S_6 = \frac{6}{2}(3 + 28) = 93$
+
+    \item \textbf{C) 4}
+
+    \item \textbf{C) 3}
+
+    \item \textbf{D) 162}
+
+    \item \textbf{B) 3}
+
+    \item \textbf{C) 8}
+
+    \item \textbf{A) Crescente}
+
+    \item \textbf{B) 1}
+\end{enumerate}
+
+\end{document}
+
