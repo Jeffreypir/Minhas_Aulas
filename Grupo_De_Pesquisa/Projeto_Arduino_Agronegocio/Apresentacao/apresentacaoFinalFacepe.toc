@@ -8,6 +8,6 @@
 \beamer@sectionintoc {7}{Entregáveis}{12}{0}{7}
 \beamer@sectionintoc {8}{Engajamento}{13}{0}{8}
 \beamer@sectionintoc {9}{Evidências}{14}{0}{9}
-\beamer@sectionintoc {10}{Indicadores}{15}{0}{10}
-\beamer@sectionintoc {11}{Expectativas}{16}{0}{11}
-\beamer@sectionintoc {12}{Conclusão}{17}{0}{12}
+\beamer@sectionintoc {10}{Indicadores}{17}{0}{10}
+\beamer@sectionintoc {11}{Expectativas}{18}{0}{11}
+\beamer@sectionintoc {12}{Conclusão}{19}{0}{12}
