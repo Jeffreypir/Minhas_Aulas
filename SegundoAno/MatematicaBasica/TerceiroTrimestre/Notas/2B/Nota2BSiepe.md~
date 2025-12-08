@@ -21,7 +21,7 @@
 | SARAH EMILLY DOS SANTOS ALVES          | 18.0 | 6.0   | Passou: 12.00     |
 | SAULO MARQUES CAVALCANTI               | 10.0 | 5.0   | Passou: 7.50      |
 | THALYTA CLARA RODRIGUES LEITE          | NF   | 7.5   | Recuperacao: 3.75 |
-| WEDSON MICKAEL BEZERRA DA SILVA        | 7.0  | 4.0   | Recuperacao: 5.50 |
+| WEDSON MICKAEL BEZERRA DA SILVA        | 7.5  | 4.0   | Passou: 5.75      |
 | WELLINGTON DE MENDONÇA ALBUQUERQUE     | 10.0 | 7.0   | Passou: 8.50      |
 | YASMIN GABRIELLY DE OLIVEIRA LIMA      | 10.0 | 9.5   | Passou: 9.75      |
 | YASMIN LETYCIA DA SILVA BARBOSA        | 8.0  | 8.0   | Passou: 8.00      |

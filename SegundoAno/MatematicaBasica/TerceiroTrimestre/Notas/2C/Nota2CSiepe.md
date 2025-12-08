@@ -6,12 +6,12 @@
 | DIEGO SOUZA MAURO                              | 7.5     | 7.0       | Passou: 7.25        |
 | EVELYN MYRELLE DA SILVA LIMA                   | 10.0    | 6.0       | Passou: 8.00        |
 | GABRIELA VIVIANE DA SILVA CAVALCANTI           | 7.5     | 5.5       | Passou: 6.50        |
-| GUILHERME RUAN DE OLIVEIRA SILVA               | NF      | 8.0       | Recuperacao: 4.00   |
+| GUILHERME RUAN DE OLIVEIRA SILVA               | 4.0      | 8.0       | Recuperacao: 4.00   |
 | GUSTAVO HENRIQUE DA SILVA                      | 8.0     | 7.0       | Passou: 7.50        |
 | GUTEMBERG MENDES LEITE                         | 10.0    | 7.0       | Passou: 8.50        |
 | IASMIN CAVALCANTI TENORIO                      | 10.0    | 10.0      | Passou: 10.00       |
 | INGRID NAYANE SANTOS CAVALCANTI                | 10.0    | 9.0       | Passou: 9.50        |
-| ISABELLA BEATRIZ RODRIGUES SIQUEIRA            | NF      | 6.0       | Recuperacao: 3.00   |
+| ISABELLA BEATRIZ RODRIGUES SIQUEIRA            | 6.0      | 6.0       | Recuperacao: 3.00   |
 | ITALO DE BARROS DA SILVA                       | 10.0    | NF  cel   | Recuperacao: NF     |
 | JOSE FRANCISCO MARTINS PAIS DE LIRA            | NF      | NF        | Recuperacao: 0.00   |
 | JOSE RIQUELME TEIXEIRA VINUTO                  | NF      | NF        | Recuperacao: 0.00   |
