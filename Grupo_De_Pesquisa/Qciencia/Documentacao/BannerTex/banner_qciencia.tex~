@@ -1,0 +1,46 @@
+\documentclass[a0paper,portrait]{tikzposter}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+
+\title{TÍTULO DO SEU PROJETO}
+\author{Nome do Aluno \\ Nome do Orientador}
+\institute{Instituição -- Cidade/UF}
+
+\begin{document}
+\maketitle
+
+\block{Introdução}{
+Falar sobre aquilo que motivou o projeto, sua importância
+e o embasamento teórico.
+}
+
+\block{Objetivos}{
+\begin{itemize}
+\item Objetivo geral do projeto.
+\item Objetivo específico 1.
+\item Objetivo específico 2.
+\end{itemize}
+}
+
+\block{Metodologia}{
+Descrever as etapas do desenvolvimento da pesquisa.
+}
+
+\block{Resultados e Conclusão}{
+Apresentar os resultados obtidos e as conclusões alcançadas.
+}
+
+\block{Agradecimentos}{
+Agradecimentos às instituições de apoio.
+}
+
+\block{Referências}{
+\begin{enumerate}
+\item Koen YM et al. \textit{Chem Res Toxicol}. 2016;29:1064.
+\end{enumerate}
+}
+
+\end{document}
+

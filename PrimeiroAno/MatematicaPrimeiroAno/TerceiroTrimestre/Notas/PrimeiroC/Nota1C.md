@@ -33,6 +33,6 @@
 | APARECIDA YASMIN GOMES DA SILVA LIMA | NF   | 1.0   | Recuperacao: 0.50 |
 | KAUA GABRIEL BEZERRA RAMOS           | NF   | NF    | Recuperacao: 0.00 |
 | MARIA VITORIA DA SILVA CIPRIANO      | NF   | NF    | Recuperacao: 0.00 |
-| YASMIN APARECIDA GOMES DA SILVA      | NF   | NF    | Recuperacao: 0.00 |
+| YASMIN APARECIDA GOMES DA SILVA      | NF   | 8.0   | Recuperacao: 0.00 |
 | DAVID GABRIEL SOUZA DA SILVA         | NF   | NF    | Recuperacao: 0.00 |
 |--------------------------------------|------|-------|-------------------|

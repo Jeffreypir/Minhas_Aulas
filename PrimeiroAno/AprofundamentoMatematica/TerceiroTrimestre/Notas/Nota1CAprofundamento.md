@@ -35,7 +35,7 @@
 | KUAN DIAS DA SILVA                   | 10.0 | 8.0   | Passou: 9.00      |
 | MARIA VITORIA DA SILVA CIPRIANO      | NF   | NF    | Recuperacao: 0.00 |
 | DAVID GABRIEL SOUZA DA SILVA         | NF   | 1.0   | Recuperacao: 0.50 |
-| YASMIN APARECIDA                     | NF   | NF    | Recuperacao: 0.00 |
+| YASMIN APARECIDA  GOMES              | 10.0 | 8.0   | Recuperacao: 0.00 |
 |--------------------------------------|------|-------|-------------------|
 
 Update in: 27-11-2025 16:08

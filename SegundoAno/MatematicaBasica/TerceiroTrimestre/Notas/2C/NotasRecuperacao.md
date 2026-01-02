@@ -1,0 +1,10 @@
+| ESTUDANTES:                         | NOTAS: |
+| ITALO DE BARROS DA SILVA            | 6.0    |
+| JOSE FRANCISCO MARTINS PAIS DE LIRA | NF     |
+| MARIA CLARA DA SILVA CABRAL         | NF     |
+| PABLO STHYVAN TAVARES DE LIMA       | 2.0    |
+| PEDRO LUCAS ALVES DO CARMO          | 8.0    |
+| RAQUELE BARBOSA BESERRA             | NF     |
+| SANDREANE BARBOSA DA SILVA          | NF     |
+| VIVIANE DE OLIVEIRA ARAUJO          | NF     |
+| WALLISON FERNANDO DA SILVA SANTOS   | 8.0    |

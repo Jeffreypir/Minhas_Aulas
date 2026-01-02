@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  7 DEC 2025 21:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.12)  11 DEC 2025 09:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -915,6 +915,14 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box113
 )
 (./apresentacaoFinalFacepe.aux)
+Runaway argument?
+{\hea 
+! File ended while scanning use of \@writefile.
+<inserted text> 
+                \par 
+l.26 \begin{document}
+                     
+? 
 \openout1 = `apresentacaoFinalFacepe.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -935,7 +943,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1084,12 +1091,12 @@ Overfull \hbox (2.69035pt too wide) in paragraph at lines 40--40
  [][][][]  
  []
 
-<logo.jpg, id=63, 301.125pt x 168.63pt>
+<logo.jpg, id=15, 301.125pt x 168.63pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg  used on input line 40.
 (pdftex.def)             Requested size: 136.91603pt x 76.6753pt.
-<facepe.png, id=64, 1061.9675pt x 931.48pt>
+<facepe.png, id=16, 1061.9675pt x 931.48pt>
 File: facepe.png Graphic file (type png)
 <use facepe.png>
 Package pdftex.def Info: facepe.png  used on input line 40.
@@ -1334,7 +1341,7 @@ Overfull \hbox (2.69035pt too wide) in paragraph at lines 236--236
  [][][][]  
  []
 
-<Temp.png, id=319, 722.7pt x 361.35pt>
+<Temp.png, id=276, 722.7pt x 361.35pt>
 File: Temp.png Graphic file (type png)
 <use Temp.png>
 Package pdftex.def Info: Temp.png  used on input line 236.
@@ -1353,7 +1360,7 @@ Overfull \hbox (2.69035pt too wide) in paragraph at lines 254--254
  [][][][]  
  []
 
-<UmidadeAr.png, id=351, 722.7pt x 361.35pt>
+<UmidadeAr.png, id=309, 722.7pt x 361.35pt>
 File: UmidadeAr.png Graphic file (type png)
 <use UmidadeAr.png>
 Package pdftex.def Info: UmidadeAr.png  used on input line 254.
@@ -1372,7 +1379,7 @@ Overfull \hbox (2.69035pt too wide) in paragraph at lines 271--271
  [][][][]  
  []
 
-<USolo.png, id=379, 722.7pt x 361.35pt>
+<USolo.png, id=337, 722.7pt x 361.35pt>
 File: USolo.png Graphic file (type png)
 <use USolo.png>
 Package pdftex.def Info: USolo.png  used on input line 271.
@@ -1391,12 +1398,12 @@ Overfull \hbox (2.69035pt too wide) in paragraph at lines 303--303
  [][][][]  
  []
 
-<AnalizadorSolo2.jpeg, id=408, 739.76375pt x 1606.0pt>
+<AnalizadorSolo2.jpeg, id=365, 739.76375pt x 1606.0pt>
 File: AnalizadorSolo2.jpeg Graphic file (type jpg)
 <use AnalizadorSolo2.jpeg>
 Package pdftex.def Info: AnalizadorSolo2.jpeg  used on input line 303.
 (pdftex.def)             Requested size: 95.84225pt x 126.96097pt.
-<AnalizadorSolo3.jpeg, id=410, 739.76375pt x 1606.0pt>
+<AnalizadorSolo3.jpeg, id=367, 739.76375pt x 1606.0pt>
 File: AnalizadorSolo3.jpeg Graphic file (type jpg)
 <use AnalizadorSolo3.jpeg>
 Package pdftex.def Info: AnalizadorSolo3.jpeg  used on input line 303.
@@ -1429,7 +1436,7 @@ Overfull \hbox (2.69035pt too wide) in paragraph at lines 334--334
  [][][][]  
  []
 
-<../Fotos_Projeto_Arduino_Agronegocio/Etapa_1_Introducao/Ensino1.jpg, id=467, 4
+<../Fotos_Projeto_Arduino_Agronegocio/Etapa_1_Introducao/Ensino1.jpg, id=427, 4
 015.0pt x 1850.915pt>
 File: ../Fotos_Projeto_Arduino_Agronegocio/Etapa_1_Introducao/Ensino1.jpg Graph
 ic file (type jpg)
@@ -1437,7 +1444,7 @@ ic file (type jpg)
 Package pdftex.def Info: ../Fotos_Projeto_Arduino_Agronegocio/Etapa_1_Introduca
 o/Ensino1.jpg  used on input line 334.
 (pdftex.def)             Requested size: 136.91603pt x 63.09409pt.
-<../Fotos_Projeto_Arduino_Agronegocio/Etapa_1_Introducao/galera5.jpg, id=468, 4
+<../Fotos_Projeto_Arduino_Agronegocio/Etapa_1_Introducao/galera5.jpg, id=428, 4
 015.0pt x 1850.915pt>
 File: ../Fotos_Projeto_Arduino_Agronegocio/Etapa_1_Introducao/galera5.jpg Graph
 ic file (type jpg)
@@ -1446,7 +1453,7 @@ Package pdftex.def Info: ../Fotos_Projeto_Arduino_Agronegocio/Etapa_1_Introduca
 o/galera5.jpg  used on input line 334.
 (pdftex.def)             Requested size: 136.91603pt x 63.09409pt.
 <../Fotos_Projeto_Arduino_Agronegocio/Etapa_3_Condicionais/20250820_203148.jpg,
- id=469, 4015.0pt x 1850.915pt>
+ id=429, 4015.0pt x 1850.915pt>
 File: ../Fotos_Projeto_Arduino_Agronegocio/Etapa_3_Condicionais/20250820_203148
 .jpg Graphic file (type jpg)
 <use ../Fotos_Projeto_Arduino_Agronegocio/Etapa_3_Condicionais/20250820_203148.
@@ -1455,7 +1462,7 @@ Package pdftex.def Info: ../Fotos_Projeto_Arduino_Agronegocio/Etapa_3_Condicion
 ais/20250820_203148.jpg  used on input line 334.
 (pdftex.def)             Requested size: 136.91603pt x 63.09409pt.
 <../Fotos_Projeto_Arduino_Agronegocio/Etapa_3_Condicionais/20250820_203410.jpg,
- id=470, 4015.0pt x 1850.915pt>
+ id=430, 4015.0pt x 1850.915pt>
 File: ../Fotos_Projeto_Arduino_Agronegocio/Etapa_3_Condicionais/20250820_203410
 .jpg Graphic file (type jpg)
 <use ../Fotos_Projeto_Arduino_Agronegocio/Etapa_3_Condicionais/20250820_203410.
@@ -1464,7 +1471,7 @@ Package pdftex.def Info: ../Fotos_Projeto_Arduino_Agronegocio/Etapa_3_Condicion
 ais/20250820_203410.jpg  used on input line 334.
 (pdftex.def)             Requested size: 136.91603pt x 63.09409pt.
 <../Fotos_Projeto_Arduino_Agronegocio/Etapa_4_Construcao/20250926_195233.jpg, i
-d=471, 4015.0pt x 1850.915pt>
+d=431, 4015.0pt x 1850.915pt>
 File: ../Fotos_Projeto_Arduino_Agronegocio/Etapa_4_Construcao/20250926_195233.j
 pg Graphic file (type jpg)
 <use ../Fotos_Projeto_Arduino_Agronegocio/Etapa_4_Construcao/20250926_195233.jp
@@ -1473,7 +1480,7 @@ Package pdftex.def Info: ../Fotos_Projeto_Arduino_Agronegocio/Etapa_4_Construca
 o/20250926_195233.jpg  used on input line 334.
 (pdftex.def)             Requested size: 136.91603pt x 63.09409pt.
 <../Fotos_Projeto_Arduino_Agronegocio/Etapa_3_Condicionais/20250820_203221.jpg,
- id=472, 4015.0pt x 1850.915pt>
+ id=432, 4015.0pt x 1850.915pt>
 File: ../Fotos_Projeto_Arduino_Agronegocio/Etapa_3_Condicionais/20250820_203221
 .jpg Graphic file (type jpg)
 <use ../Fotos_Projeto_Arduino_Agronegocio/Etapa_3_Condicionais/20250820_203221.
@@ -1501,7 +1508,7 @@ Overfull \hbox (2.69035pt too wide) in paragraph at lines 346--346
  []
 
 <../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/AmostraJamile.jpg
-, id=502, 4015.0pt x 1850.915pt>
+, id=462, 4015.0pt x 1850.915pt>
 File: ../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/AmostraJamil
 e.jpg Graphic file (type jpg)
 <use ../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/AmostraJamile
@@ -1510,7 +1517,7 @@ Package pdftex.def Info: ../Fotos_Projeto_Arduino_Agronegocio/AmostraCientifica
 Moxoto/AmostraJamile.jpg  used on input line 346.
 (pdftex.def)             Requested size: 136.91603pt x 63.09409pt.
 <../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/amostraMeninos.jp
-g, id=503, 3350.5175pt x 1850.915pt>
+g, id=463, 3350.5175pt x 1850.915pt>
 File: ../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/amostraMenin
 os.jpg Graphic file (type jpg)
 <use ../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/amostraMenino
@@ -1519,7 +1526,7 @@ Package pdftex.def Info: ../Fotos_Projeto_Arduino_Agronegocio/AmostraCientifica
 Moxoto/amostraMeninos.jpg  used on input line 346.
 (pdftex.def)             Requested size: 136.55411pt x 62.58571pt.
 <../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/AmostraMeninosVen
-cedores.jpg, id=504, 4015.0pt x 1850.915pt>
+cedores.jpg, id=464, 4015.0pt x 1850.915pt>
 File: ../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/AmostraMenin
 osVencedores.jpg Graphic file (type jpg)
 <use ../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/AmostraMenino
@@ -1528,7 +1535,7 @@ Package pdftex.def Info: ../Fotos_Projeto_Arduino_Agronegocio/AmostraCientifica
 Moxoto/AmostraMeninosVencedores.jpg  used on input line 346.
 (pdftex.def)             Requested size: 136.91603pt x 63.09409pt.
 <../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/AmostraVencedores
-3.jpg, id=505, 4015.0pt x 1850.915pt>
+3.jpg, id=465, 4015.0pt x 1850.915pt>
 File: ../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/AmostraVence
 dores3.jpg Graphic file (type jpg)
 <use ../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/AmostraVenced
@@ -1537,7 +1544,7 @@ Package pdftex.def Info: ../Fotos_Projeto_Arduino_Agronegocio/AmostraCientifica
 Moxoto/AmostraVencedores3.jpg  used on input line 346.
 (pdftex.def)             Requested size: 136.91603pt x 63.09409pt.
 <../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/AmostraVencedores
-4.jpg, id=506, 4015.0pt x 1850.915pt>
+4.jpg, id=466, 4015.0pt x 1850.915pt>
 File: ../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/AmostraVence
 dores4.jpg Graphic file (type jpg)
 <use ../Fotos_Projeto_Arduino_Agronegocio/AmostraCientificaMoxoto/AmostraVenced
@@ -1564,7 +1571,7 @@ Overfull \hbox (2.69035pt too wide) in paragraph at lines 356--356
  [][][][]  
  []
 
-<../Fotos_Projeto_Arduino_Agronegocio/CienciaJovem/CienciaJovem1.jpg, id=533, 4
+<../Fotos_Projeto_Arduino_Agronegocio/CienciaJovem/CienciaJovem1.jpg, id=494, 4
 015.0pt x 1850.915pt>
 File: ../Fotos_Projeto_Arduino_Agronegocio/CienciaJovem/CienciaJovem1.jpg Graph
 ic file (type jpg)
@@ -1572,7 +1579,7 @@ ic file (type jpg)
 Package pdftex.def Info: ../Fotos_Projeto_Arduino_Agronegocio/CienciaJovem/Cien
 ciaJovem1.jpg  used on input line 356.
 (pdftex.def)             Requested size: 4014.99026pt x 1850.91049pt.
-<../Fotos_Projeto_Arduino_Agronegocio/CienciaJovem/CienciaJovem5.jpg, id=534, 4
+<../Fotos_Projeto_Arduino_Agronegocio/CienciaJovem/CienciaJovem5.jpg, id=495, 4
 015.0pt x 1850.915pt>
 File: ../Fotos_Projeto_Arduino_Agronegocio/CienciaJovem/CienciaJovem5.jpg Graph
 ic file (type jpg)
@@ -1580,7 +1587,7 @@ ic file (type jpg)
 Package pdftex.def Info: ../Fotos_Projeto_Arduino_Agronegocio/CienciaJovem/Cien
 ciaJovem5.jpg  used on input line 356.
 (pdftex.def)             Requested size: 4014.99026pt x 1850.91049pt.
-<../Fotos_Projeto_Arduino_Agronegocio/CienciaJovem/CienciaJovem4.jpg, id=535, 4
+<../Fotos_Projeto_Arduino_Agronegocio/CienciaJovem/CienciaJovem4.jpg, id=496, 4
 015.0pt x 1850.915pt>
 File: ../Fotos_Projeto_Arduino_Agronegocio/CienciaJovem/CienciaJovem4.jpg Graph
 ic file (type jpg)
@@ -1604,12 +1611,12 @@ Overfull \hbox (2.69035pt too wide) has occurred while \output is active
  <../Fotos_Projeto_Arduino_Agronegocio/CienciaJovem/CienciaJovem1.jpg> <../Foto
 s_Projeto_Arduino_Agronegocio/CienciaJovem/CienciaJovem5.jpg> <../Fotos_Projeto
 _Arduino_Agronegocio/CienciaJovem/CienciaJovem4.jpg>]
-Overfull \hbox (2.69035pt too wide) in paragraph at lines 370--370
+Overfull \hbox (2.69035pt too wide) in paragraph at lines 369--369
  [][][][]  
  []
 
 
-Overfull \hbox (9.48645pt too wide) in paragraph at lines 370--370
+Overfull \hbox (9.48645pt too wide) in paragraph at lines 369--369
 []\OT1/cmss/bx/n/10.95 Produtos de-sen-vol-vi-dos: \OT1/cmss/m/n/10.95 Ana-li-z
 a-dor de solo (sis-tema ar-du-ino + python) 
  []
@@ -1624,7 +1631,7 @@ Overfull \hbox (2.69035pt too wide) has occurred while \output is active
 [17
 
 ]
-Overfull \hbox (2.69035pt too wide) in paragraph at lines 385--385
+Overfull \hbox (2.69035pt too wide) in paragraph at lines 384--384
  [][][][]  
  []
 
@@ -1638,7 +1645,7 @@ Overfull \hbox (2.69035pt too wide) has occurred while \output is active
 [18
 
 ]
-Overfull \hbox (2.69035pt too wide) in paragraph at lines 398--398
+Overfull \hbox (2.69035pt too wide) in paragraph at lines 397--397
  [][][][]  
  []
 
@@ -1652,28 +1659,28 @@ Overfull \hbox (2.69035pt too wide) has occurred while \output is active
 [19
 
 ]
-Overfull \hbox (2.69035pt too wide) in paragraph at lines 423--423
+Overfull \hbox (2.69035pt too wide) in paragraph at lines 422--422
  [][][][]  
  []
 
-<qrGrupoPesquisa.png, id=642, 150.5625pt x 150.5625pt>
+<qrGrupoPesquisa.png, id=606, 150.5625pt x 150.5625pt>
 File: qrGrupoPesquisa.png Graphic file (type png)
 <use qrGrupoPesquisa.png>
-Package pdftex.def Info: qrGrupoPesquisa.png  used on input line 423.
+Package pdftex.def Info: qrGrupoPesquisa.png  used on input line 422.
 (pdftex.def)             Requested size: 109.537pt x 109.54211pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 423
+LaTeX Font Info:    Trying to load font information for U+msa on input line 422
 .
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 423
+LaTeX Font Info:    Trying to load font information for U+msb on input line 422
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 423.
+ut line 422.
 
 (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -1681,7 +1688,7 @@ thkerncmss.
 )
 File: facepe.png Graphic file (type png)
 <use facepe.png>
-Package pdftex.def Info: facepe.png  used on input line 423.
+Package pdftex.def Info: facepe.png  used on input line 422.
 (pdftex.def)             Requested size: 136.91603pt x 120.08751pt.
 
 
@@ -1691,7 +1698,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.423 \end{frame}
+l.422 \end{frame}
                  
 ? 
 
@@ -1701,7 +1708,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.423 \end{frame}
+l.422 \end{frame}
                  
 ? 
 
@@ -1728,15 +1735,22 @@ Overfull \hbox (2.69035pt too wide) has occurred while \output is active
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `apresentacaoFinalFacepe.out' has not changed
-.
-(rerunfilecheck)             Checksum: E2119CE0CE29DBA5E03C2A3E7DF87C13;1241.
+
+
+Package rerunfilecheck Warning: File `apresentacaoFinalFacepe.out' has changed.
+
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `apresentacaoFinalFacepe.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  E2119CE0CE29DBA5E03C2A3E7DF87C13;1241.
  ) 
 Here is how much of TeX's memory you used:
- 30981 strings out of 475151
- 652816 string characters out of 5766385
- 1042324 words of memory out of 5000000
- 53346 multiletter control sequences out of 15000+600000
+ 30969 strings out of 475151
+ 652670 string characters out of 5766385
+ 1042323 words of memory out of 5000000
+ 53334 multiletter control sequences out of 15000+600000
  568420 words of font info for 69 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  128i,16n,123p,512b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1747,10 +1761,590 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
 bx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on apresentacaoFinalFacepe.pdf (20 pages, 54785589 bytes).
+Output written on apresentacaoFinalFacepe.pdf (20 pages, 54784677 bytes).
 PDF statistics:
- 718 PDF objects out of 1000 (max. 8388607)
- 617 compressed objects within 7 object streams
+ 680 PDF objects out of 1000 (max. 8388607)
+ 580 compressed objects within 6 object streams
  53 named destinations out of 1000 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+tinue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ^^@^^@^^@^^@^^@^^@
+                      ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ^^@^^@^^@^^@^^@^^@^^@
+                         ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ^^@^^@^^@^^@^^@^^@^^@^^@
+                            ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                               ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                     ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                        ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                           ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                              ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                 ^^@^^@^^@^^@^^@^^@^^@^^@^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.1 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 30981 strings out of 475151
+ 652816 string characters out of 5766385
+ 1042324 words of memory out of 5000000
+ 53346 multiletter control sequences out of 15000+600000
+ 568420 words of font info for 69 fonts, out of 8000000 for 9000
+ 16 hyphenation exceptions out of 8191
+ 128i,16n,123p,4277b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+!  ==> Fatal error occurred, no output PDF file produced!

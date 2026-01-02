@@ -1,0 +1,90 @@
+\documentclass[12pt]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\geometry{margin=2.5cm}
+
+% Cores
+\definecolor{azul}{RGB}{0,102,204}
+\definecolor{verde}{RGB}{0,153,76}
+\definecolor{roxo}{RGB}{102,0,153}
+\definecolor{laranja}{RGB}{255,128,0}
+
+\title{
+\textcolor{roxo}{Roteiro de Apresentação Oral}\\
+\textbf{\textcolor{azul}{Tecnologias de Agricultura de Precisão: Coleta, Processamento e Análise de Dados com Arduino}}
+}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\onehalfspacing
+
+\begin{tcolorbox}[colback=blue!5,colframe=azul,title=\textbf{Abertura}]
+Bom dia / boa tarde.
+
+Meu nome é \underline{\hspace{5cm}} e eu vou apresentar um projeto de \textbf{monitoramento ambiental usando Arduino}.
+
+Esse projeto mostra como a tecnologia pode ajudar a cuidar do meio ambiente e também facilitar o aprendizado de ciências na escola.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!5,colframe=verde,title=\textbf{Introdução}]
+Esse trabalho foi desenvolvido para mostrar como um \textbf{sistema simples e barato} pode monitorar variáveis ambientais importantes.
+
+O projeto usa a plataforma \textbf{Arduino} para medir temperatura, umidade do ar e umidade do solo, informações muito importantes para a \textbf{agricultura} e para o uso consciente da água.
+
+Ele é pensado principalmente para regiões como o semiárido, onde acompanhar as condições do ambiente ajuda na sustentabilidade e na produção agrícola.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=orange!5,colframe=laranja,title=\textbf{Objetivo do Projeto}]
+O objetivo principal do projeto é mostrar que \textbf{sensores de baixo custo}, junto com conceitos básicos de estatística, podem ser usados para analisar dados ambientais em tempo real.
+
+Além disso, o projeto busca ser uma ferramenta educativa e fácil de reproduzir, tanto para escolas quanto para pequenas propriedades rurais.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=purple!5,colframe=roxo,title=\textbf{Como o Projeto Funciona}]
+O funcionamento do sistema acontece em três etapas simples:
+
+\textbf{1º passo -- Coleta de dados:} Sensores conectados ao Arduino medem a temperatura, a umidade do ar e a umidade do solo em intervalos regulares.
+
+\textbf{2º passo -- Armazenamento e análise:} Os dados são armazenados e analisados usando \textbf{Python}, com cálculos como média, mediana e desvio-padrão.
+
+\textbf{3º passo -- Interpretação:} Os resultados são organizados em tabelas e gráficos, facilitando a visualização de padrões e variações ao longo do tempo.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=orange!5,colframe=laranja,title=\textbf{Sensores Utilizados}]
+\textbf{Sensor de Temperatura e Umidade do Ar (DHT11):}
+Esse sensor é responsável por medir a temperatura do ambiente e a umidade do ar. Ele é bastante utilizado em projetos por ser barato, fácil de usar e fornecer dados suficientes para análises básicas do clima.
+
+\textbf{Sensor de Umidade do Solo (HD-38):}
+Esse sensor mede a quantidade de água presente no solo. Ele funciona verificando a condutividade elétrica do solo, ajudando a identificar quando a terra está seca ou úmida, o que é muito importante para o controle da irrigação.
+
+Esses sensores permitem acompanhar as condições ambientais em tempo real, auxiliando na tomada de decisões e no uso consciente da água.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=blue!5,colframe=azul,title=\textbf{Resultados}]
+Os resultados mostraram variações da temperatura ao longo do dia e uma maior estabilidade na umidade do solo.
+
+O uso da estatística ajudou a identificar padrões, tendências e possíveis valores fora do normal, mostrando que o sistema é confiável e eficiente.
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=green!5,colframe=verde,title=\textbf{Conclusão}]
+Com esse projeto, foi possível perceber que a união entre \textbf{Arduino, sensores e estatística} é uma solução simples e eficiente para o monitoramento ambiental.
+
+Além de ajudar na agricultura, o sistema é uma ótima ferramenta para o \textbf{ensino de ciências}, pois permite que os alunos aprendam na prática.
+
+O projeto mostra que tecnologia acessível pode contribuir para a sustentabilidade e para a formação científica dos estudantes.
+
+\textbf{Muito obrigado pela atenção!}
+\end{tcolorbox}
+
+\end{document}
+

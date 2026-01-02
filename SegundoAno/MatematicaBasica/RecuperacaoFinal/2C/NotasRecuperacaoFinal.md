@@ -1,0 +1,10 @@
+| ESTUDANTES:                         | NOTAS: |
+| BRYAN VINICIUS DE LIMA BONFIM       | NF     |
+| ITALO DE BARROS DA SILVA            | NF     |
+| JOSE FRANCISCO MARTINS PAIS DE LIRA | NF     |
+| MARIA CLARA DA SILVA CABRAL         | NF     |
+| PABLO STHYVAN TAVARES DE LIMA       | NF     |
+| RAQUELE BARBOSA BESERRA             | NF     |
+| SANDREANE BARBOSA DA SILVA          | NF     |
+| VIVIANE DE OLIVEIRA ARAUJO          | NF     |
+| LARISSA MONIKE PEREIRA MACENA       | NF     |
