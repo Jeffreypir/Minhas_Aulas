@@ -1,60 +1,18 @@
-
-\documentclass[11pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-% Pode da problema descomente com cuidado
-%\usepackage{newtxtext,newtxmath} % Fonte Times New Melhor renderização
+\documentclass[preview,10pt]{standalone}
 \usepackage{amsmath}
-\usepackage{multicol}
-\usepackage{geometry}
-\usepackage{tikz}
-\usetikzlibrary{arrows.meta}
-\usepackage{enumitem} % Para listas personalizadas
-\usepackage{xcolor} % Para usar cores
-\usepackage{titlesec} % Para personalizar títulos
-
-% Ajusta o espaçamento antes e depois das seções
-\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{1em}{}
-\titlespacing*{\section}{8pt}{8pt}{8pt}
-
-\titleformat{\subsection}[block]{\normalfont\large\bfseries}{\thesubsection}{1em}{}
-\titlespacing*{\subsection}{6pt}{6pt}{6pt}
-
-\titleformat{\subsubsection}[block]{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
-\titlespacing*{\subsubsection}{6pt}{6pt}{6pt}
-
-
-\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
-
-\setlength{\columnseprule}{0.4pt}  % Linha dividindo as colunas 
-\setlength{\baselineskip}{1.0\baselineskip} % Espaçamento simples
-
-% Definir a cor das seções como azul
-\titleformat{\section}
-  {\normalfont\Large\bfseries\color{blue}} % Formato do título
-  {\thesection} % Número da seção
-  {1em} % Espaço entre número e título
-  {} % Código antes do título
-
-\renewcommand{\thesubsection}{\textcolor{red}{\arabic{section}.\arabic{subsection}}}
-\titleformat{\subsection}{\color{red}\normalfont\bfseries}{\thesubsection}{1em}{}
-\title{\textcolor{red}{Aula de Matemática}}
-\author{Professor: Jefferson}
-\date{}
+\usepackage{amssymb}
+\usepackage{fontspec} % Necessário para usar fontes do sistema
+\setmainfont{Arial}[BoldFont=Arial Bold]
+\setsansfont{Arial}[BoldFont=Arial Bold]
+\setmonofont{Courier New}[BoldFont=Courier New Bold]
 
 
 \begin{document}
 
-\maketitle
-\vspace{-1cm}  % Ajuste o valor conforme necessário
-
-\begin{center}
-\large{Nome: \underline{\hspace{8cm}} \quad Série-Turma: \underline{\hspace{3cm}}}
-\end{center}
-
-\begin{multicols}{2}
-
-\end{multicols}
+\[
+f(x) = \frac{1}{2}
+\]
 
 \end{document}
+
 
