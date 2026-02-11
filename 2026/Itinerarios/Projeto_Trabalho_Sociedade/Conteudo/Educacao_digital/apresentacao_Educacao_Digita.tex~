@@ -1,0 +1,190 @@
+\documentclass[aspectratio=169]{beamer}
+
+% Tema
+\usetheme{Madrid}
+\usecolortheme{default}
+
+% Pacotes
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Informações
+\title{Educação Digital e Cultura Digital}
+\subtitle{Mundo Digital e Pensamento Computacional}
+\author{Professor(a)}
+\institute{Escola / Instituição}
+\date{\today}
+
+\begin{document}
+
+% Slide de capa
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% Sumário
+\begin{frame}{Sumário}
+  \tableofcontents
+\end{frame}
+
+% =========================
+\section{Capítulo 1 — Educação Digital}
+
+\begin{frame}{Educação Digital}
+\begin{itemize}
+  \item Uso consciente, crítico e ético das tecnologias digitais
+  \item Vai além do uso de ferramentas
+  \item Envolve cidadania, autonomia e responsabilidade
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Desigualdades Digitais}
+\begin{itemize}
+  \item Acesso desigual à internet e a dispositivos
+  \item Diferenças regionais, sociais e econômicas
+  \item Impactos na educação e no trabalho
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Inclusão e Exclusão Digital}
+\begin{block}{Inclusão Digital}
+Garantia de acesso, uso e participação no mundo digital
+\end{block}
+
+\begin{block}{Exclusão Digital}
+Falta de acesso, conhecimento ou condições de uso
+\end{block}
+\end{frame}
+
+\begin{frame}{Pilares da Educação Digital}
+\begin{itemize}
+  \item Acesso às tecnologias
+  \item Uso crítico e ético
+  \item Produção de conteúdo
+  \item Participação cidadã
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Competências Digitais}
+\begin{itemize}
+  \item Saber usar tecnologias digitais
+  \item Avaliar informações e fontes
+  \item Comunicar-se e colaborar online
+  \item Criar conteúdos digitais
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Quais são as Competências Digitais?}
+\begin{enumerate}
+  \item Informação e dados
+  \item Comunicação e colaboração
+  \item Criação de conteúdo digital
+  \item Segurança digital
+  \item Resolução de problemas
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Trabalho sem Fronteiras}
+\begin{itemize}
+  \item Trabalho remoto
+  \item Plataformas digitais
+  \item Novas profissões
+  \item Juventudes e mundo do trabalho
+\end{itemize}
+\end{frame}
+
+\begin{frame}{O que aprendi?}
+\begin{itemize}
+  \item Importância da educação digital
+  \item Desafios da inclusão
+  \item Desenvolvimento de competências
+\end{itemize}
+\end{frame}
+
+% =========================
+\section{Capítulo 2 — Mundo Digital e Cultura Digital}
+
+\begin{frame}{Mundo Digital}
+\begin{itemize}
+  \item Espaço criado pelas tecnologias digitais
+  \item Conexão entre pessoas, dados e sistemas
+  \item Presente no cotidiano
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Artefatos Digitais Físicos}
+\begin{itemize}
+  \item Computadores
+  \item Smartphones
+  \item Tablets
+  \item Sensores e drones
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Artefatos Digitais Virtuais}
+\begin{itemize}
+  \item Aplicativos
+  \item Softwares
+  \item Jogos digitais
+  \item Plataformas online
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Computação Quântica}
+\begin{itemize}
+  \item Nova forma de processamento
+  \item Uso de qubits
+  \item Grande potencial para o futuro
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Uso de Drones na Agricultura}
+\begin{itemize}
+  \item Monitoramento de plantações
+  \item Economia de recursos
+  \item Aumento da produtividade
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Cultura Digital e Direitos Digitais}
+\begin{itemize}
+  \item Comportamentos no ambiente digital
+  \item Direito à privacidade
+  \item Proteção de dados
+  \item Liberdade de expressão
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Inclusão Digital e Diversidade}
+\begin{itemize}
+  \item Respeito às diferenças
+  \item Acessibilidade digital
+  \item Tecnologias para todos
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Inclusão Digital de Pessoas Idosas}
+\begin{itemize}
+  \item Aprendizagem ao longo da vida
+  \item Autonomia e comunicação
+  \item Combate ao isolamento social
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Pensamento Computacional}
+\begin{itemize}
+  \item Resolver problemas de forma lógica
+  \item Decomposição
+  \item Reconhecimento de padrões
+  \item Algoritmos
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Encerramento}
+\centering
+\Large Tecnologia, educação e cidadania caminham juntas!
+\end{frame}
+
+\end{document}
+

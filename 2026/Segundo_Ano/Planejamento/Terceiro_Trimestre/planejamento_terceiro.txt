@@ -3,14 +3,16 @@
 a) Habilidades específicas a serem desenvolvidas:
 
 (EM13MAT309PE25) Resolver e elaborar situações-problema de diferentes contextos, envolvendo o cálculo de áreas totais e volumes de sólidos geométricos (prismas, pirâmides e corpos redondos) como, por exemplo, o gasto de material para revestir uma superfície ou para preencher o interior de uma caixa, com e/ou sem apoio de tecnologias digitais.
-
 (EM13MAT304PE20) Resolver e elaborar situações-problema, envolvendo funções exponenciais, interpretando a variação das grandezas envolvidas em diversos contextos como, por exemplo, no estudo da Matemática Financeira, entre outros, com e/ou sem o uso de tecnologias digitais.
-
 (EM13MAT305PE21) Resolver e elaborar situações-problema, envolvendo funções logarítmicas, interpretando a variação das grandezas em contextos diferentes como, por exemplo, o estudo da radioatividade, Matemática Financeira, entre outros, com e/ou sem o uso de tecnologias digitais.
-
 (EM13MAT403PE35) Analisar e estabelecer relações, com e/ou sem o uso de tecnologias digitais, entre as representações de funções exponenciais e logarítmicas expressas em tabelas e em planos cartesianos para identificar as características fundamentais (domínio, imagem, crescimento ou decrescimento, raízes, entre outras) de cada função, destacando-as como funções inversas.
-
 (EM13MAT308PE24a) Aplicar as relações métricas e as noções de congruência e semelhança para resolver e elaborar situações-problema que envolvam triângulos em variados contextos, com e/ou sem o uso de tecnologias digitais.
+(EM13CO01) Explorar e construir a solução de problemas por meio da reutilização de partes de soluções existentes.
+(EM13CO02) Explorar e construir a solução de problemas por meio de refinamentos,	utilizando diversos níveis de abstração desde a especificação até a implementação.
+(EM13CO11) Criar e explorar modelos	computacionais simples para simular e fazer previsões, identificando sua importância		no
+desenvolvimento científico.
+(EM13CO18) Planejar e gerenciar projetos integrados às áreas de conhecimento de forma	colaborativa,
+solucionando	problemas, usando diversos artefatos computacionais.
 
 b) Objetos de conhecimento/Eixo/Campo de atuação social:
 
@@ -24,8 +26,6 @@ Funções Exponenciais e Logarítmicas: relações, representações e caracter�
 
 Congruência e Semelhança de Triângulos. Relações métricas e Razões trigonométricas no triângulo retângulo. Resolução de problemas geométricos envolvendo medidas inacessíveis e aplicações práticas.
 
-Eixo estruturante: Processos e linguagens matemáticas; Investigação e representação.
-Campo de atuação social: Vida pública; Mundo do trabalho; Investigação científica e tecnológica.
 
 c) Procedimentos metodológicos
 
@@ -45,4 +45,4 @@ A avaliação será processual e diversificada, valorizando a compreensão conce
 
 Serão utilizados como instrumentos avaliativos: resolução de situações-problema contextualizadas envolvendo cálculo de áreas e volumes; projetos de modelagem com funções exponenciais/logarítmicas (ex.: criar um simulador de financiamento); análises de gráficos e tabelas com identificação das características das funções; atividades práticas de medição aplicando semelhança e trigonometria; produções escritas (relatórios, registros em portfólio); e a participação qualificada em atividades colaborativas.
 
-A autoavaliação e a avaliação entre pares também serão incentivadas, especialmente em trabalhos em grupo. O uso de tecnologias digitais será considerado tanto como objeto de aprendizado quanto como ferramenta para a realização de tarefas avaliativas. Será dada ênfase à argumentação matemática e à capacidade de transpor conhecimentos para novas situações, conforme as habilidades e objetos de conhecimento trabalhados no trimestre.
+A autoavaliação e a avaliação entre pares também serão incentivadas, especialmente em trabalhos em grupo. O uso de tecnologias digitais será considerado tanto como objeto de aprendizado quanto como ferramenta para a realização de tarefas avaliativas. Será dada ênfase à argumentação matemática e à capacidade de transpor conhecimentos para novas situações, conforme as habilidades e objetos de conhecimento trabalhados no trimestre. Por fim, também será utilizada avaliação individual escrita.

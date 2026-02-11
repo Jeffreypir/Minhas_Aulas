@@ -1,0 +1,270 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.8cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+
+% Títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{}{0em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{red}}{}{0em}{}
+
+\title{\textcolor{red}{Segundo Trimestre: Matemática\\Equação do 1º Grau – Questões Aplicadas}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{multicols}{2}
+
+\section*{Questões Aplicadas}
+
+\subsection*{Questão 1}
+Uma loja cobra R\$ 20 de taxa fixa mais R\$ 15 por produto. Se o total pago foi R\$ 95, quantos produtos foram comprados?
+
+\textbf{Comentário:}
+\[
+20 + 15x = 95
+\Rightarrow 15x = 75
+\Rightarrow x = 5
+\]
+
+\textbf{Resposta:} 5 produtos
+
+\subsection*{Questão 2}
+O triplo da idade de Pedro menos 9 é igual a 30. Qual é a idade de Pedro?
+
+\textbf{Comentário:}
+\[
+3x - 9 = 30
+\Rightarrow 3x = 39
+\Rightarrow x = 13
+\]
+
+\textbf{Resposta:} 13 anos
+
+\subsection*{Questão 3}
+Uma corrida de táxi cobra R\$ 6 de bandeirada mais R\$ 4 por quilômetro. Se o valor total foi R\$ 46, quantos quilômetros foram percorridos?
+
+\textbf{Comentário:}
+\[
+6 + 4x = 46
+\Rightarrow 4x = 40
+\Rightarrow x = 10
+\]
+
+\textbf{Resposta:} 10 km
+
+\subsection*{Questão 4}
+A soma de um número com sua metade é igual a 27. Qual é esse número?
+
+\textbf{Comentário:}
+\[
+x + \frac{x}{2} = 27
+\Rightarrow \frac{3x}{2} = 27
+\Rightarrow x = 18
+\]
+
+\textbf{Resposta:} 18
+
+\subsection*{Questão 5}
+Um estacionamento cobra R\$ 12 mais R\$ 6 por hora. Se o total pago foi R\$ 54, quantas horas o carro ficou estacionado?
+
+\textbf{Comentário:}
+\[
+12 + 6x = 54
+\Rightarrow 6x = 42
+\Rightarrow x = 7
+\]
+
+\textbf{Resposta:} 7 horas
+
+\subsection*{Questão 6}
+O dobro de um número somado com 14 resulta em 50. Qual é esse número?
+
+\textbf{Comentário:}
+\[
+2x + 14 = 50
+\Rightarrow 2x = 36
+\Rightarrow x = 18
+\]
+
+\textbf{Resposta:} 18
+
+\subsection*{Questão 7}
+A diferença entre um número e 11 é igual a 29. Qual é esse número?
+
+\textbf{Comentário:}
+\[
+x - 11 = 29
+\Rightarrow x = 40
+\]
+
+\textbf{Resposta:} 40
+
+\subsection*{Questão 8}
+O perímetro de um retângulo é 70 cm. Sabendo que a largura mede 15 cm, qual é o comprimento?
+
+\textbf{Comentário:}
+\[
+2(x + 15) = 70
+\Rightarrow x + 15 = 35
+\Rightarrow x = 20
+\]
+
+\textbf{Resposta:} 20 cm
+
+\subsection*{Questão 9}
+Uma pessoa recebe R\$ 200 fixos mais R\$ 40 por dia trabalhado. Se recebeu R\$ 520, quantos dias trabalhou?
+
+\textbf{Comentário:}
+\[
+200 + 40x = 520
+\Rightarrow 40x = 320
+\Rightarrow x = 8
+\]
+
+\textbf{Resposta:} 8 dias
+
+\subsection*{Questão 10}
+Um número somado com seu dobro é igual a 63. Qual é esse número?
+
+\textbf{Comentário:}
+\[
+x + 2x = 63
+\Rightarrow 3x = 63
+\Rightarrow x = 21
+\]
+
+\textbf{Resposta:} 21
+
+\subsection*{Questão 11}
+Uma escola arrecadou R\$ 1.500 vendendo ingressos a R\$ 25 cada. Quantos ingressos foram vendidos?
+
+\textbf{Comentário:}
+\[
+25x = 1500
+\Rightarrow x = 60
+\]
+
+\textbf{Resposta:} 60 ingressos
+
+\subsection*{Questão 12}
+O quádruplo de um número menos 16 é igual a 48. Qual é esse número?
+
+\textbf{Comentário:}
+\[
+4x - 16 = 48
+\Rightarrow 4x = 64
+\Rightarrow x = 16
+\]
+
+\textbf{Resposta:} 16
+
+\subsection*{Questão 13}
+Um plano de celular custa R\$ 60 mais R\$ 5 por GB utilizado. Se a conta foi R\$ 85, quantos GB foram usados?
+
+\textbf{Comentário:}
+\[
+60 + 5x = 85
+\Rightarrow 5x = 25
+\Rightarrow x = 5
+\]
+
+\textbf{Resposta:} 5 GB
+
+\subsection*{Questão 14}
+A metade de um número somada com 9 é igual a 33. Qual é esse número?
+
+\textbf{Comentário:}
+\[
+\frac{x}{2} + 9 = 33
+\Rightarrow \frac{x}{2} = 24
+\Rightarrow x = 48
+\]
+
+\textbf{Resposta:} 48
+
+\subsection*{Questão 15}
+Após um desconto de R\$ 35, um produto passou a custar R\$ 95. Qual era o preço original?
+
+\textbf{Comentário:}
+\[
+x - 35 = 95
+\Rightarrow x = 130
+\]
+
+\textbf{Resposta:} R\$ 130
+
+\subsection*{Questão 16}
+O triplo de um número é igual a esse número somado com 36. Qual é o número?
+
+\textbf{Comentário:}
+\[
+3x = x + 36
+\Rightarrow 2x = 36
+\Rightarrow x = 18
+\]
+
+\textbf{Resposta:} 18
+
+\subsection*{Questão 17}
+Uma sala tem o dobro de alunos de outra. Sabendo que a menor sala tem 22 alunos, quantos alunos há na maior?
+
+\textbf{Comentário:}
+\[
+x = 2 \cdot 22
+\]
+
+\textbf{Resposta:} 44 alunos
+
+\subsection*{Questão 18}
+Um número dividido por 6 resulta em 14. Qual é esse número?
+
+\textbf{Comentário:}
+\[
+\frac{x}{6} = 14
+\Rightarrow x = 84
+\]
+
+\textbf{Resposta:} 84
+
+\subsection*{Questão 19}
+Uma mensalidade custa R\$ 100 mais R\$ 20 por aula extra. Se o total pago foi R\$ 180, quantas aulas extras foram feitas?
+
+\textbf{Comentário:}
+\[
+100 + 20x = 180
+\Rightarrow 20x = 80
+\Rightarrow x = 4
+\]
+
+\textbf{Resposta:} 4 aulas
+
+\subsection*{Questão 20}
+A soma de dois números consecutivos é 89. Qual é o menor deles?
+
+\textbf{Comentário:}
+\[
+x + (x + 1) = 89
+\Rightarrow 2x = 88
+\Rightarrow x = 44
+\]
+
+\textbf{Resposta:} 44
+
+\end{multicols}
+
+\end{document}
+

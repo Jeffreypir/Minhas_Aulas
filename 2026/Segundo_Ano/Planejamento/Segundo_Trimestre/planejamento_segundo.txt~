@@ -3,14 +3,20 @@
 a) Habilidades específicas a serem desenvolvidas:
 
 (EM13MAT102PE02) Analisar informações de natureza científica e social obtidas da leitura de (amostras de pesquisas estatísticas) gráficos, infográficos e tabelas, prevendo tendências que podem induzir a erros.
-
 (EM13MAT102PE03) Interpretar e utilizar tabelas e gráficos a partir dos dados neles contidos, construindo argumentos e/ou inferências e identificando possíveis inadequações que induzam ao erro de interpretação, como escalas e amostras não apropriadas.
-
 (EM13MAT310PE26) Resolver e elaborar situações-problema de contagem, envolvendo agrupamentos que dependam da ordem dos elementos ou não (com ou sem repetição), por meio dos princípios multiplicativo e aditivo, bem como da Análise Combinatória, utilizando estratégias diversas.
-
 (EM13MAT505PE44) Investigar e resolver situações-problema sobre ladrilhamento do plano, com ou sem o uso de aplicativos da geometria dinâmica, para conjecturar em torno dos tipos ou composição de polígonos que podem ser utilizados em ladrilhamento, generalizando padrões observados.
-
 (EM13MAT505PE45) Representar e interpretar graficamente a variação da área e do perímetro de um polígono regular quando os comprimentos de seus lados variam, analisando e classificando as funções envolvidas, com e/ou sem o uso de aplicativos da geometria dinâmica.
+(EM13CO14) Avaliar a confiabilidade das informações encontradas em meio digital, investigando seus modos de construção e considerando a autoria, a estrutura e o propósito da mensagem.
+(EM13CO21) Comunicar ideias complexas de forma clara por meio de objetos digitais como mapas	conceituais, infográficos, hipertextos e outros.
+(EM13CO01) Explorar e construir a solução de problemas por meio da reutilização de partes de soluções existentes.
+(EM13CO02) Explorar e construir a solução de problemas por meio de refinamentos,	utilizando diversos níveis de abstração desde a especificação até a implementação.
+(EM13CO11) Criar e explorar modelos	computacionais simples para simular e fazer previsões, identificando sua importância		no
+desenvolvimento científico
+(EM13CO05) Identificar os limites da Computação para diferenciar o que pode ou não ser	automatizado, buscando uma compreensão mais ampla dos limites dos processos mentais	envolvidos na resolução de problemas.
+(EM13CO08) Entender como mudanças na tecnologia afetam a segurança, incluindo novas maneiras de preservar sua privacidade e	dados pessoais on-line, reportando suspeitas e buscando ajuda em situações de risco.
+(EM13CO18) Planejar e gerenciar projetos integrados às áreas de conhecimento de forma	colaborativa, solucionando	problemas, usando diversos artefatos computacionais.
+
 
 b) Objetos de conhecimento/Eixo/Campo de atuação social:
 
@@ -26,8 +32,6 @@ Polígonos: tipos ou composições. Investigação de formas geométricas e suas
 
 Polígonos Regulares: área e perímetro. Estudo da variação das medidas e representação funcional.
 
-Eixo estruturante: Processos e linguagens matemáticas; Investigação e representação.
-Campo de atuação social: Vida pública; Investigação científica; Mundo do trabalho.
 
 c) Procedimentos metodológicos
 
