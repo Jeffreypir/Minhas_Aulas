@@ -1,0 +1,140 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+
+% Títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{}{0em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{red}}{}{0em}{}
+
+\title{\textcolor{red}{Primeiro Trimestre: Matemática Básica\\Razão e Proporção}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{multicols}{2}
+
+\section*{Lista de Exercícios}
+
+\section*{Orientações}
+Respostas no caderno. Somente as respostas. Entregar a folha ao professor responsável.
+
+
+
+\subsection*{Questão 1}
+A razão entre dois números é $3:5$ e a soma deles é 64. Determine esses números.
+
+
+
+\subsection*{Questão 2}
+A razão entre dois números é $\frac{3}{4}$. Sabendo que o menor número é 45, determine o maior.
+
+
+
+\subsection*{Questão 3}
+Dois números estão na razão $2:7$ e a soma deles é 81. Determine o maior número.
+
+
+
+\subsection*{Questão 4}
+Dois números estão na razão $5:8$. Sabendo que a diferença entre eles é 27, determine o maior número.
+
+
+
+\subsection*{Questão 5}
+Em uma mistura, a razão entre álcool e água é $3:5$. Se a mistura possui 32 litros, quantos litros de álcool há?
+
+
+
+\subsection*{Questão 6}
+Uma receita utiliza farinha, açúcar e manteiga na razão $5:3:2$. Se foram usados 600 g de farinha, quantos gramas de açúcar foram utilizados?
+
+
+
+\subsection*{Questão 7}
+Um mapa utiliza a escala $1:250\,000$. Qual é a distância real correspondente a 3,2 cm no mapa?
+
+
+
+\subsection*{Questão 8}
+A razão entre o número de alunos de duas turmas é $7:9$. Sabendo que a diferença entre elas é de 12 alunos, determine o total de alunos.
+
+
+
+\subsection*{Questão 9}
+Um carro percorre 180 km consumindo 12 litros de combustível. Quantos litros serão necessários para percorrer 75 km, mantendo o mesmo consumo?
+
+
+
+\subsection*{Questão 10}
+Se 3 kg de tinta são suficientes para pintar 45 m², quantos metros quadrados podem ser pintados com 8 kg da mesma tinta?
+
+
+
+\subsection*{Questão 11}
+Um trabalhador recebe salário proporcional ao número de dias trabalhados. Se recebeu R\$ 1.260 por 18 dias de trabalho, quanto receberá por 25 dias?
+
+
+
+\subsection*{Questão 12}
+A razão entre as áreas de dois quadrados é $9:16$. Qual é a razão entre os comprimentos de seus lados?
+
+
+
+\subsection*{Questão 13}
+Se 8 torneiras enchem um tanque em 6 horas, em quanto tempo 12 torneiras iguais encherão o mesmo tanque?
+
+
+
+\subsection*{Questão 14}
+Quatro operários constroem um muro em 15 dias trabalhando 6 horas por dia. Quantos dias serão necessários para que 6 operários construam o mesmo muro trabalhando 5 horas por dia?
+
+
+
+\subsection*{Questão 15}
+Seis máquinas produzem 900 peças em 15 dias. Quantas máquinas são necessárias para produzir 1.200 peças em 10 dias?
+
+
+
+\subsection*{Questão 16}
+A razão entre as idades de Ana e Beatriz é $2:3$. Daqui a 4 anos, essa razão será $3:4$. Determine a idade atual de Ana.
+
+
+
+\subsection*{Questão 17}
+A razão entre a velocidade de dois atletas é $4:5$. Sabendo que o mais rápido percorre 100 m em 20 s, determine o tempo gasto pelo outro atleta para percorrer a mesma distância.
+
+
+
+\subsection*{Questão 18}
+Três grandezas diretamente proporcionais $A$, $B$ e $C$ assumem os valores $A=4$, $B=6$ e $C=10$. Se $A$ passa a valer 10, qual será o novo valor de $C$?
+
+
+
+\subsection*{Questão 19}
+Uma máquina A produz 120 peças em 6 horas. Outra máquina B produz a mesma quantidade em 4 horas. Determine a razão entre as eficiências das máquinas A e B.
+
+
+
+\subsection*{Questão 20}
+Explique, com suas palavras, por que a regra de três é uma aplicação direta do conceito de proporção.
+
+
+
+\end{multicols}
+
+\end{document}

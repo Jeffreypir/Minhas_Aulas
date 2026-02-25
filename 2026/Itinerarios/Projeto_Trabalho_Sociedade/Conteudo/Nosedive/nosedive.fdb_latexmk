@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1771940861.08647 "/mnt/e/EREFEM_Monsenhor/Minhas_Aulas/PrimeiroAno/AprofundamentoMatematica/PrimeiroTrimestre/Marco/TerceiraSemana/Aulas/BlackMirror/aula.tex" "aula.pdf" "aula" 1771940861.71244 2
-  "/mnt/e/EREFEM_Monsenhor/Minhas_Aulas/PrimeiroAno/AprofundamentoMatematica/PrimeiroTrimestre/Marco/TerceiraSemana/Aulas/BlackMirror/aula.tex" 1771940860.89605 4121 e555914bee006f4410844ade7ed9e3c4 ""
+["pdflatex"] 1771942198.14523 "/home/Jeffrey/Documentos/EREFEM_MJK/2026/Itinerarios/Projeto_Trabalho_Sociedade/Conteudo/Nosedive/nosedive.tex" "nosedive.pdf" "nosedive" 1771942198.34545 2
+  "/home/Jeffrey/Documentos/EREFEM_MJK/2026/Itinerarios/Projeto_Trabalho_Sociedade/Conteudo/Nosedive/nosedive.tex" 1771942198.04097 4397 b9e9ff07dd0c8899f88113dcf7e6b649 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1767555874 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1767555874 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/share/texmf-dist/tex/generic/iftex/iftex.sty" 1767555874 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
@@ -30,11 +30,11 @@
   "/usr/share/texmf-dist/tex/latex/xpatch/xpatch.sty" 1767555874 8314 7803f78066c4f9d008405191a4b43073 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1767555874 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1767818936 2009824 0680af968de6f05820e22dbafa3abfac ""
-  "aula.aux" 1771940835.92802 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "aula.tex" 1771940860.89605 4121 e555914bee006f4410844ade7ed9e3c4 ""
   "binhex.tex" 0 -1 0 ""
+  "nosedive.aux" 1771942188.00098 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "nosedive.tex" 1771942198.04097 4397 b9e9ff07dd0c8899f88113dcf7e6b649 ""
   (generated)
-  "aula.aux"
-  "aula.log"
-  "aula.pdf"
+  "nosedive.aux"
+  "nosedive.log"
+  "nosedive.pdf"
   (rewritten before read)

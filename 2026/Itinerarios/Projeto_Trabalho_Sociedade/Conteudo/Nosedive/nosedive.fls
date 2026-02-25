@@ -1,8 +1,8 @@
-PWD /mnt/e/EREFEM_Monsenhor/Minhas_Aulas/PrimeiroAno/AprofundamentoMatematica/PrimeiroTrimestre/Marco/TerceiraSemana/Aulas/BlackMirror
+PWD /home/Jeffrey/Documentos/EREFEM_MJK/2026/Itinerarios/Projeto_Trabalho_Sociedade/Conteudo/Nosedive
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /mnt/e/EREFEM_Monsenhor/Minhas_Aulas/PrimeiroAno/AprofundamentoMatematica/PrimeiroTrimestre/Marco/TerceiraSemana/Aulas/BlackMirror/aula.tex
-OUTPUT aula.log
+INPUT /home/Jeffrey/Documentos/EREFEM_MJK/2026/Itinerarios/Projeto_Trabalho_Sociedade/Conteudo/Nosedive/nosedive.tex
+OUTPUT nosedive.log
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/size11.clo

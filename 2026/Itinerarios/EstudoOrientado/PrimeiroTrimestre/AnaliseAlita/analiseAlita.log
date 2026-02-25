@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.7)  24 FEB 2026 10:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.7)  24 FEB 2026 10:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/mnt/e/EREFEM_Monsenhor/Minhas_Aulas/CulturaDigitalEContemporanea/Meses/Maio/
-SegundaSemana/aula_alita.tex
+**/home/Jeffrey/Documentos/EREFEM_MJK/2026/Itinerarios/EstudoOrientado/Primeiro
+Trimestre/AnaliseAlita/analiseAlita.tex
 
-(/mnt/e/EREFEM_Monsenhor/Minhas_Aulas/CulturaDigitalEContemporanea/Meses/Maio/S
-egundaSemana/aula_alita.tex
+(/home/Jeffrey/Documentos/EREFEM_MJK/2026/Itinerarios/EstudoOrientado/PrimeiroT
+rimestre/AnaliseAlita/analiseAlita.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -243,8 +243,8 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count297
 \l__pdf_internal_box=\box102
 )
-(./aula_alita.aux)
-\openout1 = `aula_alita.aux'.
+(./analiseAlita.aux)
+\openout1 = `analiseAlita.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
@@ -312,7 +312,7 @@ LaTeX Font Info:    ... okay on input line 29.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./aula_alita.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./analiseAlita.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -320,17 +320,17 @@ L3 programming layer <2025-01-18>
  ) 
 Here is how much of TeX's memory you used:
  3519 strings out of 475151
- 52366 string characters out of 5766387
- 476726 words of memory out of 5000000
+ 52417 string characters out of 5766387
+ 476730 words of memory out of 5000000
  26530 multiletter control sequences out of 15000+600000
  562405 words of font info for 48 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 57i,6n,65p,374b,280s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,385b,280s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti12.pfb>
-Output written on aula_alita.pdf (1 page, 58165 bytes).
+Output written on analiseAlita.pdf (1 page, 58165 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream

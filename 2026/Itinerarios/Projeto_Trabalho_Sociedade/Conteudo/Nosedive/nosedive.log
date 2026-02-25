@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.7)  24 FEB 2026 10:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.7)  24 FEB 2026 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/mnt/e/EREFEM_Monsenhor/Minhas_Aulas/PrimeiroAno/AprofundamentoMatematica/Pri
-meiroTrimestre/Marco/TerceiraSemana/Aulas/BlackMirror/aula.tex
+**/home/Jeffrey/Documentos/EREFEM_MJK/2026/Itinerarios/Projeto_Trabalho_Socieda
+de/Conteudo/Nosedive/nosedive.tex
 
-(/mnt/e/EREFEM_Monsenhor/Minhas_Aulas/PrimeiroAno/AprofundamentoMatematica/Prim
-eiroTrimestre/Marco/TerceiraSemana/Aulas/BlackMirror/aula.tex
+(/home/Jeffrey/Documentos/EREFEM_MJK/2026/Itinerarios/Projeto_Trabalho_Sociedad
+e/Conteudo/Nosedive/nosedive.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -462,8 +462,8 @@ File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 25.
- (./aula.aux)
-\openout1 = `aula.aux'.
+ (./nosedive.aux)
+\openout1 = `nosedive.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 25.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
@@ -640,38 +640,36 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 6.6pt on input line 27.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 14.4pt on input line 32.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 33.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 34.
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--67
-
- []
-
+(Font)              scaled to size 10.95pt on input line 37.
 
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
-/enc/dvips/newtx/ntx-ec-tlf.enc}] (./aula.aux)
+/enc/dvips/newtx/ntx-ec-tlf.enc}] (./nosedive.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7792 strings out of 475151
- 107797 string characters out of 5766387
- 508172 words of memory out of 5000000
- 30707 multiletter control sequences out of 15000+600000
- 589023 words of font info for 68 fonts, out of 8000000 for 9000
+ 7794 strings out of 475151
+ 107780 string characters out of 5766387
+ 509212 words of memory out of 5000000
+ 30708 multiletter control sequences out of 15000+600000
+ 591890 words of font info for 69 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 80i,6n,93p,649b,240s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texmf-di
-st/fonts/type1/public/newtx/ztmri.pfb>
-Output written on aula.pdf (1 page, 71001 bytes).
+ 80i,6n,93p,620b,240s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texmf-di
+st/fonts/type1/public/newtx/ztmr.pfb></usr/share/texmf-dist/fonts/type1/public/
+newtx/ztmri.pfb>
+Output written on nosedive.pdf (1 page, 100619 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 24 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

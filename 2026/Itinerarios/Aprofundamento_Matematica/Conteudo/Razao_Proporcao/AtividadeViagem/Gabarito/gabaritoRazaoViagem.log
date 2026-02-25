@@ -1,18 +1,18 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.7)  24 FEB 2026 10:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.7)  24 FEB 2026 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/mnt/e/EREFEM_Monsenhor/Minhas_Aulas/CulturaDigitalEContemporanea/Meses/Maio/
-SegundaSemana/aula_alita.tex
+**/home/Jeffrey/Documentos/EREFEM_MJK/2026/Itinerarios/Aprofundamento_Matematic
+a/Conteudo/Razao_Proporcao/AtividadeViagem/Gabarito/gabaritoRazaoViagem.tex
 
-(/mnt/e/EREFEM_Monsenhor/Minhas_Aulas/CulturaDigitalEContemporanea/Meses/Maio/S
-egundaSemana/aula_alita.tex
+(/home/Jeffrey/Documentos/EREFEM_MJK/2026/Itinerarios/Aprofundamento_Matematica
+/Conteudo/Razao_Proporcao/AtividadeViagem/Gabarito/gabaritoRazaoViagem.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+(/usr/share/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count196
 \c@section=\count197
@@ -30,6 +30,9 @@ File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
+)
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
@@ -99,6 +102,17 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \c@tracingmulticols=\count282
@@ -195,15 +209,6 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutvoffset=\dimen167
 \Gm@dimlist=\toks25
 )
-(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip56
-\enit@outerparindent=\dimen168
-\enit@toks=\toks26
-\enit@inbox=\box100
-\enit@count@id=\count295
-\enitdp@description=\count296
-)
 (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
@@ -228,38 +233,38 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
 (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box101
-\beforetitleunit=\skip57
-\aftertitleunit=\skip58
-\ttl@plus=\dimen169
-\ttl@minus=\dimen170
-\ttl@toksa=\toks27
-\titlewidth=\dimen171
-\titlewidthlast=\dimen172
-\titlewidthfirst=\dimen173
+\ttl@box=\box100
+\beforetitleunit=\skip56
+\aftertitleunit=\skip57
+\ttl@plus=\dimen168
+\ttl@minus=\dimen169
+\ttl@toksa=\toks26
+\titlewidth=\dimen170
+\titlewidthlast=\dimen171
+\titlewidthfirst=\dimen172
 )
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count297
-\l__pdf_internal_box=\box102
+\l__color_backend_stack_int=\count295
+\l__pdf_internal_box=\box101
 )
-(./aula_alita.aux)
-\openout1 = `aula_alita.aux'.
+(./gabaritoRazaoViagem.aux)
+\openout1 = `gabaritoRazaoViagem.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -270,22 +275,22 @@ LaTeX Font Info:    ... okay on input line 29.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
-* v-part:(T,H,B)=(14.22636pt, 796.67726pt, 34.14322pt)
+* v-part:(T,H,B)=(22.76228pt, 788.14134pt, 34.14322pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=540.60239pt
-* \textheight=796.67726pt
+* \textheight=788.14134pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
-* \topmargin=-95.04362pt
+* \topmargin=-86.5077pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -297,43 +302,65 @@ LaTeX Font Info:    ... okay on input line 29.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count298
-\scratchdimen=\dimen174
-\scratchbox=\box103
-\nofMPsegments=\count299
-\nofMParguments=\count300
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count301
-\MPscratchDim=\dimen175
-\MPnumerator=\count302
-\makeMPintoPDFobject=\count303
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count296
+\scratchdimen=\dimen173
+\scratchbox=\box102
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen174
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks28
 )
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
 
-[1
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./aula_alita.aux)
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \vbox (2.41113pt too high) has occurred while \output is active []
+
+
+
+[2] (./gabaritoRazaoViagem.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3519 strings out of 475151
- 52366 string characters out of 5766387
- 476726 words of memory out of 5000000
- 26530 multiletter control sequences out of 15000+600000
- 562405 words of font info for 48 fonts, out of 8000000 for 9000
+ 3954 strings out of 475151
+ 54917 string characters out of 5766387
+ 477749 words of memory out of 5000000
+ 26935 multiletter control sequences out of 15000+600000
+ 572304 words of font info for 70 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 57i,6n,65p,374b,280s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti12.pfb>
-Output written on aula_alita.pdf (1 page, 58165 bytes).
+ 57i,6n,65p,364b,250s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk
+> </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk>
+ </home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> 
+</home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> <
+/home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </
+home/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </h
+ome/Jeffrey/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+>
+Output written on gabaritoRazaoViagem.pdf (2 pages, 97934 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 211 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
