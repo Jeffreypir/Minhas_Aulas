@@ -1,0 +1,195 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{}{0em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{red}}{}{0em}{}
+
+\title{\textcolor{red}{Medidas Estatísticas}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{multicols}{2}
+
+\section*{Exercícios com Resolução Comentada}
+
+\begin{enumerate}[leftmargin=*]
+
+% QUESTÃO 1
+\item A média aritmética do conjunto $(x, 6, 10)$ é 8. Determine o valor de $x$.
+
+\textbf{Resolução:}
+
+A média é dada por:
+\[
+\bar{x} = \frac{x + 6 + 10}{3}
+\]
+
+Como a média vale 8:
+\[
+\frac{x + 16}{3} = 8
+\Rightarrow x + 16 = 24
+\Rightarrow x = 8
+\]
+
+\textbf{Resposta:} $x = 8$.
+
+% QUESTÃO 2
+\item A média dos números $(2x, 4, 6)$ é 10. Calcule $x$.
+
+\textbf{Resolução:}
+
+\[
+\frac{2x + 4 + 6}{3} = 10
+\Rightarrow \frac{2x + 10}{3} = 10
+\Rightarrow 2x + 10 = 30
+\Rightarrow 2x = 20
+\Rightarrow x = 10
+\]
+
+\textbf{Resposta:} $x = 10$.
+
+% QUESTÃO 3
+\item O conjunto $(x, 5, 7, 9)$ possui média igual a 7. Determine $x$.
+
+\textbf{Resolução:}
+
+\[
+\frac{x + 5 + 7 + 9}{4} = 7
+\Rightarrow \frac{x + 21}{4} = 7
+\Rightarrow x + 21 = 28
+\Rightarrow x = 7
+\]
+
+\textbf{Resposta:} $x = 7$.
+
+% QUESTÃO 4
+\item A mediana do conjunto $(2, x, 8, 10, 12)$ é 8. Determine $x$.
+
+\textbf{Resolução:}
+
+Como o conjunto possui 5 elementos, a mediana é o termo central.
+Para que o termo central seja 8, o valor de $x$ deve ser menor ou igual a 8.
+
+O único valor que mantém a ordem correta é:
+\[
+x = 8
+\]
+
+\textbf{Resposta:} $x = 8$.
+
+% QUESTÃO 5
+\item A moda do conjunto $(4, x, 6, x, 8)$ é 6. Determine $x$.
+
+\textbf{Resolução:}
+
+A moda é o valor que mais se repete.
+No conjunto, $x$ aparece duas vezes, enquanto os demais aparecem uma única vez.
+
+Logo, $x$ pode assumir qualquer valor diferente de 4, 6 e 8.
+
+\textbf{Resposta:} $x \neq 4, 6, 8$.
+
+% QUESTÃO 6
+\item A amplitude do conjunto $(x, 4, 11)$ é 8. Determine $x$. Considere que o conjunto está em ordem crescente.
+
+\textbf{Resolução:}
+
+Amplitude:
+\[
+A = x_{\text{máx}} - x_{\text{mín}}
+\]
+
+Para obter amplitude 8:
+\[
+11 - x = 8
+\Rightarrow x = 3 \]
+
+\textbf{Resposta:} $x = 3$ .
+
+% QUESTÃO 7
+\item O conjunto $(x, 4, 6, 10)$ tem média igual a 6. Determine $x$.
+
+\textbf{Resolução:}
+
+\[
+\frac{x + 4 + 6 + 10}{4} = 6
+\Rightarrow \frac{x + 20}{4} = 6
+\Rightarrow x + 20 = 24
+\Rightarrow x = 4
+\]
+
+\textbf{Resposta:} $x = 4$.
+
+% QUESTÃO 8
+\item O desvio padrão do conjunto $(5, 5, x)$ é zero. Determine $x$.
+
+\textbf{Resolução:}
+
+Desvio padrão zero indica que todos os valores são iguais.
+
+Logo:
+\[
+x = 5
+\]
+
+\textbf{Resposta:} $x = 5$.
+
+% QUESTÃO 9
+\item O conjunto $(x, x+2, x+4)$ possui média igual a 12. Determine $x$.
+
+\textbf{Resolução:}
+
+\[
+\frac{x + (x+2) + (x+4)}{3} = 12
+\Rightarrow \frac{3x + 6}{3} = 12
+\Rightarrow 3x + 6 = 36
+\Rightarrow 3x = 30
+\Rightarrow x = 10
+\]
+
+\textbf{Resposta:} $x = 10$.
+
+% QUESTÃO 10
+\item A variância do conjunto $(6, x, 10)$ é 8. Determine $x$.
+
+\textbf{Resolução:}
+
+Média:
+\[
+\bar{x} = \frac{6 + x + 10}{3} = \frac{x + 16}{3}
+\]
+
+Variância:
+\[
+\frac{(6 - \bar{x})^2 + (x - \bar{x})^2 + (10 - \bar{x})^2}{3} = 8
+\]
+
+Resolvendo a equação, obtemos:
+\[
+x = 4 \text{ ou } x = 12
+\]
+
+\textbf{Resposta:} $x = 4$ ou $x = 12$.
+
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}
