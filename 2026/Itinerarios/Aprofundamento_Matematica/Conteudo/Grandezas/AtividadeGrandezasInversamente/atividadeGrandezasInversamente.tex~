@@ -1,0 +1,149 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{}{0em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{red}}{}{0em}{}
+
+\title{\textcolor{red}{Grandezas Inversamente Proporcionais}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{multicols}{2}
+
+\section*{Exercícios com Resolução Comentada}
+
+\begin{enumerate}[leftmargin=*]
+
+% QUESTÃO 1
+\item Três trabalhadores fazem um serviço em 12 dias. Quantos dias levariam 6 trabalhadores para fazer o mesmo serviço?
+
+\textbf{Resolução:}
+
+Para grandezas inversamente proporcionais:
+\[
+x = \frac{3 \cdot 12}{6} = 6
+\]
+
+\textbf{Resposta:} 6 dias.
+
+% QUESTÃO 2
+\item Se 4 máquinas produzem 200 livros em 5 horas, quantas horas seriam necessárias para que 10 máquinas produzissem a mesma quantidade?
+
+\textbf{Resolução:}
+
+\[
+x = \frac{4 \cdot 5}{10} = 2
+\]
+
+\textbf{Resposta:} 2 horas.
+
+% QUESTÃO 3
+\item Dez operários fazem um trabalho em 8 dias. Quantos operários são necessários para que termine em 4 dias?
+
+\textbf{Resolução:}
+
+\[
+x = \frac{10 \cdot 8}{4} = 20
+\]
+
+\textbf{Resposta:} 20 operários.
+
+% QUESTÃO 4
+\item Uma torneira enche um reservatório em 10 horas. Se abrirmos mais 2 torneiras iguais, quanto tempo será preciso?
+
+\textbf{Resolução:}
+
+\[
+x = \frac{10}{3} \approx 3{,}33
+\]
+
+\textbf{Resposta:} \(3{,}33 \) horas (aprox.).
+
+% QUESTÃO 5
+\item Um grupo de 8 pessoas leva 4 dias para pintar uma casa. Quantos dias levará um grupo de 12 pessoas?
+
+\textbf{Resolução:}
+
+\[
+x = \frac{8 \cdot 4}{12} = \frac{32}{12} \approx 2{,}67
+\]
+
+\textbf{Resposta:} \(2{,}67\) dias (aprox.).
+
+% QUESTÃO 6
+\item Uma equipe de 5 jardineiros leva 15 horas para terminar um jardim. Quantas horas levariam 10 jardineiros?
+
+\textbf{Resolução:}
+
+\[
+x = \frac{5 \cdot 15}{10} = 7{,}5
+\]
+
+\textbf{Resposta:} 7,5 horas.
+
+% QUESTÃO 7
+\item Um serviço é feito por 9 trabalhadores em 20 dias. Quantos trabalhadores são necessários para que o serviço seja feito em 15 dias?
+
+\textbf{Resolução:}
+
+\[
+x = \frac{9 \cdot 20}{15} = 12
+\]
+
+\textbf{Resposta:} 12 trabalhadores.
+
+% QUESTÃO 8
+\item 4 carros levam 18 horas para percorrer uma estrada carregando um volume de mercadorias. Quantos carros seriam necessários para completar a viagem em 6 horas?
+
+\textbf{Resolução:}
+
+\[
+x = \frac{4 \cdot 18}{6} = 12
+\]
+
+\textbf{Resposta:} 12 carros.
+
+% QUESTÃO 9
+\item Um encanador leva 9 horas para consertar 3 canos. Quantas horas levaria para consertar 6 canos, supondo que consegue alternar entre eles igualmente?
+
+\textbf{Resolução:}
+
+\[
+x = \frac{9 \cdot 3}{6} = 4{,}5
+\]
+
+\textbf{Resposta:} 4,5 horas.
+
+% QUESTÃO 10
+\item Se 15 pintores pintam 10 casas em 5 dias, quantos dias levariam 30 pintores?
+
+\textbf{Resolução:}
+
+\[
+x = \frac{15 \cdot 5}{30} = 2{,}5
+\]
+
+\textbf{Resposta:} 2,5 dias.
+
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}
