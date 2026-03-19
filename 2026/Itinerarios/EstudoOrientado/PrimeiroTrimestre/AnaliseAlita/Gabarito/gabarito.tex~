@@ -1,0 +1,120 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}  % Corrigido: era titleset
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Estilo das seções
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{blue}}
+  {\thesection}
+  {1em}
+  {}
+
+\titleformat{\subsection}
+  {\color{red}\normalfont\bfseries}
+  {\thesubsection}
+  {1em}
+  {}
+
+\title{\textcolor{blue}{Estudo Dirigido \\ Cultura Digital e Contemporânea \\ \textit{Alita: Anjo de Combate}}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{multicols}{2}
+
+\section*{Orientações}
+Leia atentamente os textos, reflita sobre as perguntas e responda no seu caderno. Sempre que possível, use exemplos do filme para justificar suas respostas.
+
+\section{1. Cultura Digital e Contemporânea}
+
+A cultura digital contemporânea influencia a forma como vivemos, nos comunicamos e construímos nossa identidade. No filme \textit{Alita: Anjo de Combate}, a tecnologia aparece ligada ao corpo humano, às relações sociais e ao poder econômico.
+
+\subsection{1.1 Compreensão do Tema}
+
+\begin{enumerate}[label=\alph*)]
+    \item \textbf{Pergunta:} Explique com suas palavras o que é \textbf{cultura digital}. \\
+    \textcolor{blue}{\textbf{Resposta:} Cultura digital é o conjunto de transformações sociais, comportamentais e culturais causadas pela adoção generalizada de tecnologias digitais no cotidiano. Inclui como nos comunicamos (redes sociais), trabalhamos (home office), nos divertimos (streaming) e até como construímos nossa identidade online.}
+
+    \item \textbf{Pergunta:} Cite duas tecnologias presentes no filme e explique seu impacto. \\
+    \textcolor{blue}{\textbf{Resposta:} 1) Corpos cibernéticos (ciborgues): permitem que pessoas substituam partes do corpo por tecnologia, aumentando força e capacidade, mas também criando dependência de quem fabrica essas peças. 2) O jogo Motorball: é uma tecnologia de entretenimento que explora os ciborgues em competições violentas, mostrando como a tecnologia pode ser usada para explorar e desumanizar.}
+\end{enumerate}
+
+\section{2. Fusão Humano--Máquina}
+
+No universo do filme, personagens possuem corpos modificados com tecnologia cibernética.
+
+\subsection{2.1 Análise Guiada}
+
+\begin{enumerate}[label=\alph*)]
+    \item \textbf{Pergunta:} O que diferencia um humano comum de um ciborgue no filme? \\
+    \textcolor{blue}{\textbf{Resposta:} No filme, humanos comuns mantêm seus corpos biológicos originais, enquanto ciborgues têm partes do corpo substituídas por mecanismos cibernéticos. Alguns ciborgues mantêm apenas o cérebro humano, como Alita, enquanto todo o resto é tecnológico. A diferença principal é a integração de tecnologia avançada ao corpo.}
+
+    \item \textbf{Pergunta:} A tecnologia torna as pessoas mais fortes, mais dependentes ou as duas coisas? Explique com exemplos do filme. \\
+    \textcolor{blue}{\textbf{Resposta:} As duas coisas. A tecnologia torna as pessoas mais fortes fisicamente (Alita consegue lutar e derrotar inimigos muito maiores), mas também mais dependentes (quando Grewishka tem seu corpo danificado, ele precisa encontrar o Dr. Ido para consertá-lo). No mundo do filme, quem controla a tecnologia (como Nova em Zalem) controla as pessoas.}
+\end{enumerate}
+
+\section{3. Ética e Uso da Tecnologia}
+
+A tecnologia pode ser usada para ajudar ou para dominar pessoas, dependendo de quem a controla.
+
+\subsection{3.1 Interpretação}
+
+\begin{enumerate}[label=\alph*)]
+    \item \textbf{Pergunta:} Compare os objetivos do Dr. Ido e de Nova em relação à tecnologia. \\
+    \textcolor{blue}{\textbf{Resposta:} Dr. Ido usa a tecnologia para curar e ajudar as pessoas, construindo corpos cibernéticos para dar nova vida àqueles que precisam. Já Nova usa a tecnologia para controlar, manipular e experimentar em seres humanos, tratando as pessoas como cobaias. Representam o uso ético (Ido) vs. antiético (Nova) da tecnologia.}
+
+    \item \textbf{Pergunta:} Para você, a tecnologia é neutra ou carrega intenções? Justifique com base no filme e no mundo atual. \\
+    \textcolor{blue}{\textbf{Resposta:} A tecnologia em si é neutra, mas quem a cria e controla carrega intenções. No filme, a mesma tecnologia cibernética pode ser usada para salvar vidas (Dr. Ido reconstruindo Alita) ou para destruí-las (caçadores de recompensas). No mundo atual, a internet pode ser usada para educação ou para disseminar ódio, dependendo da intenção de quem a utiliza.}
+\end{enumerate}
+
+\section{4. Desigualdade Social e Tecnologia}
+
+O filme apresenta duas realidades opostas: Iron City e Zalem.
+
+\subsection{4.1 Leitura Crítica}
+
+\begin{enumerate}[label=\alph*)]
+    \item \textbf{Pergunta:} Descreva uma diferença social entre Iron City e Zalem. \\
+    \textcolor{blue}{\textbf{Resposta:} Iron City é uma cidade industrial caótica, violenta e poluída, onde a população vive em condições precárias e luta pela sobrevivência. Zalem é uma cidade flutuante, limpa, organizada e tecnologicamente avançada, onde poucos privilegiados vivem com conforto e abundância. A diferença representa a segregação social entre elite e trabalhadores.}
+
+    \item \textbf{Pergunta:} Essa desigualdade também existe no mundo atual? Dê um exemplo. \\
+    \textcolor{blue}{\textbf{Resposta:} Sim, existe. Um exemplo é o acesso à internet de qualidade: enquanto pessoas em áreas nobres de grandes cidades têm internet rápida e fibra ótica, comunidades periféricas e rurais muitas vezes têm conexão precária ou nenhuma, limitando oportunidades de estudo e trabalho. Outro exemplo é o acesso a tecnologias médicas avançadas, restritas a quem pode pagar.}
+\end{enumerate}
+
+\section{5. Identidade e Memória}
+
+Alita constrói sua identidade ao longo do filme, mesmo sem lembrar de seu passado.
+
+\subsection{5.1 Reflexão Orientada}
+
+\begin{enumerate}[label=\alph*)]
+    \item \textbf{Pergunta:} O que mais define Alita: seu corpo, suas memórias ou suas atitudes? Explique. \\
+    \textcolor{blue}{\textbf{Resposta:} Suas atitudes. Embora seu corpo cibernético seja poderoso e suas memórias passadas revelem que ela foi uma guerreira, é a forma como Alita age no presente que a define: sua coragem para proteger quem ama, sua determinação em buscar justiça e sua recusa em aceitar as regras injustas de Iron City. Ela escolhe quem quer ser através de suas ações.}
+
+    \item \textbf{Pergunta:} No mundo digital atual, o que mais define uma pessoa? Justifique. \\
+    \textcolor{blue}{\textbf{Resposta:} Atualmente, as pessoas são frequentemente definidas por sua presença digital e suas escolhas online: o que postam, compartilham, curtem e comentam. Nossas atitudes nas redes sociais constroem uma identidade digital que pode ser diferente da identidade real. Assim como Alita, somos definidos por nossas ações, mas agora essas ações também acontecem no ambiente virtual.}
+\end{enumerate}
+
+\section{6. Conclusão}
+
+\subsection{6.1 Síntese Final}
+
+\textbf{Pergunta:} Escreva no seu caderno, em poucas linhas, o que o filme ensina sobre tecnologia e humanidade. \\
+\textcolor{blue}{\textbf{Resposta:} O filme ensina que tecnologia não é boa nem má em si mesma - tudo depende de como a usamos. Mostra que mesmo com corpos tecnológicos, o que nos torna humanos são nossas emoções, escolhas e relações com os outros. Alita, apesar de ser 100\% ciborgue (exceto o cérebro), demonstra mais humanidade que muitos humanos biológicos do filme. A mensagem é que a verdadeira humanidade está nas nossas atitudes e na forma como tratamos o próximo, não na composição do nosso corpo.}
+
+\end{multicols}
+
+\end{document}

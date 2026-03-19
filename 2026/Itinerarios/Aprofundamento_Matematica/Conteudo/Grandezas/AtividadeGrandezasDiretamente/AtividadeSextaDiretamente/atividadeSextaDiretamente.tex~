@@ -1,0 +1,102 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{ragged2e}
+
+\geometry{a4paper, left=1cm, right=1cm, top=0.8cm, bottom=1.2cm}
+
+\setlength{\parindent}{0pt}
+\setlength{\columnsep}{1cm}
+\setlength{\columnseprule}{0.4pt}
+
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{}{0em}{}
+
+\title{\textbf{\textcolor{red}{Grandezas Diretamente e Inversamente Proporcionais}}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-0.5cm}
+
+\begin{justify}
+\textbf{Observação: \\ Copiar e responder no caderno. Resolva os problemas utilizando regra de três ou regra direta dependendo se o problema for diretamente ou inversamente proporcional.}
+\end{justify}
+
+\begin{multicols}{2}
+
+\section*{Exercícios}
+
+\begin{enumerate}[leftmargin=*, itemsep=0pt]
+
+\item Se 5 cadernos custam R\$ 40, quanto custarão 8 cadernos?
+
+\item Uma máquina produz 300 peças em 6 horas. Quantas peças produzirá em 10 horas?
+
+\item Se 12 litros de combustível permitem percorrer 180 km, quantos quilômetros serão percorridos com 20 litros?
+
+\item Um pedreiro recebe R\$ 150 por dia. Quanto receberá em 18 dias?
+
+\item 4 torneiras enchem um reservatório em 2 horas. Quantas torneiras serão necessárias para encher 3 reservatórios no mesmo tempo?
+
+\item 7 operários constroem um muro em 5 dias. Quantos operários são necessários para construir 3 muros no mesmo período?
+
+\item Uma receita utiliza 250 g de farinha para fazer um bolo. Quantos gramas serão necessários para 6 bolos?
+
+\item 3 kg de carne servem 6 pessoas. Quantos kg serão necessários para 15 pessoas?
+
+\item Se 8 metros de tecido custam R\$ 200, quanto custarão 15 metros?
+
+\item Uma gráfica imprime 2.400 panfletos em 3 horas. Quantos panfletos imprimirá em 8 horas?
+
+\item Se 6 livros custam R\$ 90, quanto custarão 14 livros?
+
+\item Um carro percorre 150 km com 10 litros de combustível. Quantos quilômetros percorrerá com 25 litros?
+
+\item 9 trabalhadores constroem uma cerca em 4 dias. Quantos trabalhadores serão necessários para construir 3 cercas no mesmo período?
+
+\item Uma fábrica produz 500 garrafas em 5 horas. Quantas garrafas produzirá em 12 horas?
+
+\item Se 4 kg de arroz custam R\$ 32, quanto custarão 10 kg?
+
+\item Uma impressora imprime 120 páginas em 6 minutos. Quantas páginas imprimirá em 15 minutos?
+
+\item 2 caixas contêm 48 lápis. Quantos lápis haverá em 7 caixas iguais?
+
+\item Um caminhão transporta 8 toneladas de areia em uma viagem. Quantas toneladas transportará em 15 viagens?
+
+\item 5 metros de fio pesam 200 g. Quanto pesarão 18 metros do mesmo fio?
+
+\item Se 3 litros de tinta pintam 24 m² de parede, quantos metros quadrados serão pintados com 10 litros?
+
+\item Três trabalhadores fazem um serviço em 12 dias. Quantos dias levariam 6 trabalhadores para fazer o mesmo serviço?
+
+\item Se 4 máquinas fazem um trabalho em 5 horas, quantas horas seriam necessárias para que 10 máquinas realizassem o mesmo trabalho?
+
+\item Dez operários fazem um trabalho em 8 dias. Quantos operários são necessários para que termine em 4 dias?
+
+\item Uma torneira enche um reservatório em 10 horas. Se abrirmos mais 2 torneiras iguais, quanto tempo será preciso?
+
+\item Um grupo de 8 pessoas leva 4 dias para pintar uma casa. Quantos dias levará um grupo de 12 pessoas?
+
+\item Uma equipe de 5 jardineiros leva 15 horas para terminar um jardim. Quantas horas levariam 10 jardineiros?
+
+\item Um serviço é feito por 9 trabalhadores em 20 dias. Quantos trabalhadores são necessários para que o serviço seja feito em 15 dias?
+
+\item 4 carros levam 18 horas para completar um trabalho. Quantos carros seriam necessários para completar em 6 horas?
+
+\item Um encanador leva 9 horas para consertar 3 canos. Quantas horas levaria para consertar 6 canos?
+
+\item Se 15 pintores fazem um trabalho em 5 dias, quantos dias levariam 30 pintores?
+
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}

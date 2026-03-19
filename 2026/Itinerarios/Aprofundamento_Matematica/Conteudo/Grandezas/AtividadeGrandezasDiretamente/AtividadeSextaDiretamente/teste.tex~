@@ -1,0 +1,65 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{ragged2e}
+
+\geometry{a4paper, left=1cm, right=1cm, top=0.8cm, bottom=1.2cm}
+
+\setlength{\parindent}{0pt}
+\setlength{\columnsep}{1cm}
+\setlength{\columnseprule}{0.4pt}
+
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{}{0em}{}
+
+\title{\textbf{\textcolor{red}{Funções de Primeiro Grau}}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-0.5cm}
+
+\begin{justify}
+\textbf{Observação: \\ Copiar e responder no caderno. Resolva os problemas utilizando a definição de função de primeiro grau, que é uma função onde o coeficiente linear é constante.}
+\end{justify}
+
+\begin{multicols}{2}
+
+\section*{Exercícios}
+
+\begin{enumerate}[leftmargin=*, itemsep=0pt]
+
+\item Se $f(x) = 3x + 2$, determine $f(4)$.
+
+\item Encontre o valor de $x$ para que $f(x) = 17$, onde $f(x) = 5x - 10$.
+
+\item Uma função é definida por $g(x) = 4x - 3$. Calcule $g(-2)$.
+
+\item Se $h(x) = x^2 + 6x + 9$, determine $h(0)$.
+
+\item Encontre o valor de $x$ para que $h(x) = 15$, onde $h(x) = 2x^2 - 3x + 7$.
+
+\item Uma função é definida por $k(x) = \frac{1}{2}x + 5$. Calcule $k(6)$.
+
+\item Se $m(x) = x - 4$, determine $m(-1)$.
+
+\item Encontre o valor de $x$ para que $m(x) = 0$, onde $m(x) = -x + 3$.
+
+\item Uma função é definida por $n(x) = 3x^2 - 6x$. Calcule $n(3)$.
+
+\item Se $p(x) = 2x + 1$, determine $p(-5)$.
+
+\item Encontre o valor de $x$ para que $p(x) = -7$, onde $p(x) = x + 4$.
+
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}
+
