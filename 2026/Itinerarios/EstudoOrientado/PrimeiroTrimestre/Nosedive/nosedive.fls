@@ -1,7 +1,7 @@
-PWD /home/Jeffrey/Documentos/EREFEM_MJK/2026/Itinerarios/Projeto_Trabalho_Sociedade/Conteudo/Nosedive
+PWD /home/Jeffrey/Documentos/EREFEM_MJK/2026/Itinerarios/EstudoOrientado/PrimeiroTrimestre/Nosedive
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/Jeffrey/Documentos/EREFEM_MJK/2026/Itinerarios/Projeto_Trabalho_Sociedade/Conteudo/Nosedive/nosedive.tex
+INPUT /home/Jeffrey/Documentos/EREFEM_MJK/2026/Itinerarios/EstudoOrientado/PrimeiroTrimestre/Nosedive/nosedive.tex
 OUTPUT nosedive.log
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls

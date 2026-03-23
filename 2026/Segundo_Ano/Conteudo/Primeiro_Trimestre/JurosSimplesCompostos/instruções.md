@@ -1,0 +1,7 @@
+1. Leia o arquivo latex do caminho a seguir: /home/Jeffrey/Documentos/EREFEM_MJK/2026/Segundo_Ano/Conteudo/Primeiro_Trimestre/JurosSimplesCompostos/FuncaoPrimeiroGrau
+
+2. Use o layout e faça uma lista de atividade para o aluno resolver.
+
+3. A lista deve conter 30 questões com o mesmo conteúdo do arquivo latex lido.
+
+4. Crie uma subpasta chamada Atividade dentro do diretório: /home/Jeffrey/Documentos/EREFEM_MJK/2026/Segundo_Ano/Conteudo/Primeiro_Trimestre/JurosSimplesCompostos/FuncaoPrimeiroGrau com o nome AtividadePrimeiroGrau.tex e salve a lista de atividades criada no passo 3 dentro dessa subpasta. 

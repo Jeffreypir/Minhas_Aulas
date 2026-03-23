@@ -1,0 +1,89 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+
+% Cores para títulos
+\titleformat{\section}{\normalfont\Large\color{blue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\color{red}}{\thesubsection}{1em}{}
+
+\title{\textcolor{blue}{Questionário: \textit{Men Against Fire} (Black Mirror)}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{multicols}{2}
+
+\section*{Orientações}
+Leia atentamente o texto de apoio e responda \textbf{no seu caderno}. Use exemplos do episódio sempre que possível para justificar suas respostas.
+
+\section*{Texto de Apoio}
+
+O episódio \textit{Men Against Fire} (Engenharia Reversa), o quinto da terceira temporada de \textit{Black Mirror}, apresenta um futuro onde soldados são equipados com um implante neural chamado "MÁSCARA" (MASS). Este sistema otimiza o desempenho militar, fornecendo dados táticos em tempo real, mas também altera drasticamente a percepção sensorial dos combatentes. O protagonista, Stripe, participa de missões para exterminar as "baratas", seres descritos como mutantes perigosos que ameaçam a pureza genética da humanidade.
+
+A trama se aprofunda quando o implante de Stripe começa a falhar após um confronto. Ele passa a enxergar a realidade sem os filtros tecnológicos, descobrindo que as "baratas" são, na verdade, seres humanos comuns, perseguidos por uma ideologia de eugenia e limpeza social. O episódio explora como a tecnologia pode ser usada para desumanizar o "outro", facilitando atos de violência extrema ao remover a empatia, o remorso e a culpa dos agressores.
+
+\textit{Men Against Fire} serve como uma metáfora poderosa para a propaganda de guerra e a manipulação da percepção pública. Ao transformar o inimigo em um monstro literal através da realidade aumentada, o sistema garante que os soldados cumpram suas ordens sem questionamentos morais. O cenário levanta discussões éticas sobre o uso da inteligência artificial no campo de batalha e as consequências psicológicas da desumanização institucionalizada.
+
+\section*{Parte 1: Compreensão do Episódio}
+
+\hspace{0.6cm}1. Qual é a função principal do implante "MÁSCARA" (MASS) nos soldados?
+
+2. Como os soldados visualizam as "baratas" enquanto o implante está funcionando perfeitamente?
+
+3. O que acontece com Stripe durante a missão no vilarejo que causa o mau funcionamento de seu implante?
+
+4. Qual é a verdadeira identidade das "baratas" revelada após a falha do sistema de Stripe?
+
+5. Além da visão, como o sistema MÁSCARA altera os sentidos do olfato e da audição dos soldados?
+
+6. Qual é a justificativa "científica" ou social dada pelo governo para o extermínio das "baratas"?
+
+7. O que Arquette (o psicólogo militar) revela sobre a dificuldade histórica de fazer soldados matarem em guerras reais?
+
+8. Como a população civil local (os moradores das vilas) trata as "baratas" e por que eles colaboram com os militares?
+
+9. Qual é o dilema moral oferecido a Stripe quando ele é confrontado com a verdade no centro de detenção?
+
+10. Descreva a cena final do episódio e explique o que a visão de Stripe representa em contraste com a realidade.
+
+\section*{Parte 2: Análise Crítica}
+
+\hspace{0.6cm}11. Explique como a desumanização do inimigo é utilizada como ferramenta de controle no episódio.
+
+12. O episódio aborda o conceito de eugenia. De que forma o sistema justifica o extermínio de uma parte da população em nome de um "bem maior"?
+
+13. Como a manipulação dos sentidos (visão, audição e olfato) remove a barreira da empatia humana?
+
+14. Faça um paralelo entre a tecnologia MÁSCARA e o uso de propaganda de ódio ou *fake news* em conflitos contemporâneos.
+
+15. Você acredita que a tecnologia pode ser usada para silenciar a consciência moral de um indivíduo? Justifique sua resposta.
+
+\section*{Parte 3: Conexão Pessoal}
+
+\hspace{0.6cm}16. Se você vivesse nessa sociedade e descobrisse a verdade sobre o sistema, o que faria?
+
+17. De que forma as "bolhas" das redes sociais hoje podem funcionar como uma "MÁSCARA" moderna, distorcendo nossa visão sobre quem pensa diferente de nós?
+
+18. Como podemos exercitar a empatia em um mundo que frequentemente nos incentiva a ver o "outro" como um inimigo ou alguém inferior?
+
+19. Qual a importância de questionar as informações e a realidade que nos são apresentadas por autoridades ou tecnologias?
+
+\end{multicols}
+
+\end{document}
