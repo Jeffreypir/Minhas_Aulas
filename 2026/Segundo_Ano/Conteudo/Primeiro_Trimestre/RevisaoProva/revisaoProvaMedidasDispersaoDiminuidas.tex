@@ -1,0 +1,157 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+
+% Cores para títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{red}}{\thesubsection}{1em}{}
+
+% Reduz espaço no multicols
+\setlength{\multicolsep}{0pt}
+
+\title{\textcolor{green}{Revisão: Medidas de Dispersão \\
+    Amplitude, Variância e Desvio Padrão}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-0.8cm}
+
+\begin{multicols}{2}
+
+\section*{Instruções}
+\textbf{Copie e responda no caderno.}
+
+
+\begin{enumerate}[leftmargin=*]
+
+\item Calcule a amplitude dos conjuntos:
+\begin{enumerate}[label=\alph*)]
+\item 5, 8, 12, 15, 20
+\item 10, 20, 30, 40, 50
+\item 3, 7, 11, 15, 19, 23
+\item 100, 150, 200, 250, 300
+\end{enumerate}
+
+\item Calcule a média e a amplitude:
+\begin{enumerate}[label=\alph*)]
+\item 6, 9, 12, 15, 18
+\item 2, 5, 8, 11, 14, 17
+\end{enumerate}
+
+\item Calcule a variância e o desvio padrão do conjunto: 4, 6, 8, 10, 12
+
+\item Calcule a variância e o desvio padrão do conjunto: 2, 4, 6, 8, 10
+
+\item Compare o desvio padrão dos dois conjuntos abaixo. Qual é mais disperso?
+\begin{enumerate}[label=\alph*)]
+\item Conjunto A: 5, 10, 15, 20, 25
+\item Conjunto B: 12, 13, 14, 15, 16
+\end{enumerate}
+
+\item Dado o conjunto: 10, 12, 14, 16, 18, 20
+\begin{enumerate}[label=\alph*)]
+\item Calcule a amplitude
+\item Calcule a média
+\item Calcule a variância
+\item Calcule o desvio padrão
+\end{enumerate}
+
+\end{enumerate}
+
+\begin{enumerate}[leftmargin=*, start=7]
+
+\item As notas de dois alunos foram:
+\begin{itemize}
+\item Aluno A: 5, 6, 7, 8, 9
+\item Aluno B: 2, 5, 7, 9, 12
+\end{itemize}
+\begin{enumerate}[label=\alph*)]
+\item Calcule a média de cada um
+\item Calcule o desvio padrão de cada um
+\item Qual aluno teve melhor desempenho? Qual foi mais regular?
+\end{enumerate}
+
+\item Complete a tabela:
+
+\begin{center}
+% Centralizar a tabela a esquerda com 
+\hspace*{-0.9cm}
+% Diminuir a tabela para caber melhor
+% opções: \small, \footnotesize, \scriptsize
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{0.8}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Dados} & \textbf{Amplitude} & \textbf{Média} & \textbf{Variância} & \textbf{Desvio Padrão} \\
+\hline
+2, 4, 6, 8, 10 & & & & \\
+\hline
+1, 3, 5, 7, 9 & & & & \\
+\hline
+10, 20, 30, 40, 50 & & & & \\
+\hline
+\end{tabular}
+\end{center}
+
+\item As temperaturas de duas cidades foram registradas:
+
+\textbf{Cidade X:} 18, 20, 22, 24, 26 (em °C)
+
+\textbf{Cidade Y:} 15, 20, 22, 25, 28
+
+\begin{enumerate}[label=\alph*)]
+\item Calcule a média de cada cidade
+\item Calcule o desvio padrão de cada cidade
+\item Qual cidade tem clima mais regular? Por quê?
+\end{enumerate}
+
+\item Em uma fábrica, o controle de qualidade mediu o diâmetro (em mm) de 6 peças: 48, 50, 52, 49, 51, 50
+\begin{enumerate}[label=\alph*)]
+\item Calcule a média
+\item Calcule a amplitude
+\item Calcule o desvio padrão
+\end{enumerate}
+
+\item Uma prova foi aplicada em duas turmas:
+
+\textbf{Turma A:} notas: 4, 5, 6, 7, 8, 9, 10
+
+\textbf{Turma B:} notas: 5, 6, 7, 7, 7, 8, 9
+
+\begin{enumerate}[label=\alph*)]
+\item Calcule a média de cada turma
+\item Calcule o desvio padrão de cada turma
+\item Qual turma teve notas mais homogêneas?
+\end{enumerate}
+
+\item Dados os conjuntos:
+
+$X = \{10, 20, 30, 40, 50\}$ e $Y = \{28, 29, 30, 31, 32\}$
+
+\begin{enumerate}[label=\alph*)]
+\item Calcule a média de X e Y
+\item Calcule o desvio padrão de X e Y
+\item O que você observa comparando os resultados?
+\end{enumerate}
+
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}

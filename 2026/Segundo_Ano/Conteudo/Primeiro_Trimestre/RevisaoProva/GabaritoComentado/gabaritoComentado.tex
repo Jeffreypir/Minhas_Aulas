@@ -1,0 +1,325 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+
+% Cores para títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{red}}{\thesubsection}{1em}{}
+
+
+% Comandos personalizados
+\newcommand{\respostaNum}[1]{\textcolor{blue}{\boxed{#1}}}
+\newcommand{\respostaTxt}[1]{\textcolor{blue}{#1}}
+\newcommand{\resolucao}{\textbf{\textcolor{blue}{Resolução:}}}
+\newcommand{\etapa}[1]{\textbf{\textcolor{red}{Etapa #1:}}}
+
+\title{\textcolor{red}{Gabarito Comentado: Média, Mediana e Moda}}
+\author{Professor: Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-0.9cm}
+
+\begin{multicols}{2}
+
+\section*{Instruções}
+\textbf{Copie e responda no caderno. As resoluções das questões estão em azul.}
+
+
+\begin{enumerate}[leftmargin=*]
+
+\item \textbf{Calcule a média dos conjuntos:}
+
+\begin{enumerate}[label=\alph*)]
+\item 10, 12, 14, 16, 18
+
+\resolucao
+\[
+\bar{x} = \frac{10+12+14+16+18}{5} = \frac{70}{5} = \respostaNum{14}
+\]
+
+\item 5, 8, 11, 14, 17, 20
+
+\resolucao
+\[
+\bar{x} = \frac{5+8+11+14+17+20}{6} = \frac{75}{6} = \respostaNum{12,5}
+\]
+
+\item 2, 4, 6, 8, 10, 12, 14
+
+\resolucao
+\[
+\bar{x} = \frac{2+4+6+8+10+12+14}{7} = \frac{56}{7} = \respostaNum{8}
+\]
+
+\item 15, 20, 25, 30, 35
+
+\resolucao
+\[
+\bar{x} = \frac{15+20+25+30+35}{5} = \frac{125}{5} = \respostaNum{25}
+\]
+\end{enumerate}
+
+\item \textbf{Determine a mediana:}
+
+\begin{enumerate}[label=\alph*)]
+\item 3, 5, 7, 9, 11
+
+\resolucao
+\textbf{Ordem:} já está ordenado. \\
+\textbf{n = 5} (ímpar) → termo central: 3º elemento \\
+\respostaNum{7}
+
+\item 2, 4, 6, 8, 10, 12
+
+\resolucao
+\textbf{Ordem:} já está ordenado. \\
+\textbf{n = 6} (par) → média dos 3º e 4º elementos \\
+$Md = \frac{6+8}{2} = \frac{14}{2} = \respostaNum{7}$
+
+\item 10, 15, 20, 25, 30, 35, 40
+
+\resolucao
+\textbf{n = 7} (ímpar) → 4º elemento \\
+\respostaNum{25}
+
+\item 1, 3, 5, 7, 9, 11, 13, 15
+
+\resolucao
+\textbf{n = 8} (par) → média dos 4º e 5º elementos \\
+$Md = \frac{7+9}{2} = \frac{16}{2} = \respostaNum{8}$
+\end{enumerate}
+
+\item \textbf{Identifique a moda:}
+
+\begin{enumerate}[label=\alph*)]
+\item 2, 3, 4, 4, 5, 6, 6, 6, 7
+
+\resolucao
+
+\textbf{Frequências:} 2(1x), 3(1x), 4(2x), 5(1x), 6(3x), 7(1x) \\
+Maior frequência: 6 (aparece 3 vezes) \\
+\respostaNum{6} (unimodal)
+
+\item 10, 12, 12, 14, 14, 16, 18
+
+\resolucao
+
+\textbf{Frequências:} 10(1x), 12(2x), 14(2x), 16(1x), 18(1x) \\
+Dois valores com frequência 2: 12 e 14 \\
+\respostaNum{12 \text{ e } 14} (bimodal)
+
+\item 5, 5, 5, 8, 8, 10, 10, 10, 12
+
+\resolucao
+
+\textbf{Frequências:} 5(3x), 8(2x), 10(3x), 12(1x) \\
+Dois valores com frequência 3: 5 e 10 \\
+\respostaNum{5 \text{ e } 10} (bimodal)
+
+\item 1, 2, 3, 4, 5, 6
+
+\resolucao
+Todos os valores aparecem uma única vez \\
+\respostaNum{\text{amodal (não tem moda)}}
+\end{enumerate}
+
+\item \textbf{Para o conjunto: 12, 15, 18, 21, 24, 27, 30}
+
+\begin{enumerate}[label=\alph*)]
+\item Média
+
+\resolucao
+\[
+\bar{x} = \frac{12+15+18+21+24+27+30}{7} = \frac{147}{7} = \respostaNum{21}
+\]
+
+\item Mediana
+
+\resolucao
+\textbf{n = 7} (ímpar) → 4º elemento \\
+\respostaNum{21}
+
+\item Moda
+
+\resolucao
+Todos os valores são diferentes \\
+\respostaNum{\text{amodal}}
+\end{enumerate}
+
+\item \textbf{Um aluno tirou as seguintes notas: 7,0; 8,5; 6,0; 9,0; 7,5. Qual sua média?}
+
+\resolucao
+\[
+\bar{x} = \frac{7,0+8,5+6,0+9,0+7,5}{5} = \frac{38,0}{5} = \respostaNum{7,6}
+\]
+
+\item \textbf{As idades de um grupo são: 12, 14, 13, 15, 12, 16, 14, 13, 12. Determine:}
+
+\resolucao
+
+\textbf{Ordenando:} 12, 12, 12, 13, 13, 14, 14, 15, 16
+
+\begin{enumerate}[label=\alph*)]
+\item Média
+\[
+    \bar{x} = \frac{12+12+12+13+13+14+14+15+16}{9} \] 
+\[= \frac{121}{9} \approx \respostaNum{13,44} \]
+
+\item Mediana
+\textbf{n = 9} (ímpar) → 5º elemento = \respostaNum{13}
+
+\item Moda
+12 aparece 3 vezes (maior frequência) \\
+\respostaNum{12}
+\end{enumerate}
+
+\end{enumerate}
+
+\begin{enumerate}[leftmargin=*, start=7]
+
+\item \textbf{Salários: R\$ 1800, 2000, 2200, 2500, 5000}
+
+\begin{enumerate}[label=\alph*)]
+\item Média
+\[
+    \bar{x} = \frac{1800+2000+2200+2500+5000}{5} \]
+\[= \frac{13500}{5} = \respostaNum{R\$ 2700} \]
+
+\item Mediana
+
+\textbf{Ordenando:} 1800, 2000, 2200, 2500, 5000 \\
+n = 5 → 3º elemento = \respostaNum{R\$ 2200}
+
+\item Melhor representação
+
+\resolucao
+A \respostaTxt{mediana (R\$ 2200)} representa melhor, pois a média (R\$ 2700) é puxada para cima pelo salário extremo de R\$ 5000.
+\end{enumerate}
+
+\item \textbf{Notas: 5, 6, 7, 8, 8, 9, 10, 10, 10}
+
+\begin{enumerate}[label=\alph*)]
+\item Média
+\[\bar{x} = \frac{5+6+7+8+8+9+10+10+10}{9} = \]
+\[\frac{73}{9} \approx \respostaNum{8,11} \]
+
+\item Mediana
+n = 9 → 5º elemento = \respostaNum{8}
+
+\item Moda
+10 aparece 3 vezes → \respostaNum{10}
+\end{enumerate}
+
+\item \textbf{Complete a tabela:}
+
+\begin{center}
+    \small
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Dados} & \textbf{Média} & \textbf{Mediana} & \textbf{Moda} \\
+\hline
+4, 8, 12, 16, 20 & \textcolor{blue}{12} & \textcolor{blue}{12} & \textcolor{blue}{amodal} \\
+\hline
+3, 5, 5, 7, 9, 11 & \textcolor{blue}{6,67} & \textcolor{blue}{6} & \textcolor{blue}{5} \\
+\hline
+10, 20, 30, 40, 50, 60 & \textcolor{blue}{35} & \textcolor{blue}{35} & \textcolor{blue}{amodal} \\
+\hline
+\end{tabular}
+\end{center}
+
+\resolucao
+
+\textbf{1ª linha:} Média = $(4+8+12+16+20)/5 = 60/5 = 12$; Mediana = 12 (3º elemento); todos diferentes → amodal
+
+\textbf{2ª linha:} Média = $(3+5+5+7+9+11)/6 = 40/6 \approx 6,67$; Mediana = $(5+7)/2 = 6$; Moda = 5
+
+\textbf{3ª linha:} Média = $(10+20+30+40+50+60)/6 = 210/6 = 35$; Mediana = $(30+40)/2 = 35$; amodal
+
+\item \textbf{Temperaturas: 22, 24, 23, 25, 24, 26, 24}
+
+\resolucao
+
+\textbf{Ordenando:} 22, 23, 24, 24, 24, 25, 26
+
+\begin{enumerate}[label=\alph*)]
+\item Média
+\[\bar{x} = \frac{22+23+24+24+24+25+26}{7} \] 
+\[= \frac{168}{7} = \respostaNum{24^{\circ}C} \]
+
+\item Mediana
+n = 7 → 4º elemento = \respostaNum{24^{\circ}C}
+
+\item Moda
+24 aparece 3 vezes → \respostaNum{24^{\circ}C}
+\end{enumerate}
+
+\item \textbf{Pesquisa sobre número de irmãos:}
+
+\[
+\begin{array}{c|c}
+\text{Nº de irmãos} & \text{Frequência} \\
+\hline
+0 & 5 \\
+1 & 8 \\
+2 & 6 \\
+3 & 3 \\
+4 & 2 \\
+\end{array}
+\]
+
+\resolucao
+
+\textbf{Total de pessoas:} $5+8+6+3+2 = 24$
+
+\begin{enumerate}[label=\alph*)]
+\item Média
+\[\bar{x} = \frac{0\cdot5 + 1\cdot8 + 2\cdot6 + 3\cdot3 + 4\cdot2}{24} \]
+\[= \frac{0+8+12+9+8}{24} = \frac{37}{24} \approx \respostaNum{1,54} \]
+
+\item Mediana
+24 elementos (par) → média dos 12º e 13º elementos \\
+Ordenando: cinco 0's (posições 1-5), oito 1's (posições 6-13) \\
+12º e 13º são ambos 1 → $Md = \frac{1+1}{2} = \respostaNum{1}$
+
+\item Moda
+Maior frequência: 1 (8 pessoas) → \respostaNum{1}
+\end{enumerate}
+
+\item \textbf{Vendas: 12, 15, 10, 18, 20, 15, 14}
+
+\resolucao
+
+\textbf{Ordenando:} 10, 12, 14, 15, 15, 18, 20
+
+\begin{enumerate}[label=\alph*)]
+\item Média
+\[\bar{x} = \frac{10+12+14+15+15+18+20}{7} \]
+\[= \frac{104}{7} \approx \respostaNum{14,86} \]
+
+\item Mediana
+n = 7 → 4º elemento = \respostaNum{15}
+
+\item Moda
+15 aparece 2 vezes → \respostaNum{15}
+\end{enumerate}
+
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}

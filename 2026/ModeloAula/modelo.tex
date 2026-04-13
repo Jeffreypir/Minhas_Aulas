@@ -1,0 +1,200 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+
+% Cores para títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{red}}{\thesubsection}{1em}{}
+
+% Título principal - EDITAR CONFORME NECESSÁRIO
+\title{\textcolor{red}{[TRIMESTRE]: [TEMA PRINCIPAL]
+    \\[SUBTÍTULO OU TÓPICO SECUNDÁRIO]}}
+\author{[NOME DO PROFESSOR]}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{multicols}{2}
+
+% ============================================================
+% SEÇÃO 1: CONCEITOS BÁSICOS
+% ============================================================
+\section*{Conceitos Básicos}
+
+\subsection*{[PRIMEIRO CONCEITO PRINCIPAL]}
+[Definição e explicação do primeiro conceito. Este é um parágrafo explicativo que introduz o tema principal da aula.]
+
+\subsection*{[SEGUNDO CONCEITO PRINCIPAL]}
+[Definição e explicação do segundo conceito. Continue com quantos conceitos básicos forem necessários.]
+
+\subsection*{[TERCEIRO CONCEITO PRINCIPAL (se necessário)]}
+[Definição e explicação do terceiro conceito.]
+
+\subsection*{Variáveis / Notações}
+\begin{itemize}
+\item $[variável1]$: [significado da variável 1]
+\item $[variável2]$: [significado da variável 2]
+\item $[variável3]$: [significado da variável 3]
+\item $[variável4]$: [significado da variável 4]
+\end{itemize}
+
+% ============================================================
+% SEÇÃO 2: PRIMEIRO TÓPICO ESPECÍFICO (ex: Fatorial, Teorema de Pitágoras, etc.)
+% ============================================================
+\section*{[NOME DO PRIMEIRO TÓPICO]}
+
+\subsection*{Definição}
+[Definição clara e completa do primeiro tópico específico.]
+
+\subsection*{Fórmula / Propriedade}
+\begin{tikzpicture}
+\node[rectangle, fill=blue!10, rounded corners, inner sep=10pt, draw=blue!50, thick] (box) {
+$[Fórmula principal em destaque]$
+};
+\end{tikzpicture}
+
+\subsection*{Exemplo(s)}
+[Exemplo resolvido passo a passo mostrando a aplicação do conceito.]
+\[
+[Desenvolvimento do exemplo]
+\]
+
+% ============================================================
+% SEÇÃO 3: SEGUNDO TÓPICO ESPECÍFICO (ex: Permutação, Teorema de Tales, etc.)
+% ============================================================
+\section*{[NOME DO SEGUNDO TÓPICO]}
+
+\subsection*{Definição}
+[Definição clara e completa do segundo tópico específico.]
+
+\subsection*{Fórmula / Propriedade}
+\begin{tikzpicture}
+\node[rectangle, fill=blue!10, rounded corners, inner sep=10pt, draw=blue!50, thick] (box) {
+$[Fórmula principal em destaque]$
+};
+\end{tikzpicture}
+
+\subsection*{Exemplo(s)}
+[Exemplo resolvido passo a passo mostrando a aplicação do conceito.]
+\[
+[Desenvolvimento do exemplo]
+\]
+
+% ============================================================
+% SEÇÃO 4: TERCEIRO TÓPICO ESPECÍFICO (se necessário)
+% ============================================================
+\section*{[NOME DO TERCEIRO TÓPICO]}
+
+\subsection*{Definição}
+[Definição clara e completa do terceiro tópico específico.]
+
+\subsection*{Fórmula / Propriedade}
+\begin{tikzpicture}
+\node[rectangle, fill=blue!10, rounded corners, inner sep=10pt, draw=blue!50, thick] (box) {
+$[Fórmula principal em destaque]$
+};
+\end{tikzpicture}
+
+\subsection*{Exemplo(s)}
+[Exemplo resolvido passo a passo mostrando a aplicação do conceito.]
+
+% ============================================================
+% SEÇÃO 5: COMPARAÇÃO / DIFERENÇAS (opcional)
+% ============================================================
+\section*{Diferença entre [CONCEITO A] e [CONCEITO B]}
+
+\subsection*{Quando usar [CONCEITO A]}
+[A ordem importa / situação específica]. Exemplos:
+\begin{itemize}
+\item [Exemplo 1 de uso do conceito A]
+\item [Exemplo 2 de uso do conceito A]
+\item [Exemplo 3 de uso do conceito A]
+\end{itemize}
+
+\subsection*{Quando usar [CONCEITO B]}
+[A ordem NÃO importa / situação específica]. Exemplos:
+\begin{itemize}
+\item [Exemplo 1 de uso do conceito B]
+\item [Exemplo 2 de uso do conceito B]
+\item [Exemplo 3 de uso do conceito B]
+\end{itemize}
+
+% ============================================================
+% SEÇÃO 6: EXERCÍCIOS BÁSICOS
+% ============================================================
+\section*{Exercícios Básicos - [PRIMEIRO TÓPICO]}
+
+\begin{enumerate}[leftmargin=*]
+
+\item [Enunciado do exercício 1]
+
+\item [Enunciado do exercício 2]
+
+\item [Enunciado do exercício 3]
+
+\item [Enunciado do exercício 4]
+
+\end{enumerate}
+
+% ============================================================
+% SEÇÃO 7: EXERCÍCIOS - SEGUNDO TÓPICO
+% ============================================================
+\section*{Exercícios Básicos - [SEGUNDO TÓPICO]}
+
+\begin{enumerate}[leftmargin=*, start=5]
+
+\item [Enunciado do exercício 5]
+
+\begin{enumerate}[label=\alph*)]
+\item [subitem a]
+\item [subitem b]
+\item [subitem c]
+\end{enumerate}
+
+\item [Enunciado do exercício 6]
+
+\item [Enunciado do exercício 7]
+
+\item [Enunciado do exercício 8]
+
+\end{enumerate}
+
+% ============================================================
+% SEÇÃO 8: EXERCÍCIOS - TERCEIRO TÓPICO (se necessário)
+% ============================================================
+\section*{Exercícios Básicos - [TERCEIRO TÓPICO]}
+
+\begin{enumerate}[leftmargin=*, start=9]
+
+\item [Enunciado do exercício 9]
+
+\begin{enumerate}[label=\alph*)]
+\item [subitem a]
+\item [subitem b]
+\item [subitem c]
+\end{enumerate}
+
+\item [Enunciado do exercício 10]
+
+\item [Enunciado do exercício 11]
+
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}

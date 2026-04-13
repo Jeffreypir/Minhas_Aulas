@@ -1,0 +1,301 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configurações de layout
+\geometry{a4paper, left=1cm, right=1cm, top=0.5cm, bottom=1.2cm}
+\setlength{\columnseprule}{0.4pt}
+
+% Cores para títulos
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{red}}{\thesubsection}{1em}{}
+
+% Título principal
+\title{\textcolor{red}{Gabarito Comentado: Função do Segundo Grau
+    \\Primeiro Trimestre}}
+\author{Jefferson}
+\date{}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\begin{multicols}{2}
+
+% ============================================================
+% GABARITO: EXERCÍCIOS BÁSICOS - RAÍZES
+% ============================================================
+\section*{Gabarito: Raízes}
+
+\subsection*{Questão 1}
+\textbf{Enunciado:} Calcule as raízes de $f(x) = x^2 - 7x + 12$.
+
+\textbf{Solução:} Usando a fórmula de Bhaskara com $a = 1$, $b = -7$, $c = 12$:
+\[
+\Delta = (-7)^2 - 4(1)(12) = 49 - 48 = 1
+\]
+\[
+x = \frac{7 \pm \sqrt{1}}{2} = \frac{7 \pm 1}{2}
+\]
+Logo, $x_1 = 4$ e $x_2 = 3$.
+
+\subsection*{Questão 2}
+\textbf{Enunciado:} Determine o discriminante de $f(x) = 2x^2 - 3x + 1$ e classifique as raízes.
+
+\textbf{Solução:} Com $a = 2$, $b = -3$, $c = 1$:
+\[
+\Delta = (-3)^2 - 4(2)(1) = 9 - 8 = 1 > 0
+\]
+Como $\Delta > 0$, a função possui \textbf{duas raízes reais e distintas}.
+
+\subsection*{Questão 3}
+\textbf{Enunciado:} Encontre as raízes de $f(x) = x^2 - 2x - 8$.
+
+\textbf{Solução:} Com $a = 1$, $b = -2$, $c = -8$:
+\[
+\Delta = (-2)^2 - 4(1)(-8) = 4 + 32 = 36
+\]
+\[
+x = \frac{2 \pm \sqrt{36}}{2} = \frac{2 \pm 6}{2}
+\]
+Logo, $x_1 = 4$ e $x_2 = -2$.
+
+\subsection*{Questão 4}
+\textbf{Enunciado:} Qual é o valor de $\Delta$ para $f(x) = x^2 + x + 1$? A função possui raízes reais?
+
+\textbf{Solução:} Com $a = 1$, $b = 1$, $c = 1$:
+\[
+\Delta = 1^2 - 4(1)(1) = 1 - 4 = -3 < 0
+\]
+Como $\Delta < 0$, a função \textbf{não possui raízes reais}.
+
+\subsection*{Questão 5}
+\textbf{Enunciado:} Resolva $3x^2 - 12x + 9 = 0$.
+
+\textbf{Solução:} Simplificando por 3: $x^2 - 4x + 3 = 0$. Com $a = 1$, $b = -4$, $c = 3$:
+\[
+\Delta = 16 - 12 = 4
+\]
+\[
+x = \frac{4 \pm 2}{2} \Rightarrow x_1 = 3, \, x_2 = 1
+\]
+
+% ============================================================
+% GABARITO: EXERCÍCIOS - VÉRTICE
+% ============================================================
+\section*{Gabarito: Vértice}
+
+\subsection*{Questão 6}
+\textbf{Enunciado:} Calcule as coordenadas do vértice de $f(x) = x^2 - 4x + 3$.
+
+\textbf{Solução:} Com $a = 1$, $b = -4$:
+\[
+x_v = -\frac{-4}{2(1)} = 2, \quad y_v = f(2) = 4 - 8 + 3 = -1
+\]
+Vértice: $V = (2, -1)$.
+
+\subsection*{Questão 7}
+\textbf{Enunciado:} Determine o vértice e diga se é máximo ou mínimo: $f(x) = -x^2 + 6x - 5$.
+
+\textbf{Solução:} Com $a = -1$ (concavidade para baixo), $b = 6$:
+\[
+x_v = -\frac{6}{2(-1)} = 3, \quad y_v = f(3) = -9 + 18 - 5 = 4
+\]
+\begin{enumerate}[label=\alph*)]
+\item Vértice: $(3, 4)$
+\item \textbf{Máximo} (pois $a < 0$)
+\item Eixo de simetria: $x = 3$
+\end{enumerate}
+
+\subsection*{Questão 8}
+\textbf{Enunciado:} Encontre o vértice de $f(x) = 2x^2 - 8x + 6$.
+
+\textbf{Solução:} Com $a = 2$, $b = -8$:
+\[
+x_v = -\frac{-8}{2(2)} = 2, \quad y_v = f(2) = 8 - 16 + 6 = -2
+\]
+Vértice: $V = (2, -2)$.
+
+\subsection*{Questão 9}
+\textbf{Enunciado:} Qual é o valor máximo da função $f(x) = -3x^2 + 12x - 9$?
+
+\textbf{Solução:} Com $a = -3$, $b = 12$:
+\[
+x_v = -\frac{12}{2(-3)} = 2, \quad y_v = f(2) = -12 + 24 - 9 = 3
+\]
+Valor máximo: $\mathbf{3}$.
+
+\subsection*{Questão 10}
+\textbf{Enunciado:} Para $f(x) = x^2 - 5x + 4$, determine a abscissa do vértice.
+
+\textbf{Solução:} Com $a = 1$, $b = -5$:
+\[
+x_v = -\frac{-5}{2(1)} = 2,5
+\]
+
+% ============================================================
+% GABARITO: EXERCÍCIOS - FORMAS
+% ============================================================
+\section*{Gabarito: Formas Alternativas}
+
+\subsection*{Questão 11}
+\textbf{Enunciado:} Converta $f(x) = (x - 3)(x + 2)$ para a forma geral.
+
+\textbf{Solução:} Expandindo:
+\[
+f(x) = x^2 + 2x - 3x - 6 = x^2 - x - 6
+\]
+
+\subsection*{Questão 12}
+\textbf{Enunciado:} Escreva $f(x) = x^2 - 6x + 8$ na forma fatorada.
+
+\textbf{Solução:} Encontrando as raízes: $\Delta = 36 - 32 = 4$, então $x = \frac{6 \pm 2}{2} \Rightarrow x_1 = 4, x_2 = 2$.
+\begin{enumerate}[label=\alph*)]
+\item Raízes: $x = 2$ e $x = 4$
+\item Forma fatorada: $f(x) = (x - 2)(x - 4)$
+\end{enumerate}
+
+\subsection*{Questão 13}
+\textbf{Enunciado:} Transforme $f(x) = x^2 - 4x + 4$ na forma canônica.
+
+\textbf{Solução:} Observe que $x^2 - 4x + 4 = (x - 2)^2$. Logo:
+\[
+f(x) = (x - 2)^2 + 0 = (x - 2)^2
+\]
+Forma canônica: $f(x) = 1 \cdot (x - 2)^2 + 0$.
+
+\subsection*{Questão 14}
+\textbf{Enunciado:} Dada $f(x) = 2(x - 1)^2 - 3$ (forma canônica), identifique o vértice.
+
+\textbf{Solução:} Na forma $f(x) = a(x - x_v)^2 + y_v$, temos $x_v = 1$ e $y_v = -3$.
+Vértice: $(1, -3)$.
+
+\subsection*{Questão 15}
+\textbf{Enunciado:} Expanda $(x - 2)^2 + 5$ para obter a forma geral.
+
+\textbf{Solução:} 
+\[
+f(x) = x^2 - 4x + 4 + 5 = x^2 - 4x + 9
+\]
+
+% ============================================================
+% GABARITO: EXERCÍCIOS - SINAL
+% ============================================================
+\section*{Gabarito: Sinal e Inequações}
+
+\subsection*{Questão 16}
+\textbf{Enunciado:} Estude o sinal de $f(x) = x^2 - 5x + 6$.
+
+\textbf{Solução:} Raízes: $x_1 = 2, x_2 = 3$. Como $a = 1 > 0$:
+\begin{itemize}
+\item $f(x) > 0$ se $x < 2$ ou $x > 3$
+\item $f(x) = 0$ se $x = 2$ ou $x = 3$
+\item $f(x) < 0$ se $2 < x < 3$
+\end{itemize}
+
+\subsection*{Questão 17}
+\textbf{Enunciado:} Para quais valores de $x$ tem-se $x^2 - 4 > 0$?
+
+\textbf{Solução:}
+\begin{enumerate}[label=\alph*)]
+\item Raízes: $x^2 - 4 = 0 \Rightarrow x = \pm 2$
+\item Sinal: Como $a = 1 > 0$, a parábola é positiva fora das raízes
+\item Solução: $x < -2$ ou $x > 2$, ou em notação de intervalo: $(-\infty, -2) \cup (2, \infty)$
+\end{enumerate}
+
+\subsection*{Questão 18}
+\textbf{Enunciado:} Resolva a inequação $-x^2 + 4x - 3 \geq 0$.
+
+\textbf{Solução:} Raízes de $-x^2 + 4x - 3 = 0$: $x = 1$ e $x = 3$. Como $a = -1 < 0$:
+\[
+-x^2 + 4x - 3 \geq 0 \Rightarrow 1 \leq x \leq 3
+\]
+
+\subsection*{Questão 19}
+\textbf{Enunciado:} Estude o sinal de $f(x) = 2x^2 - 8x + 8$.
+
+\textbf{Solução:} Simplificando: $f(x) = 2(x^2 - 4x + 4) = 2(x - 2)^2$. Como $\Delta = 0$:
+\begin{itemize}
+\item $f(x) > 0$ para todo $x \neq 2$
+\item $f(x) = 0$ se $x = 2$
+\item $f(x) < 0$ nunca
+\end{itemize}
+
+\subsection*{Questão 20}
+\textbf{Enunciado:} Para que valores de $x$ temos $f(x) = x^2 - 2x - 3 < 0$?
+
+\textbf{Solução:} Raízes: $x = 3$ e $x = -1$. Como $a = 1 > 0$:
+\[
+x^2 - 2x - 3 < 0 \Rightarrow -1 < x < 3
+\]
+
+% ============================================================
+% GABARITO: EXERCÍCIOS - APLICAÇÕES
+% ============================================================
+\section*{Gabarito: Exercícios de Aplicação}
+
+\subsection*{Questão 21}
+\textbf{Enunciado:} Um projétil é lançado e sua altura é $h(t) = -5t^2 + 20t$. Qual é a altura máxima?
+
+\textbf{Resposta:} $t_v = -\frac{20}{2(-5)} = 2$ segundos. $h_{max} = h(2) = -5(4) + 20(2) = 20$ metros.
+
+\subsection*{Questão 22}
+\textbf{Enunciado:} Lucro: $L(x) = -2x^2 + 100x - 1200$. Quantidade que maximiza?
+
+\textbf{Resposta:} $x_v = -\frac{100}{2(-2)} = 25$ unidades.
+
+\subsection*{Questão 23}
+\textbf{Enunciado:} Terreno retangular com $A(x) = x(20-x)$. Área máxima?
+
+\textbf{Resposta:} $A(x) = -x^2 + 20x$. $x_v = 10$ metros. $A_{max} = 100$ m².
+
+\subsection*{Questão 24}
+\textbf{Enunciado:} Temperatura: $T(h) = -h^2 + 24h - 80$. Máxima?
+
+\textbf{Resposta:} $h_v = 12$ horas. $T_{max} = -144 + 288 - 80 = 64$ graus.
+
+\subsection*{Questão 25}
+\textbf{Enunciado:} Custo: $C(x) = x^2 - 10x + 50$. Mínimo?
+
+\textbf{Resposta:} $x_v = 5$ unidades. $C_{min} = 25 - 50 + 50 = 25$.
+
+\subsection*{Questão 26}
+\textbf{Enunciado:} Preço: $P(x) = -2x^2 + 100x + 500$. Máximo em qual mês?
+
+\textbf{Resposta:} $x_v = -\frac{100}{2(-2)} = 25$ meses.
+
+\subsection*{Questão 27}
+\textbf{Enunciado:} População: $P(t) = -t^2 + 12t + 50$. Máxima?
+
+\textbf{Resposta:} $t_v = 6$ unidades de tempo. $P_{max} = -36 + 72 + 50 = 86$.
+
+\subsection*{Questão 28}
+\textbf{Enunciado:} Receita: $R(x) = -3x^2 + 150x$. Quantidade que maximiza?
+
+\textbf{Resposta:} $x_v = -\frac{150}{2(-3)} = 25$ unidades.
+
+\subsection*{Questão 29}
+\textbf{Enunciado:} Altura da bola: $h(t) = -10t^2 + 30t$. Quando retorna ao solo?
+
+\textbf{Solução:} $h(t) = 0 \Rightarrow -10t^2 + 30t = 0 \Rightarrow t(-10t + 30) = 0$.
+Logo, $t = 0$ (lançamento) ou $t = 3$ segundos (retorno).
+\textbf{Resposta:} 3 segundos.
+
+\subsection*{Questão 30}
+\textbf{Enunciado:} Eficiência: $E(x) = -x^2 + 8x - 12$. Máxima?
+
+\textbf{Solução:} $x_v = -\frac{8}{2(-1)} = 4$. $E_{max} = -16 + 32 - 12 = 4$.
+\textbf{Resposta:} Eficiência máxima é 4.
+
+\end{multicols}
+
+\end{document}
